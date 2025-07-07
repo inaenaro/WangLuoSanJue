@@ -1,0 +1,6629 @@
+[
+  {
+    "word": "木头 箱子<-どっちかの項目に統合<-こんなところに書くな",
+    "pinyin": "mùtou xiāngzi",
+    "meanings": [
+      {
+        "part": "n.",
+        "meaning": "箱",
+        "meaning_short": "箱",
+        "example": {
+          "word": "木头 箱子",
+          "pinyin": "mùtou xiāngzi",
+          "meaning": "木製の箱",
+          "genre": ["de_object"]
+        }
+      }
+    ],
+    "lesson": [
+      1
+    ],
+    "hidden": true
+  },
+  {
+    "word": "中国",
+    "pinyin": "Zhōngguó",
+    "meanings": [
+      {
+        "part": "n.",
+        "meaning": "中国",
+        "meaning_short": "中国",
+        "example": "中国",
+        "genre": ["place"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "日本",
+    "pinyin": "Rìběn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "日本",
+        "meaning_short": "日本",
+        "example": "日本",
+        "genre": ["place"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "韩国",
+    "pinyin": "Hánguó",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "韓国",
+        "meaning_short": "韓国",
+        "example": "韩国",
+        "genre": ["place"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "美国",
+    "pinyin": "Měiguó",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "アメリカ",
+        "meaning_short": "アメリカ",
+        "example": "美国",
+        "genre": ["place"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "越南",
+    "pinyin": "Yuènán",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ベトナム",
+        "meaning_short": "ベトナム",
+        "example": "越南",
+        "genre": ["place"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "广东",
+    "pinyin": "Guǎngdōng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "広東",
+        "meaning_short": "広東",
+        "example": "广东",
+        "genre": ["place"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "福建",
+    "pinyin": "Fújiàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "福建",
+        "meaning_short": "福建",
+        "example": "福建",
+        "genre": ["place"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "大阪",
+    "pinyin": "Dàbǎn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "大阪",
+        "meaning_short": "大阪",
+        "example": "大阪",
+        "genre": ["place"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "梅田",
+    "pinyin": "Méitián",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "梅田",
+        "meaning_short": "梅田",
+        "example": "梅田",
+        "genre": ["place"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "图书馆",
+    "pinyin": "túshūguǎn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "図書館",
+        "meaning_short": "図書館",
+        "example": "图书馆"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "博物馆",
+    "pinyin": "bówùguǎn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "博物館",
+        "meaning_short": "博物館",
+        "example": "博物馆"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "公司",
+    "pinyin": "gōngsī",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "会社",
+        "meaning_short": "会社",
+        "example": "公司"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "车站",
+    "pinyin": "chēzhàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "駅、バス停",
+        "meaning_short": "駅、バス停",
+        "example": "车站"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "你好",
+    "pinyin": "nǐhǎo",
+    "meanings": [
+      {
+        "part": "int.",
+        "meaning": "こんにちは",
+        "meaning_short": "こんにちは",
+        "example": "你好"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "请多指教",
+    "pinyin": "qǐngduōzhǐjiào",
+    "meanings": [
+      {
+        "part": "phrase",
+        "meaning": "よろしくお願いします、よろしくご指導ください",
+        "meaning_short": "よろしくお願いします、よろしくご指導ください",
+        "example": "请多指教"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "我",
+    "pinyin": "wǒ",
+    "meanings": [
+      {
+        "part": "pron.",
+        "meaning": "私",
+        "meaning_short": "私",
+        "example": "我",
+        "genre": ["people"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "你",
+    "pinyin": "nǐ",
+    "meanings": [
+      {
+        "part": "pron.",
+        "meaning": "あなた",
+        "meaning_short": "あなた",
+        "example": "你",
+        "genre": ["people"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "他",
+    "pinyin": "tā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "彼",
+        "meaning_short": "彼",
+        "example": "他",
+        "genre": ["people"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "她",
+    "pinyin": "tā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "彼女",
+        "meaning_short": "彼女",
+        "example": "她",
+        "genre": ["people"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "哥哥",
+    "pinyin": "gēge",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "兄",
+        "meaning_short": "兄",
+        "example": "哥哥"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "弟弟",
+    "pinyin": "dìdi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "弟",
+        "meaning_short": "弟",
+        "example": "弟弟"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "姐姐",
+    "pinyin": "jiějie",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "姉",
+        "meaning_short": "姉",
+        "example": "姐姐"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "妹妹",
+    "pinyin": "mèimei",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "妹",
+        "meaning_short": "妹",
+        "example": "妹妹"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "爸爸",
+    "pinyin": "bàba",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "父",
+        "meaning_short": "父",
+        "example": "爸爸"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "妈妈",
+    "pinyin": "māma",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "母",
+        "meaning_short": "母",
+        "example": "妈妈"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "爱人(丈夫/妻子)",
+    "pinyin": "àiren",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "パートナー（夫/妻）",
+        "meaning_short": "パートナー（夫/妻）",
+        "example": "爱人(丈夫/妻子)"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "儿子",
+    "pinyin": "érzi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "息子",
+        "meaning_short": "息子",
+        "example": "儿子"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "女儿",
+    "pinyin": "nǚ'ér",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "娘",
+        "meaning_short": "娘",
+        "example": "女儿"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "子女",
+    "pinyin": "zǐnǚ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "息子、娘",
+        "meaning_short": "息子、娘",
+        "example": "子女"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "爷爷",
+    "pinyin": "yéye",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "（父方の）祖父",
+        "meaning_short": "（父方の）祖父",
+        "example": "爷爷"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "奶奶",
+    "pinyin": "nǎinai",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "（父方の）祖母",
+        "meaning_short": "（父方の）祖母",
+        "example": "奶奶"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "姥爷",
+    "pinyin": "lǎoye",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "（母方の）祖父",
+        "meaning_short": "（母方の）祖父",
+        "example": "姥爷"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "姥姥",
+    "pinyin": "lǎolao",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "（母方の）祖母",
+        "meaning_short": "（母方の）祖母",
+        "example": "姥姥"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "伯伯",
+    "pinyin": "bóbo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "（父方の）叔父（兄）",
+        "meaning_short": "（父方の）叔父（兄）",
+        "example": "伯伯"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "叔叔",
+    "pinyin": "shūshu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "（父方の）叔父（弟）",
+        "meaning_short": "（父方の）叔父（弟）",
+        "example": "叔叔"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "姑姑",
+    "pinyin": "gūgu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "（父方の）叔母",
+        "meaning_short": "（父方の）叔母",
+        "example": "姑姑"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "姨妈",
+    "pinyin": "yímā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "（母方の）叔母",
+        "meaning_short": "（母方の）叔母",
+        "example": "姨妈"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "舅舅",
+    "pinyin": "jiùjiu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "（母方の）叔父",
+        "meaning_short": "（母方の）叔父",
+        "example": "舅舅"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "朋友",
+    "pinyin": "péngyou",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "友達",
+        "meaning_short": "友達",
+        "example": "朋友"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "学生",
+    "pinyin": "xuésheng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "学生",
+        "meaning_short": "学生",
+        "example": "学生",
+        "genre": ["attribute"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "同学",
+    "pinyin": "tóngxué",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "クラスメイト",
+        "meaning_short": "クラスメイト",
+        "example": "同学"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "留学生",
+    "pinyin": "liúxuéshēng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "留学生",
+        "meaning_short": "留学生",
+        "example": "留学生",
+        "genre": ["attribute"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "学者",
+    "pinyin": "xuézhě",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "学者",
+        "meaning_short": "学者",
+        "example": "学者",
+        "genre": ["attribute"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "顾客",
+    "pinyin": "gùkè",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "お客様",
+        "meaning_short": "お客様",
+        "example": "顾客",
+        "genre": ["people"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "服务员",
+    "pinyin": "fúwùyuán",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "店員",
+        "meaning_short": "店員",
+        "example": "服务员",
+        "genre": ["people"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "文学家",
+    "pinyin": "wénxuéjiā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "文学家",
+        "meaning_short": "文学家",
+        "example": "文学家",
+        "genre": ["attribute"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "思想家",
+    "pinyin": "sīxiǎngjiā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "思想家",
+        "meaning_short": "思想家",
+        "example": "思想家",
+        "genre": ["attribute"]
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "手表",
+    "pinyin": "shǒubiǎo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "腕時計",
+        "meaning_short": "腕時計",
+        "example": "手表"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "展品",
+    "pinyin": "zhǎnpǐn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "展示品",
+        "meaning_short": "展示品",
+        "example": "展品"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "箱子",
+    "pinyin": "xiāngzi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "箱、ケース",
+        "meaning_short": "箱、ケース",
+        "example": "箱子"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "衬衫",
+    "pinyin": "chènshān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "シャツ",
+        "meaning_short": "シャツ",
+        "example": "衬衫"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "书",
+    "pinyin": "shū",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "本",
+        "meaning_short": "本",
+        "example": "书"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "课本",
+    "pinyin": "kèběn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "教科書",
+        "meaning_short": "教科書",
+        "example": "课本"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "太极拳",
+    "pinyin": "tàijíquán",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "太極拳",
+        "meaning_short": "太極拳",
+        "example": "太极拳"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "物理",
+    "pinyin": "wùlǐ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "物理",
+        "meaning_short": "物理",
+        "example": "物理"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "电脑",
+    "pinyin": "diánnǎo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "コンピュータ",
+        "meaning_short": "コンピュータ",
+        "example": "电脑"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "迎新晚会",
+    "pinyin": "yíngxīnwǎnhuì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "新入生歓迎会、新年会",
+        "meaning_short": "新入生歓迎会、新年会",
+        "example": "迎新晚会"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "香草茶",
+    "pinyin": "xiāngcǎochá",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ハーブティー",
+        "meaning_short": "ハーブティー",
+        "example": "香草茶"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "月饼",
+    "pinyin": "yuèbing",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "月餅",
+        "meaning_short": "月餅",
+        "example": "月饼"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "水仙",
+    "pinyin": "shuǐxiān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "水仙",
+        "meaning_short": "水仙",
+        "example": "水仙"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "韭菜",
+    "pinyin": "jiǔcài",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ニラ",
+        "meaning_short": "ニラ",
+        "example": "韭菜"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "零",
+    "pinyin": "líng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "0",
+        "meaning_short": "0",
+        "example": "零"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "一",
+    "pinyin": "yī",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "1",
+        "meaning_short": "1",
+        "example": "一"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "二",
+    "pinyin": "èr",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "2",
+        "meaning_short": "2",
+        "example": "二"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "三",
+    "pinyin": "sān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "3",
+        "meaning_short": "3",
+        "example": "三"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "四",
+    "pinyin": "sì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "4",
+        "meaning_short": "4",
+        "example": "四"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "五",
+    "pinyin": "wǔ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "5",
+        "meaning_short": "5",
+        "example": "五"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "六",
+    "pinyin": "liù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "6",
+        "meaning_short": "6",
+        "example": "六"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "七",
+    "pinyin": "qī",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "7",
+        "meaning_short": "7",
+        "example": "七"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "八",
+    "pinyin": "bā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "8",
+        "meaning_short": "8",
+        "example": "八"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "九",
+    "pinyin": "jiǔ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "9",
+        "meaning_short": "9",
+        "example": "九"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "十",
+    "pinyin": "shí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "10",
+        "meaning_short": "10",
+        "example": "十"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "百",
+    "pinyin": "bǎi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "100",
+        "meaning_short": "100",
+        "example": "百"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "叫",
+    "pinyin": "jiào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "私の名前は～です",
+        "meaning_short": "私の名前は～です",
+        "example": "叫"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "姓",
+    "pinyin": "xìng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "私の苗字は～です",
+        "meaning_short": "私の苗字は～です",
+        "example": "姓"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "买",
+    "pinyin": "mǎi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "買う",
+        "meaning_short": "買う",
+        "example": "买"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "学习",
+    "pinyin": "xuéxí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "学ぶ",
+        "meaning_short": "学ぶ",
+        "example": "学习"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "参加",
+    "pinyin": "cānjiā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "参加する",
+        "meaning_short": "参加する",
+        "example": "参加"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "喜欢",
+    "pinyin": "xǐhuan",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "～が好き",
+        "meaning_short": "～が好き",
+        "example": "喜欢"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  {
+    "word": "独生",
+    "pinyin": "dúshēng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "一人っ子",
+        "meaning_short": "一人っ子",
+        "example": "独生"
+      }
+    ],
+    "lesson": [
+      1
+    ]
+  },
+  
+  {
+    "word": "百",
+    "pinyin": "bǎi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "百",
+        "meaning_short": "百",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "办",
+    "pinyin": "bàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "～を行う",
+        "meaning_short": "～を行う",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "抱歉",
+    "pinyin": "bàoqiàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ごめんなさい",
+        "meaning_short": "ごめんなさい",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "杯[量]",
+    "pinyin": "bēi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "杯（量詞）",
+        "meaning_short": "杯（量詞）",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "北京",
+    "pinyin": "Běijīng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "北京",
+        "meaning_short": "北京",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "冰",
+    "pinyin": "bīng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "冷たい",
+        "meaning_short": "冷たい",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "不错",
+    "pinyin": "búcuò",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "良い",
+        "meaning_short": "良い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "菜",
+    "pinyin": "cài",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "料理",
+        "meaning_short": "料理",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "参观",
+    "pinyin": "cānguān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "見学する",
+        "meaning_short": "見学する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "长",
+    "pinyin": "cháng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "長い",
+        "meaning_short": "長い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "出生",
+    "pinyin": "chūshēng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "生まれる",
+        "meaning_short": "生まれる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "出租车",
+    "pinyin": "chūzūchē",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "タクシー",
+        "meaning_short": "タクシー",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "打<～电话>",
+    "pinyin": "dǎ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "電話をかける",
+        "meaning_short": "電話をかける",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "但是",
+    "pinyin": "dànshì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "しかし",
+        "meaning_short": "しかし",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "倒",
+    "pinyin": "dǎo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "乗り換える",
+        "meaning_short": "乗り換える",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "到[動]",
+    "pinyin": "dào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "到着する",
+        "meaning_short": "到着する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "点[動]",
+    "pinyin": "diǎn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "注文する",
+        "meaning_short": "注文する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "电话",
+    "pinyin": "diànhuà",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "電話",
+        "meaning_short": "電話",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "订",
+    "pinyin": "dìng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "予約する",
+        "meaning_short": "予約する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "东西",
+    "pinyin": "dōngxi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "もの",
+        "meaning_short": "もの",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "多少",
+    "pinyin": "duōshao",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "いくつ？",
+        "meaning_short": "いくつ？",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "二胡",
+    "pinyin": "èrhú",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "二胡",
+        "meaning_short": "二胡",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "法语",
+    "pinyin": "Fǎyǔ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "フランス語",
+        "meaning_short": "フランス語",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "翻译",
+    "pinyin": "fānyì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "翻訳する",
+        "meaning_short": "翻訳する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "分",
+    "pinyin": "fēn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "分",
+        "meaning_short": "分",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "分钟",
+    "pinyin": "fēn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "分",
+        "meaning_short": "分",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "高中",
+    "pinyin": "gāozhōng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "高校",
+        "meaning_short": "高校",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "够",
+    "pinyin": "gòu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "十分だ",
+        "meaning_short": "十分だ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "故宫",
+    "pinyin": "Gùgōng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "旧王朝の宮殿",
+        "meaning_short": "旧王朝の宮殿",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "关系",
+    "pinyin": "guānxi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "関係",
+        "meaning_short": "関係",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "过[動詞接尾辞]",
+    "pinyin": "guo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "～したことがある",
+        "meaning_short": "～したことがある",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "号码",
+    "pinyin": "hàomǎ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "番号",
+        "meaning_short": "番号",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "或者",
+    "pinyin": "huòzhě",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "または",
+        "meaning_short": "または",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "欢迎",
+    "pinyin": "huānyíng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "歓迎する",
+        "meaning_short": "歓迎する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "会",
+    "pinyin": "huì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "(練習して)～できる",
+        "meaning_short": "できる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "会[動]",
+    "pinyin": "huì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "会う",
+        "meaning_short": "会う",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "或者",
+    "pinyin": "huòzhě",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "または",
+        "meaning_short": "または",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "简单",
+    "pinyin": "jiǎndān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "簡単だ",
+        "meaning_short": "簡単だ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "讲座",
+    "pinyin": "jiǎngzuò",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "講座",
+        "meaning_short": "講座",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "角",
+    "pinyin": "jiǎo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "画",
+        "meaning_short": "画",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "饺子",
+    "pinyin": "jiǎozi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ギョーザ",
+        "meaning_short": "ギョーザ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "叫花鸡",
+    "pinyin": "jiàohuājī",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "叫化鶏",
+        "meaning_short": "叫化鶏",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "井之头线",
+    "pinyin": "Jǐngzhītóu Xiàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "井の頭線",
+        "meaning_short": "井の頭線",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "块",
+    "pinyin": "kuài",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "元",
+        "meaning_short": "元",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "拉",
+    "pinyin": "lā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "弾く",
+        "meaning_short": "弾く",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "来",
+    "pinyin": "lái",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "来る",
+        "meaning_short": "来る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "零花钱",
+    "pinyin": "línghuāqián",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "お小遣い",
+        "meaning_short": "お小遣い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "毛",
+    "pinyin": "máo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "毛",
+        "meaning_short": "毛",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "名字",
+    "pinyin": "míngzi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "名前",
+        "meaning_short": "名前",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "那",
+    "pinyin": "nà",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "それでは",
+        "meaning_short": "それでは",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "拿铁",
+    "pinyin": "nátiě",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ラテ",
+        "meaning_short": "ラテ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "哦",
+    "pinyin": "ò",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "おお",
+        "meaning_short": "おお",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "批评",
+    "pinyin": "pīpíng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "批判する",
+        "meaning_short": "批判する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "皮儿",
+    "pinyin": "pír",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "皮",
+        "meaning_short": "皮",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "骑",
+    "pinyin": "qí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "乗る",
+        "meaning_short": "乗る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "千",
+    "pinyin": "qiān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "千",
+        "meaning_short": "千",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "钱",
+    "pinyin": "qián",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "お金",
+        "meaning_short": "お金",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "请问",
+    "pinyin": "qǐngwèn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "すみません",
+        "meaning_short": "すみません",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "然后",
+    "pinyin": "ránhòu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "それから",
+        "meaning_short": "それから",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "热",
+    "pinyin": "rè",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "熱い",
+        "meaning_short": "熱い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "涩谷",
+    "pinyin": "Sègǔ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "渋谷",
+        "meaning_short": "渋谷",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "山手线",
+    "pinyin": "Shānshǒu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "山手線",
+        "meaning_short": "山手線",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "手机",
+    "pinyin": "shǒujī",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "携帯電話",
+        "meaning_short": "携帯電話",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "说",
+    "pinyin": "shuō",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "話す",
+        "meaning_short": "話す",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "说话",
+    "pinyin": "shuōhuà",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "話をする",
+        "meaning_short": "話をする",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "太古里",
+    "pinyin": "Tàigǔlǐ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "太古里",
+        "meaning_short": "太古里",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "汤",
+    "pinyin": "tāng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "スープ",
+        "meaning_short": "スープ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "万",
+    "pinyin": "wàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "万",
+        "meaning_short": "万",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "厦门",
+    "pinyin": "Xiàmén",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "厦門",
+        "meaning_short": "厦門",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "线",
+    "pinyin": "xiàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "路線",
+        "meaning_short": "路線",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "写",
+    "pinyin": "xiě",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "書く",
+        "meaning_short": "書く",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "亿",
+    "pinyin": "yì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "億",
+        "meaning_short": "億",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "一般",
+    "pinyin": "yìbān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "通常",
+        "meaning_short": "通常",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "一直",
+    "pinyin": "yìzhí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ずっと",
+        "meaning_short": "ずっと",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "元",
+    "pinyin": "yuán",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "元",
+        "meaning_short": "元",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "源氏物语",
+    "pinyin": "Yuánshì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "源氏物語",
+        "meaning_short": "源氏物語",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "再",
+    "pinyin": "zài",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "また",
+        "meaning_short": "また",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "怎么",
+    "pinyin": "zěnme",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "どうやって",
+        "meaning_short": "どうやって",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "站[名]",
+    "pinyin": "zhàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "駅",
+        "meaning_short": "駅",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "正",
+    "pinyin": "zhèng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ちょうど",
+        "meaning_short": "ちょうど",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "正宗",
+    "pinyin": "zhèngzōng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "本場の",
+        "meaning_short": "本場の",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "只",
+    "pinyin": "zhǐ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "のみ(=only)",
+        "meaning_short": "のみ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "饱",
+    "pinyin": "bǎo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "満足である",
+        "meaning_short": "満足である",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "毕业",
+    "pinyin": "bìyè",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "卒業",
+        "meaning_short": "卒業",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "编程",
+    "pinyin": "biānchéng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "プログラミング",
+        "meaning_short": "プログラミング",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "冰箱",
+    "pinyin": "bīngxiāng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "冷蔵庫",
+        "meaning_short": "冷蔵庫",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "场",
+    "pinyin": "chǎng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "(試合の数を数える)回",
+        "meaning_short": "回",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "车",
+    "pinyin": "chē",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "車",
+        "meaning_short": "車",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "成[動]",
+    "pinyin": "chéng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "～になる",
+        "meaning_short": "～になる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "成功",
+    "pinyin": "chénggōng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "成功",
+        "meaning_short": "成功",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "出[方向動詞]",
+    "pinyin": "chū",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "[方向動詞]",
+        "meaning_short": "[方向動詞]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "初中",
+    "pinyin": "chūzhōng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "中学校",
+        "meaning_short": "中学校",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "词",
+    "pinyin": "cí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "単語",
+        "meaning_short": "単語",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "错",
+    "pinyin": "cuò",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "間違っている",
+        "meaning_short": "間違っている",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "答",
+    "pinyin": "dá",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "",
+        "meaning_short": "",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "打工",
+    "pinyin": "dǎgōng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "アルバイトする",
+        "meaning_short": "アルバイトする",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "大家",
+    "pinyin": "dàjiā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "皆",
+        "meaning_short": "皆",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "打开",
+    "pinyin": "dǎkāi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "～を開ける",
+        "meaning_short": "～を開ける",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "导演",
+    "pinyin": "dǎoyǎn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "監督",
+        "meaning_short": "監督",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "道",
+    "pinyin": "dào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "(問題などを数える量詞)",
+        "meaning_short": "個",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "懂",
+    "pinyin": "dǒng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "～が分かる",
+        "meaning_short": "～が分かる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "兜风",
+    "pinyin": "dōufēng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ドライブする",
+        "meaning_short": "ドライブする",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "读者",
+    "pinyin": "dúzhě",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "",
+        "meaning_short": "",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "放",
+    "pinyin": "fàng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "～を置く",
+        "meaning_short": "～を置く",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "父母",
+    "pinyin": "fùmǔ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "両親",
+        "meaning_short": "両親",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "干净",
+    "pinyin": "gānjìng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "清潔である",
+        "meaning_short": "清潔である",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "刚才",
+    "pinyin": "gāngcái",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "たった今",
+        "meaning_short": "たった今",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "给[動]",
+    "pinyin": "gěi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "",
+        "meaning_short": "",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "观众",
+    "pinyin": "guānzhòng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "観衆",
+        "meaning_short": "観衆",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "过[方向動詞]",
+    "pinyin": "guò",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "超える[方向動詞]",
+        "meaning_short": "超える[方向動詞]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "还",
+    "pinyin": "hái",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "まだ",
+        "meaning_short": "まだ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "海边儿",
+    "pinyin": "hǎibiānr",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "海辺で",
+        "meaning_short": "海辺で",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "和[前置]",
+    "pinyin": "hé",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "～と",
+        "meaning_short": "～と",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "黑历史",
+    "pinyin": "hēilìshǐ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "黒歴史",
+        "meaning_short": "黒歴史",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "加",
+    "pinyin": "jiā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "～を加える",
+        "meaning_short": "～を加える",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "驾照",
+    "pinyin": "jiàzhào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "運転免許",
+        "meaning_short": "運転免許",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "后来",
+    "pinyin": "hòulái",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "後に",
+        "meaning_short": "後に",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "话[名]",
+    "pinyin": "huà",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "",
+        "meaning_short": "",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "回[方向動詞]",
+    "pinyin": "huí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "返る[方向動詞]",
+        "meaning_short": "返る[方向動詞]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "见",
+    "pinyin": "jiàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "見える",
+        "meaning_short": "見える",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "进[方向動詞]",
+    "pinyin": "jìn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "[方向動詞]",
+        "meaning_short": "[方向動詞]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "精彩",
+    "pinyin": "jīngcǎi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "素晴らしい",
+        "meaning_short": "素晴らしい",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "句[量]",
+    "pinyin": "jù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "文[量]",
+        "meaning_short": "文[量]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "觉得",
+    "pinyin": "juéde",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "感じる",
+        "meaning_short": "感じる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "咖啡",
+    "pinyin": "kāfēi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "コーヒー",
+        "meaning_short": "コーヒー",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "开",
+    "pinyin": "kāi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "運転する",
+        "meaning_short": "運転する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "看",
+    "pinyin": "kàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "",
+        "meaning_short": "",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "考",
+    "pinyin": "kǎo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "受験する",
+        "meaning_short": "受験する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "考生",
+    "pinyin": "kǎoshēng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "受験生",
+        "meaning_short": "受験生",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "可靠",
+    "pinyin": "kěkào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "信頼できる",
+        "meaning_short": "信頼できる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "可乐",
+    "pinyin": "kělè",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "コーラ",
+        "meaning_short": "コーラ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "老[形]",
+    "pinyin": "lǎo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "古い",
+        "meaning_short": "古い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "了[文末助詞]",
+    "pinyin": "le",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "",
+        "meaning_short": "",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "累",
+    "pinyin": "lèi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "疲れる",
+        "meaning_short": "疲れる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "理科",
+    "pinyin": "lǐkē",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "理系",
+        "meaning_short": "理系",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "礼物",
+    "pinyin": "lǐwù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "贈り物",
+        "meaning_short": "贈り物",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "聊",
+    "pinyin": "liáo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "お喋りする",
+        "meaning_short": "お喋りする",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "聊天儿",
+    "pinyin": "liáotiānr`",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "お喋りする",
+        "meaning_short": "お喋りする",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "没想到",
+    "pinyin": "méixiǎngdào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "思いがけず",
+        "meaning_short": "思いがけず",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "明白",
+    "pinyin": "míngbai",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "分かる",
+        "meaning_short": "分かる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "拿",
+    "pinyin": "ná",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "取る",
+        "meaning_short": "",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "奶精",
+    "pinyin": "nǎijīng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ミルク",
+        "meaning_short": "ミルク",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "难",
+    "pinyin": "nán",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "難しい",
+        "meaning_short": "難しい",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "腻",
+    "pinyin": "nì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "飽き飽きする",
+        "meaning_short": "飽き飽きする",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "爬",
+    "pinyin": "pá",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "登る",
+        "meaning_short": "登る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "平时",
+    "pinyin": "píngshí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "普段",
+        "meaning_short": "普段",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "普洱茶",
+    "pinyin": "Pǔ’ěrchá",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "プーアル茶",
+        "meaning_short": "プーアル茶",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "起[方向動詞]",
+    "pinyin": "qǐ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "[方向動詞]",
+        "meaning_short": "[方向動詞]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "清楚",
+    "pinyin": "qīngchu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "はっきりしている",
+        "meaning_short": "はっきりしている",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "认识",
+    "pinyin": "rènshi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "(～と)知り合う",
+        "meaning_short": "(～と)知り合う",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "日文",
+    "pinyin": "Rìwén",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "日本語",
+        "meaning_short": "日本語",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "商量",
+    "pinyin": "shāngliang",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "相談する",
+        "meaning_short": "相談する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "上[方向動詞]",
+    "pinyin": "shàng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "[方向動詞]",
+        "meaning_short": "[方向動詞]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "深山老林",
+    "pinyin": "shēnshān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "山奥の原始林",
+        "meaning_short": "山奥の原始林",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "生日",
+    "pinyin": "shēngri",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "誕生日",
+        "meaning_short": "誕生日",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "食堂",
+    "pinyin": "shítáng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "食堂",
+        "meaning_short": "食堂",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "收回",
+    "pinyin": "shōuhuí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "撤回する",
+        "meaning_short": "撤回する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "熟",
+    "pinyin": "shú",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "よく知っている",
+        "meaning_short": "よく知っている",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "送",
+    "pinyin": "sòng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "届ける",
+        "meaning_short": "届ける",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "太",
+    "pinyin": "tài",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ものすごく～",
+        "meaning_short": "ものすごく～",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "糖",
+    "pinyin": "táng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "砂糖",
+        "meaning_short": "砂糖",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "套餐",
+    "pinyin": "tàocān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "定食",
+        "meaning_short": "定食",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "题",
+    "pinyin": "tí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "問題",
+        "meaning_short": "問題",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "天气",
+    "pinyin": "tiānqì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "天気",
+        "meaning_short": "天気",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "听劝",
+    "pinyin": "tīngquàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "忠告を聞き入れる",
+        "meaning_short": "忠告を聞き入れる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "退烧药",
+    "pinyin": "tuìshāoyào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "解熱剤",
+        "meaning_short": "解熱剤",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "完",
+    "pinyin": "wán",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "終わる",
+        "meaning_short": "終わる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "晚[形]",
+    "pinyin": "wǎn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "遅い",
+        "meaning_short": "遅い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "围棋",
+    "pinyin": "wéiqí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "囲碁",
+        "meaning_short": "囲碁",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "文科",
+    "pinyin": "wénkē",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "文系",
+        "meaning_short": "文系",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "洗",
+    "pinyin": "xǐ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "洗う",
+        "meaning_short": "洗う",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "下[方向動詞]",
+    "pinyin": "xià",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "[方向動詞]",
+        "meaning_short": "[方向動詞]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "下<〜围棋>",
+    "pinyin": "xià",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "(囲碁を)打つ",
+        "meaning_short": "打つ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "夏天",
+    "pinyin": "xiàtiān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "夏",
+        "meaning_short": "夏",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "小[形]",
+    "pinyin": "xiǎo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "小さい",
+        "meaning_short": "小さい",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "小时",
+    "pinyin": "xiǎoshí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "(～个-で)～時間",
+        "meaning_short": "時間",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "心眼儿",
+    "pinyin": "xīnyǎnr",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "心眼, 器, 気",
+        "meaning_short": "気",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "新作",
+    "pinyin": "xīnzuò",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "新作",
+        "meaning_short": "新作",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "幸好",
+    "pinyin": "xìnghǎo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "幸いなことに",
+        "meaning_short": "幸いなことに",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "修",
+    "pinyin": "xiū",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "～を修理する",
+        "meaning_short": "～を修理する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "休息",
+    "pinyin": "xiūxi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "休む",
+        "meaning_short": "休む",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "雪山",
+    "pinyin": "xuěshān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "雪山",
+        "meaning_short": "雪山",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "要[助動]",
+    "pinyin": "yào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "～したい, ～するつもりだ",
+        "meaning_short": "したい",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "一会儿",
+    "pinyin": "yíhuìr",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "暫く",
+        "meaning_short": "暫く",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "已经",
+    "pinyin": "yǐjīng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "既に",
+        "meaning_short": "既に",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "赢",
+    "pinyin": "yíng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "勝つ",
+        "meaning_short": "勝つ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "有意思",
+    "pinyin": "yǒu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "面白い",
+        "meaning_short": "面白い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "运气",
+    "pinyin": "yùnqi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "運",
+        "meaning_short": "運",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "钟头",
+    "pinyin": "zhōngtóu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "",
+        "meaning_short": "",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "中学",
+    "pinyin": "zhōngxué",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "中学校と高校",
+        "meaning_short": "中高",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "终于",
+    "pinyin": "zhōngyú",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ついに",
+        "meaning_short": "ついに",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "转学",
+    "pinyin": "zhuǎnxué",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "転校する",
+        "meaning_short": "転校する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "坐",
+    "pinyin": "zuò",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "乗る",
+        "meaning_short": "乗る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      6
+    ]
+  },
+  {
+    "word": "哎呀",
+    "pinyin": "āiyā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "おっと",
+        "meaning_short": "おっと",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "哎呀呀",
+    "pinyin": "āiyāyā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "なんてこった",
+        "meaning_short": "なんてこった",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "吧",
+    "pinyin": "ba",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "バー",
+        "meaning_short": "バー",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "班",
+    "pinyin": "bān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "クラス",
+        "meaning_short": "クラス",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "北海道",
+    "pinyin": "Běihǎidào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "北海道",
+        "meaning_short": "北海道",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "鼻子",
+    "pinyin": "bízi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "鼻",
+        "meaning_short": "鼻",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "比较[副]",
+    "pinyin": "bǐjiào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "[副詞]",
+        "meaning_short": "[副詞]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "遍",
+    "pinyin": "biàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "いたるところ",
+        "meaning_short": "いたるところ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "便饭",
+    "pinyin": "biànfàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ポットラック",
+        "meaning_short": "ポットラック",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "别[助動]",
+    "pinyin": "bié",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "[助けない]",
+        "meaning_short": "[助けない]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "病",
+    "pinyin": "bìng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "病気",
+        "meaning_short": "病気",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "不要",
+    "pinyin": "búyào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "欲しくない",
+        "meaning_short": "欲しくない",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "餐馆",
+    "pinyin": "cānguǎn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "レストラン",
+        "meaning_short": "レストラン",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "超市",
+    "pinyin": "chāoshì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "スーパーマーケット",
+        "meaning_short": "スーパーマーケット",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "次",
+    "pinyin": "cì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "二流",
+        "meaning_short": "二流",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "答应",
+    "pinyin": "dāyìng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "約束",
+        "meaning_short": "約束",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "大象",
+    "pinyin": "dàxiàng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "象",
+        "meaning_short": "象",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "带",
+    "pinyin": "dài",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "持ってくる",
+        "meaning_short": "持ってくる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "担心",
+    "pinyin": "dān//xīn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "心配",
+        "meaning_short": "心配",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "顿",
+    "pinyin": "dùn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "デイトン",
+        "meaning_short": "デイトン",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "发烧",
+    "pinyin": "fā//shāo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "熱",
+        "meaning_short": "熱",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "饭点儿",
+    "pinyin": "fàndiǎnr",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "食事の時間",
+        "meaning_short": "食事の時間",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "份儿",
+    "pinyin": "fènr",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "共有",
+        "meaning_short": "共有",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "丰富",
+    "pinyin": "fēngfù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "リッチ",
+        "meaning_short": "リッチ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "给[前置]",
+    "pinyin": "gěi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "[接頭辞]を付ける",
+        "meaning_short": "[接頭辞]を付ける",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "工作",
+    "pinyin": "gōngzuò",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "仕事",
+        "meaning_short": "仕事",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "古迹",
+    "pinyin": "gǔjì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "史跡",
+        "meaning_short": "史跡",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "观点",
+    "pinyin": "guāndiǎn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "観点",
+        "meaning_short": "観点",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "过去",
+    "pinyin": "guòqù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "過去",
+        "meaning_short": "過去",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "好意思",
+    "pinyin": "hǎoyìsi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "良いアイデア",
+        "meaning_short": "良いアイデア",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "合理",
+    "pinyin": "hélǐ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "合理的",
+        "meaning_short": "合理的",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "寄",
+    "pinyin": "jì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "送信",
+        "meaning_short": "送信",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "家［量］",
+    "pinyin": "jiā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "家",
+        "meaning_short": "家",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "价格",
+    "pinyin": "jiàgé",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "価格",
+        "meaning_short": "価格",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "坚持",
+    "pinyin": "jiānchí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "固執する",
+        "meaning_short": "固執する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "检查",
+    "pinyin": "jiǎnchá",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "診る",
+        "meaning_short": "診る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "寄",
+    "pinyin": "jì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "送信",
+        "meaning_short": "送信",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "家[量]",
+    "pinyin": "jiā",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "[数量]",
+        "meaning_short": "[数量]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "价格",
+    "pinyin": "jiàgé",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "価格",
+        "meaning_short": "価格",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "坚持",
+    "pinyin": "jiānchí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "固執する",
+        "meaning_short": "固執する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "检查",
+    "pinyin": "jiǎnchá",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "診る",
+        "meaning_short": "診る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "讲",
+    "pinyin": "jiǎng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "話す",
+        "meaning_short": "話す",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "叫",
+    "pinyin": "jiào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "電話",
+        "meaning_short": "電話",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "节[量]",
+    "pinyin": "jié",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "セクション",
+        "meaning_short": "セクション",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "结论",
+    "pinyin": "jiélùn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "結論は",
+        "meaning_short": "結論は",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "经常",
+    "pinyin": "jīngcháng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "頻繁",
+        "meaning_short": "頻繁",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "经验",
+    "pinyin": "jīngyàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "経験",
+        "meaning_short": "経験",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "开会",
+    "pinyin": "kāi//huì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ミーティング",
+        "meaning_short": "ミーティング",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "课[名]",
+    "pinyin": "kè",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "コース[名前]",
+        "meaning_short": "コース[名前]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "客气",
+    "pinyin": "kèqi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "礼儀正しい",
+        "meaning_short": "礼儀正しい",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "快递",
+    "pinyin": "kuàidì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "速達便",
+        "meaning_short": "速達便",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "款式",
+    "pinyin": "kuǎnshì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "形",
+        "meaning_short": "形",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "浪费",
+    "pinyin": "làngfèi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "無駄",
+        "meaning_short": "無駄",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "冷冻",
+    "pinyin": "lěngdòng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "凍結",
+        "meaning_short": "凍結",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "脸色",
+    "pinyin": "liǎnsè",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "顔",
+        "meaning_short": "顔",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "留",
+    "pinyin": "liú",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "保つ",
+        "meaning_short": "保つ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "留学",
+    "pinyin": "liú//xué",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "留学",
+        "meaning_short": "留学",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "麻烦",
+    "pinyin": "máfan",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "トラブル",
+        "meaning_short": "トラブル",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "没事儿",
+    "pinyin": "méi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "大丈夫",
+        "meaning_short": "大丈夫",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "名胜",
+    "pinyin": "míngshèng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "アトラクション",
+        "meaning_short": "アトラクション",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "跑",
+    "pinyin": "pǎo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "走る",
+        "meaning_short": "走る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "陪",
+    "pinyin": "péi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "同行する",
+        "meaning_short": "同行する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "牵强",
+    "pinyin": "qiānqiáng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "無理がある",
+        "meaning_short": "無理がある",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "秦(姓)",
+    "pinyin": "Qín",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "秦（姓）",
+        "meaning_short": "秦（姓）",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "裙子",
+    "pinyin": "qúnzi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "スカート",
+        "meaning_short": "スカート",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "石锅拌饭",
+    "pinyin": "shíguōbànfàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ビビンバ",
+        "meaning_short": "ビビンバ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "趟",
+    "pinyin": "tàng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "旅行",
+        "meaning_short": "旅行",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "疼",
+    "pinyin": "téng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "痛み",
+        "meaning_short": "痛み",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "添",
+    "pinyin": "tiān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "追加",
+        "meaning_short": "追加",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "头[名]",
+    "pinyin": "tóu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "頭[名前]",
+        "meaning_short": "頭[名前]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "推荐信",
+    "pinyin": "tuījiànxìn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "おすすめ",
+        "meaning_short": "おすすめ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "哇[文末助詞]",
+    "pinyin": "wa",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "[最後の助詞]",
+        "meaning_short": "[最後の助詞]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "外卖",
+    "pinyin": "wàimài",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "テイクアウト",
+        "meaning_short": "テイクアウト",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "碗",
+    "pinyin": "wǎn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ボウル",
+        "meaning_short": "ボウル",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "文章",
+    "pinyin": "wénzhāng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "記事",
+        "meaning_short": "記事",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "物价",
+    "pinyin": "wùjià",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "価格",
+        "meaning_short": "価格",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "下[動]",
+    "pinyin": "xià",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "下",
+        "meaning_short": "下",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "下班",
+    "pinyin": "xiàbān",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "仕事を終える",
+        "meaning_short": "仕事を終える",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "谢谢",
+    "pinyin": "xièxiè",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ありがとう",
+        "meaning_short": "ありがとう",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "新加坡",
+    "pinyin": "Xīnjiāpō",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "シンガポール",
+        "meaning_short": "シンガポール",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "新颖",
+    "pinyin": "xīnyǐng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "小説",
+        "meaning_short": "小説",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "药",
+    "pinyin": "yào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "薬",
+        "meaning_short": "薬",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "医院",
+    "pinyin": "yīyuàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "病院",
+        "meaning_short": "病院",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "一寸光阴一寸金",
+    "pinyin": "yí",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "guāngyīn",
+        "meaning_short": "guāngyīn",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "一下",
+    "pinyin": "yíxià",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "一度",
+        "meaning_short": "一度",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "有点儿",
+    "pinyin": "yǒudiǎnr",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "種の",
+        "meaning_short": "種の",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "糟糕",
+    "pinyin": "zāogāo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "おっと",
+        "meaning_short": "おっと",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "粥",
+    "pinyin": "zhōu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "お粥",
+        "meaning_short": "お粥",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "走廊",
+    "pinyin": "zǒuláng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "廊下",
+        "meaning_short": "廊下",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "走路",
+    "pinyin": "zǒulù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "歩く",
+        "meaning_short": "歩く",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "作业",
+    "pinyin": "zuòyè",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "手術",
+        "meaning_short": "手術",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      7
+    ]
+  },
+  {
+    "word": "安静",
+    "pinyin": "ānjìng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "静かな",
+        "meaning_short": "静かな",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "比",
+    "pinyin": "bǐ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "比較する",
+        "meaning_short": "比較する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "别人",
+    "pinyin": "biéren",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "他の人",
+        "meaning_short": "他の人",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "不用",
+    "pinyin": "búyòng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "必要はありません",
+        "meaning_short": "必要はありません",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "餐厅",
+    "pinyin": "cāntīng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "レストラン",
+        "meaning_short": "レストラン",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "操作",
+    "pinyin": "cāozuò",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "操作する",
+        "meaning_short": "操作する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "出门",
+    "pinyin": "chū//mén",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "外出",
+        "meaning_short": "外出",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "窗口",
+    "pinyin": "chuāngkǒu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ウィンドウ",
+        "meaning_short": "ウィンドウ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "打车",
+    "pinyin": "dǎ//chē",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "タクシー",
+        "meaning_short": "タクシー",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "打字",
+    "pinyin": "dǎ//zì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "タイプ",
+        "meaning_short": "タイプ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "大",
+    "pinyin": "dà",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "大きい",
+        "meaning_short": "大きい",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "大厅",
+    "pinyin": "dàtīng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ホール",
+        "meaning_short": "ホール",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "得",
+    "pinyin": "děi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "しなければならない",
+        "meaning_short": "しなければならない",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "地方",
+    "pinyin": "dìfang",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "場所",
+        "meaning_short": "場所",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "点儿",
+    "pinyin": "diǎnr",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ポイント",
+        "meaning_short": "ポイント",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "电子",
+    "pinyin": "diànzǐ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "電子",
+        "meaning_short": "電子",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "方便",
+    "pinyin": "fāngbiàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "便利",
+        "meaning_short": "便利",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "俯卧撑",
+    "pinyin": "fǔwòchēng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "腕立て伏せ",
+        "meaning_short": "腕立て伏せ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "付",
+    "pinyin": "fù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "支払う",
+        "meaning_short": "支払う",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "干",
+    "pinyin": "gàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ドライ",
+        "meaning_short": "ドライ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "股票",
+    "pinyin": "gǔpiào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ストック",
+        "meaning_short": "ストック",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "挂号",
+    "pinyin": "guà//hào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "登録済み",
+        "meaning_short": "登録済み",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "规矩",
+    "pinyin": "guīju",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ルール",
+        "meaning_short": "ルール",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "过[動]",
+    "pinyin": "guò",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "過去",
+        "meaning_short": "過去",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "还是[接続]",
+    "pinyin": "háishi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "あるいは[続き]",
+        "meaning_short": "あるいは[続き]",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "季节",
+    "pinyin": "jìjié",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "季節",
+        "meaning_short": "季節",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "减肥",
+    "pinyin": "jiǎn//féi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "体重を減らす",
+        "meaning_short": "体重を減らす",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "活儿",
+    "pinyin": "huór",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "仕事",
+        "meaning_short": "仕事",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "季节",
+    "pinyin": "jìjié",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "季節",
+        "meaning_short": "季節",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "减肥",
+    "pinyin": "jiǎn//féi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "体重を減らす",
+        "meaning_short": "体重を減らす",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "交费",
+    "pinyin": "jiāo//fèi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "支払い",
+        "meaning_short": "支払い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "酒",
+    "pinyin": "jiǔ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "酒",
+        "meaning_short": "酒",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "快[形]",
+    "pinyin": "kuài",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "速い",
+        "meaning_short": "速い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "冷",
+    "pinyin": "lěng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "寒い",
+        "meaning_short": "寒い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "路",
+    "pinyin": "lù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "道",
+        "meaning_short": "道",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "没关系",
+    "pinyin": "méi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "それは問題ではありません",
+        "meaning_short": "それは問題ではありません",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "梅雨",
+    "pinyin": "méiyǔ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "めいゆ",
+        "meaning_short": "めいゆ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "门",
+    "pinyin": "mén",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ドア",
+        "meaning_short": "ドア",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "米饭",
+    "pinyin": "mǐfàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "米",
+        "meaning_short": "米",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "那么",
+    "pinyin": "nàme",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "それで",
+        "meaning_short": "それで",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "难为情",
+    "pinyin": "nánwéiqíng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "恥ずかしい",
+        "meaning_short": "恥ずかしい",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "内科",
+    "pinyin": "nèikē",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "内科",
+        "meaning_short": "内科",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "能",
+    "pinyin": "néng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "できる",
+        "meaning_short": "できる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "胖",
+    "pinyin": "pàng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "脂肪",
+        "meaning_short": "脂肪",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "热闹",
+    "pinyin": "rènao",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "活気のある",
+        "meaning_short": "活気のある",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "入乡随俗",
+    "pinyin": "rù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "suí",
+        "meaning_short": "suí",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "少",
+    "pinyin": "shǎo",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "少し",
+        "meaning_short": "少し",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "身体",
+    "pinyin": "shēntǐ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "体",
+        "meaning_short": "体",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "剩下",
+    "pinyin": "shèngxià",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "残る",
+        "meaning_short": "残る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "市中心",
+    "pinyin": "shìzhōngxīn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "市内中心部",
+        "meaning_short": "市内中心部",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "守",
+    "pinyin": "shǒu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ガード",
+        "meaning_short": "ガード",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "舒服",
+    "pinyin": "shūfu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "快適",
+        "meaning_short": "快適",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "输入",
+    "pinyin": "shūrù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "入力",
+        "meaning_short": "入力",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "刷卡",
+    "pinyin": "shuā//kǎ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "クレジットカード",
+        "meaning_short": "クレジットカード",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "网红",
+    "pinyin": "wǎnghóng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "インターネットセレブ",
+        "meaning_short": "インターネットセレブ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "微信",
+    "pinyin": "Wēixìn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "微信",
+        "meaning_short": "微信",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "现金",
+    "pinyin": "xiànjīn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "現金",
+        "meaning_short": "現金",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "一口气",
+    "pinyin": "yìkǒuqì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "",
+        "meaning_short": "",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "一些",
+    "pinyin": "yìxiē",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "いくつかの",
+        "meaning_short": "いくつかの",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "用[前置]",
+    "pinyin": "yòng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "[接頭辞]を使用する",
+        "meaning_short": "[接頭辞]を使用する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "又",
+    "pinyin": "yòu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "また",
+        "meaning_short": "また",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "语音",
+    "pinyin": "yǔyīn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "声",
+        "meaning_short": "声",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "预约",
+    "pinyin": "yùyuē",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "予約する",
+        "meaning_short": "予約する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "晕",
+    "pinyin": "yūn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "かすかな",
+        "meaning_short": "かすかな",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "早饭",
+    "pinyin": "zǎofàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "朝食",
+        "meaning_short": "朝食",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "涨",
+    "pinyin": "zhǎng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "上昇",
+        "meaning_short": "上昇",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "照顾",
+    "pinyin": "zhàogù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "世話をする",
+        "meaning_short": "世話をする",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "这么",
+    "pinyin": "zhème",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "それで",
+        "meaning_short": "それで",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "诊室",
+    "pinyin": "zhěnshì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "診察室",
+        "meaning_short": "診察室",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "支付",
+    "pinyin": "zhīfù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "支払い",
+        "meaning_short": "支払い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "字",
+    "pinyin": "zì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "キャラクター",
+        "meaning_short": "キャラクター",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "自助机",
+    "pinyin": "zìzhùjī",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "セルフサービス機",
+        "meaning_short": "セルフサービス機",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "总是",
+    "pinyin": "zǒngshì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "いつも",
+        "meaning_short": "いつも",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "醉",
+    "pinyin": "zuì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "酔っ払い",
+        "meaning_short": "酔っ払い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  },
+  {
+    "word": "〜多了",
+    "pinyin": "~duōle",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "~もっと見る",
+        "meaning_short": "~もっと見る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      8
+    ]
+  }
+]
