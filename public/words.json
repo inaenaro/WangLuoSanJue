@@ -1132,7 +1132,7 @@
       }
     ],
     "lesson": [
-      1
+      1, 5
     ]
   },
   {
@@ -1238,22 +1238,6 @@
     ],
     "lesson": [
       1
-    ]
-  },
-  
-  {
-    "word": "百",
-    "pinyin": "bǎi",
-    "meanings": [
-      {
-        "part": "",
-        "meaning": "百",
-        "meaning_short": "百",
-        "example": ""
-      }
-    ],
-    "lesson": [
-      5
     ]
   },
   {
@@ -1782,21 +1766,6 @@
     ]
   },
   {
-    "word": "或者",
-    "pinyin": "huòzhě",
-    "meanings": [
-      {
-        "part": "",
-        "meaning": "または",
-        "meaning_short": "または",
-        "example": ""
-      }
-    ],
-    "lesson": [
-      5
-    ]
-  },
-  {
     "word": "简单",
     "pinyin": "jiǎndān",
     "meanings": [
@@ -2158,7 +2127,7 @@
   },
   {
     "word": "山手线",
-    "pinyin": "Shānshǒu",
+    "pinyin": "Shānshǒu Xiàn",
     "meanings": [
       {
         "part": "",
@@ -4624,81 +4593,6 @@
         "part": "",
         "meaning": "家",
         "meaning_short": "家",
-        "example": ""
-      }
-    ],
-    "lesson": [
-      7
-    ]
-  },
-  {
-    "word": "价格",
-    "pinyin": "jiàgé",
-    "meanings": [
-      {
-        "part": "",
-        "meaning": "価格",
-        "meaning_short": "価格",
-        "example": ""
-      }
-    ],
-    "lesson": [
-      7
-    ]
-  },
-  {
-    "word": "坚持",
-    "pinyin": "jiānchí",
-    "meanings": [
-      {
-        "part": "",
-        "meaning": "固執する",
-        "meaning_short": "固執する",
-        "example": ""
-      }
-    ],
-    "lesson": [
-      7
-    ]
-  },
-  {
-    "word": "检查",
-    "pinyin": "jiǎnchá",
-    "meanings": [
-      {
-        "part": "",
-        "meaning": "診る",
-        "meaning_short": "診る",
-        "example": ""
-      }
-    ],
-    "lesson": [
-      7
-    ]
-  },
-  {
-    "word": "寄",
-    "pinyin": "jì",
-    "meanings": [
-      {
-        "part": "",
-        "meaning": "送信",
-        "meaning_short": "送信",
-        "example": ""
-      }
-    ],
-    "lesson": [
-      7
-    ]
-  },
-  {
-    "word": "家[量]",
-    "pinyin": "jiā",
-    "meanings": [
-      {
-        "part": "",
-        "meaning": "[数量]",
-        "meaning_short": "[数量]",
         "example": ""
       }
     ],

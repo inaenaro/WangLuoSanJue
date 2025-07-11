@@ -11,11 +11,14 @@ module.exports = {
         ch: ["var(--font-ch)", "sans-serif"],
       },
       colors: {
-        background1: "#1a1a1a", // Dark mode background
-        background2: "#ffffff", // Light mode background
+        test: "#f0f0f0",
+        background1: "var(--background)",
+        background2: "var(--background2)",
+        gray: "var(--gray)",
+        text: "var(--text)", 
       },
       animation: {
-        show_keyboard: "1s linear 0s 1 forwards show_keyboard",
+        show_keyboard: "0.2s linear 0s 1 forwards show_keyboard",
       },
       keyframes: {
         show_keyboard: {
@@ -24,7 +27,7 @@ module.exports = {
           },
           "100%": {
             bottom: "0",
-          }
+          },
         },
       },
     },

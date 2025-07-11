@@ -41,15 +41,15 @@ export default function WordTest() {
     switch (testMode) {
       case "jp-to-pinyin":
         setQuestion(`日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}`);
-        setAnswer(randomWord.pinyin.normalize("NFC"));
+        setAnswer(randomWord.pinyin.normalize("NFD"));
         setFeedback(""); // Reset feedback for new question
         break;
       case "cn-to-jp":
         setQuestion(`中国語: ${randomWord.word}`);
-        setAnswer(`日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}, ピンイン: ${randomWord.pinyin.normalize("NFC")}`);
+        setAnswer(`日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}, ピンイン: ${randomWord.pinyin.normalize("NFD")}`);
         break;
       case "pinyin-to-jp":
-        setQuestion(`ピンイン: ${randomWord.pinyin.normalize("NFC")}`);
+        setQuestion(`ピンイン: ${randomWord.pinyin.normalize("NFD")}`);
         setAnswer(`日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}, 中国語: ${randomWord.word}`);
         break;
       default:
@@ -61,7 +61,7 @@ export default function WordTest() {
   };
 
   const handleCheckAnswer = () => {
-    if (userInput.trim().normalize('NFC') === answer.trim()) {
+    if (userInput.trim().normalize('NFD') === answer.trim()) {
       setFeedback("正解です！");
       setShowAnswer(true); // Automatically show the answer
     } else {

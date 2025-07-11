@@ -63,7 +63,7 @@ export default function AudioTest() {
     const randomIndex = Math.floor(Math.random() * words.length);
     const randomWord = words[randomIndex];
     setTextToSpeak(randomWord.word); // Use the Chinese word for speech synthesis
-    setAnswer(randomWord.pinyin.normalize("NFC")); // Set the correct pinyin as the answer
+    setAnswer(randomWord.pinyin.normalize("NFD")); // Set the correct pinyin as the answer
     setWordMeaning(randomWord.meanings[0]?.meaning || "意味なし"); // Set the word meaning
     setUserInput("");
     setFeedback("");
@@ -81,7 +81,7 @@ export default function AudioTest() {
   };
 
   const handleCheckAnswer = () => {
-    if (userInput.trim().normalize("NFC") === answer.trim()) {
+    if (userInput.trim().normalize("NFD") === answer.trim()) {
       setFeedback("正解です！");
       setShowAnswer(true); // Automatically show the answer if correct
     } else {

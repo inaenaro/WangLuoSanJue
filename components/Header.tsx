@@ -1,34 +1,38 @@
 'use client';
+import { useTheme } from "next-themes";
 import SearchBox from "./SearchBox";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
+import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
 export default function Header({ title }: { title: string }) {
-  const [theme, setTheme] = useState<"dark" | "light">("dark");
-
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
   useEffect(() => {
-    document.documentElement.classList.remove("dark", "light");
-    document.documentElement.classList.add(theme); // Apply theme to the root element
-  }, [theme]);
+    setMounted(true);
+  }, []);
 
   const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
+    const newTheme = theme === "dark" ? "light" : "dark";
+    setTheme(newTheme);
+    // document.documentElement.classList.remove("dark", "light");
+    localStorage.removeItem("theme");
+    // document.documentElement.classList.add(newTheme);
+    localStorage.setItem("theme", newTheme ?? "dark");
   };
 
   return (
-    <div className="relative z-50 flex flex-wrap justify-between items-center p-2 border-b-[1px] border-b-[#80848e]">
+    <div className="relative z-50 flex flex-wrap justify-between items-center p-2 border-b-[1px] border-b-gray">
       <h1 className="text-xl">
         <span className="text-[#80848e] mx-2">#</span>
-        {title}
+        <span className="font-ch">{title}</span>
       </h1>
       <div className="flex flex-wrap justify-end items-center gap-2">
         <SearchBox />
         <button
           onClick={toggleTheme}
-          className={`px-4 py-1 rounded ${
-            theme === "dark" ? "bg-gray-800 text-white" : "bg-gray-200 text-black"
-          }`}
+          className="size-9 p-2 rounded"
         >
-          {theme === "dark" ? "ホワイトモード" : "ダークモード"}
+          {mounted && (theme === "dark" ? <MdOutlineDarkMode className="size-5" /> : <MdOutlineLightMode className="size-5" />)}
         </button>
       </div>
     </div>

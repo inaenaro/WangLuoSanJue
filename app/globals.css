@@ -1,15 +1,11 @@
 @import "tailwindcss";
-
-@font-face {
-  font-family: 'LXGWWenKaiLite';
-  src: url('/public/fonts/LXGWWenKaiLite-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
+@config "../tailwind.config.ts";
 
 :root {
-  --background: #ffcfcf;
-  --foreground: #171717;
+  --background: #f9dfdf;
+  --background2: #ff0000;
+  --gray: #80848e;
+  --text: #323339;
   --font-ch: 'LXGWWenKaiLite';
 }
 
@@ -20,15 +16,12 @@
   --font-mono: var(--font-geist-mono);
 } */
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #321a1a;
-    --foreground: #ededed;
-  }
-} */
+.dark {
+  --background: #431113;
+  --background2: #310510;
+  --text: #dfe0e2;
+}
 
 body {
-  background: var(--background);
-  color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }

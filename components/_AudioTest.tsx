@@ -19,13 +19,13 @@ export default function AudioTest() {
     const audios = await response.json();
     const randomAudio = audios[Math.floor(Math.random() * audios.length)];
     setAudioSrc(randomAudio.src);
-    setAnswer(randomAudio.pinyin.normalize("NFC"));
+    setAnswer(randomAudio.pinyin.normalize("NFD"));
     setUserInput("");
     setFeedback("");
   };
 
   const handleCheckAnswer = () => {
-    if (userInput.trim().normalize("NFC") === answer.trim()) {
+    if (userInput.trim().normalize("NFD") === answer.trim()) {
       setFeedback("正解です！");
     } else {
       setFeedback("不正解です。");
