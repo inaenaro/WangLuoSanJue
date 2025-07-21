@@ -46,7 +46,7 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
 
   const loadNextWord = (words: Word[]) => {
     if (words.length === 0) {
-      alert("すべての問題が終了しました！");
+      alert("-終-");
       handleEndTest();
       return;
     }
@@ -105,38 +105,44 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
   return (
     <div className="p-2">
       {question && (
-        <div>
+        <div className="flex flex-col gap-2">
           <p className="font-ch">問題: {question.question}</p>
           {settings.questionType === "jp-to-pinyin" && (
-            <div>
+            <>
               <AnswerInput userInput={userInput} setUserInput={setUserInput} onEnter={handleCheckAnswer} placeholder="答えを入力してください" disabled={showAnswer} />
               <button
+                id="submit-answer"
                 onClick={handleCheckAnswer}
-                className={button()}
+                className={`${button()} w-fit`}
                 disabled={showAnswer}
               >
                 正誤判定
               </button>
               {status !== -1 && <p className="mt-2">{status ? "正解！" : "不正解！"}</p>}
-            </div>
+            </>
           )}
           {showAnswer && <p>答え: {question.answer}</p>}
           {!showAnswer && (
             <button
+              id="show-answer"
               onClick={() => setShowAnswer(true)}
-              className={button({ style: "danger" })}
+              className={`${button({ style: "danger" })} w-fit`}
               disabled={showAnswer}
             >
               答えを表示
             </button>
           )}
-          {showAnswer && (
-            <div className="mt-4 space-x-4">
-              <button onClick={() => loadNextWord(remainingWords)} className={button({ style: "success" })}>次へ</button>
-              <button onClick={handleEndTest} className={button({ style: "danger" })}>終了</button>
+          {showAnswer && (<>
+            <div className="flex items-center gap-2">
               <WordCheckbox wordId={question.word.pinyin} />
+              <p>単語に星印を付ける</p>
             </div>
-          )}
+            <div className="space-x-4">
+              {/*要更新*/}
+              <button id="correct" onClick={() => loadNextWord(remainingWords)} className={button({ style: "success" })}>正解</button>
+              <button id="incorrect" onClick={handleEndTest} className={button({ style: "danger" })}>不正解</button>
+            </div>
+          </>)}
         </div>
       )}
     </div>

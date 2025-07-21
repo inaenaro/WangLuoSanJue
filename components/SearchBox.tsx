@@ -1,11 +1,13 @@
 'use client';
 import { partMap, Word } from "@/app/lib/word";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import words from "../public/words.json";
-import WordCheckbox from "./WordCheckBox";
+import WordCheckbox from "@/components/WordCheckBox";
 import { MdOutlineClose, MdOutlineSearch } from "react-icons/md";
+import { InputStatusContext } from "./Providers";
 
 export default function SearchBox() {
+  const { setInputStatus } = useContext(InputStatusContext);
   const [wordData, setWordData] = useState<Word[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState<Word[]>([]);
@@ -27,23 +29,31 @@ export default function SearchBox() {
     const regex = new RegExp(input, "i");
     const regex_normalized = new RegExp(normalizePinyin(input), "i");
     const results = wordData.filter(word =>
-      word.word.match(regex) || normalizePinyin(word.pinyin).match(regex_normalized) || word.meanings.some((m: any) => m.meaning.match(regex))
+      word.word.match(regex) || normalizePinyin(word.pinyin).match(regex_normalized) || word.meanings.some(m => m.meaning.match(regex))
     );
     setSearchResults(results);
   };
 
   return (
-    <div id="search" className="relative flex gap-1 items-center p-2 py-1 bg-background2 border border-gray rounded">
+    <div className="relative flex gap-1 items-center p-2 py-1 bg-background2 border border-gray rounded">
       <input
+        id="search"
         type="text"
         value={searchQuery}
         onInput={(e) => {
           handleSearch(e.currentTarget.value);
         }}
+        onFocus={() => setInputStatus("searching")}
+        /* やばそう */
+        onBlur={() => setInputStatus("none")}
         placeholder="単語/ピンイン/意味"
         className="w-48 focus:outline-none"
       />
-      {searchQuery ? <MdOutlineClose onClick={() => { setSearchQuery(""); setSearchResults([]); }} className="size-5 cursor-pointer" /> : <MdOutlineSearch className="size-5" />}
+      {searchQuery ?
+        <button id="close-search" onClick={() => { setSearchQuery(""); setSearchResults([]); }} className="size-5 cursor-pointer">
+          <MdOutlineClose className="size-5" />
+        </button>
+        : <MdOutlineSearch className="size-5" />}
       {searchResults.length > 0 && (
         <div className="absolute top-8 left-0 w-64 border border-gray rounded p-1 max-w-xs bg-background2">
           <div className="flex justify-between items-center m-1">

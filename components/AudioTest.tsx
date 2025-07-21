@@ -25,7 +25,7 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
   const [feedback, setFeedback] = useState("");
   const [playCount, setPlayCount] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
-  const [remainingWords, setRemainingWords] = useState<any[]>([]);
+  const [remainingWords, setRemainingWords] = useState<Word[]>([]);
 
   useEffect(() => {
     let filteredWords = wordData.filter((word: { lesson: number[] }) => word.lesson.some(l => settings.from <= l && l <= settings.to));
@@ -98,57 +98,60 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
 
   return (
     <div className="p-2">
-      <div>
-        <p>残りの問題数: {remainingWords.length}</p>
-        {question && (
-          <div>
-            <div className="flex items-center space-x-2">
-              <button
-                onClick={() => speakText(question.word.word)}
-                className={button({ style: "success" })}
-              >
-                再生
-              </button>
-              <span>再生回数: {playCount}</span>
-            </div>
-            <AnswerInput userInput={userInput} setUserInput={setUserInput} onEnter={handleCheckAnswer} placeholder="ピンインを入力してください" disabled={showAnswer} />
+      {question && (<>
+        <div className="flex flex-col gap-2">
+          <p>残りの問題数: {remainingWords.length}</p>
+          <div className="flex items-center space-x-2">
             <button
-              onClick={handleCheckAnswer}
-              className={button({ style: "primary" })}
-              disabled={showAnswer}
+              onClick={() => speakText(question.word.word)}
+              className={button({ style: "success" })}
             >
-              答えを確認
+              再生
             </button>
-            {feedback && <p className="mt-2">{feedback}</p>}
-            {showAnswer && (
-              <div className="mt-4">
+            <span>再生回数: {playCount}</span>
+          </div>
+          <AnswerInput userInput={userInput} setUserInput={setUserInput} onEnter={handleCheckAnswer} placeholder="ピンインを入力してください" disabled={showAnswer} />
+          <button
+            id="submit-answer"
+            onClick={handleCheckAnswer}
+            className={`${button({ style: "primary" })} w-fit`}
+            disabled={showAnswer}
+          >
+            正誤判定
+          </button>
+          {feedback && <p className="">{feedback}</p>}
+          {!showAnswer && (
+            <button
+              id="show-answer"
+              onClick={handleShowAnswer}
+              className={`${button({ style: "danger" })} w-fit`}
+            >
+              答えを表示
+            </button>
+          )}
+          {showAnswer && (
+            <>
+              <div className="">
                 <p>中国語: {question.word.word}</p>
                 <p>ピンイン: {question.answer}</p>
                 <p>意味: {question.word.meanings[0]?.meaning || "意味なし"}</p>
-                <WordCheckbox wordId={question.word.pinyin} />
               </div>
-            )}
-          </div>
-        )}
-        {!showAnswer && (
-          <button
-            onClick={handleShowAnswer}
-            className={button({ style: "danger" })}
-          >
-            答えを表示
-          </button>
-        )}
-        {showAnswer && (
-          <div className="mt-4 space-x-4">
-            <button onClick={() => loadNextWord(remainingWords)} className={button({ style: "success" })}>
-              次へ
-            </button>
-            <button onClick={handleEndTest} className={button({ style: "danger" })}>
-              終了
-            </button>
-          </div>
-        )}
-      </div>
-    </div>
+              <div className="flex items-center gap-2">
+                <WordCheckbox wordId={question.word.pinyin} />
+                <p>単語に星印を付ける</p>
+              </div>
+              <div className="space-x-4">
+                <button id="correct" onClick={() => loadNextWord(remainingWords)} className={button({ style: "success" })}>
+                  正解
+                </button>
+                <button id="incorrect" onClick={handleEndTest} className={button({ style: "danger" })}>
+                  終了
+                </button>
+              </div>
+            </>
+          )}
+        </div>
+      </>)}
+    </div >
   );
 }

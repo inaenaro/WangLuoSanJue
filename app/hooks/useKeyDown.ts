@@ -1,39 +1,73 @@
+import { InputStatus } from "@/components/Providers";
 import { useEffect } from "react";
 
-const KEY_OPTIONS = {
+const KEY_OPTIONS_keyboarding = [..."abcdefghijklmnopqrstuvwxyz".split(""), "1", "2", "3", "4", ",", ".", "Escape", "Enter", "Backspace", "ArrowLeft", "ArrowRight"] as const;
+type KeyOnKeyboading = (typeof KEY_OPTIONS_keyboarding)[number];
+
+const KEY_OPTIONS = ["t", "s", "e", "a", "j", "k"] as const;
+type Key = (typeof KEY_OPTIONS)[number];
+const KeyMap: Record<Key, string> = {
   t: "search",
-  r: "reload",
   s: "start",
   e: "end",
-  f: "showAnswer",
+  a: "show-answer",
   j: "correct",
   k: "incorrect"
-} as const;
+};
 
-type Key = keyof typeof KEY_OPTIONS;
-
-function isKey(key: string): key is Key {
-  return key in KEY_OPTIONS;
+function isKeyOnKeyboarding(key: string): key is (typeof KEY_OPTIONS_keyboarding)[number] {
+  return KEY_OPTIONS_keyboarding.includes(key as KeyOnKeyboading);
 }
 
-const useKeydown = (isSearching: boolean) => {
+function isKey(key: string): key is Key {
+  return KEY_OPTIONS.includes(key as Key);
+}
+
+const useKeydown = (inputStatus: InputStatus) => {
   useEffect(() => {
     /**
       * キーボードのキーが押されたときの処理
       * @param event
     */
     const handleKeyDown = (event: KeyboardEvent) => {
-      if (isSearching || !isKey(event.key)) return;
-      event.preventDefault();
-      const key = KEY_OPTIONS[event.key];
-      if (key === "search") {
-        const search = document.querySelector("#search") as HTMLInputElement;
-        search.focus();
+      if (inputStatus === "searching") {
+        if (event.key === "Escape") {
+          event.preventDefault();
+          const input: HTMLInputElement | null = document.querySelector("#close-search");
+          input?.click();
+        }
         return;
       }
-      const button: HTMLElement | null = document.querySelector(`#${key}`);
-      if (button) {
-        button.click();
+      if (inputStatus === "answering") {
+        if (event.key === "Enter") {
+          event.preventDefault();
+          const button: HTMLButtonElement | null = document.querySelector("#submit-answer");
+          button?.click();
+        }
+        return;
+      }
+      if (inputStatus === "keyboarding" && isKeyOnKeyboarding(event.key)) {
+        event.preventDefault();
+        if (event.key === "Escape") {
+          const input: HTMLInputElement | null = document.querySelector("#close-keyboard");
+          input?.click();
+        } else {
+          const input: HTMLInputElement | null = document.querySelector(`#keyboard-${event.key}`);
+          input?.click();
+        }
+        return;
+      }
+      if (inputStatus === "none" && isKey(event.key)) {
+        event.preventDefault();
+        if (event.key === "t") {
+          const search: HTMLInputElement | null = document.querySelector("#search");
+          search?.focus();
+          return;
+        } else {
+          const button: HTMLInputElement | null = document.querySelector(`#${KeyMap[event.key]}`);
+          button?.click();
+          return;
+        }
       }
     };
 
@@ -42,7 +76,7 @@ const useKeydown = (isSearching: boolean) => {
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, [isSearching]);
+  }, [inputStatus]);
 };
 
 export default useKeydown;

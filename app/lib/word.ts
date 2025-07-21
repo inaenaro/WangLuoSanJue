@@ -38,5 +38,5 @@ export type Word = {
   }[],
   "lesson": number[],
   "notes"?: string,
-  "hidden"?: Boolean
+  "hidden"?: boolean
 };

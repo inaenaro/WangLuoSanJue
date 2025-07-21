@@ -1,14 +1,19 @@
 'use client';
-import { useReducer, useState } from "react";
+import { useContext, useReducer, useState } from "react";
 import WordTest from "../components/WordTest";
 import GrammarTest from "../components/GrammarTest";
 import AudioTest from "../components/AudioTest";
 import SelectMode from "@/components/SelectMode";
 import { type Action, type Settings } from "./lib/settings";
+import useKeydown from "./hooks/useKeyDown";
+import { InputStatusContext } from "@/components/Providers";
 
 export default function Home() {
+  const { inputStatus } = useContext(InputStatusContext);
   const [started, setStarted] = useState(false);
   const [settings, dispatch] = useReducer(reducer, { mode: "word", questionType: "jp-to-pinyin", from: 1, to: 10, onlyUnmarked: false });
+
+  useKeydown(inputStatus);
 
   return (
     <div>

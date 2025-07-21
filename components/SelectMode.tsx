@@ -1,6 +1,6 @@
 'use client';
 
-import { type ActionDispatch } from "react";
+import { useEffect, type ActionDispatch } from "react";
 import { useState } from "react";
 import { button } from "./Button";
 import Select from "./Select";
@@ -11,6 +11,14 @@ type Dispatch = ActionDispatch<[action: Action]>;
 
 export default function SelectMode({ started, setStarted, settings, dispatch }: { started: boolean; setStarted: (started: boolean) => void; settings: Settings; dispatch: Dispatch; }) {
   const [collapsed, setCollapsed] = useState(false); // State to track collapse/expand
+
+  useEffect(() => {
+    if (started) {
+      setCollapsed(true);
+    } else {
+      setCollapsed(false);
+    }
+  }, [started]);
 
   return (
     <div className="border-b border-gray p-2">
@@ -33,14 +41,16 @@ export default function SelectMode({ started, setStarted, settings, dispatch }: 
       <div className="flex justify-between items-center">
         {started
           ? <button
-            onClick={() => {setStarted(false); setCollapsed(false);}}
+            id="end"
+            onClick={() => setStarted(false)}
             className={button({ style: "danger" })}
           >終了</button>
           : <button
-            onClick={() => {setStarted(true); setCollapsed(true);}}
+            id="start"
+            onClick={() => setStarted(true)}
             className={button({ style: "success" })}
           >開始</button>}
-        <button onClick={() => setCollapsed((prev) => !prev)} className="size-8 cursor-pointer">
+        <button onClick={() => setCollapsed((prev) => !prev)} className="size-8 p-1 cursor-pointer">
           {collapsed
             ? <MdOutlineKeyboardDoubleArrowDown className="size-6" />
             : <MdOutlineKeyboardDoubleArrowUp className="size-6" />
