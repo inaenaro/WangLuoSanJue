@@ -1,5 +1,3 @@
-import { button } from "./components/Button";
-
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -16,6 +14,7 @@ module.exports = {
         test: "#f0f0f0",
         background1: "var(--background)",
         background2: "var(--background2)",
+        background3: "var(--background3)",
         gray: "var(--gray)",
         text: "var(--text)",
         "white-text": "var(--white-text)", 
@@ -37,5 +36,5 @@ module.exports = {
     },
   },
   plugins: [],
-  darkMode: "class", // Enable class-based dark mode
+  darkMode: "class",
 };

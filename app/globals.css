@@ -4,6 +4,7 @@
 :root {
   --background: #fbdfdf;
   --background2: #e7c8c8;
+  --background3: #f3d7d8;
   --gray: #80848e;
   --text: #323339;
   --white-text: #dfe0e2;
@@ -17,9 +18,24 @@
   --font-mono: var(--font-geist-mono);
 } */
 
+/*
+background0: 0b0c0e; -> 2
+background1: 1e1f22; -> 3
+background2: 2b2d31; -> 
+background3: 313338; -> 0
+
+赤化前
+.dark {
+  --background: #431113; <- #313338
+  --background2: #310510; <- #0b0c0e
+  --background3: #370812; <- #1e1f22
+}
+*/
+
 .dark {
   --background: #431113;
   --background2: #310510;
+  --background3: #370812;
   --text: var(--white-text);
 }
 

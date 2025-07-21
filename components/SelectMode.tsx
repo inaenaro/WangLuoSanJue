@@ -16,9 +16,9 @@ export default function SelectMode({ started, setStarted, options, dispatch }: {
     <div className="border-b border-gray p-2">
       <div className={`duration-500 ease-in-out ${collapsed ? "max-h-0" : "max-h-screen"} overflow-hidden`}>
         <div className="grid grid-cols-3 gap-1 p-1 my-2 w-fit rounded-md border border-gray">
-          <button disabled={started} onClick={() => dispatch({ actionType: "setMode", mode: "word" })} className={`whitespace-nowrap ${button({ style: options.mode === "word" ? "primary" : "secondary" })}`}>単語</button>
-          <button disabled={started} onClick={() => dispatch({ actionType: "setMode", mode: "grammar" })} className={`whitespace-nowrap ${button({ style: options.mode === "grammar" ? "primary" : "secondary" })}`}>文法</button>
-          <button disabled={started} onClick={() => dispatch({ actionType: "setMode", mode: "audio" })} className={`whitespace-nowrap ${button({ style: options.mode === "audio" ? "primary" : "secondary" })}`}>リスニング</button>
+          <button disabled={started} onClick={() => dispatch({ actionType: "setMode", mode: "word" })} className={`text-nowrap flex justify-center ${button({ style: options.mode === "word" ? "primary" : "secondary" })}`}>単語</button>
+          <button disabled={started} onClick={() => dispatch({ actionType: "setMode", mode: "grammar" })} className={`text-nowrap flex justify-center ${button({ style: options.mode === "grammar" ? "primary" : "secondary" })}`}>文法</button>
+          <button disabled={started} onClick={() => dispatch({ actionType: "setMode", mode: "audio" })} className={`text-nowrap flex justify-center ${button({ style: options.mode === "audio" ? "primary" : "secondary" })}`}>リスニング</button>
         </div>
         {options.mode === "word" && (
           <WordOption started={started} options={options} dispatch={dispatch} />
@@ -78,14 +78,14 @@ function WordOption({ started, options, dispatch }: { started: boolean; options:
             className={button({ style: options.questionType === questionType ? "primary" : "secondary" })}
           >
             <div className="flex justify-center text-center items-center gap-1">
-              <p className="font-ch">{questionTypeMap[questionType].from}</p>
-              <MdOutlineArrowRightAlt className="size-4" />
-              <p className="font-ch">{questionTypeMap[questionType].to}</p>
+              <p className="font-ch text-nowrap">{questionTypeMap[questionType].from}</p>
+              <MdOutlineArrowRightAlt className="min-w-4 size-4" />
+              <p className="font-ch text-nowrap">{questionTypeMap[questionType].to}</p>
             </div>
           </button>
         ))}
       </div>
-      <div className="flex gap-6 my-2">
+      <div className="flex flex-wrap gap-6 my-2">
         <SelectLesson options={options} dispatch={dispatch} disabled={started} />
         <ToggleOnlyUnmarked options={options} dispatch={dispatch} disabled={started} />
       </div>
@@ -106,7 +106,7 @@ function GrammarOption({ started, options, dispatch }: { started: boolean; optio
 function AudioOption({ started, options, dispatch }: { started: boolean; options: AudioOptions; dispatch: Dispatch; }) {
   return (
     <div className="my-2">
-      <div className="flex gap-6 my-2">
+      <div className="flex flex-wrap gap-6 my-2">
         <SelectLesson options={options} dispatch={dispatch} disabled={started} />
         <ToggleOnlyUnmarked options={options} dispatch={dispatch} disabled={started} />
       </div>
@@ -153,7 +153,7 @@ function ToggleOnlyUnmarked({ options, dispatch, disabled }: { options: WordOpti
           disabled={disabled}
         />
       </div>
-      <span className="inline-flex justify-center"><MdOutlineStar className="inline-block size-6 text-[#ffff00]" />を付けていない単語のみ</span>
+      <span className="inline-flex justify-center"><MdOutlineStar className="inline-block size-6 min-w-6 text-[#ffff00]" />を付けていない単語のみ</span>
     </label>
   );
 }

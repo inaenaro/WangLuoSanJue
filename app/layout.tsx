@@ -36,9 +36,11 @@ export default function RootLayout({
         className={`${myFont.variable} antialiased`}
       >
         <Providers>
-          <main className="relative min-h-screen p-4 text-text bg-background1" >
-            <Header title="网络三绝" />
-            {children}
+          <main className="relative flex min-h-screen p-4 text-text bg-background3" >
+            <div className="bg-background1 w-full rounded-md">
+              <Header title="网络三绝" />
+              {children}
+            </div>
           </main>
         </Providers>
       </body>
