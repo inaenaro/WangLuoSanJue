@@ -1,5 +1,6 @@
 'use client';
 import { useState } from "react";
+import { button } from "./Button";
 
 export default function GrammarTest() {
   const [question, setQuestion] = useState<{ sentence: string; meaning: string } | null>(null);
@@ -46,8 +47,8 @@ export default function GrammarTest() {
 
   return (
     <div>
-      <button onClick={fetchGrammarQuestion} className="px-4 py-2 bg-blue-500 text-white rounded">
-        出題
+      <button onClick={fetchGrammarQuestion} className={button({ style: "success" })}>
+        開始
       </button>
       {question && (
         <div className="mt-4">

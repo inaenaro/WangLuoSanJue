@@ -1,150 +1,115 @@
 'use client';
-import { useState, useRef, useEffect } from "react";
-import { button } from "./Button";
-import VirtualKeyboard from "./VirtualKeyboard";
+import { useContext, useEffect, useState } from "react";
+import { button } from "@/components/Button";
+import AnswerInput from "@/components/AnswerInput";
+import WordCheckbox from "@/components/WordCheckBox";
+import { type Word } from "@/app/lib/word";
+import words from "../public/words.json";
+import { type WordOptions } from "@/app/page";
+import { CheckedWordsContext } from "@/components/Providers";
 
-export default function WordTest() {
-  const [testMode, setTestMode] = useState<"jp-to-pinyin" | "cn-to-jp" | "pinyin-to-jp">("jp-to-pinyin");
-  const [question, setQuestion] = useState("");
-  const [answer, setAnswer] = useState("");
+type Question = {
+  word: Word;
+  question: string;
+  answer: string;
+};
+
+const wordData = (words as Word[]).map(word => ({
+  ...word,
+  pinyin: word.pinyin.normalize("NFD")
+}));
+
+export default function WordTest({ started, setStarted, options }: { started: boolean; setStarted: (p: boolean) => void, options: WordOptions }) {
+  const { checkedWords } = useContext(CheckedWordsContext);
+  const [remainingWords, setRemainingWords] = useState<Word[]>([]);
+  const [question, setQuestion] = useState<Question | null>(null);
   const [userInput, setUserInput] = useState("");
-  const [feedback, setFeedback] = useState("");
+  const [status, setStatus] = useState<-1 | 0 | 1>(-1);
   const [showAnswer, setShowAnswer] = useState(false);
-  const [keyboardVisible, setKeyboardVisible] = useState(false);
-  const [testStarted, setTestStarted] = useState(false);
-  const [markedWords, setMarkedWords] = useState<string[]>([]); // State for marked words
-  const inputRef = useRef<HTMLInputElement>(null);
 
-  // Load marked words from localStorage on component mount
   useEffect(() => {
-    const savedWords = localStorage.getItem("markedWords");
-    if (savedWords) {
-      setMarkedWords(JSON.parse(savedWords));
+    let filteredWords = wordData.filter((word: { lesson: number[] }) => word.lesson.some(l => options.from <= l && l <= options.to));
+
+    if (options.onlyUnmarked) {
+      filteredWords = filteredWords.filter((word) => !checkedWords.has(word.pinyin));
     }
+
+    if (filteredWords.length === 0) {
+      alert("選択した条件に一致する単語がありません。");
+      return;
+    }
+
+    setRemainingWords(filteredWords);
+    setStarted(true);
+    loadNextWord(filteredWords);
   }, []);
 
-  // Save marked words to localStorage whenever they change
-  useEffect(() => {
-    localStorage.setItem("markedWords", JSON.stringify(markedWords));
-  }, [markedWords]);
+  const loadNextWord = (words: Word[]) => {
+    if (words.length === 0) {
+      alert("すべての問題が終了しました！");
+      handleEndTest();
+      return;
+    }
 
-  const handleStartTest = async () => {
-    setTestStarted(true);
-    await handleRandomWord();
-  };
+    const randomIndex = Math.floor(Math.random() * words.length);
+    const randomWord = words[randomIndex];
 
-  const handleRandomWord = async () => {
-    const response = await fetch("/words.json");
-    const words = await response.json();
-    const randomWord = words[Math.floor(Math.random() * words.length)];
-
-    switch (testMode) {
+    switch (options.questionType) {
       case "jp-to-pinyin":
-        setQuestion(`日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}`);
-        setAnswer(randomWord.pinyin.normalize("NFD"));
-        setFeedback(""); // Reset feedback for new question
+        setQuestion({
+          word: randomWord,
+          question: `日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}`,
+          answer: randomWord.pinyin.normalize("NFD")
+        });
+        setStatus(-1); // Reset feedback for new question
         break;
       case "cn-to-jp":
-        setQuestion(`中国語: ${randomWord.word}`);
-        setAnswer(`日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}, ピンイン: ${randomWord.pinyin.normalize("NFD")}`);
+        setQuestion({
+          word: randomWord,
+          question: `中国語: ${randomWord.word}`,
+          answer: `日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}, ピンイン: ${randomWord.pinyin.normalize("NFD")}`
+        });
         break;
       case "pinyin-to-jp":
-        setQuestion(`ピンイン: ${randomWord.pinyin.normalize("NFD")}`);
-        setAnswer(`日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}, 中国語: ${randomWord.word}`);
+        setQuestion({
+          word: randomWord,
+          question: `ピンイン: ${randomWord.pinyin.normalize("NFD")}`,
+          answer: `日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}, 中国語: ${randomWord.word}`
+        });
         break;
       default:
-        setQuestion("");
-        setAnswer("");
+        setQuestion(null);
     }
     setUserInput("");
+    setRemainingWords(words.filter((_, index) => index !== randomIndex));
     setShowAnswer(false);
   };
 
   const handleCheckAnswer = () => {
-    if (userInput.trim().normalize('NFD') === answer.trim()) {
-      setFeedback("正解です！");
-      setShowAnswer(true); // Automatically show the answer
+    if (userInput.trim().normalize('NFD') === question?.answer.trim()) {
+      setStatus(1);
+      setShowAnswer(true);
     } else {
-      setFeedback("不正解です。");
+      setStatus(0);
     }
   };
 
   const handleEndTest = () => {
-    setQuestion("");
-    setAnswer("");
+    setQuestion(null);
     setUserInput("");
-    setFeedback("");
+    setStatus(-1);
     setShowAnswer(false);
-    setTestStarted(false);
-  };
-
-  const handleVirtualKeyPress = (value: string) => {
-    setUserInput(value);
-  };
-
-  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter" && !e.shiftKey) {
-      e.preventDefault(); // Prevent adding a new line
-      handleCheckAnswer(); // Trigger answer check
-    }
-  };
-
-  const handleToggleMarkWord = () => {
-    setMarkedWords((prev) =>
-      prev.includes(question) ? prev.filter((word) => word !== question) : [...prev, question]
-    );
+    setStarted(false);
   };
 
   return (
-    <div>
-      <div className="flex space-x-4 mb-4">
-        {(["jp-to-pinyin", "cn-to-jp", "pinyin-to-jp"] as const).map(mode => (
-          <button
-            key={mode}
-            onClick={() => setTestMode(mode)}
-            disabled={testStarted}
-            className={button({ style: testMode === mode ? "success" : "secondary" })/*`px-4 py-2 rounded ${testMode === mode ? "bg-blue-500 text-white" : "bg-gray-200 text-black"
-              } ${testStarted ? "opacity-50 cursor-not-allowed" : ""}`*/}
-          >
-            {
-              mode === "jp-to-pinyin" ? "日本語からピンイン" :
-                mode === "cn-to-jp" ? "中国語から日本語" :
-                  "ピンインから日本語"
-            }
-          </button>
-        ))}
-      </div>
-      {!testStarted && <button onClick={handleStartTest} className={button()}>開始</button>}
-      {testStarted && question && (
+    <div className="p-2">
+      {question && (
         <div>
-          <p className="font-ch">問題: {question}</p>
-          {testMode === "jp-to-pinyin" && (
+          <p className="font-ch">問題: {question.question}</p>
+          {options.questionType === "jp-to-pinyin" && (
             <div>
-              <input
-                ref={inputRef}
-                type="text"
-                value={userInput}
-                onChange={(e) => setUserInput(e.target.value)}
-                onKeyDown={handleKeyDown}
-                placeholder="答えを入力してください"
-                // className="border rounded px-2 py-1 w-full"
-                className="w-48 px-1 bg-background1 focus:outline-none"
-                disabled={showAnswer} // Disable input when answer is shown
-              />
-              <button
-                onClick={() => setKeyboardVisible((prev) => !prev)}
-                className={button({ style: "secondary" })}
-              >
-                {keyboardVisible ? "キーボードを隠す" : "キーボードを表示"}
-              </button>
-              {keyboardVisible && (
-                <VirtualKeyboard
-                  onKeyPress={handleVirtualKeyPress}
-                  targetRef={inputRef}
-                  onClose={() => setKeyboardVisible(false)}
-                  onEnter={handleCheckAnswer}
-                />
-              )}
+              <AnswerInput userInput={userInput} setUserInput={setUserInput} onEnter={handleCheckAnswer} placeholder="答えを入力してください" disabled={showAnswer} />
               <button
                 onClick={handleCheckAnswer}
                 className={button()}
@@ -152,10 +117,10 @@ export default function WordTest() {
               >
                 正誤判定
               </button>
-              {feedback && <p className="mt-2">{feedback}</p>}
+              {status !== -1 && <p className="mt-2">{status ? "正解！" : "不正解！"}</p>}
             </div>
           )}
-          {showAnswer && <p>答え: {answer}</p>}
+          {showAnswer && <p>答え: {question.answer}</p>}
           {!showAnswer && (
             <button
               onClick={() => setShowAnswer(true)}
@@ -167,29 +132,11 @@ export default function WordTest() {
           )}
           {showAnswer && (
             <div className="mt-4 space-x-4">
-              <button onClick={handleRandomWord} className={button({ style: "success" })}>次へ</button>
+              <button onClick={() => loadNextWord(remainingWords)} className={button({ style: "success" })}>次へ</button>
               <button onClick={handleEndTest} className={button({ style: "danger" })}>終了</button>
-              <label className="flex items-center space-x-2">
-                <input
-                  type="checkbox"
-                  checked={markedWords.includes(question)}
-                  onChange={handleToggleMarkWord}
-                  className="form-checkbox h-5 w-5 text-green-500"
-                />
-                <span>チェックマークを付ける</span>
-              </label>
+              <WordCheckbox wordId={question.word.pinyin} />
             </div>
           )}
-        </div>
-      )}
-      {markedWords.length > 0 && (
-        <div className="mt-4">
-          <h3 className="font-bold">チェックマークを付けた単語:</h3>
-          <ul className="list-disc pl-5">
-            {markedWords.map((word, index) => (
-              <li key={index}>{word}</li>
-            ))}
-          </ul>
         </div>
       )}
     </div>

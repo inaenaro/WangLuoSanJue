@@ -6,7 +6,7 @@ interface VirtualKeyboardProps {
   onKeyPress: (key: string) => void;
   targetRef: React.RefObject<HTMLInputElement | null>; // Update to input element
   onClose: () => void; // Add onClose prop to handle keyboard dismissal
-  onEnter?: () => void; // Add optional onEnter prop for Enter key functionality
+  onEnter?: () => void;
 }
 
 export default function VirtualKeyboard({ onKeyPress, targetRef, onClose, onEnter }: VirtualKeyboardProps) {
@@ -14,6 +14,7 @@ export default function VirtualKeyboard({ onKeyPress, targetRef, onClose, onEnte
     ["̄", "́", "̌", "̀", "", "Left", "Right", "Del", ""],
     ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
     ["a", "s", "d", "f", "g", "h", "j", "k", "l"],
+    // Todo: Shift, 句読点
     ["z", "x", "c", "ü", "b", "n", "m", "Enter"],
   ];
 
@@ -24,7 +25,6 @@ export default function VirtualKeyboard({ onKeyPress, targetRef, onClose, onEnte
       const end = input.selectionEnd || 0;
 
       if (key === "Del") {
-        // Handle delete key
         if (start === end && start > 0) {
           input.value = input.value.slice(0, start - 1) + input.value.slice(end);
           input.setSelectionRange(start - 1, start - 1);
@@ -32,21 +32,17 @@ export default function VirtualKeyboard({ onKeyPress, targetRef, onClose, onEnte
           input.value = input.value.slice(0, start) + input.value.slice(end);
           input.setSelectionRange(start, start);
         }
-      } else if (key === "←") {
-        // Move cursor left
+      } else if (key === "Left") {
         const newPosition = Math.max(0, start - 1);
         input.setSelectionRange(newPosition, newPosition);
-      } else if (key === "→") {
-        // Move cursor right
+      } else if (key === "Right") {
         const newPosition = Math.min(input.value.length, end + 1);
         input.setSelectionRange(newPosition, newPosition);
       } else if (key === "Enter") {
-        // Trigger the onEnter action if provided
         if (onEnter) {
           onEnter();
         }
       } else {
-        // Insert key at cursor position
         input.value = input.value.slice(0, start) + key + input.value.slice(end);
         input.setSelectionRange(start + key.length, start + key.length);
       }
@@ -57,7 +53,7 @@ export default function VirtualKeyboard({ onKeyPress, targetRef, onClose, onEnte
   };
 
   return (
-    <div className="fixed flex flex-col left-0 right-0 bottom-0 w-full gap-2 p-2 bg-gray-800 rounded items-center animate-show_keyboard">
+    <div className="fixed flex flex-col left-0 right-0 bottom-0 w-full gap-2 p-2 bg-gray-800 rounded items-center select-none animate-show_keyboard">
       <div className="relative w-full flex justify-end">
         <button
           onClick={onClose}

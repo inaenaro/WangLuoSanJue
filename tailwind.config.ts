@@ -1,3 +1,5 @@
+import { button } from "./components/Button";
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -15,7 +17,9 @@ module.exports = {
         background1: "var(--background)",
         background2: "var(--background2)",
         gray: "var(--gray)",
-        text: "var(--text)", 
+        text: "var(--text)",
+        "white-text": "var(--white-text)", 
+        "black-text": "var(--black-text)",
       },
       animation: {
         show_keyboard: "0.2s linear 0s 1 forwards show_keyboard",

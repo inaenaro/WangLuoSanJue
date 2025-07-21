@@ -10,7 +10,7 @@ const colors = {
 type ButtonStyle = keyof typeof colors;
 
 export const button = tv({
-  base: "p-2 rounded-md text-white disabled:cursor-not-allowed",
+  base: "p-2 rounded-md text-white-text disabled:text-white-text/80 hover:cursor-pointer disabled:cursor-not-allowed",
   variants: {
     style: colors as { [key in ButtonStyle]: string }
   },

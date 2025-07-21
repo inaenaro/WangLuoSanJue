@@ -1245,7 +1245,7 @@
     "pinyin": "bàn",
     "meanings": [
       {
-        "part": "",
+        "part": "v.",
         "meaning": "～を行う",
         "meaning_short": "～を行う",
         "example": ""
@@ -6519,5 +6519,34 @@
     "lesson": [
       8
     ]
+  },
+  {
+    "word": "韦编三绝",
+    "pinyin": "wéibiānsānjué",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "(竹簡を綴る革の紐が三回切れるほど)勉学に励むこと",
+        "meaning_short": "",
+        "example": ""
+      }
+    ],
+    "lesson": [
+    ]
+  },
+  {
+    "word": "网络三绝",
+    "pinyin": "wǎngluòsānjué",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "(インターネットの接続が三回切れるほど)勉学に励むこと",
+        "meaning_short": "",
+        "example": ""
+      }
+    ], 
+    "lesson": [
+    ],
+    "notes": "“韦编三绝”より\n本サイト製作者による造語"
   }
 ]

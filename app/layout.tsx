@@ -31,12 +31,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${myFont.variable} antialiased`}
       >
         <Providers>
-          <main className="relative min-h-screen p-4 text-text bg-background1">
+          <main className="relative min-h-screen p-4 text-text bg-background1" >
             <Header title="网络三绝" />
             {children}
           </main>

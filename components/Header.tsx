@@ -30,9 +30,9 @@ export default function Header({ title }: { title: string }) {
         <SearchBox />
         <button
           onClick={toggleTheme}
-          className="size-9 p-2 rounded"
+          className="size-9 flex items-center justify-center text-center rounded cursor-pointer"
         >
-          {mounted && (theme === "dark" ? <MdOutlineDarkMode className="size-5" /> : <MdOutlineLightMode className="size-5" />)}
+          {mounted && (theme === "dark" ? <MdOutlineDarkMode className="size-6" /> : <MdOutlineLightMode className="size-6" />)}
         </button>
       </div>
     </div>

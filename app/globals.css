@@ -2,10 +2,11 @@
 @config "../tailwind.config.ts";
 
 :root {
-  --background: #f9dfdf;
-  --background2: #ff0000;
+  --background: #fbdfdf;
+  --background2: #e7c8c8;
   --gray: #80848e;
   --text: #323339;
+  --white-text: #dfe0e2;
   --font-ch: 'LXGWWenKaiLite';
 }
 
@@ -19,7 +20,7 @@
 .dark {
   --background: #431113;
   --background2: #310510;
-  --text: #dfe0e2;
+  --text: var(--white-text);
 }
 
 body {
