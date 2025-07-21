@@ -33,7 +33,7 @@ export default function SearchBox() {
   };
 
   return (
-    <div className="relative flex gap-1 items-center p-2 py-1 bg-background2 border border-gray rounded">
+    <div id="search" className="relative flex gap-1 items-center p-2 py-1 bg-background2 border border-gray rounded">
       <input
         type="text"
         value={searchQuery}

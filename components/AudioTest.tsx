@@ -6,7 +6,7 @@ import WordCheckbox from "@/components/WordCheckBox";
 import { CheckedWordsContext } from "@/components/Providers";
 import { type Word } from "@/app/lib/word";
 import words from "../public/words.json";
-import { type AudioOptions } from "@/app/page";
+import { type AudioSettings } from "@/app/lib/settings";
 
 const wordData = (words as Word[]).map(word => ({
   ...word,
@@ -18,7 +18,7 @@ type Question = {
   answer: string;
 };
 
-export default function AudioTest({ started, setStarted, options }: { started: boolean; setStarted: (p: boolean) => void, options: AudioOptions }) {
+export default function AudioTest({ setStarted, settings }: { setStarted: (p: boolean) => void, settings: AudioSettings }) {
   const { checkedWords } = useContext(CheckedWordsContext);
   const [question, setQuestion] = useState<Question | null>(null);
   const [userInput, setUserInput] = useState("");
@@ -28,9 +28,9 @@ export default function AudioTest({ started, setStarted, options }: { started: b
   const [remainingWords, setRemainingWords] = useState<any[]>([]);
 
   useEffect(() => {
-    let filteredWords = wordData.filter((word: { lesson: number[] }) => word.lesson.some(l => options.from <= l && l <= options.to));
+    let filteredWords = wordData.filter((word: { lesson: number[] }) => word.lesson.some(l => settings.from <= l && l <= settings.to));
 
-    if (options.onlyUnmarked) {
+    if (settings.onlyUnmarked) {
       filteredWords = filteredWords.filter((word) => !checkedWords.has(word.pinyin));
     }
 
@@ -98,7 +98,6 @@ export default function AudioTest({ started, setStarted, options }: { started: b
 
   return (
     <div className="p-2">
-
       <div>
         <p>残りの問題数: {remainingWords.length}</p>
         {question && (

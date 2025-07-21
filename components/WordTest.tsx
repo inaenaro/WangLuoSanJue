@@ -5,7 +5,7 @@ import AnswerInput from "@/components/AnswerInput";
 import WordCheckbox from "@/components/WordCheckBox";
 import { type Word } from "@/app/lib/word";
 import words from "../public/words.json";
-import { type WordOptions } from "@/app/page";
+import { type WordSettings } from "@/app/lib/settings";
 import { CheckedWordsContext } from "@/components/Providers";
 
 type Question = {
@@ -19,7 +19,7 @@ const wordData = (words as Word[]).map(word => ({
   pinyin: word.pinyin.normalize("NFD")
 }));
 
-export default function WordTest({ started, setStarted, options }: { started: boolean; setStarted: (p: boolean) => void, options: WordOptions }) {
+export default function WordTest({ setStarted, settings }: { setStarted: (p: boolean) => void, settings: WordSettings }) {
   const { checkedWords } = useContext(CheckedWordsContext);
   const [remainingWords, setRemainingWords] = useState<Word[]>([]);
   const [question, setQuestion] = useState<Question | null>(null);
@@ -28,9 +28,9 @@ export default function WordTest({ started, setStarted, options }: { started: bo
   const [showAnswer, setShowAnswer] = useState(false);
 
   useEffect(() => {
-    let filteredWords = wordData.filter((word: { lesson: number[] }) => word.lesson.some(l => options.from <= l && l <= options.to));
+    let filteredWords = wordData.filter((word: { lesson: number[] }) => word.lesson.some(l => settings.from <= l && l <= settings.to));
 
-    if (options.onlyUnmarked) {
+    if (settings.onlyUnmarked) {
       filteredWords = filteredWords.filter((word) => !checkedWords.has(word.pinyin));
     }
 
@@ -54,7 +54,7 @@ export default function WordTest({ started, setStarted, options }: { started: bo
     const randomIndex = Math.floor(Math.random() * words.length);
     const randomWord = words[randomIndex];
 
-    switch (options.questionType) {
+    switch (settings.questionType) {
       case "jp-to-pinyin":
         setQuestion({
           word: randomWord,
@@ -107,7 +107,7 @@ export default function WordTest({ started, setStarted, options }: { started: bo
       {question && (
         <div>
           <p className="font-ch">問題: {question.question}</p>
-          {options.questionType === "jp-to-pinyin" && (
+          {settings.questionType === "jp-to-pinyin" && (
             <div>
               <AnswerInput userInput={userInput} setUserInput={setUserInput} onEnter={handleCheckAnswer} placeholder="答えを入力してください" disabled={showAnswer} />
               <button

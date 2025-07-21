@@ -4,59 +4,25 @@ import WordTest from "../components/WordTest";
 import GrammarTest from "../components/GrammarTest";
 import AudioTest from "../components/AudioTest";
 import SelectMode from "@/components/SelectMode";
-
-export type Mode = "word" | "grammar" | "audio";
-
-export const wordQuestionTypes = ["jp-to-pinyin", "cn-to-jp", "pinyin-to-jp"] as const;
-export type WordQuestionType = (typeof wordQuestionTypes)[number];
-
-export type WordOptions = {
-  mode: "word";
-  questionType: WordQuestionType;
-  from: number;
-  to: number;
-  onlyUnmarked: boolean;
-};
-
-export type GrammarOptions = {
-  mode: "grammar";
-  from: number;
-  to: number;
-};
-
-export type AudioOptions = {
-  mode: "audio";
-  from: number;
-  to: number;
-  onlyUnmarked: boolean;
-};
-
-export type Options = WordOptions | GrammarOptions | AudioOptions;
-
-export type Action =
-  | { actionType: "setMode"; mode: Mode }
-  | { actionType: "setWordQuestionType"; questionType: WordQuestionType }
-  | { actionType: "setFrom"; from: number }
-  | { actionType: "setTo"; to: number }
-  | { actionType: "setOnlyUnmarked"; onlyUnmarked: boolean };
+import { type Action, type Settings } from "./lib/settings";
 
 export default function Home() {
   const [started, setStarted] = useState(false);
-  const [options, dispatch] = useReducer(reducer, { mode: "word", questionType: "jp-to-pinyin", from: 1, to: 10, onlyUnmarked: false });
+  const [settings, dispatch] = useReducer(reducer, { mode: "word", questionType: "jp-to-pinyin", from: 1, to: 10, onlyUnmarked: false });
 
   return (
     <div>
-      <SelectMode started={started} setStarted={setStarted} options={options} dispatch={dispatch} />
+      <SelectMode started={started} setStarted={setStarted} settings={settings} dispatch={dispatch} />
       {started && (
-        options.mode === "word" ? <WordTest started={started} setStarted={setStarted} options={options} />
-          : options.mode === "grammar" ? <GrammarTest />
-            : <AudioTest started={started} setStarted={setStarted} options={options} />
+        settings.mode === "word" ? <WordTest setStarted={setStarted} settings={settings} />
+          : settings.mode === "grammar" ? <GrammarTest />
+            : <AudioTest setStarted={setStarted} settings={settings} />
       )}
     </div>
   );
 }
 
-function reducer(state: Options, action: Action): Options {
+function reducer(state: Settings, action: Action): Settings {
   switch (action.actionType) {
     case "setMode":
       switch (action.mode) {
