@@ -24,6 +24,7 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
   const [remainingWords, setRemainingWords] = useState<Word[]>([]);
   const [question, setQuestion] = useState<Question | null>(null);
   const [userInput, setUserInput] = useState("");
+  const [showKeyboard, setShowKeyboard] = useState(false);
   const [status, setStatus] = useState<-1 | 0 | 1>(-1);
   const [showAnswer, setShowAnswer] = useState(false);
 
@@ -109,7 +110,7 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
           <p className="font-ch">問題: {question.question}</p>
           {settings.questionType === "jp-to-pinyin" && (
             <>
-              <AnswerInput userInput={userInput} setUserInput={setUserInput} onEnter={handleCheckAnswer} placeholder="答えを入力してください" disabled={showAnswer} />
+              <AnswerInput showKeyboard={showKeyboard} setShowKeyboard={setShowKeyboard} userInput={userInput} setUserInput={setUserInput} onEnter={handleCheckAnswer} placeholder="答えを入力してください" disabled={showAnswer} />
               <button
                 id="submit-answer"
                 onClick={handleCheckAnswer}

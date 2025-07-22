@@ -44,9 +44,10 @@ export default function Header({ title }: { title: string }) {
               <Enclosed>T</Enclosed> 検索<br />
               <Enclosed>S</Enclosed> 開始<br />
               <Enclosed>E</Enclosed> 終了<br />
+              <Enclosed>P</Enclosed> 再生<br />
               <Enclosed>A</Enclosed> 答えを表示<br />
-              <Enclosed>J</Enclosed> 正解<br />
-              <Enclosed>K</Enclosed> 不正解<br />
+              <Enclosed>Z</Enclosed> 正解<br />
+              <Enclosed>X</Enclosed> 不正解<br />
               <p>仮想キーボード</p>
               <Enclosed>V</Enclosed> ü<br />
               <Enclosed>1</Enclosed> 第一声<br />

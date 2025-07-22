@@ -23,6 +23,16 @@ export default function Home() {
           : settings.mode === "grammar" ? <GrammarTest />
             : <AudioTest setStarted={setStarted} settings={settings} />
       )}
+      <div className="border-t border-gray p-2">
+        <p>Todo:</p>
+        <ul className="list-disc pl-5">
+          <li>文法問題</li>
+          <li>第5-9課追加・校閲</li>
+          <li>答えの表示改善</li>
+          <li>ID機能で星印を端末間共有</li>
+          <li>bad setState修正</li>
+        </ul>
+      </div>
     </div>
   );
 }

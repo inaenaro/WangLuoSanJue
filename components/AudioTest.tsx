@@ -26,6 +26,7 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
   const [playCount, setPlayCount] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
   const [remainingWords, setRemainingWords] = useState<Word[]>([]);
+  const [showKeyboard, setShowKeyboard] = useState(false);
 
   useEffect(() => {
     let filteredWords = wordData.filter((word: { lesson: number[] }) => word.lesson.some(l => settings.from <= l && l <= settings.to));
@@ -103,6 +104,7 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
           <p>残りの問題数: {remainingWords.length}</p>
           <div className="flex items-center space-x-2">
             <button
+              id="play-audio"
               onClick={() => speakText(question.word.word)}
               className={button({ style: "success" })}
             >
@@ -110,7 +112,7 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
             </button>
             <span>再生回数: {playCount}</span>
           </div>
-          <AnswerInput userInput={userInput} setUserInput={setUserInput} onEnter={handleCheckAnswer} placeholder="ピンインを入力してください" disabled={showAnswer} />
+          <AnswerInput showKeyboard={showKeyboard} setShowKeyboard={setShowKeyboard} userInput={userInput} setUserInput={setUserInput} onEnter={handleCheckAnswer} placeholder="ピンインを入力してください" disabled={showAnswer} />
           <button
             id="submit-answer"
             onClick={handleCheckAnswer}

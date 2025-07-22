@@ -1,39 +1,51 @@
 'use client';
-import { Dispatch, SetStateAction, useContext, useEffect, useRef, useState } from "react";
-
+import { Dispatch, SetStateAction, use, useContext, useEffect, useRef, useState } from "react";
 import VirtualKeyboard from "@/components/VirtualKeyboard";
 import { MdOutlineKeyboard } from "react-icons/md";
 import { InputStatusContext } from "@/components/Providers";
 
-export default function AnswerInput({ userInput, setUserInput, onEnter, ...props }: { userInput: string; setUserInput: Dispatch<SetStateAction<string>>; onEnter: () => void; } & React.ComponentPropsWithoutRef<'input'>) {
+type AnswerInputProps = {
+  showKeyboard: boolean;
+  setShowKeyboard: Dispatch<SetStateAction<boolean>>;
+  userInput: string;
+  setUserInput: Dispatch<SetStateAction<string>>;
+  onEnter: () => void;
+} & React.ComponentPropsWithoutRef<'input'>;
+
+export default function AnswerInput({ showKeyboard, setShowKeyboard, userInput, setUserInput, onEnter, ...props }: AnswerInputProps) {
   const { inputStatus, setInputStatus } = useContext(InputStatusContext);
-  const [keyboardVisible, setKeyboardVisible] = useState(false);
+  const [keyboardVisible, setKeyboardVisible] = useState(showKeyboard);
   const inputRef = useRef<HTMLInputElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (props.disabled) {
       setKeyboardVisible(false);
       setInputStatus("none");
+    } else if (showKeyboard) {
+      setKeyboardVisible(true);
+      setInputStatus("keyboarding");
     }
   }, [props.disabled]);
 
   useEffect(() => {
     if (inputStatus === "searching") {
-      setKeyboardVisible(false);
+      setKeyboardState(false);
     }
   }, [inputStatus]);
 
-  const handleVirtualKeyPress = (value: string) => {
-    setUserInput(value);
-  };
+  function setKeyboardState(visible: boolean) {
+    setKeyboardVisible(visible);
+    setShowKeyboard(visible);
+  }
 
   return (
     <div
-      ref={containerRef}
       className="flex gap-2 relative"
     >
+      <p>show: {showKeyboard ? "ON" : "OFF"}</p>
+      <p>visible: {keyboardVisible ? "ON" : "OFF"}</p>
       <input
+        id="answer"
         {...props}
         ref={inputRef}
         type="text"
@@ -52,34 +64,35 @@ export default function AnswerInput({ userInput, setUserInput, onEnter, ...props
       />
       {!props.disabled && <div className="flex items-center gap-2">
         <button
-          onClick={() => setKeyboardVisible((prev) => {
-            if (prev) {
+          id="show-keyboard"
+          onClick={() => {
+            if (keyboardVisible) {
               setInputStatus("answering");
               inputRef.current?.focus();
             } else {
               setInputStatus("keyboarding");
             }
-            return !prev;
-          })}
+            setKeyboardState(!keyboardVisible);
+          }}
           className="flex justify-center items-center size-9 min-w-9 bg-background2 hover:bg-gray/40 rounded-xl border-gray border-1 cursor-pointer"
           disabled={props.disabled}
         >
           <MdOutlineKeyboard className={`size-6 ${keyboardVisible ? "" : "text-text/50"}`} />
         </button>
         <p className="text-[0.5rem] max-h-9">ONのときは直接入力出来ません</p>
-        </div>}
-        {(
-          <VirtualKeyboard
-            keyboardVisible={keyboardVisible}
-            onKeyPress={handleVirtualKeyPress}
-            targetRef={inputRef}
-            onClose={() => {
-              setKeyboardVisible(false);
-              inputRef.current?.focus();
-              setInputStatus("answering");
-            }}
-            onEnter={onEnter}
-          />
-        )}
-      </div>);
+      </div>}
+      {(
+        <VirtualKeyboard
+          keyboardVisible={keyboardVisible}
+          setUserInput={setUserInput}
+          targetRef={inputRef}
+          onClose={() => {
+            setKeyboardState(false);
+            inputRef.current?.focus();
+            setInputStatus("answering");
+          }}
+          onEnter={onEnter}
+        />
+      )}
+    </div>);
 }

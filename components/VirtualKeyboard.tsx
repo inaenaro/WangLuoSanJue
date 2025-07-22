@@ -3,7 +3,7 @@ import { MdClose, MdOutlineBackspace, MdOutlineKeyboardArrowLeft, MdOutlineKeybo
 
 interface VirtualKeyboardProps {
   keyboardVisible: boolean;
-  onKeyPress: (key: string) => void;
+  setUserInput: (key: string) => void;
   targetRef: React.RefObject<HTMLInputElement | null>; // Update to input element
   onClose: () => void; // Add onClose prop to handle keyboard dismissal
   onEnter?: () => void;
@@ -27,7 +27,7 @@ const keyMap: Record<string, string> = {
   ",": "，",
 };
 
-export default function VirtualKeyboard({ keyboardVisible, onKeyPress, targetRef, onClose, onEnter }: VirtualKeyboardProps) {
+export default function VirtualKeyboard({ keyboardVisible, setUserInput, targetRef, onClose, onEnter }: VirtualKeyboardProps) {
   const handleKeyPress = (key: string) => {
     if (targetRef.current) {
       const input = targetRef.current;
@@ -62,7 +62,7 @@ export default function VirtualKeyboard({ keyboardVisible, onKeyPress, targetRef
       }
 
       input.focus();
-      onKeyPress(input.value);
+      setUserInput(input.value);
     }
   };
 

@@ -4,15 +4,17 @@ import { useEffect } from "react";
 const KEY_OPTIONS_keyboarding = [..."abcdefghijklmnopqrstuvwxyz".split(""), "1", "2", "3", "4", ",", ".", "Escape", "Enter", "Backspace", "ArrowLeft", "ArrowRight"] as const;
 type KeyOnKeyboading = (typeof KEY_OPTIONS_keyboarding)[number];
 
-const KEY_OPTIONS = ["t", "s", "e", "a", "j", "k"] as const;
+const KEY_OPTIONS = ["t", "s", "e", "p", "k", "a", "z", "x"] as const;
 type Key = (typeof KEY_OPTIONS)[number];
 const KeyMap: Record<Key, string> = {
   t: "search",
   s: "start",
   e: "end",
+  p: "play-audio",
+  k: "show-keyboard",
   a: "show-answer",
-  j: "correct",
-  k: "incorrect"
+  z: "correct",
+  x: "incorrect"
 };
 
 function isKeyOnKeyboarding(key: string): key is (typeof KEY_OPTIONS_keyboarding)[number] {
@@ -43,6 +45,10 @@ const useKeydown = (inputStatus: InputStatus) => {
           event.preventDefault();
           const button: HTMLButtonElement | null = document.querySelector("#submit-answer");
           button?.click();
+        } else if (event.key === "Escape") {
+          event.preventDefault();
+          const input: HTMLInputElement | null = document.querySelector("#answer");
+          input?.blur();
         }
         return;
       }
