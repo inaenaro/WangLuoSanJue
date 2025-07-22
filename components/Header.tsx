@@ -45,6 +45,7 @@ export default function Header({ title }: { title: string }) {
               <Enclosed>S</Enclosed> 開始<br />
               <Enclosed>E</Enclosed> 終了<br />
               <Enclosed>P</Enclosed> 再生<br />
+              <Enclosed>K</Enclosed> キーボードを表示<br />
               <Enclosed>A</Enclosed> 答えを表示<br />
               <Enclosed>Z</Enclosed> 正解<br />
               <Enclosed>X</Enclosed> 不正解<br />

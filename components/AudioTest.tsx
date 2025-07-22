@@ -134,9 +134,12 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
           {showAnswer && (
             <>
               <div className="">
-                <p>中国語: {question.word.word}</p>
-                <p>ピンイン: {question.answer}</p>
-                <p>意味: {question.word.meanings[0]?.meaning || "意味なし"}</p>
+                <p>答え: </p>
+                <div className="ml-2">
+                  <p>ピンイン: {question.answer}</p>
+                  <p>中国語: <span className="font-ch">{question.word.word}</span></p>
+                  <p>意味: {question.word.meanings[0]?.meaning || "意味なし"}</p>
+                </div>
               </div>
               <div className="flex items-center gap-2">
                 <WordCheckbox wordId={question.word.pinyin} />

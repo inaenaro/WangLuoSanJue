@@ -13,8 +13,8 @@ const rows = [
   ["1", "2", "3", "4", "", "ArrowLeft", "ArrowRight", "Backspace", ""],
   ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
   ["", "a", "s", "d", "f", "g", "h", "j", "k", "l", "Enter"],
-  // Todo: Shift, 句読点
-  ["", "z", "x", "c", "ü", "b", "n", "m", ",", "."],
+  // Todo: Shift
+  ["", "z", "x", "c", "v", "b", "n", "m", ",", "."],
 ];
 
 const keyMap: Record<string, string> = {

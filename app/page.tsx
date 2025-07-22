@@ -28,10 +28,20 @@ export default function Home() {
         <ul className="list-disc pl-5">
           <li>文法問題追加</li>
           <li>第5-9課追加・校閲</li>
+          <li>単語の余計な文字削除</li>
+          <li>キーボードのカーソル表示</li>
+          <li>空白を含む単語</li>
+          <li>大文字入力追加</li>
           <li>問題の表示刷新</li>
           <li>正解/不正解ボタン実装</li>
           <li>ID機能で星印を端末間共有</li>
           <li>bad setState修正</li>
+          <li>読み上げとの不一致への対応</li>
+          <li>重複語の処理</li>
+          <li>検索に読み上げボタン追加</li>
+          <li>検索に複数ページ対応</li>
+          <li>検索をソート</li>
+          <li>検索のピンイン対応</li>
         </ul>
       </div>
     </div>
