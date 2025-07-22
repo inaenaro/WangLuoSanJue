@@ -42,8 +42,6 @@ export default function AnswerInput({ showKeyboard, setShowKeyboard, userInput, 
     <div
       className="flex gap-2 relative"
     >
-      <p>show: {showKeyboard ? "ON" : "OFF"}</p>
-      <p>visible: {keyboardVisible ? "ON" : "OFF"}</p>
       <input
         id="answer"
         {...props}
