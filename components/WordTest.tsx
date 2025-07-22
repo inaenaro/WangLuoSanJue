@@ -1,5 +1,5 @@
 'use client';
-import { useContext, useEffect, useState } from "react";
+import { JSX, useContext, useEffect, useState } from "react";
 import { button } from "@/components/Button";
 import AnswerInput from "@/components/AnswerInput";
 import WordCheckbox from "@/components/WordCheckBox";
@@ -12,6 +12,7 @@ type Question = {
   word: Word;
   question: string;
   answer: string;
+  answerElement: JSX.Element;
 };
 
 const wordData = (words as Word[]).map(word => ({
@@ -59,23 +60,32 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
       case "jp-to-pinyin":
         setQuestion({
           word: randomWord,
-          question: `日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}`,
-          answer: randomWord.pinyin.normalize("NFD")
+          question: randomWord.meanings[0]?.meaning || "意味なし",
+          answer: randomWord.pinyin.normalize("NFD"),
+          answerElement: <>
+            <p>中国語: <span className="font-ch">{randomWord.word}</span></p>
+          </>
         });
         setStatus(-1); // Reset feedback for new question
         break;
       case "cn-to-jp":
         setQuestion({
           word: randomWord,
-          question: `中国語: ${randomWord.word}`,
-          answer: `日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}, ピンイン: ${randomWord.pinyin.normalize("NFD")}`
+          question: randomWord.word,
+          answer: randomWord.meanings[0]?.meaning || "意味なし",
+          answerElement: <>
+            <p>ピンイン: {randomWord.pinyin.normalize("NFD")}</p>
+          </>
         });
         break;
       case "pinyin-to-jp":
         setQuestion({
           word: randomWord,
-          question: `ピンイン: ${randomWord.pinyin.normalize("NFD")}`,
-          answer: `日本語: ${randomWord.meanings[0]?.meaning || "意味なし"}, 中国語: ${randomWord.word}`
+          question: randomWord.pinyin.normalize("NFD"),
+          answer: randomWord.meanings[0]?.meaning || "意味なし",
+          answerElement: <>
+            <p>中国語: <span className="font-ch">{randomWord.word}</span></p>
+          </>
         });
         break;
       default:
@@ -107,7 +117,7 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
     <div className="p-2">
       {question && (
         <div className="flex flex-col gap-2">
-          <p className="font-ch">問題: {question.question}</p>
+          <p>問題: <span className={settings.questionType === "cn-to-jp" ? "font-ch" : ""}>{question.question}</span></p>
           {settings.questionType === "jp-to-pinyin" && (
             <>
               <AnswerInput showKeyboard={showKeyboard} setShowKeyboard={setShowKeyboard} userInput={userInput} setUserInput={setUserInput} onEnter={handleCheckAnswer} placeholder="答えを入力してください" disabled={showAnswer} />
@@ -122,7 +132,15 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
               {status !== -1 && <p className="mt-2">{status ? "正解！" : "不正解！"}</p>}
             </>
           )}
-          {showAnswer && <p>答え: {question.answer}</p>}
+          {showAnswer && <div>
+            <p>答え: </p>
+            <div className="ml-2 text-lg">
+              {question.answer}
+            </div>
+            <div className="ml-2">
+              {question.answerElement}
+            </div>
+          </div>}
           {!showAnswer && (
             <button
               id="show-answer"
@@ -141,7 +159,7 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
             <div className="space-x-4">
               {/*要更新*/}
               <button id="correct" onClick={() => loadNextWord(remainingWords)} className={button({ style: "success" })}>正解</button>
-              <button id="incorrect" onClick={handleEndTest} className={button({ style: "danger" })}>不正解</button>
+              <button id="incorrect" onClick={handleEndTest} className={button({ style: "danger" })}>終了</button>
             </div>
           </>)}
         </div>

@@ -1,9 +1,8 @@
 'use client';
 
-import { useEffect, type ActionDispatch } from "react";
-import { useState } from "react";
-import { button } from "./Button";
-import Select from "./Select";
+import { useEffect, useState, type ActionDispatch } from "react";
+import { button } from "@/components/Button";
+import Select from "@/components/Select";
 import { type AudioSettings, type GrammarSettings, type WordSettings, type WordQuestionType, wordQuestionTypes, type Action, type Settings } from "@/app/lib/settings";
 import { MdOutlineArrowRightAlt, MdOutlineKeyboardDoubleArrowDown, MdOutlineKeyboardDoubleArrowUp, MdOutlineStar } from "react-icons/md";
 
