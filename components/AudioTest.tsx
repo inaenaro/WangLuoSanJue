@@ -22,7 +22,7 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
   const { checkedWords } = useContext(CheckedWordsContext);
   const [question, setQuestion] = useState<Question | null>(null);
   const [userInput, setUserInput] = useState("");
-  const [feedback, setFeedback] = useState("");
+  const [isIncorrect, setIsIncorrect] = useState(false);
   const [playCount, setPlayCount] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
   const [remainingWords, setRemainingWords] = useState<Word[]>([]);
@@ -36,14 +36,19 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
     }
 
     if (filteredWords.length === 0) {
+      setStarted(false);
       alert("選択した条件に一致する単語がありません。");
       return;
     }
 
     setRemainingWords(filteredWords);
-    setStarted(true);
+    // setStarted(true);
     loadNextWord(filteredWords);
   }, []);
+
+  useEffect(() => {
+    setIsIncorrect(false);
+  }, [userInput]);
 
   const loadNextWord = (words: Word[]) => {
     speechSynthesis.cancel();
@@ -57,10 +62,10 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
     const randomWord = words[randomIndex];
     setQuestion({
       word: randomWord,
-      answer: randomWord.pinyin.normalize("NFD")
+      answer: randomWord.pinyin.normalize("NFD").replace(/[^a-zA-Z\u2019\u0304\u0301\u030C\u0300]/g, "")
     });
     setUserInput("");
-    setFeedback("");
+    setIsIncorrect(false);
     setPlayCount(0);
     setShowAnswer(false);
     setRemainingWords(words.filter((_, index) => index !== randomIndex));
@@ -68,6 +73,7 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
   };
 
   const speakText = (text: string) => {
+    speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "zh-CN";
     speechSynthesis.speak(utterance);
@@ -76,10 +82,9 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
 
   const handleCheckAnswer = () => {
     if (userInput.trim().normalize("NFD") === question?.answer.trim()) {
-      setFeedback("正解です！");
       setShowAnswer(true);
     } else {
-      setFeedback("不正解です。");
+      setIsIncorrect(true);
     }
   };
 
@@ -90,7 +95,7 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
   const handleEndTest = () => {
     setQuestion(null);
     setUserInput("");
-    setFeedback("");
+    setIsIncorrect(false);
     setStarted(false);
     setShowAnswer(false);
     setRemainingWords([]);
@@ -121,8 +126,8 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
           >
             正誤判定
           </button>
-          {feedback && <p className="">{feedback}</p>}
-          {!showAnswer && (
+          {!showAnswer && (<>
+            {isIncorrect && <p className="font-ch">你错了！</p>}
             <button
               id="show-answer"
               onClick={handleShowAnswer}
@@ -130,15 +135,15 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
             >
               答えを表示
             </button>
-          )}
+          </>)}
           {showAnswer && (
             <>
               <div className="">
                 <p>答え: </p>
                 <div className="ml-2">
-                  <p>ピンイン: {question.answer}</p>
-                  <p>中国語: <span className="font-ch">{question.word.word}</span></p>
-                  <p>意味: {question.word.meanings[0]?.meaning || "意味なし"}</p>
+                  <p className="text-lg">{question.word.pinyin}</p>
+                  <p className="text-text/80">中国語: <span className="font-ch">{question.word.word}</span></p>
+                  <p className="text-text/80">意味: {question.word.meanings[0]?.meaning || "意味なし"}</p>
                 </div>
               </div>
               <div className="flex items-center gap-2">
@@ -147,7 +152,7 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
               </div>
               <div className="space-x-4">
                 <button id="correct" onClick={() => loadNextWord(remainingWords)} className={button({ style: "success" })}>
-                  正解
+                  次へ
                 </button>
                 <button id="incorrect" onClick={handleEndTest} className={button({ style: "danger" })}>
                   終了

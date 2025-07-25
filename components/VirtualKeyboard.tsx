@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import { MdClose, MdOutlineBackspace, MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight, MdOutlineKeyboardReturn } from "react-icons/md";
 
 interface VirtualKeyboardProps {
@@ -10,11 +12,10 @@ interface VirtualKeyboardProps {
 }
 
 const rows = [
-  ["1", "2", "3", "4", "", "ArrowLeft", "ArrowRight", "Backspace", ""],
+  ["1", "2", "3", "4", "Ap", "ArrowLeft", "ArrowRight", "Backspace", ""],
   ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
   ["", "a", "s", "d", "f", "g", "h", "j", "k", "l", "Enter"],
-  // Todo: Shift
-  ["", "z", "x", "c", "v", "b", "n", "m", ",", "."],
+  ["Shift", "z", "x", "c", "v", "b", "n", "m", ",", "."],
 ];
 
 const keyMap: Record<string, string> = {
@@ -22,12 +23,15 @@ const keyMap: Record<string, string> = {
   "2": "́",
   "3": "̌",
   "4": "̀",
+  "Ap": "’",
   "v": "ü",
   ".": "。",
   ",": "，",
 };
 
 export default function VirtualKeyboard({ keyboardVisible, setUserInput, targetRef, onClose, onEnter }: VirtualKeyboardProps) {
+  const [isShifted, setIsShifted] = useState(false);
+
   const handleKeyPress = (key: string) => {
     if (targetRef.current) {
       const input = targetRef.current;
@@ -52,13 +56,22 @@ export default function VirtualKeyboard({ keyboardVisible, setUserInput, targetR
         if (onEnter) {
           onEnter();
         }
+      } else if (key === "Shift") {
+        setIsShifted((prev) => !prev);
       } else if (Object.keys(keyMap).includes(key)) {
-        const char = keyMap[key];
+        const char = isShifted ? keyMap[key].toUpperCase() : keyMap[key];
         input.value = input.value.slice(0, start) + char + input.value.slice(end);
         input.setSelectionRange(start + char.length, start + char.length);
+        if (isShifted) {
+          setIsShifted(false);
+        }
       } else {
-        input.value = input.value.slice(0, start) + key + input.value.slice(end);
-        input.setSelectionRange(start + key.length, start + key.length);
+        const char = isShifted ? key.toUpperCase() : key;
+        input.value = input.value.slice(0, start) + char + input.value.slice(end);
+        input.setSelectionRange(start + char.length, start + char.length);
+        if (isShifted) {
+          setIsShifted(false);
+        }
       }
 
       input.focus();
@@ -91,8 +104,9 @@ export default function VirtualKeyboard({ keyboardVisible, setUserInput, targetR
                   : key === "ArrowRight" ? <MdOutlineKeyboardArrowRight size={20} />
                     : key === "Backspace" ? <MdOutlineBackspace size={20} />
                       : key === "Enter" ? <MdOutlineKeyboardReturn size={20} />
-                        : Object.keys(keyMap).includes(key) ? keyMap[key]
-                          : key}
+                        : key === "Shift" ? (isShifted ? "abc" : "ABC")
+                          : Object.keys(keyMap).includes(key) ? (isShifted ? keyMap[key].toUpperCase() : keyMap[key])
+                            : (isShifted ? key.toUpperCase() : key)}
               </button>
               : <div key={i + "-" + j} className="w-[min(8%,2.5rem)] h-10" />
           )}

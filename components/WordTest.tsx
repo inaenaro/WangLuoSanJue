@@ -26,7 +26,7 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
   const [question, setQuestion] = useState<Question | null>(null);
   const [userInput, setUserInput] = useState("");
   const [showKeyboard, setShowKeyboard] = useState(false);
-  const [status, setStatus] = useState<-1 | 0 | 1>(-1);
+  const [isIncorrect, setIsIncorrect] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
 
   useEffect(() => {
@@ -37,14 +37,19 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
     }
 
     if (filteredWords.length === 0) {
+      setStarted(false);
       alert("選択した条件に一致する単語がありません。");
       return;
     }
 
     setRemainingWords(filteredWords);
-    setStarted(true);
+    // setStarted(true);
     loadNextWord(filteredWords);
   }, []);
+
+  useEffect(() => {
+    setIsIncorrect(false);
+  }, [userInput]);
 
   const loadNextWord = (words: Word[]) => {
     if (words.length === 0) {
@@ -61,12 +66,13 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
         setQuestion({
           word: randomWord,
           question: randomWord.meanings[0]?.meaning || "意味なし",
-          answer: randomWord.pinyin.normalize("NFD"),
+          answer: randomWord.pinyin.normalize("NFD").replace(/[^a-zA-Z\u2019\u0304\u0301\u030C\u0300]/g, ""),
           answerElement: <>
-            <p>中国語: <span className="font-ch">{randomWord.word}</span></p>
+            <p className="text-lg">{randomWord.pinyin.normalize("NFD")}</p>
+            <p className="text-text/80">中国語: <span className="font-ch">{randomWord.word}</span></p>
           </>
         });
-        setStatus(-1); // Reset feedback for new question
+        setIsIncorrect(false);
         break;
       case "cn-to-jp":
         setQuestion({
@@ -74,7 +80,8 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
           question: randomWord.word,
           answer: randomWord.meanings[0]?.meaning || "意味なし",
           answerElement: <>
-            <p>ピンイン: {randomWord.pinyin.normalize("NFD")}</p>
+            <p>{randomWord.meanings[0]?.meaning || "意味なし"}</p>
+            <p className="text-text/80">ピンイン: {randomWord.pinyin.normalize("NFD")}</p>
           </>
         });
         break;
@@ -84,7 +91,8 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
           question: randomWord.pinyin.normalize("NFD"),
           answer: randomWord.meanings[0]?.meaning || "意味なし",
           answerElement: <>
-            <p>中国語: <span className="font-ch">{randomWord.word}</span></p>
+            <p>{randomWord.meanings[0]?.meaning || "意味なし"}</p>
+            <p className="text-text/80">中国語: <span className="font-ch">{randomWord.word}</span></p>
           </>
         });
         break;
@@ -98,17 +106,16 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
 
   const handleCheckAnswer = () => {
     if (userInput.trim().normalize('NFD') === question?.answer.trim()) {
-      setStatus(1);
       setShowAnswer(true);
     } else {
-      setStatus(0);
+      setIsIncorrect(true);
     }
   };
 
   const handleEndTest = () => {
     setQuestion(null);
     setUserInput("");
-    setStatus(-1);
+    setIsIncorrect(false);
     setShowAnswer(false);
     setStarted(false);
   };
@@ -129,18 +136,9 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
               >
                 正誤判定
               </button>
-              {status !== -1 && <p className="mt-2">{status ? "正解！" : "不正解！"}</p>}
+              {(!showAnswer) && isIncorrect && <p className="font-ch">你错了！</p>}
             </>
           )}
-          {showAnswer && <div>
-            <p>答え: </p>
-            <div className="ml-2 text-lg">
-              {question.answer}
-            </div>
-            <div className="ml-2">
-              {question.answerElement}
-            </div>
-          </div>}
           {!showAnswer && (
             <button
               id="show-answer"
@@ -152,13 +150,22 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
             </button>
           )}
           {showAnswer && (<>
+            <div>
+              <p>答え: </p>
+              {/* <div className="ml-2 text-lg">
+              {question.answer}
+            </div> */}
+              <div className="ml-2">
+                {question.answerElement}
+              </div>
+            </div>
             <div className="flex items-center gap-2">
               <WordCheckbox wordId={question.word.pinyin} />
               <p>単語に星印を付ける</p>
             </div>
             <div className="space-x-4">
               {/*要更新*/}
-              <button id="correct" onClick={() => loadNextWord(remainingWords)} className={button({ style: "success" })}>正解</button>
+              <button id="correct" onClick={() => loadNextWord(remainingWords)} className={button({ style: "success" })}>次へ</button>
               <button id="incorrect" onClick={handleEndTest} className={button({ style: "danger" })}>終了</button>
             </div>
           </>)}

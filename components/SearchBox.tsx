@@ -26,6 +26,7 @@ export default function SearchBox() {
       setSearchResults([]);
       return;
     }
+    /* 要改善 */
     const regex = new RegExp(input, "i");
     const regex_normalized = new RegExp(normalizePinyin(input), "i");
     const results = wordData.filter(word =>
@@ -90,5 +91,5 @@ export default function SearchBox() {
 }
 
 export function normalizePinyin(pinyin: string): string {
-  return pinyin.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  return pinyin.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[']/g, "’");
 }

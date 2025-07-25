@@ -1,7 +1,7 @@
 import { InputStatus } from "@/components/Providers";
 import { useEffect } from "react";
 
-const KEY_OPTIONS_keyboarding = [..."abcdefghijklmnopqrstuvwxyz".split(""), "1", "2", "3", "4", ",", ".", "Escape", "Enter", "Backspace", "ArrowLeft", "ArrowRight"] as const;
+const KEY_OPTIONS_keyboarding = [..."abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".split(""), "1", "2", "3", "4", "'", ",", ".", "Escape", "Enter", "Backspace", "ArrowLeft", "ArrowRight"] as const;
 type KeyOnKeyboading = (typeof KEY_OPTIONS_keyboarding)[number];
 
 const KEY_OPTIONS = ["t", "s", "e", "p", "k", "a", "z", "x"] as const;
@@ -57,6 +57,16 @@ const useKeydown = (inputStatus: InputStatus) => {
         if (event.key === "Escape") {
           const input: HTMLInputElement | null = document.querySelector("#close-keyboard");
           input?.click();
+        } else if (event.key === "'") {
+          const input: HTMLInputElement | null = document.querySelector("#keyboard-Ap");
+          input?.click();
+        } else if ("ABCDEFGHIJKLMNOPQRSTUVWXYZ".includes(event.key)) {
+          const shiftInput: HTMLInputElement | null = document.querySelector("#keyboard-Shift");
+          shiftInput?.click();
+          setTimeout(() => {
+            const charInput: HTMLInputElement | null = document.querySelector(`#keyboard-${event.key.toLowerCase()}`);
+            charInput?.click();
+          }, 0);
         } else {
           const input: HTMLInputElement | null = document.querySelector(`#keyboard-${event.key}`);
           input?.click();

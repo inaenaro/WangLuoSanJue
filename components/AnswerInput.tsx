@@ -1,5 +1,5 @@
 'use client';
-import { Dispatch, SetStateAction, use, useContext, useEffect, useRef, useState } from "react";
+import { Dispatch, SetStateAction, useContext, useEffect, useRef, useState } from "react";
 import VirtualKeyboard from "@/components/VirtualKeyboard";
 import { MdOutlineKeyboard } from "react-icons/md";
 import { InputStatusContext } from "@/components/Providers";
@@ -56,7 +56,7 @@ export default function AnswerInput({ showKeyboard, setShowKeyboard, userInput, 
         }}
         onChange={(e) => setUserInput(e.target.value)}
         placeholder={props.placeholder || ""}
-        className={`h-9 border border-gray rounded p-1 max-w-80 bg-background2 disabled:text-text/80 disabled:cursor-not-allowed ${props.className || ''}`}
+        className={`h-9 border border-gray rounded p-1 w-60 max-w-60 bg-background2 disabled:text-text/80 disabled:cursor-not-allowed ${props.className || ''}`}
         disabled={props.disabled}
         readOnly={keyboardVisible}
       />
