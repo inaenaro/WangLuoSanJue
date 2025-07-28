@@ -2678,8 +2678,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "（単位）",
-        "meaning_short": "（単位）",
+        "meaning": "(単位)",
+        "meaning_short": "(単位)",
         "example": ""
       }
     ],
@@ -2949,8 +2949,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "（方位詞の1つ）",
-        "meaning_short": "（方位詞の1つ）",
+        "meaning": "(方位詞の1つ)",
+        "meaning_short": "(方位詞の1つ)",
         "example": ""
       }
     ],
@@ -7368,19 +7368,35 @@
     ]
   },
   {
-    "word": "办",
-    "pinyin": "bàn",
+    "word": "百",
+    "pinyin": "bǎi",
     "meanings": [
       {
-        "part": "v.",
-        "meaning": "～を行う",
-        "meaning_short": "～を行う",
+        "part": "",
+        "meaning": "百",
+        "meaning_short": "百",
         "example": ""
       }
     ],
     "lesson": [
       5
     ]
+  },
+  {
+    "word": "办",
+    "pinyin": "bàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "する",
+        "meaning_short": "する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ],
+    "note": "処理する・運営するみたいなニュアンス"
   },
   {
     "word": "抱歉",
@@ -7395,7 +7411,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "「抱」の漢字が違うので注意"
   },
   {
     "word": "杯[量]",
@@ -7403,8 +7420,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "杯（量詞）",
-        "meaning_short": "杯（量詞）",
+        "meaning": "杯(量詞)",
+        "meaning_short": "杯(量詞)",
         "example": ""
       }
     ],
@@ -7440,7 +7457,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "さんずいではなくにすいなので注意"
   },
   {
     "word": "不错",
@@ -7575,7 +7593,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "「倒れる」の意味もある"
   },
   {
     "word": "到[動]",
@@ -7590,7 +7609,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "周到である(形容詞)、〜に(前置詞)の用法もあり"
   },
   {
     "word": "点[動]",
@@ -7635,7 +7655,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "「(条約・契約を)取り決める」の意味もある"
   },
   {
     "word": "东西",
@@ -7650,7 +7671,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "東西を表す場合は「dōngxī」"
   },
   {
     "word": "多少",
@@ -7665,7 +7687,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "疑問詞としての詳細な用法は教科書5-3参照"
   },
   {
     "word": "二胡",
@@ -7680,7 +7703,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "二胡は楽器の一種"
   },
   {
     "word": "法语",
@@ -7703,8 +7727,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "翻訳する",
-        "meaning_short": "翻訳する",
+        "meaning": "翻訳, 翻訳家",
+        "meaning_short": "翻訳, 翻訳家",
         "example": ""
       }
     ],
@@ -7713,7 +7737,7 @@
     ]
   },
   {
-    "word": "分",
+    "word": "分(通貨単位)",
     "pinyin": "fēn",
     "meanings": [
       {
@@ -7725,16 +7749,17 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "お金の単位, 百分=十角=一元"
   },
   {
     "word": "分钟",
-    "pinyin": "fēn",
+    "pinyin": "fēn zhōng",
     "meanings": [
       {
         "part": "",
-        "meaning": "分",
-        "meaning_short": "分",
+        "meaning": "～分間",
+        "meaning_short": "～分間",
         "example": ""
       }
     ],
@@ -7800,7 +7825,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "没关系で「かまいませんよ」"
   },
   {
     "word": "过[動詞接尾辞]",
@@ -7815,7 +7841,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "動詞接尾辞"
   },
   {
     "word": "号码",
@@ -7868,14 +7895,15 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "(練習して)～できる",
+        "meaning": "できる",
         "meaning_short": "できる",
         "example": ""
       }
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "「能」と区別が必要"
   },
   {
     "word": "会[動]",
@@ -7928,14 +7956,15 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "画",
-        "meaning_short": "画",
+        "meaning": "角",
+        "meaning_short": "角",
         "example": ""
       }
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "お金の単位, 毛の書き言葉, 十角=一元"
   },
   {
     "word": "饺子",
@@ -7965,11 +7994,12 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "料理の一種"
   },
   {
     "word": "井之头线",
-    "pinyin": "Jǐngzhītóu Xiàn",
+    "pinyin": "Jǐngzhītóu Xiàn",
     "meanings": [
       {
         "part": "",
@@ -7995,7 +8025,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "量詞としての用法もあり(第4課参照)、「元」として使うのは話し言葉の時"
   },
   {
     "word": "拉",
@@ -8010,7 +8041,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "主に弦楽器"
   },
   {
     "word": "来",
@@ -8055,7 +8087,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "お金の単位, 角の話し言葉, 十毛=一元"
   },
   {
     "word": "名字",
@@ -8065,21 +8098,6 @@
         "part": "",
         "meaning": "名前",
         "meaning_short": "名前",
-        "example": ""
-      }
-    ],
-    "lesson": [
-      5
-    ]
-  },
-  {
-    "word": "那",
-    "pinyin": "nà",
-    "meanings": [
-      {
-        "part": "",
-        "meaning": "それでは",
-        "meaning_short": "それでは",
         "example": ""
       }
     ],
@@ -8160,7 +8178,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "またいで乗る"
   },
   {
     "word": "千",
@@ -8175,7 +8194,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "二千は两千"
   },
   {
     "word": "钱",
@@ -8190,7 +8210,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "「前」とピン音同じ"
   },
   {
     "word": "请问",
@@ -8254,7 +8275,7 @@
   },
   {
     "word": "山手线",
-    "pinyin": "Shānshǒu Xiàn",
+    "pinyin": "Shānshǒu Xiàn",
     "meanings": [
       {
         "part": "",
@@ -8295,11 +8316,12 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "shuìと読む場合は「説得する」"
   },
   {
     "word": "说话",
-    "pinyin": "shuōhuà",
+    "pinyin": "shuō//huà",
     "meanings": [
       {
         "part": "",
@@ -8325,7 +8347,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "商業施設の１つ"
   },
   {
     "word": "汤",
@@ -8355,7 +8378,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "二万は两万"
   },
   {
     "word": "厦门",
@@ -8370,7 +8394,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "読み方は「アモイ」"
   },
   {
     "word": "线",
@@ -8415,7 +8440,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "二億は两亿"
   },
   {
     "word": "一般",
@@ -8430,7 +8456,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "ピンインyībān？"
   },
   {
     "word": "一直",
@@ -8460,11 +8487,12 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "書き言葉のとき"
   },
   {
     "word": "源氏物语",
-    "pinyin": "Yuánshì",
+    "pinyin": "Yuánshì Wùyǔ",
     "meanings": [
       {
         "part": "",
@@ -8483,8 +8511,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "また",
-        "meaning_short": "また",
+        "meaning": "それから, また",
+        "meaning_short": "それから, また",
         "example": ""
       }
     ],
@@ -8505,7 +8533,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "怎么样は「どうですか」"
   },
   {
     "word": "站[名]",
@@ -8535,7 +8564,8 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "note": "「～しているところ」だという意味もある"
   },
   {
     "word": "正宗",
@@ -8558,8 +8588,39 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "のみ(=only)",
-        "meaning_short": "のみ",
+        "meaning": "のみ, だけ",
+        "meaning_short": "のみ, だけ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ]
+  },
+  {
+    "word": "坐车",
+    "pinyin": "zuò//chē",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "乗り物で",
+        "meaning_short": "乗り物で",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      5
+    ],
+    "note": "车は陸上の乗り物だったらどれでもOK"
+  },
+  {
+    "word": "座儿",
+    "pinyin": "zuòr",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "座席",
+        "meaning_short": "座席",
         "example": ""
       }
     ],
@@ -8634,7 +8695,7 @@
       {
         "part": "",
         "meaning": "(試合の数を数える)回",
-        "meaning_short": "回",
+        "meaning_short": "(試合の数を数える)回",
         "example": ""
       }
     ],
@@ -8693,14 +8754,15 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "[方向動詞]",
-        "meaning_short": "[方向動詞]",
+        "meaning": "出る[方向動詞]",
+        "meaning_short": "出る[方向動詞]",
         "example": ""
       }
     ],
     "lesson": [
       6
-    ]
+    ],
+    "note": "出->出[方向動詞]に変更"
   },
   {
     "word": "初中",
@@ -8753,8 +8815,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "",
-        "meaning_short": "",
+        "meaning": "答える",
+        "meaning_short": "答える",
         "example": ""
       }
     ],
@@ -8770,21 +8832,6 @@
         "part": "",
         "meaning": "アルバイトする",
         "meaning_short": "アルバイトする",
-        "example": ""
-      }
-    ],
-    "lesson": [
-      6
-    ]
-  },
-  {
-    "word": "大家",
-    "pinyin": "dàjiā",
-    "meanings": [
-      {
-        "part": "",
-        "meaning": "皆",
-        "meaning_short": "皆",
         "example": ""
       }
     ],
@@ -8823,19 +8870,20 @@
     ]
   },
   {
-    "word": "道",
+    "word": "道[量]",
     "pinyin": "dào",
     "meanings": [
       {
         "part": "",
         "meaning": "(問題などを数える量詞)",
-        "meaning_short": "個",
+        "meaning_short": "(問題などを数える量詞)",
         "example": ""
       }
     ],
     "lesson": [
       6
-    ]
+    ],
+    "note": "道->道[量]に"
   },
   {
     "word": "懂",
@@ -8873,8 +8921,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "",
-        "meaning_short": "",
+        "meaning": "読者",
+        "meaning_short": "読者",
         "example": ""
       }
     ],
@@ -8948,8 +8996,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "",
-        "meaning_short": "",
+        "meaning": "与える",
+        "meaning_short": "与える",
         "example": ""
       }
     ],
@@ -9098,8 +9146,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "",
-        "meaning_short": "",
+        "meaning": "話",
+        "meaning_short": "話",
         "example": ""
       }
     ],
@@ -9143,14 +9191,15 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "[方向動詞]",
-        "meaning_short": "[方向動詞]",
+        "meaning": "入る[方向動詞]",
+        "meaning_short": "入る[方向動詞]",
         "example": ""
       }
     ],
     "lesson": [
       6
-    ]
+    ],
+    "note": "进->进[方向動詞]に変更"
   },
   {
     "word": "精彩",
@@ -9233,8 +9282,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "",
-        "meaning_short": "",
+        "meaning": "見る",
+        "meaning_short": "見る",
         "example": ""
       }
     ],
@@ -9323,8 +9372,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "",
-        "meaning_short": "",
+        "meaning": "(変化を表す終助詞)",
+        "meaning_short": "(変化を表す終助詞)",
         "example": ""
       }
     ],
@@ -9394,7 +9443,7 @@
   },
   {
     "word": "聊天儿",
-    "pinyin": "liáotiānr`",
+    "pinyin": "liáo tiānr",
     "meanings": [
       {
         "part": "",
@@ -9409,7 +9458,7 @@
   },
   {
     "word": "没想到",
-    "pinyin": "méixiǎngdào",
+    "pinyin": "méi xiǎngdào",
     "meanings": [
       {
         "part": "",
@@ -9444,7 +9493,7 @@
       {
         "part": "",
         "meaning": "取る",
-        "meaning_short": "",
+        "meaning_short": "取る",
         "example": ""
       }
     ],
@@ -9548,8 +9597,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "[方向動詞]",
-        "meaning_short": "[方向動詞]",
+        "meaning": "[上がる](方向動詞)",
+        "meaning_short": "[上がる](方向動詞)",
         "example": ""
       }
     ],
@@ -9623,8 +9672,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "[方向動詞]",
-        "meaning_short": "[方向動詞]",
+        "meaning": "(上る)[方向動詞]",
+        "meaning_short": "(上る)[方向動詞]",
         "example": ""
       }
     ],
@@ -9634,7 +9683,7 @@
   },
   {
     "word": "深山老林",
-    "pinyin": "shēnshān",
+    "pinyin": "shēnshān lǎolín",
     "meanings": [
       {
         "part": "",
@@ -9908,8 +9957,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "[方向動詞]",
-        "meaning_short": "[方向動詞]",
+        "meaning": "下る[方向動詞]",
+        "meaning_short": "下る[方向動詞]",
         "example": ""
       }
     ],
@@ -9924,7 +9973,7 @@
       {
         "part": "",
         "meaning": "(囲碁を)打つ",
-        "meaning_short": "打つ",
+        "meaning_short": "(囲碁を)打つ",
         "example": ""
       }
     ],
@@ -9969,7 +10018,7 @@
       {
         "part": "",
         "meaning": "(～个-で)～時間",
-        "meaning_short": "時間",
+        "meaning_short": "(～个-で)～時間",
         "example": ""
       }
     ],
@@ -9984,7 +10033,7 @@
       {
         "part": "",
         "meaning": "心眼, 器, 気",
-        "meaning_short": "気",
+        "meaning_short": "心眼, 器, 気",
         "example": ""
       }
     ],
@@ -10074,7 +10123,7 @@
       {
         "part": "",
         "meaning": "～したい, ～するつもりだ",
-        "meaning_short": "したい",
+        "meaning_short": "～したい, ～するつもりだ",
         "example": ""
       }
     ],
@@ -10129,7 +10178,7 @@
   },
   {
     "word": "有意思",
-    "pinyin": "yǒu",
+    "pinyin": "yǒu yìsi",
     "meanings": [
       {
         "part": "",
@@ -10163,8 +10212,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "",
-        "meaning_short": "",
+        "meaning": "～時間",
+        "meaning_short": "～時間",
         "example": ""
       }
     ],
@@ -10179,7 +10228,7 @@
       {
         "part": "",
         "meaning": "中学校と高校",
-        "meaning_short": "中高",
+        "meaning_short": "中学校と高校",
         "example": ""
       }
     ],
@@ -10238,8 +10287,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "おっと",
-        "meaning_short": "おっと",
+        "meaning": "あっ",
+        "meaning_short": "あっ",
         "example": ""
       }
     ],
@@ -10253,8 +10302,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "なんてこった",
-        "meaning_short": "なんてこった",
+        "meaning": "あっ",
+        "meaning_short": "あっ",
         "example": ""
       }
     ],
@@ -10268,8 +10317,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "バー",
-        "meaning_short": "バー",
+        "meaning": "～ですよね",
+        "meaning_short": "～ですよね",
         "example": ""
       }
     ],
@@ -10283,8 +10332,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "クラス",
-        "meaning_short": "クラス",
+        "meaning": "職場",
+        "meaning_short": "職場",
         "example": ""
       }
     ],
@@ -10328,8 +10377,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "[副詞]",
-        "meaning_short": "[副詞]",
+        "meaning": "比較的",
+        "meaning_short": "比較的",
         "example": ""
       }
     ],
@@ -10343,14 +10392,15 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "いたるところ",
-        "meaning_short": "いたるところ",
+        "meaning": "～回",
+        "meaning_short": "～回",
         "example": ""
       }
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "時間の幅が決まっているものの回数を数える"
   },
   {
     "word": "便饭",
@@ -10358,8 +10408,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "ポットラック",
-        "meaning_short": "ポットラック",
+        "meaning": "ありあわせの食事",
+        "meaning_short": "ありあわせの食事",
         "example": ""
       }
     ],
@@ -10373,8 +10423,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "[助けない]",
-        "meaning_short": "[助けない]",
+        "meaning": "～するな",
+        "meaning_short": "～するな",
         "example": ""
       }
     ],
@@ -10403,8 +10453,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "欲しくない",
-        "meaning_short": "欲しくない",
+        "meaning": "～するな",
+        "meaning_short": "～するな",
         "example": ""
       }
     ],
@@ -10448,8 +10498,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "二流",
-        "meaning_short": "二流",
+        "meaning": "～回",
+        "meaning_short": "～回",
         "example": ""
       }
     ],
@@ -10463,8 +10513,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "約束",
-        "meaning_short": "約束",
+        "meaning": "承諾する, 約束する, 応答する",
+        "meaning_short": "承諾する, 約束する, 応答する",
         "example": ""
       }
     ],
@@ -10485,7 +10535,8 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "大きな象ではなく単に象"
   },
   {
     "word": "带",
@@ -10493,8 +10544,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "持ってくる",
-        "meaning_short": "持ってくる",
+        "meaning": "～を連れる",
+        "meaning_short": "～を連れる",
         "example": ""
       }
     ],
@@ -10508,8 +10559,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "心配",
-        "meaning_short": "心配",
+        "meaning": "心配する",
+        "meaning_short": "心配する",
         "example": ""
       }
     ],
@@ -10523,14 +10574,15 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "デイトン",
-        "meaning_short": "デイトン",
+        "meaning": "～回",
+        "meaning_short": "～回",
         "example": ""
       }
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "食事の回数を数える"
   },
   {
     "word": "发烧",
@@ -10538,8 +10590,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "熱",
-        "meaning_short": "熱",
+        "meaning": "熱が出る",
+        "meaning_short": "熱が出る",
         "example": ""
       }
     ],
@@ -10553,8 +10605,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "食事の時間",
-        "meaning_short": "食事の時間",
+        "meaning": "ご飯の時間",
+        "meaning_short": "ご飯の時間",
         "example": ""
       }
     ],
@@ -10568,8 +10620,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "共有",
-        "meaning_short": "共有",
+        "meaning": "～人前",
+        "meaning_short": "～人前",
         "example": ""
       }
     ],
@@ -10583,8 +10635,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "リッチ",
-        "meaning_short": "リッチ",
+        "meaning": "豊富だ",
+        "meaning_short": "豊富だ",
         "example": ""
       }
     ],
@@ -10598,8 +10650,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "[接頭辞]を付ける",
-        "meaning_short": "[接頭辞]を付ける",
+        "meaning": "～のために",
+        "meaning_short": "～のために",
         "example": ""
       }
     ],
@@ -10628,8 +10680,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "史跡",
-        "meaning_short": "史跡",
+        "meaning": "古跡",
+        "meaning_short": "古跡",
         "example": ""
       }
     ],
@@ -10673,8 +10725,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "良いアイデア",
-        "meaning_short": "良いアイデア",
+        "meaning": "(不好意思で)申し訳ない, 恥ずかしい, きまりが悪い",
+        "meaning_short": "(不好意思で)申し訳ない, 恥ずかしい, きまりが悪い",
         "example": ""
       }
     ],
@@ -10688,8 +10740,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "合理的",
-        "meaning_short": "合理的",
+        "meaning": "合理的だ",
+        "meaning_short": "合理的だ",
         "example": ""
       }
     ],
@@ -10703,8 +10755,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "送信",
-        "meaning_short": "送信",
+        "meaning": "郵送する",
+        "meaning_short": "郵送する",
         "example": ""
       }
     ],
@@ -10718,8 +10770,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "家",
-        "meaning_short": "家",
+        "meaning": "(家、商店などを数える量詞)",
+        "meaning_short": "(家、商店などを数える量詞)",
         "example": ""
       }
     ],
@@ -10748,8 +10800,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "固執する",
-        "meaning_short": "固執する",
+        "meaning": "頑張る",
+        "meaning_short": "頑張る",
         "example": ""
       }
     ],
@@ -10763,8 +10815,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "診る",
-        "meaning_short": "診る",
+        "meaning": "検査する",
+        "meaning_short": "検査する",
         "example": ""
       }
     ],
@@ -10793,8 +10845,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "電話",
-        "meaning_short": "電話",
+        "meaning": "(配達を)頼む",
+        "meaning_short": "(配達を)頼む",
         "example": ""
       }
     ],
@@ -10808,8 +10860,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "セクション",
-        "meaning_short": "セクション",
+        "meaning": "(授業のコマなどを数える量詞)",
+        "meaning_short": "(授業のコマなどを数える量詞)",
         "example": ""
       }
     ],
@@ -10823,8 +10875,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "結論は",
-        "meaning_short": "結論は",
+        "meaning": "結論",
+        "meaning_short": "結論",
         "example": ""
       }
     ],
@@ -10838,8 +10890,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "頻繁",
-        "meaning_short": "頻繁",
+        "meaning": "いつも",
+        "meaning_short": "いつも",
         "example": ""
       }
     ],
@@ -10868,8 +10920,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "ミーティング",
-        "meaning_short": "ミーティング",
+        "meaning": "会を開く",
+        "meaning_short": "会を開く",
         "example": ""
       }
     ],
@@ -10883,8 +10935,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "コース[名前]",
-        "meaning_short": "コース[名前]",
+        "meaning": "授業",
+        "meaning_short": "授業",
         "example": ""
       }
     ],
@@ -10898,14 +10950,15 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "礼儀正しい",
-        "meaning_short": "礼儀正しい",
+        "meaning": "遠慮する",
+        "meaning_short": "遠慮する",
         "example": ""
       }
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "别客气で「どういたしまして」"
   },
   {
     "word": "快递",
@@ -10928,8 +10981,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "形",
-        "meaning_short": "形",
+        "meaning": "スタイル",
+        "meaning_short": "スタイル",
         "example": ""
       }
     ],
@@ -10943,8 +10996,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "無駄",
-        "meaning_short": "無駄",
+        "meaning": "浪費する",
+        "meaning_short": "浪費する",
         "example": ""
       }
     ],
@@ -10958,8 +11011,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "凍結",
-        "meaning_short": "凍結",
+        "meaning": "冷凍",
+        "meaning_short": "冷凍",
         "example": ""
       }
     ],
@@ -10988,14 +11041,15 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "保つ",
-        "meaning_short": "保つ",
+        "meaning": "残す",
+        "meaning_short": "残す",
         "example": ""
       }
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "留作业で「宿題を出す」"
   },
   {
     "word": "留学",
@@ -11018,18 +11072,19 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "トラブル",
-        "meaning_short": "トラブル",
+        "meaning": "面倒",
+        "meaning_short": "面倒",
         "example": ""
       }
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "添麻烦で「面倒をかける」"
   },
   {
     "word": "没事儿",
-    "pinyin": "méi",
+    "pinyin": "méi shìr",
     "meanings": [
       {
         "part": "",
@@ -11048,8 +11103,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "アトラクション",
-        "meaning_short": "アトラクション",
+        "meaning": "名勝, 名所",
+        "meaning_short": "名勝, 名所",
         "example": ""
       }
     ],
@@ -11078,8 +11133,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "同行する",
-        "meaning_short": "同行する",
+        "meaning": "付き添う",
+        "meaning_short": "付き添う",
         "example": ""
       }
     ],
@@ -11089,18 +11144,19 @@
   },
   {
     "word": "牵强",
-    "pinyin": "qiānqiáng",
+    "pinyin": "qiānqiǎng",
     "meanings": [
       {
         "part": "",
-        "meaning": "無理がある",
-        "meaning_short": "無理がある",
+        "meaning": "無理がある, こじつけだ",
+        "meaning_short": "無理がある, こじつけだ",
         "example": ""
       }
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "教科書に拼音の誤植あり"
   },
   {
     "word": "秦(姓)",
@@ -11108,8 +11164,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "秦（姓）",
-        "meaning_short": "秦（姓）",
+        "meaning": "秦(姓)",
+        "meaning_short": "秦(姓)",
         "example": ""
       }
     ],
@@ -11130,7 +11186,8 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "量詞は条"
   },
   {
     "word": "石锅拌饭",
@@ -11153,14 +11210,15 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "旅行",
-        "meaning_short": "旅行",
+        "meaning": "～回",
+        "meaning_short": "～回",
         "example": ""
       }
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "往復の回数などを数える"
   },
   {
     "word": "疼",
@@ -11168,8 +11226,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "痛み",
-        "meaning_short": "痛み",
+        "meaning": "痛む",
+        "meaning_short": "痛む",
         "example": ""
       }
     ],
@@ -11183,8 +11241,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "追加",
-        "meaning_short": "追加",
+        "meaning": "加える",
+        "meaning_short": "加える",
         "example": ""
       }
     ],
@@ -11198,8 +11256,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "頭[名前]",
-        "meaning_short": "頭[名前]",
+        "meaning": "頭",
+        "meaning_short": "頭",
         "example": ""
       }
     ],
@@ -11213,8 +11271,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "おすすめ",
-        "meaning_short": "おすすめ",
+        "meaning": "推薦状",
+        "meaning_short": "推薦状",
         "example": ""
       }
     ],
@@ -11228,14 +11286,15 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "[最後の助詞]",
-        "meaning_short": "[最後の助詞]",
+        "meaning": "(啊と同じ)",
+        "meaning_short": "(啊と同じ)",
         "example": ""
       }
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "u, ao, ouに続く啊の変化形"
   },
   {
     "word": "外卖",
@@ -11243,8 +11302,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "テイクアウト",
-        "meaning_short": "テイクアウト",
+        "meaning": "出前",
+        "meaning_short": "出前",
         "example": ""
       }
     ],
@@ -11258,8 +11317,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "ボウル",
-        "meaning_short": "ボウル",
+        "meaning": "(お碗一杯分を数える量詞)",
+        "meaning_short": "(お碗一杯分を数える量詞)",
         "example": ""
       }
     ],
@@ -11273,14 +11332,15 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "記事",
-        "meaning_short": "記事",
+        "meaning": "文章",
+        "meaning_short": "文章",
         "example": ""
       }
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "量詞は篇pian"
   },
   {
     "word": "物价",
@@ -11288,8 +11348,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "価格",
-        "meaning_short": "価格",
+        "meaning": "物価",
+        "meaning_short": "物価",
         "example": ""
       }
     ],
@@ -11303,8 +11363,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "下",
-        "meaning_short": "下",
+        "meaning": "～を終える",
+        "meaning_short": "～を終える",
         "example": ""
       }
     ],
@@ -11314,7 +11374,7 @@
   },
   {
     "word": "下班",
-    "pinyin": "xiàbān",
+    "pinyin": "xià//bān",
     "meanings": [
       {
         "part": "",
@@ -11363,8 +11423,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "小説",
-        "meaning_short": "小説",
+        "meaning": "斬新だ",
+        "meaning_short": "斬新だ",
         "example": ""
       }
     ],
@@ -11385,7 +11445,8 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "「薬を飲む」は吃药"
   },
   {
     "word": "医院",
@@ -11404,12 +11465,12 @@
   },
   {
     "word": "一寸光阴一寸金",
-    "pinyin": "yí",
+    "pinyin": "yí cùn guāngyīn yí cùn jīn",
     "meanings": [
       {
         "part": "",
-        "meaning": "guāngyīn",
-        "meaning_short": "guāngyīn",
+        "meaning": "時は金なり",
+        "meaning_short": "時は金なり",
         "example": ""
       }
     ],
@@ -11423,8 +11484,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "一度",
-        "meaning_short": "一度",
+        "meaning": "ちょっと",
+        "meaning_short": "ちょっと",
         "example": ""
       }
     ],
@@ -11438,14 +11499,15 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "種の",
-        "meaning_short": "種の",
+        "meaning": "ちょっと",
+        "meaning_short": "ちょっと",
         "example": ""
       }
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "動詞の前で用いる"
   },
   {
     "word": "糟糕",
@@ -11453,8 +11515,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "おっと",
-        "meaning_short": "おっと",
+        "meaning": "しまった",
+        "meaning_short": "しまった",
         "example": ""
       }
     ],
@@ -11475,7 +11537,8 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "note": "「お粥を食べる」は喝粥"
   },
   {
     "word": "走廊",
@@ -11494,7 +11557,7 @@
   },
   {
     "word": "走路",
-    "pinyin": "zǒulù",
+    "pinyin": "zǒu//lù",
     "meanings": [
       {
         "part": "",
@@ -11513,8 +11576,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "手術",
-        "meaning_short": "手術",
+        "meaning": "宿題",
+        "meaning_short": "宿題",
         "example": ""
       }
     ],
@@ -11543,8 +11606,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "比較する",
-        "meaning_short": "比較する",
+        "meaning": "XはYよりも~だ",
+        "meaning_short": "XはYよりも~だ",
         "example": ""
       }
     ],
@@ -11573,8 +11636,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "必要はありません",
-        "meaning_short": "必要はありません",
+        "meaning": "必要はない",
+        "meaning_short": "必要はない",
         "example": ""
       }
     ],
@@ -11618,8 +11681,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "外出",
-        "meaning_short": "外出",
+        "meaning": "出かける",
+        "meaning_short": "出かける",
         "example": ""
       }
     ],
@@ -11633,8 +11696,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "ウィンドウ",
-        "meaning_short": "ウィンドウ",
+        "meaning": "窓口",
+        "meaning_short": "窓口",
         "example": ""
       }
     ],
@@ -11648,8 +11711,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "タクシー",
-        "meaning_short": "タクシー",
+        "meaning": "タクシーに乗る",
+        "meaning_short": "タクシーに乗る",
         "example": ""
       }
     ],
@@ -11663,8 +11726,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "タイプ",
-        "meaning_short": "タイプ",
+        "meaning": "タイピング",
+        "meaning_short": "タイピング",
         "example": ""
       }
     ],
@@ -11678,8 +11741,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "大きい",
-        "meaning_short": "大きい",
+        "meaning": "年上である、大きい",
+        "meaning_short": "年上である、大きい",
         "example": ""
       }
     ],
@@ -11693,8 +11756,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "ホール",
-        "meaning_short": "ホール",
+        "meaning": "ロビー、ホール",
+        "meaning_short": "ロビー、ホール",
         "example": ""
       }
     ],
@@ -11708,8 +11771,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "しなければならない",
-        "meaning_short": "しなければならない",
+        "meaning": "~しなければならない、~する必要がある",
+        "meaning_short": "~しなければならない、~する必要がある",
         "example": ""
       }
     ],
@@ -11723,8 +11786,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "場所",
-        "meaning_short": "場所",
+        "meaning": "ところ",
+        "meaning_short": "ところ",
         "example": ""
       }
     ],
@@ -11738,8 +11801,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "ポイント",
-        "meaning_short": "ポイント",
+        "meaning": "ちょっと、点",
+        "meaning_short": "ちょっと、点",
         "example": ""
       }
     ],
@@ -11813,8 +11876,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "ドライ",
-        "meaning_short": "ドライ",
+        "meaning": "する",
+        "meaning_short": "する",
         "example": ""
       }
     ],
@@ -11828,8 +11891,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "ストック",
-        "meaning_short": "ストック",
+        "meaning": "株",
+        "meaning_short": "株",
         "example": ""
       }
     ],
@@ -11843,8 +11906,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "登録済み",
-        "meaning_short": "登録済み",
+        "meaning": "登録する",
+        "meaning_short": "登録する",
         "example": ""
       }
     ],
@@ -11873,8 +11936,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "過去",
-        "meaning_short": "過去",
+        "meaning": "通過する",
+        "meaning_short": "通過する",
         "example": ""
       }
     ],
@@ -11888,8 +11951,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "あるいは[続き]",
-        "meaning_short": "あるいは[続き]",
+        "meaning": "それとも",
+        "meaning_short": "それとも",
         "example": ""
       }
     ],
@@ -11918,8 +11981,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "体重を減らす",
-        "meaning_short": "体重を減らす",
+        "meaning": "ダイエットする",
+        "meaning_short": "ダイエットする",
         "example": ""
       }
     ],
@@ -11935,36 +11998,6 @@
         "part": "",
         "meaning": "仕事",
         "meaning_short": "仕事",
-        "example": ""
-      }
-    ],
-    "lesson": [
-      8
-    ]
-  },
-  {
-    "word": "季节",
-    "pinyin": "jìjié",
-    "meanings": [
-      {
-        "part": "",
-        "meaning": "季節",
-        "meaning_short": "季節",
-        "example": ""
-      }
-    ],
-    "lesson": [
-      8
-    ]
-  },
-  {
-    "word": "减肥",
-    "pinyin": "jiǎn//féi",
-    "meanings": [
-      {
-        "part": "",
-        "meaning": "体重を減らす",
-        "meaning_short": "体重を減らす",
         "example": ""
       }
     ],
@@ -12049,12 +12082,12 @@
   },
   {
     "word": "没关系",
-    "pinyin": "méi",
+    "pinyin": "méi guānxi",
     "meanings": [
       {
         "part": "",
-        "meaning": "それは問題ではありません",
-        "meaning_short": "それは問題ではありません",
+        "meaning": "関係ない",
+        "meaning_short": "関係ない",
         "example": ""
       }
     ],
@@ -12068,8 +12101,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "めいゆ",
-        "meaning_short": "めいゆ",
+        "meaning": "梅雨",
+        "meaning_short": "梅雨",
         "example": ""
       }
     ],
@@ -12083,8 +12116,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "ドア",
-        "meaning_short": "ドア",
+        "meaning": "扉、門",
+        "meaning_short": "扉、門",
         "example": ""
       }
     ],
@@ -12098,8 +12131,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "米",
-        "meaning_short": "米",
+        "meaning": "ご飯",
+        "meaning_short": "ご飯",
         "example": ""
       }
     ],
@@ -12113,8 +12146,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "それで",
-        "meaning_short": "それで",
+        "meaning": "そんなに",
+        "meaning_short": "そんなに",
         "example": ""
       }
     ],
@@ -12158,8 +12191,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "できる",
-        "meaning_short": "できる",
+        "meaning": "〜できる",
+        "meaning_short": "〜できる",
         "example": ""
       }
     ],
@@ -12173,8 +12206,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "脂肪",
-        "meaning_short": "脂肪",
+        "meaning": "太っている",
+        "meaning_short": "太っている",
         "example": ""
       }
     ],
@@ -12188,8 +12221,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "活気のある",
-        "meaning_short": "活気のある",
+        "meaning": "賑やかだ",
+        "meaning_short": "賑やかだ",
         "example": ""
       }
     ],
@@ -12199,12 +12232,12 @@
   },
   {
     "word": "入乡随俗",
-    "pinyin": "rù",
+    "pinyin": "rù xiāng suí sú",
     "meanings": [
       {
         "part": "",
-        "meaning": "suí",
-        "meaning_short": "suí",
+        "meaning": "郷に入っては郷に従え",
+        "meaning_short": "郷に入っては郷に従え",
         "example": ""
       }
     ],
@@ -12233,8 +12266,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "体",
-        "meaning_short": "体",
+        "meaning": "身体",
+        "meaning_short": "身体",
         "example": ""
       }
     ],
@@ -12263,8 +12296,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "市内中心部",
-        "meaning_short": "市内中心部",
+        "meaning": "市中心部",
+        "meaning_short": "市中心部",
         "example": ""
       }
     ],
@@ -12278,8 +12311,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "ガード",
-        "meaning_short": "ガード",
+        "meaning": "守る",
+        "meaning_short": "守る",
         "example": ""
       }
     ],
@@ -12293,8 +12326,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "快適",
-        "meaning_short": "快適",
+        "meaning": "(体の)調子が良い、気持ちが良い",
+        "meaning_short": "(体の)調子が良い、気持ちが良い",
         "example": ""
       }
     ],
@@ -12323,8 +12356,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "クレジットカード",
-        "meaning_short": "クレジットカード",
+        "meaning": "カード",
+        "meaning_short": "カード",
         "example": ""
       }
     ],
@@ -12338,8 +12371,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "インターネットセレブ",
-        "meaning_short": "インターネットセレブ",
+        "meaning": "人気な",
+        "meaning_short": "人気な",
         "example": ""
       }
     ],
@@ -12353,8 +12386,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "微信",
-        "meaning_short": "微信",
+        "meaning": "WeChat",
+        "meaning_short": "WeChat",
         "example": ""
       }
     ],
@@ -12379,12 +12412,12 @@
   },
   {
     "word": "一口气",
-    "pinyin": "yìkǒuqì",
+    "pinyin": "yì kǒu qì",
     "meanings": [
       {
         "part": "",
-        "meaning": "",
-        "meaning_short": "",
+        "meaning": "一気に",
+        "meaning_short": "一気に",
         "example": ""
       }
     ],
@@ -12398,8 +12431,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "いくつかの",
-        "meaning_short": "いくつかの",
+        "meaning": "少し",
+        "meaning_short": "少し",
         "example": ""
       }
     ],
@@ -12413,8 +12446,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "[接頭辞]を使用する",
-        "meaning_short": "[接頭辞]を使用する",
+        "meaning": "使う",
+        "meaning_short": "使う",
         "example": ""
       }
     ],
@@ -12443,8 +12476,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "声",
-        "meaning_short": "声",
+        "meaning": "音声",
+        "meaning_short": "音声",
         "example": ""
       }
     ],
@@ -12473,8 +12506,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "かすかな",
-        "meaning_short": "かすかな",
+        "meaning": "クラクラする",
+        "meaning_short": "クラクラする",
         "example": ""
       }
     ],
@@ -12503,8 +12536,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "上昇",
-        "meaning_short": "上昇",
+        "meaning": "上がる、値上がりする",
+        "meaning_short": "上がる、値上がりする",
         "example": ""
       }
     ],
@@ -12518,8 +12551,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "世話をする",
-        "meaning_short": "世話をする",
+        "meaning": "世話をする、看病する",
+        "meaning_short": "世話をする、看病する",
         "example": ""
       }
     ],
@@ -12533,8 +12566,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "それで",
-        "meaning_short": "それで",
+        "meaning": "こんなに",
+        "meaning_short": "こんなに",
         "example": ""
       }
     ],
@@ -12563,8 +12596,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "支払い",
-        "meaning_short": "支払い",
+        "meaning": "支払",
+        "meaning_short": "支払",
         "example": ""
       }
     ],
@@ -12578,8 +12611,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "キャラクター",
-        "meaning_short": "キャラクター",
+        "meaning": "文字",
+        "meaning_short": "文字",
         "example": ""
       }
     ],
@@ -12593,8 +12626,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "セルフサービス機",
-        "meaning_short": "セルフサービス機",
+        "meaning": "自動支払機",
+        "meaning_short": "自動支払機",
         "example": ""
       }
     ],
@@ -12623,8 +12656,8 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "酔っ払い",
-        "meaning_short": "酔っ払い",
+        "meaning": "酔う",
+        "meaning_short": "酔う",
         "example": ""
       }
     ],
@@ -12638,13 +12671,989 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "~もっと見る",
-        "meaning_short": "~もっと見る",
+        "meaning": "ずっと〜だ",
+        "meaning_short": "ずっと〜だ",
         "example": ""
       }
     ],
     "lesson": [
       8
+    ]
+  },
+  {
+    "word": "茶",
+    "pinyin": "chá",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "お茶",
+        "meaning_short": "お茶",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "茶叶",
+    "pinyin": "cháyè",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "茶葉",
+        "meaning_short": "茶葉",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "车辆",
+    "pinyin": "chēliàng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "車両",
+        "meaning_short": "車両",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "车票",
+    "pinyin": "chēpiào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "切符、チケット",
+        "meaning_short": "切符、チケット",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "吃饭",
+    "pinyin": "chī//fàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "食事をする",
+        "meaning_short": "食事をする",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "打扮",
+    "pinyin": "dǎbàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "着飾る",
+        "meaning_short": "着飾る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "打算",
+    "pinyin": "dǎsuan",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ーする予定だ、目論見",
+        "meaning_short": "ーする予定だ、目論見",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "〜的话",
+    "pinyin": "~de huà",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "もしーなら",
+        "meaning_short": "もしーなら",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "掉[動]",
+    "pinyin": "diào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "落ちる、失くす",
+        "meaning_short": "落ちる、失くす",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "端午节",
+    "pinyin": "Duānwǔ Jié",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "端午の節句",
+        "meaning_short": "端午の節句",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "多[副]",
+    "pinyin": "duō",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "多くの",
+        "meaning_short": "多くの",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "多么",
+    "pinyin": "duōme",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "なんてーか",
+        "meaning_short": "なんてーか",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "反对",
+    "pinyin": "fǎnduì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "反対する",
+        "meaning_short": "反対する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "高兴",
+    "pinyin": "gāoxìng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "うれしい",
+        "meaning_short": "うれしい",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "公共汽车",
+    "pinyin": "gōnggòng qìchē",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "バス",
+        "meaning_short": "バス",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "过[動]",
+    "pinyin": "guò",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "乗り越える(複合関係補語)",
+        "meaning_short": "乗り越える(複合関係補語)",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "吉祥寺",
+    "pinyin": "Jíxiángsì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "吉祥寺",
+        "meaning_short": "吉祥寺",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "家里人",
+    "pinyin": "jiālirén",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "家族",
+        "meaning_short": "家族",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "回国",
+    "pinyin": "huí//guó",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "帰国する",
+        "meaning_short": "帰国する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "回头[副]",
+    "pinyin": "huí tóu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "そのあとで",
+        "meaning_short": "そのあとで",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "汇",
+    "pinyin": "huì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "送金する",
+        "meaning_short": "送金する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "叫",
+    "pinyin": "jiào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ーさせる(使役)",
+        "meaning_short": "ーさせる(使役)",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "精神[形]",
+    "pinyin": "jīngshen",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "精神、気力",
+        "meaning_short": "精神、気力",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "警察",
+    "pinyin": "jǐngchá",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "警察",
+        "meaning_short": "警察",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "就",
+    "pinyin": "jiù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "仮定法のなかでは意味なし",
+        "meaning_short": "仮定法のなかでは意味なし",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "决定",
+    "pinyin": "juédìng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "決める",
+        "meaning_short": "決める",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "空儿",
+    "pinyin": "kòngr",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "空いている時間",
+        "meaning_short": "空いている時間",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "快递员",
+    "pinyin": "kuàidìyuán",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "速達員",
+        "meaning_short": "速達員",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "来往",
+    "pinyin": "láiwǎng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "往来、付き合い",
+        "meaning_short": "往来、付き合い",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "列车员",
+    "pinyin": "lièchēyuán",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "乗務員",
+        "meaning_short": "乗務員",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "马路",
+    "pinyin": "mǎlù",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "道路、大道り",
+        "meaning_short": "道路、大道り",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "满分",
+    "pinyin": "mǎnfēn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "満点",
+        "meaning_short": "満点",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "年纪",
+    "pinyin": "niánjì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "年代",
+        "meaning_short": "年代",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "钦佩",
+    "pinyin": "qīnpèi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "感服する",
+        "meaning_short": "感服する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "取",
+    "pinyin": "qǔ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "取る、受け取る",
+        "meaning_short": "取る、受け取る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "让",
+    "pinyin": "ràng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "させる(使役)",
+        "meaning_short": "させる(使役)",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "如果",
+    "pinyin": "rúguǒ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "もし",
+        "meaning_short": "もし",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "身儿[量]",
+    "pinyin": "shēnr",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "体、背丈",
+        "meaning_short": "体、背丈",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "使",
+    "pinyin": "shǐ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "させる(誘発)",
+        "meaning_short": "させる(誘発)",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "司机",
+    "pinyin": "sījī",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "運転手",
+        "meaning_short": "運転手",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "送行",
+    "pinyin": "sòng//xíng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "見送る",
+        "meaning_short": "見送る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "随便",
+    "pinyin": "suíbiàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "好きなように、勝手な",
+        "meaning_short": "好きなように、勝手な",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "躺",
+    "pinyin": "tǎng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "寝転ぶ",
+        "meaning_short": "寝転ぶ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "提前",
+    "pinyin": "tíqián",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "事前に",
+        "meaning_short": "事前に",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "跳",
+    "pinyin": "tiào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "飛ぶ",
+        "meaning_short": "飛ぶ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "停",
+    "pinyin": "tíng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "停まる、停止する",
+        "meaning_short": "停まる、停止する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "同事",
+    "pinyin": "tóngshì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "同僚",
+        "meaning_short": "同僚",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "忘",
+    "pinyin": "wàng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "忘れる",
+        "meaning_short": "忘れる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "小狗",
+    "pinyin": "xiǎogǒu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "子犬",
+        "meaning_short": "子犬",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "要[助動]",
+    "pinyin": "yào",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "するつもりだ",
+        "meaning_short": "するつもりだ",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "要是",
+    "pinyin": "yàoshi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "もしーなら",
+        "meaning_short": "もしーなら",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "钥匙",
+    "pinyin": "yàoshi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "鍵",
+        "meaning_short": "鍵",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "一定",
+    "pinyin": "yídìng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "きっと、必ず、一定の",
+        "meaning_short": "きっと、必ず、一定の",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "一块儿",
+    "pinyin": "yíkuàir",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "一緒に",
+        "meaning_short": "一緒に",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "以后",
+    "pinyin": "yǐhòu",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "後で",
+        "meaning_short": "後で",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "勇气",
+    "pinyin": "yǒngqì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "勇気",
+        "meaning_short": "勇気",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "又〜又…",
+    "pinyin": "yòu~yòu…",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "また",
+        "meaning_short": "また",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "院子",
+    "pinyin": "yuànzi",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "中庭",
+        "meaning_short": "中庭",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "月底",
+    "pinyin": "yuèdǐ",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "月末",
+        "meaning_short": "月末",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "炸酱面",
+    "pinyin": "zhájiàngmiàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "ジャージャー面",
+        "meaning_short": "ジャージャー面",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "站[動]",
+    "pinyin": "zhàn",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "立つ、立ち止まる",
+        "meaning_short": "立つ、立ち止まる",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "浙江人",
+    "pinyin": "Zhèjiāngrén",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "浙江人",
+        "meaning_short": "浙江人",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "知天命",
+    "pinyin": "zhītiānmìng",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "自分の運命を知る",
+        "meaning_short": "自分の運命を知る",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ],
+    "note": "『論語』に拠る"
+  },
+  {
+    "word": "注意",
+    "pinyin": "zhùyì",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "注意する",
+        "meaning_short": "注意する",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
+    ]
+  },
+  {
+    "word": "做客",
+    "pinyin": "zuò//kè",
+    "meanings": [
+      {
+        "part": "",
+        "meaning": "客としていく",
+        "meaning_short": "客としていく",
+        "example": ""
+      }
+    ],
+    "lesson": [
+      9
     ]
   },
   {
