@@ -27,10 +27,9 @@ export default function Home() {
         <p>Todo:</p>
         <ul className="list-disc pl-5">
           <li>文法問題追加</li>
-          <li>第5-9課追加・校閲</li>
+          <li>第5-9課校閲</li>
           <li>キーボードのカーソル表示</li>
           <li>複数解対応</li>
-          <li>単語の余計な文字削除</li>
           <li>問題の表示刷新</li>
           <li>正解/不正解ボタン実装</li>
           <li>ID機能で星印を端末間共有</li>

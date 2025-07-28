@@ -74,7 +74,8 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
 
   const speakText = (text: string) => {
     speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
+    const reg = new RegExp(/\(.*?\)$|\[.*?\]$/);
+    const utterance = new SpeechSynthesisUtterance(text.replace(reg, ""));
     utterance.lang = "zh-CN";
     speechSynthesis.speak(utterance);
     setPlayCount((prev) => prev + 1);
