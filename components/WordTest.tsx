@@ -4,7 +4,7 @@ import { button } from "@/components/Button";
 import AnswerInput from "@/components/AnswerInput";
 import WordCheckbox from "@/components/WordCheckBox";
 import { type Word } from "@/app/lib/word";
-import words from "../public/words.json";
+import words from "@/public/words.json";
 import { type WordSettings } from "@/app/lib/settings";
 import { CheckedWordsContext } from "@/components/Providers";
 
@@ -66,7 +66,7 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
         setQuestion({
           word: randomWord,
           question: randomWord.meanings[0]?.meaning || "意味なし",
-          answer: randomWord.pinyin.normalize("NFD").replace(/[^a-zA-Z\u2019\u0304\u0301\u030C\u0300]/g, ""),
+          answer: randomWord.pinyin.normalize("NFD").replace(/[^a-zA-Z\u2019\u0304\u0301\u030C\u0300\u0308]/g, ""),
           answerElement: <>
             <p className="text-lg">{randomWord.pinyin.normalize("NFD")}</p>
             <p className="text-text/80">中国語: <span className="font-ch">{randomWord.word}</span></p>

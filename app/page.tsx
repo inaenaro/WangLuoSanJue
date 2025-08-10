@@ -1,8 +1,8 @@
 'use client';
 import { useContext, useReducer, useState } from "react";
-import WordTest from "../components/WordTest";
-import GrammarTest from "../components/GrammarTest";
-import AudioTest from "../components/AudioTest";
+import WordTest from "@/components/WordTest";
+import GrammarTest from "@/components/GrammarTest";
+import AudioTest from "@/components/AudioTest";
 import SelectMode from "@/components/SelectMode";
 import { type Action, type Settings } from "./lib/settings";
 import useKeydown from "./hooks/useKeyDown";
@@ -32,14 +32,15 @@ export default function Home() {
           <li>複数解対応</li>
           <li>問題の表示刷新</li>
           <li>正解/不正解ボタン実装</li>
+          <li>正誤判定するやつ正解/不正解要らん</li>
           <li>ID機能で星印を端末間共有</li>
           <li>bad setState修正</li>
           <li>読み上げとの不一致への対応</li>
           <li>重複語の処理</li>
           <li>検索に読み上げボタン追加</li>
           <li>検索に複数ページ対応</li>
-          <li>検索をソート</li>
-          <li>検索のピンイン対応</li>
+          <li>完全一致拼音検索</li>
+          <li>同じ拼音を表示</li>
         </ul>
       </div>
     </div>

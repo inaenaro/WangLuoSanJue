@@ -2301,7 +2301,7 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "～分",
+        "meaning": "～分(時間)",
         "meaning_short": "～分",
         "example": ""
       }
@@ -4856,7 +4856,7 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "～年生まれである",
+        "meaning": "(干支で)～年生まれである",
         "meaning_short": "～年生まれである",
         "example": ""
       }
@@ -5834,7 +5834,7 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "高い",
+        "meaning": "(値段が)高い",
         "meaning_short": "高い",
         "example": ""
       }
@@ -7742,7 +7742,7 @@
     "meanings": [
       {
         "part": "",
-        "meaning": "分",
+        "meaning": "分(通貨単位)",
         "meaning_short": "分",
         "example": ""
       }

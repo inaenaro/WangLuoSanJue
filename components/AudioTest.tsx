@@ -5,7 +5,7 @@ import AnswerInput from "@/components/AnswerInput";
 import WordCheckbox from "@/components/WordCheckBox";
 import { CheckedWordsContext } from "@/components/Providers";
 import { type Word } from "@/app/lib/word";
-import words from "../public/words.json";
+import words from "@/public/words.json";
 import { type AudioSettings } from "@/app/lib/settings";
 
 const wordData = (words as Word[]).map(word => ({
@@ -62,7 +62,7 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
     const randomWord = words[randomIndex];
     setQuestion({
       word: randomWord,
-      answer: randomWord.pinyin.normalize("NFD").replace(/[^a-zA-Z\u2019\u0304\u0301\u030C\u0300]/g, "")
+      answer: randomWord.pinyin.normalize("NFD").replace(/[^a-zA-Z\u2019\u0304\u0301\u030C\u0300\u0308]/g, "")
     });
     setUserInput("");
     setIsIncorrect(false);
