@@ -18,30 +18,39 @@ export default function Home() {
   return (
     <div>
       <SelectMode started={started} setStarted={setStarted} settings={settings} dispatch={dispatch} />
-      {started && (
+      {started ? (
         settings.mode === "word" ? <WordTest setStarted={setStarted} settings={settings} />
           : settings.mode === "grammar" ? <GrammarTest />
             : <AudioTest setStarted={setStarted} settings={settings} />
-      )}
-      <div className="border-t border-gray p-2 text-xs">
-        <p>Todo:</p>
-        <ul className="list-disc pl-5">
-          <li>文法問題追加</li>
-          <li>第5-9課校閲</li>
-          <li>キーボードのカーソル表示</li>
-          <li>複数解対応</li>
-          <li>問題の表示刷新</li>
-          <li>正解/不正解ボタン実装</li>
-          <li>正誤判定するやつ正解/不正解要らん</li>
-          <li>ID機能で星印を端末間共有</li>
-          <li>bad setState修正</li>
-          <li>読み上げとの不一致への対応</li>
-          <li>重複語の処理</li>
-          <li>検索に読み上げボタン追加</li>
-          <li>検索に複数ページ対応</li>
-          <li>完全一致拼音検索</li>
-          <li>同じ拼音を表示</li>
-        </ul>
+      ) : <div className="p-2" />}
+      <div className="border-t border-gray p-2">
+        <div className="text-sm">
+          <p>サイト利用上の注意:</p>
+          <ul className="list-disc pl-5">
+            <li>このサイトは作成の際に正確を期していますが、必ずしもそれを保証するものではありません。</li>
+            <li>内容の誤りや不具合、改善案等がある場合は何らかの方法でサイト作成者に報告してください。</li>
+            <li>音声読み上げにはブラウザの自動読み上げを使用しているため、ピンイン通りの発音ではないことがあります。</li>
+          </ul>
+        </div>
+        <div className="text-xs text-gray">
+          <p>Todo:</p>
+          <ul className="list-disc pl-5">
+            <li>文法問題追加</li>
+            <li>第5-9課校閲</li>
+            <li>キーボードのカーソル表示</li>
+            <li>複数解対応</li>
+            <li>問題の表示刷新</li>
+            <li>正解/不正解ボタン実装</li>
+            <li>正誤判定問題の正解/不正解削除</li>
+            <li>ID機能で星印を端末間共有</li>
+            <li>bad setState修正</li>
+            <li>読み上げとの不一致への対応</li>
+            <li>重複語の処理</li>
+            <li>検索に複数ページ対応</li>
+            <li>完全一致拼音検索</li>
+            <li>同じ拼音を表示</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

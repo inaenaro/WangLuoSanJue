@@ -4,7 +4,7 @@ import { useContext, useEffect, useState } from "react";
 import words from "@/public/words.json";
 import WordCheckbox from "@/components/WordCheckBox";
 import { InputStatusContext } from "@/components/Providers";
-import { MdOutlineClose, MdOutlineSearch } from "react-icons/md";
+import { MdOutlineClose, MdOutlineSearch, MdOutlineVolumeUp } from "react-icons/md";
 
 export default function SearchBox() {
   const { setInputStatus } = useContext(InputStatusContext);
@@ -48,6 +48,14 @@ export default function SearchBox() {
     setSearchResults(results.flat());
   };
 
+  const speakText = (text: string) => {
+    speechSynthesis.cancel();
+    const reg = new RegExp(/\(.*?\)$|\[.*?\]$/);
+    const utterance = new SpeechSynthesisUtterance(text.replace(reg, ""));
+    utterance.lang = "zh-CN";
+    speechSynthesis.speak(utterance);
+  };
+
   return (
     <div className="relative flex gap-1 items-center p-2 py-1 bg-background2 border border-gray rounded">
       <input
@@ -76,11 +84,16 @@ export default function SearchBox() {
           </div>
           <div className="overflow-y-auto h-96 mt-1">
             {searchResults.slice(0, 20).map((word, index) => (
-              // 単語の重複?
+              // NOTE: 単語の重複?
               <div key={index} className="p-1 m-1 rounded bg-background1">
                 <section className="items-center">
                   <div className="flex justify-between">
-                    <p className="font-ch mr-1">{word.word}</p>
+                    <div className="flex items-center gap-1">
+                      <p className="font-ch mr-1">{word.word}</p>
+                      <button onClick={() => speakText(word.word)} className="size-4 rounded cursor-pointer">
+                        <MdOutlineVolumeUp />
+                      </button>
+                    </div>
                     <WordCheckbox wordId={word.pinyin} />
                   </div>
                   <div className="flex gap-1 items-center">
@@ -104,6 +117,6 @@ export default function SearchBox() {
 }
 
 export function normalizePinyin(pinyin: string, ignoreTone: boolean = false): string {
-  const normalized = pinyin.normalize("NFD").replace(/v/g, "ü").replace(/[']/g, "’");
+  const normalized = pinyin.normalize("NFD").replace(/v/g, "ü").replace(/[']/g, "’").replace(/\s/g, "");
   return ignoreTone ? normalized.replace(/[\u0304\u0301\u030c\u0300\u0308]/g, "") : normalized;
 }

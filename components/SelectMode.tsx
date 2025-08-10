@@ -9,7 +9,7 @@ import { MdOutlineArrowRightAlt, MdOutlineKeyboardDoubleArrowDown, MdOutlineKeyb
 type Dispatch = ActionDispatch<[action: Action]>;
 
 export default function SelectMode({ started, setStarted, settings, dispatch }: { started: boolean; setStarted: (started: boolean) => void; settings: Settings; dispatch: Dispatch; }) {
-  const [collapsed, setCollapsed] = useState(false); // State to track collapse/expand
+  const [collapsed, setCollapsed] = useState(false);
 
   useEffect(() => {
     if (started) {
