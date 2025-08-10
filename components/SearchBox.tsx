@@ -1,10 +1,10 @@
 'use client';
 import { partMap, Word } from "@/app/lib/word";
 import { useContext, useEffect, useState } from "react";
-import words from "../public/words.json";
+import words from "@/public/words.json";
 import WordCheckbox from "@/components/WordCheckBox";
+import { InputStatusContext } from "@/components/Providers";
 import { MdOutlineClose, MdOutlineSearch } from "react-icons/md";
-import { InputStatusContext } from "./Providers";
 
 export default function SearchBox() {
   const { setInputStatus } = useContext(InputStatusContext);
@@ -26,13 +26,26 @@ export default function SearchBox() {
       setSearchResults([]);
       return;
     }
-    /* 要改善 */
+    // 単語, ピンイン, ピンイン(声調無視), 意味
+    const results: [Word[], Word[], Word[], Word[]] = [[], [], [], []]
     const regex = new RegExp(input, "i");
-    const regex_normalized = new RegExp(normalizePinyin(input), "i");
-    const results = wordData.filter(word =>
-      word.word.match(regex) || normalizePinyin(word.pinyin).match(regex_normalized) || word.meanings.some(m => m.meaning.match(regex))
-    );
-    setSearchResults(results);
+    const regexNormalized = new RegExp(normalizePinyin(input), "i");
+    const regexNormalizedIgnoreTone = new RegExp(normalizePinyin(input, true), "i");
+    wordData.forEach(word => {
+      if (word.word.match(regex)) {
+        results[0].push(word);
+      } else if (normalizePinyin(word.pinyin).match(regexNormalized)) {
+        results[1].push(word);
+      } else if (normalizePinyin(word.pinyin, true).match(regexNormalizedIgnoreTone)) {
+        results[2].push(word);
+      } else if (word.meanings.some(m => m.meaning.match(regex))) {
+        results[3].push(word);
+      }
+      if (word.word === "每天") {
+        console.log(normalizePinyin(word.pinyin), normalizePinyin(input));
+      }
+    });    console.log(`Search results for "${input}":`, results);
+    setSearchResults(results.flat());
   };
 
   return (
@@ -90,6 +103,7 @@ export default function SearchBox() {
   );
 }
 
-export function normalizePinyin(pinyin: string): string {
-  return pinyin.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[']/g, "’");
+export function normalizePinyin(pinyin: string, ignoreTone: boolean = false): string {
+  const normalized = pinyin.normalize("NFD").replace(/v/g, "ü").replace(/[']/g, "’");
+  return ignoreTone ? normalized.replace(/[\u0304\u0301\u030c\u0300\u0308]/g, "") : normalized;
 }
