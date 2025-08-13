@@ -1,10 +1,14 @@
 'use client';
-import { partMap, Word } from "@/app/lib/word";
+import { partMap, type Word } from "@/app/lib/word";
 import { useContext, useEffect, useState } from "react";
 import words from "@/public/words.json";
 import WordCheckbox from "@/components/WordCheckBox";
 import { InputStatusContext } from "@/components/Providers";
 import { MdOutlineClose, MdOutlineSearch, MdOutlineVolumeUp } from "react-icons/md";
+import * as pinyinsData from "@/public/pinyins.json";
+import { getSyllableWithTone, isValidSyllable, type Syllable, type PinyinsData } from "@/app/lib/pinyin";
+
+const pinyins: PinyinsData = pinyinsData;
 
 export default function SearchBox() {
   const { setInputStatus } = useContext(InputStatusContext);
@@ -44,7 +48,7 @@ export default function SearchBox() {
       if (word.word === "每天") {
         console.log(normalizePinyin(word.pinyin), normalizePinyin(input));
       }
-    });    console.log(`Search results for "${input}":`, results);
+    }); console.log(`Search results for "${input}":`, results);
     setSearchResults(results.flat());
   };
 
@@ -55,6 +59,27 @@ export default function SearchBox() {
     utterance.lang = "zh-CN";
     speechSynthesis.speak(utterance);
   };
+
+  let matchedKanjis: {
+    tone: 0 | 1 | 2 | 3 | 4;
+    kanjiLists: Syllable[string];
+  } | null = null;
+
+  const normalizedInput = normalizePinyin(searchQuery, true);
+
+  if (searchQuery && isValidSyllable(normalizedInput)) {
+    const tone = ([1, 2, 3, 4] as const).find(i => getSyllableWithTone(normalizedInput, i) === searchQuery);
+    matchedKanjis = {
+      tone: tone ?? 0,
+      kanjiLists: pinyins.syllables[normalizedInput] || {
+        all: [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      }
+    }
+  }
 
   return (
     <div className="relative flex gap-1 items-center p-2 py-1 bg-background2 border border-gray rounded">
@@ -68,7 +93,7 @@ export default function SearchBox() {
         onFocus={() => setInputStatus("searching")}
         /* やばそう */
         onBlur={() => setInputStatus("none")}
-        placeholder="単語/ピンイン/意味"
+        placeholder="単語/ピンイン/意味 (ü=v)"
         className="w-48 focus:outline-none"
       />
       {searchQuery ?
@@ -82,6 +107,21 @@ export default function SearchBox() {
             <p className="text-xs text-text/70">検索結果(上位20件)</p>
             <p className="text-xs text-right text-text/70">全{searchResults.length}件</p>
           </div>
+          {matchedKanjis ? <div className="m-1 bg-background1 rounded">
+            {!matchedKanjis.tone ?
+              <>
+                <KanjiList kanjiList={matchedKanjis.kanjiLists.all} syllable={normalizedInput} />
+                <KanjiList kanjiList={matchedKanjis.kanjiLists["1"]} syllable={normalizedInput} tone={1} even />
+                <KanjiList kanjiList={matchedKanjis.kanjiLists["2"]} syllable={normalizedInput} tone={2} />
+                <KanjiList kanjiList={matchedKanjis.kanjiLists["3"]} syllable={normalizedInput} tone={3} even />
+                <KanjiList kanjiList={matchedKanjis.kanjiLists["4"]} syllable={normalizedInput} tone={4} />
+              </>
+              : <>
+                <KanjiList kanjiList={matchedKanjis.kanjiLists.all} syllable={normalizedInput} />
+                <KanjiList kanjiList={matchedKanjis.kanjiLists[matchedKanjis.tone]} syllable={normalizedInput} tone={matchedKanjis.tone} even />
+              </>
+            }
+          </div> : null}
           <div className="overflow-y-auto h-96 mt-1">
             {searchResults.slice(0, 20).map((word, index) => (
               // NOTE: 単語の重複?
@@ -117,6 +157,26 @@ export default function SearchBox() {
 }
 
 export function normalizePinyin(pinyin: string, ignoreTone: boolean = false): string {
-  const normalized = pinyin.normalize("NFD").replace(/v/g, "ü").replace(/[']/g, "’").replace(/\s/g, "");
-  return ignoreTone ? normalized.replace(/[\u0304\u0301\u030c\u0300\u0308]/g, "") : normalized;
+  const normalized = pinyin.normalize("NFD").replace(/v/g, "u\u0308").replace(/[']/g, "’").replace(/\s/g, "");
+  return ignoreTone ? normalized.replace(/[\u0304\u0301\u030C\u0300]/g, "") : normalized;
+}
+
+function KanjiList({ kanjiList, syllable, tone, even }: { kanjiList: string[], syllable: string, tone?: 1 | 2 | 3 | 4, even?: boolean }) {
+  return (
+    <p className={`text-nowrap overflow-x-scroll p-0.5 [scrollbar-width:none] ${even ? 'bg-black/15 dark:bg-white/15' : 'bg-black/5 dark:bg-white/5'}`}>
+      {tone && <span className="text-text/80">{getSyllableWithTone(syllable, tone)}: </span>}
+      {kanjiList.map((s, i) => (
+        <span key={i} className="inline-block">
+          <span className={`font-ch ${(pinyins.kanjis[s].all.length > 1) ? "decolation-text underline" : ""}`}>{s}</span>
+          {i < kanjiList.length - 1 && <Slash />}
+        </span>
+      ))}
+    </p>
+  );
+}
+
+function Slash() {
+  return (
+    <span className="text-text/50 mx-0.5">/</span>
+  );
 }

@@ -1,0 +1,10628 @@
+{
+  "kanjis": {
+    "爱": {
+      "all": [
+        "ai"
+      ],
+      "pinyin": [
+        "ài"
+      ]
+    },
+    "人": {
+      "all": [
+        "ren"
+      ],
+      "pinyin": [
+        "rén"
+      ]
+    },
+    "八": {
+      "all": [
+        "ba"
+      ],
+      "pinyin": [
+        "bā"
+      ]
+    },
+    "爸": {
+      "all": [
+        "ba"
+      ],
+      "pinyin": [
+        "bà"
+      ]
+    },
+    "伯": {
+      "all": [
+        "bo"
+      ],
+      "pinyin": [
+        "bó"
+      ]
+    },
+    "博": {
+      "all": [
+        "bo"
+      ],
+      "pinyin": [
+        "bó"
+      ]
+    },
+    "物": {
+      "all": [
+        "wu"
+      ],
+      "pinyin": [
+        "wù"
+      ]
+    },
+    "馆": {
+      "all": [
+        "guan"
+      ],
+      "pinyin": [
+        "guǎn"
+      ]
+    },
+    "不": {
+      "all": [
+        "bu"
+      ],
+      "pinyin": [
+        "bù",
+        "bú"
+      ]
+    },
+    "参": {
+      "all": [
+        "can"
+      ],
+      "pinyin": [
+        "cān"
+      ]
+    },
+    "加": {
+      "all": [
+        "jia"
+      ],
+      "pinyin": [
+        "jiā"
+      ]
+    },
+    "车": {
+      "all": [
+        "che"
+      ],
+      "pinyin": [
+        "chē"
+      ]
+    },
+    "站": {
+      "all": [
+        "zhan"
+      ],
+      "pinyin": [
+        "zhàn"
+      ]
+    },
+    "陈": {
+      "all": [
+        "chen"
+      ],
+      "pinyin": [
+        "chén"
+      ]
+    },
+    "衬": {
+      "all": [
+        "chen"
+      ],
+      "pinyin": [
+        "chèn"
+      ]
+    },
+    "衫": {
+      "all": [
+        "shan"
+      ],
+      "pinyin": [
+        "shān"
+      ]
+    },
+    "打": {
+      "all": [
+        "da"
+      ],
+      "pinyin": [
+        "dǎ"
+      ]
+    },
+    "大": {
+      "all": [
+        "da"
+      ],
+      "pinyin": [
+        "dà"
+      ]
+    },
+    "阪": {
+      "all": [
+        "ban"
+      ],
+      "pinyin": [
+        "bǎn"
+      ]
+    },
+    "的": {
+      "all": [
+        "de"
+      ],
+      "pinyin": []
+    },
+    "弟": {
+      "all": [
+        "di"
+      ],
+      "pinyin": [
+        "dì"
+      ]
+    },
+    "电": {
+      "all": [
+        "dian"
+      ],
+      "pinyin": [
+        "diàn"
+      ]
+    },
+    "脑": {
+      "all": [
+        "nao"
+      ],
+      "pinyin": [
+        "nǎo"
+      ]
+    },
+    "独": {
+      "all": [
+        "du"
+      ],
+      "pinyin": [
+        "dú"
+      ]
+    },
+    "生": {
+      "all": [
+        "sheng"
+      ],
+      "pinyin": [
+        "shēng"
+      ]
+    },
+    "对": {
+      "all": [
+        "dui"
+      ],
+      "pinyin": [
+        "duì"
+      ]
+    },
+    "外": {
+      "all": [
+        "wai"
+      ],
+      "pinyin": [
+        "wài"
+      ]
+    },
+    "多": {
+      "all": [
+        "duo"
+      ],
+      "pinyin": [
+        "duō"
+      ]
+    },
+    "儿": {
+      "all": [
+        "er"
+      ],
+      "pinyin": [
+        "ér"
+      ]
+    },
+    "子": {
+      "all": [
+        "zi"
+      ],
+      "pinyin": [
+        "zǐ"
+      ]
+    },
+    "二": {
+      "all": [
+        "er"
+      ],
+      "pinyin": [
+        "èr"
+      ]
+    },
+    "方": {
+      "all": [
+        "fang"
+      ],
+      "pinyin": [
+        "fāng"
+      ]
+    },
+    "福": {
+      "all": [
+        "fu"
+      ],
+      "pinyin": [
+        "fú"
+      ]
+    },
+    "建": {
+      "all": [
+        "jian"
+      ],
+      "pinyin": [
+        "jiàn"
+      ]
+    },
+    "服": {
+      "all": [
+        "fu"
+      ],
+      "pinyin": [
+        "fú"
+      ]
+    },
+    "务": {
+      "all": [
+        "wu"
+      ],
+      "pinyin": [
+        "wù"
+      ]
+    },
+    "员": {
+      "all": [
+        "yuan"
+      ],
+      "pinyin": [
+        "yuán"
+      ]
+    },
+    "哥": {
+      "all": [
+        "ge"
+      ],
+      "pinyin": [
+        "gē"
+      ]
+    },
+    "公": {
+      "all": [
+        "gong"
+      ],
+      "pinyin": [
+        "gōng"
+      ]
+    },
+    "司": {
+      "all": [
+        "si"
+      ],
+      "pinyin": [
+        "sī"
+      ]
+    },
+    "姑": {
+      "all": [
+        "gu"
+      ],
+      "pinyin": [
+        "gū"
+      ]
+    },
+    "顾": {
+      "all": [
+        "gu"
+      ],
+      "pinyin": [
+        "gù"
+      ]
+    },
+    "客": {
+      "all": [
+        "ke"
+      ],
+      "pinyin": [
+        "kè"
+      ]
+    },
+    "广": {
+      "all": [
+        "guang"
+      ],
+      "pinyin": [
+        "guǎng"
+      ]
+    },
+    "东": {
+      "all": [
+        "dong"
+      ],
+      "pinyin": [
+        "dōng"
+      ]
+    },
+    "韩": {
+      "all": [
+        "han"
+      ],
+      "pinyin": [
+        "hán"
+      ]
+    },
+    "国": {
+      "all": [
+        "guo"
+      ],
+      "pinyin": [
+        "guó"
+      ]
+    },
+    "汉": {
+      "all": [
+        "han"
+      ],
+      "pinyin": [
+        "hàn"
+      ]
+    },
+    "语": {
+      "all": [
+        "yu"
+      ],
+      "pinyin": [
+        "yǔ"
+      ]
+    },
+    "黄": {
+      "all": [
+        "huang"
+      ],
+      "pinyin": [
+        "huáng"
+      ]
+    },
+    "教": {
+      "all": [
+        "jiao"
+      ],
+      "pinyin": [
+        "jiāo",
+        "jiào"
+      ]
+    },
+    "叫": {
+      "all": [
+        "jiao"
+      ],
+      "pinyin": [
+        "jiào"
+      ]
+    },
+    "姐": {
+      "all": [
+        "jie"
+      ],
+      "pinyin": [
+        "jiě"
+      ]
+    },
+    "今": {
+      "all": [
+        "jin"
+      ],
+      "pinyin": [
+        "jīn"
+      ]
+    },
+    "后": {
+      "all": [
+        "hou"
+      ],
+      "pinyin": [
+        "hòu"
+      ]
+    },
+    "九": {
+      "all": [
+        "jiu"
+      ],
+      "pinyin": [
+        "jiǔ"
+      ]
+    },
+    "韭": {
+      "all": [
+        "jiu"
+      ],
+      "pinyin": [
+        "jiǔ"
+      ]
+    },
+    "菜": {
+      "all": [
+        "cai"
+      ],
+      "pinyin": [
+        "cài"
+      ]
+    },
+    "舅": {
+      "all": [
+        "jiu"
+      ],
+      "pinyin": [
+        "jiù"
+      ]
+    },
+    "看": {
+      "all": [
+        "kan"
+      ],
+      "pinyin": [
+        "kàn"
+      ]
+    },
+    "课": {
+      "all": [
+        "ke"
+      ],
+      "pinyin": [
+        "kè"
+      ]
+    },
+    "本": {
+      "all": [
+        "ben"
+      ],
+      "pinyin": [
+        "běn"
+      ]
+    },
+    "姥": {
+      "all": [
+        "lao"
+      ],
+      "pinyin": [
+        "lǎo"
+      ]
+    },
+    "爷": {
+      "all": [
+        "ye"
+      ],
+      "pinyin": [
+        "yé"
+      ]
+    },
+    "李": {
+      "all": [
+        "li"
+      ],
+      "pinyin": [
+        "lǐ"
+      ]
+    },
+    "留": {
+      "all": [
+        "liu"
+      ],
+      "pinyin": [
+        "liú"
+      ]
+    },
+    "学": {
+      "all": [
+        "xue"
+      ],
+      "pinyin": [
+        "xué"
+      ]
+    },
+    "六": {
+      "all": [
+        "liu"
+      ],
+      "pinyin": [
+        "liù"
+      ]
+    },
+    "鲁": {
+      "all": [
+        "lu"
+      ],
+      "pinyin": [
+        "lǔ"
+      ]
+    },
+    "迅": {
+      "all": [
+        "xun"
+      ],
+      "pinyin": [
+        "xùn"
+      ]
+    },
+    "妈": {
+      "all": [
+        "ma"
+      ],
+      "pinyin": [
+        "mā"
+      ]
+    },
+    "吗": {
+      "all": [
+        "ma"
+      ],
+      "pinyin": []
+    },
+    "买": {
+      "all": [
+        "mai"
+      ],
+      "pinyin": [
+        "mǎi"
+      ]
+    },
+    "梅": {
+      "all": [
+        "mei"
+      ],
+      "pinyin": [
+        "méi"
+      ]
+    },
+    "田": {
+      "all": [
+        "tian"
+      ],
+      "pinyin": [
+        "tián"
+      ]
+    },
+    "美": {
+      "all": [
+        "mei"
+      ],
+      "pinyin": [
+        "měi"
+      ]
+    },
+    "每": {
+      "all": [
+        "mei"
+      ],
+      "pinyin": [
+        "měi"
+      ]
+    },
+    "天": {
+      "all": [
+        "tian"
+      ],
+      "pinyin": [
+        "tiān"
+      ]
+    },
+    "妹": {
+      "all": [
+        "mei"
+      ],
+      "pinyin": [
+        "mèi"
+      ]
+    },
+    "明": {
+      "all": [
+        "ming"
+      ],
+      "pinyin": [
+        "míng"
+      ]
+    },
+    "木": {
+      "all": [
+        "mu"
+      ],
+      "pinyin": [
+        "mù"
+      ]
+    },
+    "头": {
+      "all": [
+        "tou"
+      ],
+      "pinyin": [
+        "tóu"
+      ]
+    },
+    "哪": {
+      "all": [
+        "na",
+        "nei"
+      ],
+      "pinyin": [
+        "nǎ",
+        "něi"
+      ]
+    },
+    "那": {
+      "all": [
+        "na",
+        "nei"
+      ],
+      "pinyin": [
+        "nà",
+        "nèi"
+      ]
+    },
+    "奶": {
+      "all": [
+        "nai"
+      ],
+      "pinyin": [
+        "nǎi"
+      ]
+    },
+    "个": {
+      "all": [
+        "ge"
+      ],
+      "pinyin": []
+    },
+    "你": {
+      "all": [
+        "ni"
+      ],
+      "pinyin": [
+        "nǐ"
+      ]
+    },
+    "好": {
+      "all": [
+        "hao"
+      ],
+      "pinyin": [
+        "hǎo"
+      ]
+    },
+    "们": {
+      "all": [
+        "men"
+      ],
+      "pinyin": []
+    },
+    "年": {
+      "all": [
+        "nian"
+      ],
+      "pinyin": [
+        "nián"
+      ]
+    },
+    "级": {
+      "all": [
+        "ji"
+      ],
+      "pinyin": [
+        "jí"
+      ]
+    },
+    "您": {
+      "all": [
+        "nin"
+      ],
+      "pinyin": [
+        "nín"
+      ]
+    },
+    "女": {
+      "all": [
+        "nü"
+      ],
+      "pinyin": [
+        "nǚ"
+      ]
+    },
+    "朋": {
+      "all": [
+        "peng"
+      ],
+      "pinyin": [
+        "péng"
+      ]
+    },
+    "友": {
+      "all": [
+        "you"
+      ],
+      "pinyin": []
+    },
+    "七": {
+      "all": [
+        "qi"
+      ],
+      "pinyin": [
+        "qī"
+      ]
+    },
+    "妻": {
+      "all": [
+        "qi"
+      ],
+      "pinyin": [
+        "qī"
+      ]
+    },
+    "请": {
+      "all": [
+        "qing"
+      ],
+      "pinyin": [
+        "qǐng"
+      ]
+    },
+    "日": {
+      "all": [
+        "ri"
+      ],
+      "pinyin": [
+        "rì"
+      ]
+    },
+    "三": {
+      "all": [
+        "san"
+      ],
+      "pinyin": [
+        "sān"
+      ]
+    },
+    "十": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shí"
+      ]
+    },
+    "是": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shì"
+      ]
+    },
+    "手": {
+      "all": [
+        "shou"
+      ],
+      "pinyin": [
+        "shǒu"
+      ]
+    },
+    "表": {
+      "all": [
+        "biao"
+      ],
+      "pinyin": [
+        "biǎo"
+      ]
+    },
+    "书": {
+      "all": [
+        "shu"
+      ],
+      "pinyin": [
+        "shū"
+      ]
+    },
+    "叔": {
+      "all": [
+        "shu"
+      ],
+      "pinyin": [
+        "shū"
+      ]
+    },
+    "水": {
+      "all": [
+        "shui"
+      ],
+      "pinyin": [
+        "shuǐ"
+      ]
+    },
+    "仙": {
+      "all": [
+        "xian"
+      ],
+      "pinyin": [
+        "xiān"
+      ]
+    },
+    "思": {
+      "all": [
+        "si"
+      ],
+      "pinyin": [
+        "sī"
+      ]
+    },
+    "想": {
+      "all": [
+        "xiang"
+      ],
+      "pinyin": [
+        "xiǎng"
+      ]
+    },
+    "家": {
+      "all": [
+        "jia"
+      ],
+      "pinyin": [
+        "jiā"
+      ]
+    },
+    "四": {
+      "all": [
+        "si"
+      ],
+      "pinyin": [
+        "sì"
+      ]
+    },
+    "速": {
+      "all": [
+        "su"
+      ],
+      "pinyin": [
+        "sù"
+      ]
+    },
+    "成": {
+      "all": [
+        "cheng"
+      ],
+      "pinyin": [
+        "chéng"
+      ]
+    },
+    "他": {
+      "all": [
+        "ta"
+      ],
+      "pinyin": [
+        "tā"
+      ]
+    },
+    "她": {
+      "all": [
+        "ta"
+      ],
+      "pinyin": [
+        "tā"
+      ]
+    },
+    "它": {
+      "all": [
+        "ta"
+      ],
+      "pinyin": [
+        "tā"
+      ]
+    },
+    "太": {
+      "all": [
+        "tai"
+      ],
+      "pinyin": [
+        "tài"
+      ]
+    },
+    "极": {
+      "all": [
+        "ji"
+      ],
+      "pinyin": [
+        "jí"
+      ]
+    },
+    "拳": {
+      "all": [
+        "quan"
+      ],
+      "pinyin": [
+        "quán"
+      ]
+    },
+    "同": {
+      "all": [
+        "tong"
+      ],
+      "pinyin": [
+        "tóng"
+      ]
+    },
+    "图": {
+      "all": [
+        "tu"
+      ],
+      "pinyin": [
+        "tú"
+      ]
+    },
+    "晚": {
+      "all": [
+        "wan"
+      ],
+      "pinyin": [
+        "wǎn"
+      ]
+    },
+    "会": {
+      "all": [
+        "hui"
+      ],
+      "pinyin": [
+        "huì"
+      ]
+    },
+    "王": {
+      "all": [
+        "wang"
+      ],
+      "pinyin": [
+        "wáng"
+      ]
+    },
+    "文": {
+      "all": [
+        "wen"
+      ],
+      "pinyin": [
+        "wén"
+      ]
+    },
+    "我": {
+      "all": [
+        "wo"
+      ],
+      "pinyin": [
+        "wǒ"
+      ]
+    },
+    "五": {
+      "all": [
+        "wu"
+      ],
+      "pinyin": [
+        "wǔ"
+      ]
+    },
+    "理": {
+      "all": [
+        "li"
+      ],
+      "pinyin": [
+        "lǐ"
+      ]
+    },
+    "喜": {
+      "all": [
+        "xi"
+      ],
+      "pinyin": [
+        "xǐ"
+      ]
+    },
+    "欢": {
+      "all": [
+        "huan"
+      ],
+      "pinyin": [
+        "huān"
+      ]
+    },
+    "系": {
+      "all": [
+        "xi"
+      ],
+      "pinyin": [
+        "xì"
+      ]
+    },
+    "香": {
+      "all": [
+        "xiang"
+      ],
+      "pinyin": [
+        "xiāng"
+      ]
+    },
+    "草": {
+      "all": [
+        "cao"
+      ],
+      "pinyin": [
+        "cǎo"
+      ]
+    },
+    "茶": {
+      "all": [
+        "cha"
+      ],
+      "pinyin": [
+        "chá"
+      ]
+    },
+    "箱": {
+      "all": [
+        "xiang"
+      ],
+      "pinyin": [
+        "xiāng"
+      ]
+    },
+    "小": {
+      "all": [
+        "xiao"
+      ],
+      "pinyin": [
+        "xiǎo"
+      ]
+    },
+    "姓": {
+      "all": [
+        "xing"
+      ],
+      "pinyin": [
+        "xìng"
+      ]
+    },
+    "习": {
+      "all": [
+        "xi"
+      ],
+      "pinyin": [
+        "xí"
+      ]
+    },
+    "校": {
+      "all": [
+        "xiao"
+      ],
+      "pinyin": [
+        "xiào"
+      ]
+    },
+    "院": {
+      "all": [
+        "yuan"
+      ],
+      "pinyin": [
+        "yuàn"
+      ]
+    },
+    "者": {
+      "all": [
+        "zhe"
+      ],
+      "pinyin": [
+        "zhě"
+      ]
+    },
+    "亚": {
+      "all": [
+        "ya"
+      ],
+      "pinyin": [
+        "yà"
+      ]
+    },
+    "麻": {
+      "all": [
+        "ma"
+      ],
+      "pinyin": [
+        "má"
+      ]
+    },
+    "也": {
+      "all": [
+        "ye"
+      ],
+      "pinyin": [
+        "yě"
+      ]
+    },
+    "一": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": [
+        "yī",
+        "yì",
+        "yí"
+      ]
+    },
+    "姨": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": [
+        "yí"
+      ]
+    },
+    "英": {
+      "all": [
+        "ying"
+      ],
+      "pinyin": [
+        "yīng"
+      ]
+    },
+    "迎": {
+      "all": [
+        "ying"
+      ],
+      "pinyin": [
+        "yíng"
+      ]
+    },
+    "新": {
+      "all": [
+        "xin"
+      ],
+      "pinyin": [
+        "xīn"
+      ]
+    },
+    "月": {
+      "all": [
+        "yue"
+      ],
+      "pinyin": [
+        "yuè"
+      ]
+    },
+    "饼": {
+      "all": [
+        "bing"
+      ],
+      "pinyin": []
+    },
+    "越": {
+      "all": [
+        "yue"
+      ],
+      "pinyin": [
+        "yuè"
+      ]
+    },
+    "南": {
+      "all": [
+        "nan"
+      ],
+      "pinyin": [
+        "nán"
+      ]
+    },
+    "在": {
+      "all": [
+        "zai"
+      ],
+      "pinyin": [
+        "zài"
+      ]
+    },
+    "咱": {
+      "all": [
+        "zan"
+      ],
+      "pinyin": [
+        "zán"
+      ]
+    },
+    "展": {
+      "all": [
+        "zhan"
+      ],
+      "pinyin": [
+        "zhǎn"
+      ]
+    },
+    "品": {
+      "all": [
+        "pin"
+      ],
+      "pinyin": [
+        "pǐn"
+      ]
+    },
+    "张": {
+      "all": [
+        "zhang"
+      ],
+      "pinyin": [
+        "zhāng"
+      ]
+    },
+    "丈": {
+      "all": [
+        "zhang"
+      ],
+      "pinyin": [
+        "zhàng"
+      ]
+    },
+    "夫": {
+      "all": [
+        "fu"
+      ],
+      "pinyin": []
+    },
+    "这": {
+      "all": [
+        "zhe",
+        "zhei"
+      ],
+      "pinyin": [
+        "zhè",
+        "zhèi"
+      ]
+    },
+    "指": {
+      "all": [
+        "zhi"
+      ],
+      "pinyin": [
+        "zhǐ"
+      ]
+    },
+    "中": {
+      "all": [
+        "zhong"
+      ],
+      "pinyin": [
+        "zhōng"
+      ]
+    },
+    "啊": {
+      "all": [
+        "a"
+      ],
+      "pinyin": [
+        "á"
+      ]
+    },
+    "安": {
+      "all": [
+        "an"
+      ],
+      "pinyin": [
+        "ān"
+      ]
+    },
+    "排": {
+      "all": [
+        "pai"
+      ],
+      "pinyin": [
+        "pái"
+      ]
+    },
+    "半": {
+      "all": [
+        "ban"
+      ],
+      "pinyin": [
+        "bàn"
+      ]
+    },
+    "北": {
+      "all": [
+        "bei"
+      ],
+      "pinyin": [
+        "běi"
+      ]
+    },
+    "比": {
+      "all": [
+        "bi"
+      ],
+      "pinyin": [
+        "bǐ"
+      ]
+    },
+    "赛": {
+      "all": [
+        "sai"
+      ],
+      "pinyin": [
+        "sài"
+      ]
+    },
+    "便": {
+      "all": [
+        "bian",
+        "pian"
+      ],
+      "pinyin": [
+        "biàn",
+        "pián"
+      ]
+    },
+    "利": {
+      "all": [
+        "li"
+      ],
+      "pinyin": [
+        "lì"
+      ]
+    },
+    "店": {
+      "all": [
+        "dian"
+      ],
+      "pinyin": [
+        "diàn"
+      ]
+    },
+    "边": {
+      "all": [
+        "bian"
+      ],
+      "pinyin": [
+        "biān"
+      ]
+    },
+    "差": {
+      "all": [
+        "cha"
+      ],
+      "pinyin": [
+        "chà"
+      ]
+    },
+    "吃": {
+      "all": [
+        "chi"
+      ],
+      "pinyin": [
+        "chī"
+      ]
+    },
+    "初": {
+      "all": [
+        "chu"
+      ],
+      "pinyin": [
+        "chū"
+      ]
+    },
+    "次": {
+      "all": [
+        "ci"
+      ],
+      "pinyin": [
+        "cì"
+      ]
+    },
+    "出": {
+      "all": [
+        "chu"
+      ],
+      "pinyin": [
+        "chū"
+      ]
+    },
+    "发": {
+      "all": [
+        "fa"
+      ],
+      "pinyin": [
+        "fā"
+      ]
+    },
+    "楼": {
+      "all": [
+        "lou"
+      ],
+      "pinyin": [
+        "lóu"
+      ]
+    },
+    "第": {
+      "all": [
+        "di"
+      ],
+      "pinyin": [
+        "dì"
+      ]
+    },
+    "地": {
+      "all": [
+        "di"
+      ],
+      "pinyin": [
+        "dì"
+      ]
+    },
+    "板": {
+      "all": [
+        "ban"
+      ],
+      "pinyin": [
+        "bǎn"
+      ]
+    },
+    "点": {
+      "all": [
+        "dian"
+      ],
+      "pinyin": [
+        "diǎn"
+      ]
+    },
+    "逗": {
+      "all": [
+        "dou"
+      ],
+      "pinyin": [
+        "dòu"
+      ]
+    },
+    "号": {
+      "all": [
+        "hao"
+      ],
+      "pinyin": [
+        "hào"
+      ]
+    },
+    "面": {
+      "all": [
+        "mian"
+      ],
+      "pinyin": [
+        "miàn"
+      ]
+    },
+    "顿": {
+      "all": [
+        "dun"
+      ],
+      "pinyin": [
+        "dùn"
+      ]
+    },
+    "分": {
+      "all": [
+        "fen"
+      ],
+      "pinyin": [
+        "fēn"
+      ]
+    },
+    "复": {
+      "all": [
+        "fu"
+      ],
+      "pinyin": [
+        "fù"
+      ]
+    },
+    "印": {
+      "all": [
+        "yin"
+      ],
+      "pinyin": [
+        "yìn"
+      ]
+    },
+    "机": {
+      "all": [
+        "ji"
+      ],
+      "pinyin": [
+        "jī"
+      ]
+    },
+    "园": {
+      "all": [
+        "yuan"
+      ],
+      "pinyin": [
+        "yuán"
+      ]
+    },
+    "古": {
+      "all": [
+        "gu"
+      ],
+      "pinyin": [
+        "gǔ"
+      ]
+    },
+    "都": {
+      "all": [
+        "du",
+        "dou"
+      ],
+      "pinyin": [
+        "dū",
+        "dōu"
+      ]
+    },
+    "关": {
+      "all": [
+        "guan"
+      ],
+      "pinyin": [
+        "guān"
+      ]
+    },
+    "照": {
+      "all": [
+        "zhao"
+      ],
+      "pinyin": [
+        "zhào"
+      ]
+    },
+    "场": {
+      "all": [
+        "chang"
+      ],
+      "pinyin": [
+        "chǎng"
+      ]
+    },
+    "海": {
+      "all": [
+        "hai"
+      ],
+      "pinyin": [
+        "hǎi"
+      ]
+    },
+    "喝": {
+      "all": [
+        "he"
+      ],
+      "pinyin": [
+        "hē"
+      ]
+    },
+    "和": {
+      "all": [
+        "he"
+      ],
+      "pinyin": [
+        "hé"
+      ]
+    },
+    "红": {
+      "all": [
+        "hong"
+      ],
+      "pinyin": [
+        "hóng"
+      ]
+    },
+    "梦": {
+      "all": [
+        "meng"
+      ],
+      "pinyin": [
+        "mèng"
+      ]
+    },
+    "积": {
+      "all": [
+        "ji"
+      ],
+      "pinyin": [
+        "jī"
+      ]
+    },
+    "雪": {
+      "all": [
+        "xue"
+      ],
+      "pinyin": [
+        "xuě"
+      ]
+    },
+    "几": {
+      "all": [
+        "ji"
+      ],
+      "pinyin": [
+        "jǐ"
+      ]
+    },
+    "活": {
+      "all": [
+        "huo"
+      ],
+      "pinyin": [
+        "huó"
+      ]
+    },
+    "动": {
+      "all": [
+        "dong"
+      ],
+      "pinyin": [
+        "dòng"
+      ]
+    },
+    "见": {
+      "all": [
+        "jian"
+      ],
+      "pinyin": [
+        "jiàn"
+      ]
+    },
+    "京": {
+      "all": [
+        "jing"
+      ],
+      "pinyin": [
+        "jīng"
+      ]
+    },
+    "开": {
+      "all": [
+        "kai"
+      ],
+      "pinyin": [
+        "kāi"
+      ]
+    },
+    "始": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shǐ"
+      ]
+    },
+    "科": {
+      "all": [
+        "ke"
+      ],
+      "pinyin": [
+        "kē"
+      ]
+    },
+    "幻": {
+      "all": [
+        "huan"
+      ],
+      "pinyin": [
+        "huàn"
+      ]
+    },
+    "刻": {
+      "all": [
+        "ke"
+      ],
+      "pinyin": [
+        "kè"
+      ]
+    },
+    "厘": {
+      "all": [
+        "li"
+      ],
+      "pinyin": [
+        "lí"
+      ]
+    },
+    "米": {
+      "all": [
+        "mi"
+      ],
+      "pinyin": [
+        "mǐ"
+      ]
+    },
+    "里": {
+      "all": [
+        "li"
+      ],
+      "pinyin": [
+        "lǐ"
+      ]
+    },
+    "俩": {
+      "all": [
+        "lia"
+      ],
+      "pinyin": [
+        "liǎ"
+      ]
+    },
+    "镰": {
+      "all": [
+        "lian"
+      ],
+      "pinyin": [
+        "lián"
+      ]
+    },
+    "仓": {
+      "all": [
+        "cang"
+      ],
+      "pinyin": [
+        "cāng"
+      ]
+    },
+    "两": {
+      "all": [
+        "liang"
+      ],
+      "pinyin": [
+        "liǎng"
+      ]
+    },
+    "零": {
+      "all": [
+        "ling"
+      ],
+      "pinyin": [
+        "líng"
+      ]
+    },
+    "路": {
+      "all": [
+        "lu"
+      ],
+      "pinyin": [
+        "lù"
+      ]
+    },
+    "旁": {
+      "all": [
+        "pang"
+      ],
+      "pinyin": [
+        "páng"
+      ]
+    },
+    "旅": {
+      "all": [
+        "lü"
+      ],
+      "pinyin": [
+        "lǚ"
+      ]
+    },
+    "行": {
+      "all": [
+        "xing"
+      ],
+      "pinyin": [
+        "xíng"
+      ]
+    },
+    "洛": {
+      "all": [
+        "luo"
+      ],
+      "pinyin": [
+        "luò"
+      ]
+    },
+    "阳": {
+      "all": [
+        "yang"
+      ],
+      "pinyin": [
+        "yáng"
+      ]
+    },
+    "漫": {
+      "all": [
+        "man"
+      ],
+      "pinyin": [
+        "màn"
+      ]
+    },
+    "画": {
+      "all": [
+        "hua"
+      ],
+      "pinyin": [
+        "huà"
+      ]
+    },
+    "没": {
+      "all": [
+        "mei"
+      ],
+      "pinyin": [
+        "méi"
+      ]
+    },
+    "有": {
+      "all": [
+        "you"
+      ],
+      "pinyin": [
+        "yǒu"
+      ]
+    },
+    "门": {
+      "all": [
+        "men"
+      ],
+      "pinyin": [
+        "mén"
+      ]
+    },
+    "名": {
+      "all": [
+        "ming"
+      ],
+      "pinyin": [
+        "míng"
+      ]
+    },
+    "著": {
+      "all": [
+        "zhu"
+      ],
+      "pinyin": [
+        "zhù"
+      ]
+    },
+    "目": {
+      "all": [
+        "mu"
+      ],
+      "pinyin": [
+        "mù"
+      ]
+    },
+    "前": {
+      "all": [
+        "qian"
+      ],
+      "pinyin": [
+        "qián"
+      ]
+    },
+    "奈": {
+      "all": [
+        "nai"
+      ],
+      "pinyin": [
+        "nài"
+      ]
+    },
+    "良": {
+      "all": [
+        "liang"
+      ],
+      "pinyin": [
+        "liáng"
+      ]
+    },
+    "啤": {
+      "all": [
+        "pi"
+      ],
+      "pinyin": [
+        "pí"
+      ]
+    },
+    "酒": {
+      "all": [
+        "jiu"
+      ],
+      "pinyin": [
+        "jiǔ"
+      ]
+    },
+    "瓶": {
+      "all": [
+        "ping"
+      ],
+      "pinyin": [
+        "píng"
+      ]
+    },
+    "假": {
+      "all": [
+        "jia"
+      ],
+      "pinyin": [
+        "jià"
+      ]
+    },
+    "去": {
+      "all": [
+        "qu"
+      ],
+      "pinyin": [
+        "qù"
+      ]
+    },
+    "演": {
+      "all": [
+        "yan"
+      ],
+      "pinyin": [
+        "yǎn"
+      ]
+    },
+    "义": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": [
+        "yì"
+      ]
+    },
+    "山": {
+      "all": [
+        "shan"
+      ],
+      "pinyin": [
+        "shān"
+      ]
+    },
+    "上": {
+      "all": [
+        "shang"
+      ],
+      "pinyin": [
+        "shàng"
+      ]
+    },
+    "班": {
+      "all": [
+        "ban"
+      ],
+      "pinyin": [
+        "bān"
+      ]
+    },
+    "社": {
+      "all": [
+        "she"
+      ],
+      "pinyin": [
+        "shè"
+      ]
+    },
+    "团": {
+      "all": [
+        "tuan"
+      ],
+      "pinyin": [
+        "tuán"
+      ]
+    },
+    "谁": {
+      "all": [
+        "shei"
+      ],
+      "pinyin": [
+        "shéi"
+      ]
+    },
+    "什": {
+      "all": [
+        "shen"
+      ],
+      "pinyin": [
+        "shén"
+      ]
+    },
+    "么": {
+      "all": [
+        "me"
+      ],
+      "pinyin": []
+    },
+    "时": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shí"
+      ]
+    },
+    "候": {
+      "all": [
+        "hou"
+      ],
+      "pinyin": []
+    },
+    "间": {
+      "all": [
+        "jian"
+      ],
+      "pinyin": [
+        "jiān"
+      ]
+    },
+    "事": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shì"
+      ]
+    },
+    "浒": {
+      "all": [
+        "hu"
+      ],
+      "pinyin": [
+        "hǔ"
+      ]
+    },
+    "传": {
+      "all": [
+        "zhuan"
+      ],
+      "pinyin": [
+        "zhuàn"
+      ]
+    },
+    "岁": {
+      "all": [
+        "sui"
+      ],
+      "pinyin": [
+        "suì"
+      ]
+    },
+    "听": {
+      "all": [
+        "ting"
+      ],
+      "pinyin": [
+        "tīng"
+      ]
+    },
+    "通": {
+      "all": [
+        "tong"
+      ],
+      "pinyin": [
+        "tōng"
+      ]
+    },
+    "知": {
+      "all": [
+        "zhi"
+      ],
+      "pinyin": [
+        "zhī"
+      ]
+    },
+    "网": {
+      "all": [
+        "wang"
+      ],
+      "pinyin": [
+        "wǎng"
+      ]
+    },
+    "位": {
+      "all": [
+        "wei"
+      ],
+      "pinyin": [
+        "wèi"
+      ]
+    },
+    "西": {
+      "all": [
+        "xi"
+      ],
+      "pinyin": [
+        "xī"
+      ]
+    },
+    "游": {
+      "all": [
+        "you"
+      ],
+      "pinyin": [
+        "yóu"
+      ]
+    },
+    "记": {
+      "all": [
+        "ji"
+      ],
+      "pinyin": [
+        "jì"
+      ]
+    },
+    "洗": {
+      "all": [
+        "xi"
+      ],
+      "pinyin": [
+        "xǐ"
+      ]
+    },
+    "下": {
+      "all": [
+        "xia"
+      ],
+      "pinyin": [
+        "xià"
+      ]
+    },
+    "现": {
+      "all": [
+        "xian"
+      ],
+      "pinyin": [
+        "xiàn"
+      ]
+    },
+    "心": {
+      "all": [
+        "xin"
+      ],
+      "pinyin": [
+        "xīn"
+      ]
+    },
+    "区": {
+      "all": [
+        "qu"
+      ],
+      "pinyin": [
+        "qū"
+      ]
+    },
+    "信": {
+      "all": [
+        "xin"
+      ],
+      "pinyin": [
+        "xìn"
+      ]
+    },
+    "星": {
+      "all": [
+        "xing"
+      ],
+      "pinyin": [
+        "xīng"
+      ]
+    },
+    "期": {
+      "all": [
+        "qi"
+      ],
+      "pinyin": [
+        "qī"
+      ]
+    },
+    "兄": {
+      "all": [
+        "xiong"
+      ],
+      "pinyin": [
+        "xiōng"
+      ]
+    },
+    "讲": {
+      "all": [
+        "jiang"
+      ],
+      "pinyin": [
+        "jiǎng"
+      ]
+    },
+    "奏": {
+      "all": [
+        "zou"
+      ],
+      "pinyin": [
+        "zòu"
+      ]
+    },
+    "杨": {
+      "all": [
+        "yang"
+      ],
+      "pinyin": [
+        "yáng"
+      ]
+    },
+    "要": {
+      "all": [
+        "yao"
+      ],
+      "pinyin": [
+        "yào"
+      ]
+    },
+    "页": {
+      "all": [
+        "ye"
+      ],
+      "pinyin": [
+        "yè"
+      ]
+    },
+    "医": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": [
+        "yī"
+      ]
+    },
+    "起": {
+      "all": [
+        "qi"
+      ],
+      "pinyin": [
+        "qǐ"
+      ]
+    },
+    "饮": {
+      "all": [
+        "yin"
+      ],
+      "pinyin": [
+        "yǐn"
+      ]
+    },
+    "料": {
+      "all": [
+        "liao"
+      ],
+      "pinyin": [
+        "liào"
+      ]
+    },
+    "右": {
+      "all": [
+        "you"
+      ],
+      "pinyin": [
+        "yòu"
+      ]
+    },
+    "雨": {
+      "all": [
+        "yu"
+      ],
+      "pinyin": [
+        "yǔ"
+      ]
+    },
+    "伞": {
+      "all": [
+        "san"
+      ],
+      "pinyin": [
+        "sǎn"
+      ]
+    },
+    "早": {
+      "all": [
+        "zao"
+      ],
+      "pinyin": [
+        "zǎo"
+      ]
+    },
+    "找": {
+      "all": [
+        "zhao"
+      ],
+      "pinyin": [
+        "zhǎo"
+      ]
+    },
+    "正": {
+      "all": [
+        "zheng"
+      ],
+      "pinyin": [
+        "zhèng"
+      ]
+    },
+    "钟": {
+      "all": [
+        "zhong"
+      ],
+      "pinyin": [
+        "zhōng"
+      ]
+    },
+    "周": {
+      "all": [
+        "zhou"
+      ],
+      "pinyin": [
+        "zhōu"
+      ]
+    },
+    "昨": {
+      "all": [
+        "zuo"
+      ],
+      "pinyin": [
+        "zuó"
+      ]
+    },
+    "左": {
+      "all": [
+        "zuo"
+      ],
+      "pinyin": [
+        "zuǒ"
+      ]
+    },
+    "作": {
+      "all": [
+        "zuo"
+      ],
+      "pinyin": [
+        "zuò"
+      ]
+    },
+    "吧": {
+      "all": [
+        "ba"
+      ],
+      "pinyin": []
+    },
+    "白": {
+      "all": [
+        "bai"
+      ],
+      "pinyin": [
+        "bái"
+      ]
+    },
+    "拜": {
+      "all": [
+        "bai"
+      ],
+      "pinyin": [
+        "bài"
+      ]
+    },
+    "访": {
+      "all": [
+        "fang"
+      ],
+      "pinyin": [
+        "fǎng"
+      ]
+    },
+    "棒": {
+      "all": [
+        "bang"
+      ],
+      "pinyin": [
+        "bàng"
+      ]
+    },
+    "球": {
+      "all": [
+        "qiu"
+      ],
+      "pinyin": [
+        "qiú"
+      ]
+    },
+    "笔": {
+      "all": [
+        "bi"
+      ],
+      "pinyin": [
+        "bǐ"
+      ]
+    },
+    "过": {
+      "all": [
+        "guo"
+      ],
+      "pinyin": [
+        "guò"
+      ]
+    },
+    "唱": {
+      "all": [
+        "chang"
+      ],
+      "pinyin": [
+        "chàng"
+      ]
+    },
+    "厨": {
+      "all": [
+        "chu"
+      ],
+      "pinyin": [
+        "chú"
+      ]
+    },
+    "房": {
+      "all": [
+        "fang"
+      ],
+      "pinyin": [
+        "fáng"
+      ]
+    },
+    "储": {
+      "all": [
+        "chu"
+      ],
+      "pinyin": [
+        "chǔ"
+      ]
+    },
+    "柜": {
+      "all": [
+        "gui"
+      ],
+      "pinyin": [
+        "guì"
+      ]
+    },
+    "戴": {
+      "all": [
+        "dai"
+      ],
+      "pinyin": [
+        "dài"
+      ]
+    },
+    "等": {
+      "all": [
+        "deng"
+      ],
+      "pinyin": [
+        "děng"
+      ]
+    },
+    "铁": {
+      "all": [
+        "tie"
+      ],
+      "pinyin": [
+        "tiě"
+      ]
+    },
+    "梯": {
+      "all": [
+        "ti"
+      ],
+      "pinyin": [
+        "tī"
+      ]
+    },
+    "欸": {
+      "all": [
+        "ei"
+      ],
+      "pinyin": [
+        "éi"
+      ]
+    },
+    "耳": {
+      "all": [
+        "er"
+      ],
+      "pinyin": [
+        "ěr"
+      ]
+    },
+    "感": {
+      "all": [
+        "gan"
+      ],
+      "pinyin": [
+        "gǎn"
+      ]
+    },
+    "冒": {
+      "all": [
+        "mao"
+      ],
+      "pinyin": [
+        "mào"
+      ]
+    },
+    "药": {
+      "all": [
+        "yao"
+      ],
+      "pinyin": [
+        "yào"
+      ]
+    },
+    "播": {
+      "all": [
+        "bo"
+      ],
+      "pinyin": [
+        "bō"
+      ]
+    },
+    "胡": {
+      "all": [
+        "hu"
+      ],
+      "pinyin": [
+        "hú"
+      ]
+    },
+    "议": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": [
+        "yì"
+      ]
+    },
+    "筑": {
+      "all": [
+        "zhu"
+      ],
+      "pinyin": [
+        "zhù"
+      ]
+    },
+    "授": {
+      "all": [
+        "shou"
+      ],
+      "pinyin": [
+        "shòu"
+      ]
+    },
+    "节": {
+      "all": [
+        "jie"
+      ],
+      "pinyin": [
+        "jié"
+      ]
+    },
+    "卡": {
+      "all": [
+        "ka"
+      ],
+      "pinyin": [
+        "kǎ"
+      ]
+    },
+    "拉": {
+      "all": [
+        "la"
+      ],
+      "pinyin": [
+        "lā"
+      ]
+    },
+    "烤": {
+      "all": [
+        "kao"
+      ],
+      "pinyin": [
+        "kǎo"
+      ]
+    },
+    "老": {
+      "all": [
+        "lao"
+      ],
+      "pinyin": [
+        "lǎo"
+      ]
+    },
+    "师": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shī"
+      ]
+    },
+    "模": {
+      "all": [
+        "mo"
+      ],
+      "pinyin": [
+        "mó"
+      ]
+    },
+    "型": {
+      "all": [
+        "xing"
+      ],
+      "pinyin": [
+        "xíng"
+      ]
+    },
+    "呢": {
+      "all": [
+        "ne"
+      ],
+      "pinyin": []
+    },
+    "孩": {
+      "all": [
+        "hai"
+      ],
+      "pinyin": [
+        "hái"
+      ]
+    },
+    "其": {
+      "all": [
+        "qi"
+      ],
+      "pinyin": [
+        "qí"
+      ]
+    },
+    "秋": {
+      "all": [
+        "qiu"
+      ],
+      "pinyin": [
+        "qiū"
+      ]
+    },
+    "刀": {
+      "all": [
+        "dao"
+      ],
+      "pinyin": [
+        "dāo"
+      ]
+    },
+    "鱼": {
+      "all": [
+        "yu"
+      ],
+      "pinyin": [
+        "yú"
+      ]
+    },
+    "午": {
+      "all": [
+        "wu"
+      ],
+      "pinyin": [
+        "wǔ"
+      ]
+    },
+    "属": {
+      "all": [
+        "shu"
+      ],
+      "pinyin": [
+        "shǔ"
+      ]
+    },
+    "孙": {
+      "all": [
+        "sun"
+      ],
+      "pinyin": [
+        "sūn"
+      ]
+    },
+    "喂": {
+      "all": [
+        "wei"
+      ],
+      "pinyin": [
+        "wéi"
+      ]
+    },
+    "味": {
+      "all": [
+        "wei"
+      ],
+      "pinyin": [
+        "wèi"
+      ]
+    },
+    "道": {
+      "all": [
+        "dao"
+      ],
+      "pinyin": [
+        "dào"
+      ]
+    },
+    "眼": {
+      "all": [
+        "yan"
+      ],
+      "pinyin": [
+        "yǎn"
+      ]
+    },
+    "镜": {
+      "all": [
+        "jing"
+      ],
+      "pinyin": [
+        "jìng"
+      ]
+    },
+    "夜": {
+      "all": [
+        "ye"
+      ],
+      "pinyin": [
+        "yè"
+      ]
+    },
+    "以": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": [
+        "yǐ"
+      ]
+    },
+    "邮": {
+      "all": [
+        "you"
+      ],
+      "pinyin": [
+        "yóu"
+      ]
+    },
+    "件": {
+      "all": [
+        "jian"
+      ],
+      "pinyin": [
+        "jiàn"
+      ]
+    },
+    "怎": {
+      "all": [
+        "zen"
+      ],
+      "pinyin": [
+        "zěn"
+      ]
+    },
+    "样": {
+      "all": [
+        "yang"
+      ],
+      "pinyin": [
+        "yàng"
+      ]
+    },
+    "末": {
+      "all": [
+        "mo"
+      ],
+      "pinyin": [
+        "mò"
+      ]
+    },
+    "猪": {
+      "all": [
+        "zhu"
+      ],
+      "pinyin": [
+        "zhū"
+      ]
+    },
+    "住": {
+      "all": [
+        "zhu"
+      ],
+      "pinyin": [
+        "zhù"
+      ]
+    },
+    "坐": {
+      "all": [
+        "zuo"
+      ],
+      "pinyin": [
+        "zuò"
+      ]
+    },
+    "做": {
+      "all": [
+        "zuo"
+      ],
+      "pinyin": [
+        "zuò"
+      ]
+    },
+    "把": {
+      "all": [
+        "ba"
+      ],
+      "pinyin": [
+        "bǎ"
+      ]
+    },
+    "杯": {
+      "all": [
+        "bei"
+      ],
+      "pinyin": [
+        "bēi"
+      ]
+    },
+    "背": {
+      "all": [
+        "bei"
+      ],
+      "pinyin": [
+        "bèi"
+      ]
+    },
+    "被": {
+      "all": [
+        "bei"
+      ],
+      "pinyin": [
+        "bèi"
+      ]
+    },
+    "兵": {
+      "all": [
+        "bing"
+      ],
+      "pinyin": [
+        "bīng"
+      ]
+    },
+    "马": {
+      "all": [
+        "ma"
+      ],
+      "pinyin": [
+        "mǎ"
+      ]
+    },
+    "俑": {
+      "all": [
+        "yong"
+      ],
+      "pinyin": [
+        "yǒng"
+      ]
+    },
+    "部": {
+      "all": [
+        "bu"
+      ],
+      "pinyin": [
+        "bù"
+      ]
+    },
+    "壶": {
+      "all": [
+        "hu"
+      ],
+      "pinyin": [
+        "hú"
+      ]
+    },
+    "常": {
+      "all": [
+        "chang"
+      ],
+      "pinyin": [
+        "cháng"
+      ]
+    },
+    "床": {
+      "all": [
+        "chuang"
+      ],
+      "pinyin": [
+        "chuáng"
+      ]
+    },
+    "词": {
+      "all": [
+        "ci"
+      ],
+      "pinyin": [
+        "cí"
+      ]
+    },
+    "典": {
+      "all": [
+        "dian"
+      ],
+      "pinyin": [
+        "diǎn"
+      ]
+    },
+    "熊": {
+      "all": [
+        "xiong"
+      ],
+      "pinyin": [
+        "xióng"
+      ]
+    },
+    "猫": {
+      "all": [
+        "mao"
+      ],
+      "pinyin": [
+        "māo"
+      ]
+    },
+    "衣": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": [
+        "yī"
+      ]
+    },
+    "单": {
+      "all": [
+        "dan"
+      ],
+      "pinyin": [
+        "dān"
+      ]
+    },
+    "蛋": {
+      "all": [
+        "dan"
+      ],
+      "pinyin": [
+        "dàn"
+      ]
+    },
+    "糕": {
+      "all": [
+        "gao"
+      ],
+      "pinyin": [
+        "gāo"
+      ]
+    },
+    "迪": {
+      "all": [
+        "di"
+      ],
+      "pinyin": [
+        "dí"
+      ]
+    },
+    "士": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shì"
+      ]
+    },
+    "尼": {
+      "all": [
+        "ni"
+      ],
+      "pinyin": [
+        "ní"
+      ]
+    },
+    "乐": {
+      "all": [
+        "le"
+      ],
+      "pinyin": [
+        "lè"
+      ]
+    },
+    "影": {
+      "all": [
+        "ying"
+      ],
+      "pinyin": [
+        "yǐng"
+      ]
+    },
+    "短": {
+      "all": [
+        "duan"
+      ],
+      "pinyin": [
+        "duǎn"
+      ]
+    },
+    "了": {
+      "all": [
+        "le"
+      ],
+      "pinyin": []
+    },
+    "饭": {
+      "all": [
+        "fan"
+      ],
+      "pinyin": [
+        "fàn"
+      ]
+    },
+    "放": {
+      "all": [
+        "fang"
+      ],
+      "pinyin": [
+        "fàng"
+      ]
+    },
+    "非": {
+      "all": [
+        "fei"
+      ],
+      "pinyin": [
+        "fēi"
+      ]
+    },
+    "飞": {
+      "all": [
+        "fei"
+      ],
+      "pinyin": [
+        "fēi"
+      ]
+    },
+    "数": {
+      "all": [
+        "shu"
+      ],
+      "pinyin": [
+        "shù"
+      ]
+    },
+    "高": {
+      "all": [
+        "gao"
+      ],
+      "pinyin": [
+        "gāo"
+      ]
+    },
+    "考": {
+      "all": [
+        "kao"
+      ],
+      "pinyin": [
+        "kǎo"
+      ]
+    },
+    "根": {
+      "all": [
+        "gen"
+      ],
+      "pinyin": [
+        "gēn"
+      ]
+    },
+    "狗": {
+      "all": [
+        "gou"
+      ],
+      "pinyin": [
+        "gǒu"
+      ]
+    },
+    "挂": {
+      "all": [
+        "gua"
+      ],
+      "pinyin": [
+        "guà"
+      ]
+    },
+    "贵": {
+      "all": [
+        "gui"
+      ],
+      "pinyin": [
+        "guì"
+      ]
+    },
+    "河": {
+      "all": [
+        "he"
+      ],
+      "pinyin": [
+        "hé"
+      ]
+    },
+    "很": {
+      "all": [
+        "hen"
+      ],
+      "pinyin": [
+        "hěn"
+      ]
+    },
+    "鸡": {
+      "all": [
+        "ji"
+      ],
+      "pinyin": [
+        "jī"
+      ]
+    },
+    "架": {
+      "all": [
+        "jia"
+      ],
+      "pinyin": [
+        "jià"
+      ]
+    },
+    "坏": {
+      "all": [
+        "huai"
+      ],
+      "pinyin": [
+        "huài"
+      ]
+    },
+    "火": {
+      "all": [
+        "huo"
+      ],
+      "pinyin": [
+        "huǒ"
+      ]
+    },
+    "柴": {
+      "all": [
+        "chai"
+      ],
+      "pinyin": [
+        "chái"
+      ]
+    },
+    "可": {
+      "all": [
+        "ke"
+      ],
+      "pinyin": [
+        "kě"
+      ]
+    },
+    "裤": {
+      "all": [
+        "ku"
+      ],
+      "pinyin": [
+        "kù"
+      ]
+    },
+    "块": {
+      "all": [
+        "kuai"
+      ],
+      "pinyin": [
+        "kuài"
+      ]
+    },
+    "宽": {
+      "all": [
+        "kuan"
+      ],
+      "pinyin": [
+        "kuān"
+      ]
+    },
+    "懒": {
+      "all": [
+        "lan"
+      ],
+      "pinyin": [
+        "lǎn"
+      ]
+    },
+    "觉": {
+      "all": [
+        "jiao",
+        "jue"
+      ],
+      "pinyin": [
+        "jiào",
+        "jué"
+      ]
+    },
+    "厉": {
+      "all": [
+        "li"
+      ],
+      "pinyin": [
+        "lì"
+      ]
+    },
+    "害": {
+      "all": [
+        "hai"
+      ],
+      "pinyin": []
+    },
+    "辆": {
+      "all": [
+        "liang"
+      ],
+      "pinyin": [
+        "liàng"
+      ]
+    },
+    "流": {
+      "all": [
+        "liu"
+      ],
+      "pinyin": [
+        "liú"
+      ]
+    },
+    "论": {
+      "all": [
+        "lun"
+      ],
+      "pinyin": [
+        "lùn"
+      ]
+    },
+    "毛": {
+      "all": [
+        "mao"
+      ],
+      "pinyin": [
+        "máo"
+      ]
+    },
+    "巾": {
+      "all": [
+        "jin"
+      ],
+      "pinyin": [
+        "jīn"
+      ]
+    },
+    "包": {
+      "all": [
+        "bao"
+      ],
+      "pinyin": [
+        "bāo"
+      ]
+    },
+    "鸟": {
+      "all": [
+        "niao"
+      ],
+      "pinyin": [
+        "niǎo"
+      ]
+    },
+    "牛": {
+      "all": [
+        "niu"
+      ],
+      "pinyin": [
+        "niú"
+      ]
+    },
+    "篇": {
+      "all": [
+        "pian"
+      ],
+      "pinyin": [
+        "piān"
+      ]
+    },
+    "宜": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": []
+    },
+    "片": {
+      "all": [
+        "pian"
+      ],
+      "pinyin": [
+        "piàn"
+      ]
+    },
+    "票": {
+      "all": [
+        "piao"
+      ],
+      "pinyin": [
+        "piào"
+      ]
+    },
+    "苹": {
+      "all": [
+        "ping"
+      ],
+      "pinyin": [
+        "píng"
+      ]
+    },
+    "果": {
+      "all": [
+        "guo"
+      ],
+      "pinyin": [
+        "guǒ"
+      ]
+    },
+    "平": {
+      "all": [
+        "ping"
+      ],
+      "pinyin": [
+        "píng"
+      ]
+    },
+    "汽": {
+      "all": [
+        "qi"
+      ],
+      "pinyin": [
+        "qì"
+      ]
+    },
+    "铅": {
+      "all": [
+        "qian"
+      ],
+      "pinyin": [
+        "qiān"
+      ]
+    },
+    "强": {
+      "all": [
+        "qiang"
+      ],
+      "pinyin": [
+        "qiáng",
+        "qiǎng"
+      ]
+    },
+    "项": {
+      "all": [
+        "xiang"
+      ],
+      "pinyin": [
+        "xiàng"
+      ]
+    },
+    "热": {
+      "all": [
+        "re"
+      ],
+      "pinyin": [
+        "rè"
+      ]
+    },
+    "肉": {
+      "all": [
+        "rou"
+      ],
+      "pinyin": [
+        "ròu"
+      ]
+    },
+    "堆": {
+      "all": [
+        "dui"
+      ],
+      "pinyin": [
+        "duī"
+      ]
+    },
+    "散": {
+      "all": [
+        "san"
+      ],
+      "pinyin": [
+        "sàn"
+      ]
+    },
+    "步": {
+      "all": [
+        "bu"
+      ],
+      "pinyin": [
+        "bù"
+      ]
+    },
+    "扇": {
+      "all": [
+        "shan"
+      ],
+      "pinyin": [
+        "shàn"
+      ]
+    },
+    "申": {
+      "all": [
+        "shen"
+      ],
+      "pinyin": [
+        "shēn"
+      ]
+    },
+    "神": {
+      "all": [
+        "shen"
+      ],
+      "pinyin": [
+        "shén"
+      ]
+    },
+    "秘": {
+      "all": [
+        "mi"
+      ],
+      "pinyin": [
+        "mì"
+      ]
+    },
+    "册": {
+      "all": [
+        "ce"
+      ],
+      "pinyin": [
+        "cè"
+      ]
+    },
+    "帕": {
+      "all": [
+        "pa"
+      ],
+      "pinyin": [
+        "pà"
+      ]
+    },
+    "桌": {
+      "all": [
+        "zhuo"
+      ],
+      "pinyin": [
+        "zhuō"
+      ]
+    },
+    "暑": {
+      "all": [
+        "shu"
+      ],
+      "pinyin": [
+        "shǔ"
+      ]
+    },
+    "双": {
+      "all": [
+        "shuang"
+      ],
+      "pinyin": [
+        "shuāng"
+      ]
+    },
+    "睡": {
+      "all": [
+        "shui"
+      ],
+      "pinyin": [
+        "shuì"
+      ]
+    },
+    "川": {
+      "all": [
+        "chuan"
+      ],
+      "pinyin": [
+        "chuān"
+      ]
+    },
+    "所": {
+      "all": [
+        "suo"
+      ],
+      "pinyin": [
+        "suǒ"
+      ]
+    },
+    "糖": {
+      "all": [
+        "tang"
+      ],
+      "pinyin": [
+        "táng"
+      ]
+    },
+    "讨": {
+      "all": [
+        "tao"
+      ],
+      "pinyin": [
+        "tǎo"
+      ]
+    },
+    "条": {
+      "all": [
+        "tiao"
+      ],
+      "pinyin": [
+        "tiáo"
+      ]
+    },
+    "哇": {
+      "all": [
+        "wa"
+      ],
+      "pinyin": [
+        "wà"
+      ]
+    },
+    "袜": {
+      "all": [
+        "wa"
+      ],
+      "pinyin": [
+        "wà"
+      ]
+    },
+    "玩": {
+      "all": [
+        "wan"
+      ],
+      "pinyin": [
+        "wán"
+      ]
+    },
+    "问": {
+      "all": [
+        "wen"
+      ],
+      "pinyin": [
+        "wèn"
+      ]
+    },
+    "题": {
+      "all": [
+        "ti"
+      ],
+      "pinyin": [
+        "tí"
+      ]
+    },
+    "惯": {
+      "all": [
+        "guan"
+      ],
+      "pinyin": [
+        "guàn"
+      ]
+    },
+    "先": {
+      "all": [
+        "xian"
+      ],
+      "pinyin": [
+        "xiān"
+      ]
+    },
+    "线": {
+      "all": [
+        "xian"
+      ],
+      "pinyin": [
+        "xiàn"
+      ]
+    },
+    "消": {
+      "all": [
+        "xiao"
+      ],
+      "pinyin": [
+        "xiāo"
+      ]
+    },
+    "息": {
+      "all": [
+        "xi"
+      ],
+      "pinyin": []
+    },
+    "鞋": {
+      "all": [
+        "xie"
+      ],
+      "pinyin": [
+        "xié"
+      ]
+    },
+    "能": {
+      "all": [
+        "neng"
+      ],
+      "pinyin": [
+        "néng"
+      ]
+    },
+    "源": {
+      "all": [
+        "yuan"
+      ],
+      "pinyin": [
+        "yuán"
+      ]
+    },
+    "选": {
+      "all": [
+        "xuan"
+      ],
+      "pinyin": [
+        "xuǎn"
+      ]
+    },
+    "择": {
+      "all": [
+        "ze"
+      ],
+      "pinyin": [
+        "zé"
+      ]
+    },
+    "烟": {
+      "all": [
+        "yan"
+      ],
+      "pinyin": [
+        "yān"
+      ]
+    },
+    "睛": {
+      "all": [
+        "jing"
+      ],
+      "pinyin": []
+    },
+    "椅": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": [
+        "yǐ"
+      ]
+    },
+    "圆": {
+      "all": [
+        "yuan"
+      ],
+      "pinyin": [
+        "yuán"
+      ]
+    },
+    "珠": {
+      "all": [
+        "zhu"
+      ],
+      "pinyin": [
+        "zhū"
+      ]
+    },
+    "杂": {
+      "all": [
+        "za"
+      ],
+      "pinyin": [
+        "zá"
+      ]
+    },
+    "志": {
+      "all": [
+        "zhi"
+      ],
+      "pinyin": [
+        "zhì"
+      ]
+    },
+    "窄": {
+      "all": [
+        "zhai"
+      ],
+      "pinyin": [
+        "zhǎi"
+      ]
+    },
+    "相": {
+      "all": [
+        "xiang"
+      ],
+      "pinyin": [
+        "xiàng"
+      ]
+    },
+    "真": {
+      "all": [
+        "zhen"
+      ],
+      "pinyin": [
+        "zhēn"
+      ]
+    },
+    "只": {
+      "all": [
+        "zhi"
+      ],
+      "pinyin": [
+        "zhī",
+        "zhǐ"
+      ]
+    },
+    "枝": {
+      "all": [
+        "zhi"
+      ],
+      "pinyin": [
+        "zhī"
+      ]
+    },
+    "纸": {
+      "all": [
+        "zhi"
+      ],
+      "pinyin": [
+        "zhǐ"
+      ]
+    },
+    "重": {
+      "all": [
+        "zhong"
+      ],
+      "pinyin": [
+        "zhòng"
+      ]
+    },
+    "主": {
+      "all": [
+        "zhu"
+      ],
+      "pinyin": [
+        "zhǔ"
+      ]
+    },
+    "意": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": [
+        "yì"
+      ]
+    },
+    "壮": {
+      "all": [
+        "zhuang"
+      ],
+      "pinyin": [
+        "zhuàng"
+      ]
+    },
+    "观": {
+      "all": [
+        "guan"
+      ],
+      "pinyin": [
+        "guān"
+      ]
+    },
+    "自": {
+      "all": [
+        "zi"
+      ],
+      "pinyin": [
+        "zì"
+      ]
+    },
+    "最": {
+      "all": [
+        "zui"
+      ],
+      "pinyin": [
+        "zuì"
+      ]
+    },
+    "百": {
+      "all": [
+        "bai"
+      ],
+      "pinyin": [
+        "bǎi"
+      ]
+    },
+    "办": {
+      "all": [
+        "ban"
+      ],
+      "pinyin": [
+        "bàn"
+      ]
+    },
+    "抱": {
+      "all": [
+        "bao"
+      ],
+      "pinyin": [
+        "bào"
+      ]
+    },
+    "歉": {
+      "all": [
+        "qian"
+      ],
+      "pinyin": [
+        "qiàn"
+      ]
+    },
+    "冰": {
+      "all": [
+        "bing"
+      ],
+      "pinyin": [
+        "bīng"
+      ]
+    },
+    "错": {
+      "all": [
+        "cuo"
+      ],
+      "pinyin": [
+        "cuò"
+      ]
+    },
+    "长": {
+      "all": [
+        "chang"
+      ],
+      "pinyin": [
+        "cháng"
+      ]
+    },
+    "租": {
+      "all": [
+        "zu"
+      ],
+      "pinyin": [
+        "zū"
+      ]
+    },
+    "但": {
+      "all": [
+        "dan"
+      ],
+      "pinyin": [
+        "dàn"
+      ]
+    },
+    "倒": {
+      "all": [
+        "dao"
+      ],
+      "pinyin": [
+        "dǎo"
+      ]
+    },
+    "到": {
+      "all": [
+        "dao"
+      ],
+      "pinyin": [
+        "dào"
+      ]
+    },
+    "话": {
+      "all": [
+        "hua"
+      ],
+      "pinyin": [
+        "huà"
+      ]
+    },
+    "订": {
+      "all": [
+        "ding"
+      ],
+      "pinyin": [
+        "dìng"
+      ]
+    },
+    "少": {
+      "all": [
+        "shao"
+      ],
+      "pinyin": [
+        "shǎo"
+      ]
+    },
+    "法": {
+      "all": [
+        "fa"
+      ],
+      "pinyin": [
+        "fǎ"
+      ]
+    },
+    "翻": {
+      "all": [
+        "fan"
+      ],
+      "pinyin": [
+        "fān"
+      ]
+    },
+    "译": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": [
+        "yì"
+      ]
+    },
+    "够": {
+      "all": [
+        "gou"
+      ],
+      "pinyin": [
+        "gòu"
+      ]
+    },
+    "故": {
+      "all": [
+        "gu"
+      ],
+      "pinyin": [
+        "gù"
+      ]
+    },
+    "宫": {
+      "all": [
+        "gong"
+      ],
+      "pinyin": [
+        "gōng"
+      ]
+    },
+    "码": {
+      "all": [
+        "ma"
+      ],
+      "pinyin": [
+        "mǎ"
+      ]
+    },
+    "或": {
+      "all": [
+        "huo"
+      ],
+      "pinyin": [
+        "huò"
+      ]
+    },
+    "简": {
+      "all": [
+        "jian"
+      ],
+      "pinyin": [
+        "jiǎn"
+      ]
+    },
+    "座": {
+      "all": [
+        "zuo"
+      ],
+      "pinyin": [
+        "zuò"
+      ]
+    },
+    "角": {
+      "all": [
+        "jiao"
+      ],
+      "pinyin": [
+        "jiǎo"
+      ]
+    },
+    "饺": {
+      "all": [
+        "jiao"
+      ],
+      "pinyin": [
+        "jiǎo"
+      ]
+    },
+    "花": {
+      "all": [
+        "hua"
+      ],
+      "pinyin": [
+        "huā"
+      ]
+    },
+    "井": {
+      "all": [
+        "jing"
+      ],
+      "pinyin": [
+        "jǐng"
+      ]
+    },
+    "之": {
+      "all": [
+        "zhi"
+      ],
+      "pinyin": [
+        "zhī"
+      ]
+    },
+    "来": {
+      "all": [
+        "lai"
+      ],
+      "pinyin": [
+        "lái"
+      ]
+    },
+    "钱": {
+      "all": [
+        "qian"
+      ],
+      "pinyin": [
+        "qián"
+      ]
+    },
+    "字": {
+      "all": [
+        "zi"
+      ],
+      "pinyin": [
+        "zì"
+      ]
+    },
+    "拿": {
+      "all": [
+        "na"
+      ],
+      "pinyin": [
+        "ná"
+      ]
+    },
+    "哦": {
+      "all": [
+        "o"
+      ],
+      "pinyin": [
+        "ò"
+      ]
+    },
+    "批": {
+      "all": [
+        "pi"
+      ],
+      "pinyin": [
+        "pī"
+      ]
+    },
+    "评": {
+      "all": [
+        "ping"
+      ],
+      "pinyin": [
+        "píng"
+      ]
+    },
+    "皮": {
+      "all": [
+        "pi"
+      ],
+      "pinyin": [
+        "pí"
+      ]
+    },
+    "骑": {
+      "all": [
+        "qi"
+      ],
+      "pinyin": [
+        "qí"
+      ]
+    },
+    "千": {
+      "all": [
+        "qian"
+      ],
+      "pinyin": [
+        "qiān"
+      ]
+    },
+    "然": {
+      "all": [
+        "ran"
+      ],
+      "pinyin": [
+        "rán"
+      ]
+    },
+    "涩": {
+      "all": [
+        "se"
+      ],
+      "pinyin": [
+        "sè"
+      ]
+    },
+    "谷": {
+      "all": [
+        "gu"
+      ],
+      "pinyin": [
+        "gǔ"
+      ]
+    },
+    "说": {
+      "all": [
+        "shuo"
+      ],
+      "pinyin": [
+        "shuō"
+      ]
+    },
+    "汤": {
+      "all": [
+        "tang"
+      ],
+      "pinyin": [
+        "tāng"
+      ]
+    },
+    "万": {
+      "all": [
+        "wan"
+      ],
+      "pinyin": [
+        "wàn"
+      ]
+    },
+    "厦": {
+      "all": [
+        "xia"
+      ],
+      "pinyin": [
+        "xià"
+      ]
+    },
+    "写": {
+      "all": [
+        "xie"
+      ],
+      "pinyin": [
+        "xiě"
+      ]
+    },
+    "亿": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": [
+        "yì"
+      ]
+    },
+    "般": {
+      "all": [
+        "ban"
+      ],
+      "pinyin": [
+        "bān"
+      ]
+    },
+    "直": {
+      "all": [
+        "zhi"
+      ],
+      "pinyin": [
+        "zhí"
+      ]
+    },
+    "元": {
+      "all": [
+        "yuan"
+      ],
+      "pinyin": [
+        "yuán"
+      ]
+    },
+    "氏": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shì"
+      ]
+    },
+    "再": {
+      "all": [
+        "zai"
+      ],
+      "pinyin": [
+        "zài"
+      ]
+    },
+    "宗": {
+      "all": [
+        "zong"
+      ],
+      "pinyin": [
+        "zōng"
+      ]
+    },
+    "饱": {
+      "all": [
+        "bao"
+      ],
+      "pinyin": [
+        "bǎo"
+      ]
+    },
+    "毕": {
+      "all": [
+        "bi"
+      ],
+      "pinyin": [
+        "bì"
+      ]
+    },
+    "业": {
+      "all": [
+        "ye"
+      ],
+      "pinyin": [
+        "yè"
+      ]
+    },
+    "编": {
+      "all": [
+        "bian"
+      ],
+      "pinyin": [
+        "biān"
+      ]
+    },
+    "程": {
+      "all": [
+        "cheng"
+      ],
+      "pinyin": [
+        "chéng"
+      ]
+    },
+    "功": {
+      "all": [
+        "gong"
+      ],
+      "pinyin": [
+        "gōng"
+      ]
+    },
+    "答": {
+      "all": [
+        "da"
+      ],
+      "pinyin": [
+        "dá",
+        "dā"
+      ]
+    },
+    "工": {
+      "all": [
+        "gong"
+      ],
+      "pinyin": [
+        "gōng"
+      ]
+    },
+    "导": {
+      "all": [
+        "dao"
+      ],
+      "pinyin": [
+        "dǎo"
+      ]
+    },
+    "懂": {
+      "all": [
+        "dong"
+      ],
+      "pinyin": [
+        "dǒng"
+      ]
+    },
+    "兜": {
+      "all": [
+        "dou"
+      ],
+      "pinyin": [
+        "dōu"
+      ]
+    },
+    "风": {
+      "all": [
+        "feng"
+      ],
+      "pinyin": [
+        "fēng"
+      ]
+    },
+    "读": {
+      "all": [
+        "du"
+      ],
+      "pinyin": [
+        "dú"
+      ]
+    },
+    "父": {
+      "all": [
+        "fu"
+      ],
+      "pinyin": [
+        "fù"
+      ]
+    },
+    "母": {
+      "all": [
+        "mu"
+      ],
+      "pinyin": [
+        "mǔ"
+      ]
+    },
+    "干": {
+      "all": [
+        "gan"
+      ],
+      "pinyin": [
+        "gān",
+        "gàn"
+      ]
+    },
+    "净": {
+      "all": [
+        "jing"
+      ],
+      "pinyin": [
+        "jìng"
+      ]
+    },
+    "刚": {
+      "all": [
+        "gang"
+      ],
+      "pinyin": [
+        "gāng"
+      ]
+    },
+    "才": {
+      "all": [
+        "cai"
+      ],
+      "pinyin": [
+        "cái"
+      ]
+    },
+    "给": {
+      "all": [
+        "gei"
+      ],
+      "pinyin": [
+        "gěi"
+      ]
+    },
+    "众": {
+      "all": [
+        "zhong"
+      ],
+      "pinyin": [
+        "zhòng"
+      ]
+    },
+    "还": {
+      "all": [
+        "hai"
+      ],
+      "pinyin": [
+        "hái"
+      ]
+    },
+    "黑": {
+      "all": [
+        "hei"
+      ],
+      "pinyin": [
+        "hēi"
+      ]
+    },
+    "历": {
+      "all": [
+        "li"
+      ],
+      "pinyin": [
+        "lì"
+      ]
+    },
+    "史": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shǐ"
+      ]
+    },
+    "驾": {
+      "all": [
+        "jia"
+      ],
+      "pinyin": [
+        "jià"
+      ]
+    },
+    "回": {
+      "all": [
+        "hui"
+      ],
+      "pinyin": [
+        "huí"
+      ]
+    },
+    "进": {
+      "all": [
+        "jin"
+      ],
+      "pinyin": [
+        "jìn"
+      ]
+    },
+    "精": {
+      "all": [
+        "jing"
+      ],
+      "pinyin": [
+        "jīng"
+      ]
+    },
+    "彩": {
+      "all": [
+        "cai"
+      ],
+      "pinyin": [
+        "cǎi"
+      ]
+    },
+    "句": {
+      "all": [
+        "ju"
+      ],
+      "pinyin": [
+        "jù"
+      ]
+    },
+    "得": {
+      "all": [
+        "de",
+        "dei"
+      ],
+      "pinyin": [
+        "děi"
+      ]
+    },
+    "咖": {
+      "all": [
+        "ka"
+      ],
+      "pinyin": [
+        "kā"
+      ]
+    },
+    "啡": {
+      "all": [
+        "fei"
+      ],
+      "pinyin": [
+        "fēi"
+      ]
+    },
+    "靠": {
+      "all": [
+        "kao"
+      ],
+      "pinyin": [
+        "kào"
+      ]
+    },
+    "累": {
+      "all": [
+        "lei"
+      ],
+      "pinyin": [
+        "lèi"
+      ]
+    },
+    "礼": {
+      "all": [
+        "li"
+      ],
+      "pinyin": [
+        "lǐ"
+      ]
+    },
+    "聊": {
+      "all": [
+        "liao"
+      ],
+      "pinyin": [
+        "liáo"
+      ]
+    },
+    "难": {
+      "all": [
+        "nan"
+      ],
+      "pinyin": [
+        "nán"
+      ]
+    },
+    "腻": {
+      "all": [
+        "ni"
+      ],
+      "pinyin": [
+        "nì"
+      ]
+    },
+    "爬": {
+      "all": [
+        "pa"
+      ],
+      "pinyin": [
+        "pá"
+      ]
+    },
+    "普": {
+      "all": [
+        "pu"
+      ],
+      "pinyin": [
+        "pǔ"
+      ]
+    },
+    "洱": {
+      "all": [
+        "er"
+      ],
+      "pinyin": [
+        "ěr"
+      ]
+    },
+    "清": {
+      "all": [
+        "qing"
+      ],
+      "pinyin": [
+        "qīng"
+      ]
+    },
+    "楚": {
+      "all": [
+        "chu"
+      ],
+      "pinyin": []
+    },
+    "认": {
+      "all": [
+        "ren"
+      ],
+      "pinyin": [
+        "rèn"
+      ]
+    },
+    "识": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": []
+    },
+    "商": {
+      "all": [
+        "shang"
+      ],
+      "pinyin": [
+        "shāng"
+      ]
+    },
+    "量": {
+      "all": [
+        "liang"
+      ],
+      "pinyin": []
+    },
+    "深": {
+      "all": [
+        "shen"
+      ],
+      "pinyin": [
+        "shēn"
+      ]
+    },
+    "林": {
+      "all": [
+        "lin"
+      ],
+      "pinyin": [
+        "lín"
+      ]
+    },
+    "食": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shí"
+      ]
+    },
+    "堂": {
+      "all": [
+        "tang"
+      ],
+      "pinyin": [
+        "táng"
+      ]
+    },
+    "收": {
+      "all": [
+        "shou"
+      ],
+      "pinyin": [
+        "shōu"
+      ]
+    },
+    "熟": {
+      "all": [
+        "shu"
+      ],
+      "pinyin": [
+        "shú"
+      ]
+    },
+    "送": {
+      "all": [
+        "song"
+      ],
+      "pinyin": [
+        "sòng"
+      ]
+    },
+    "套": {
+      "all": [
+        "tao"
+      ],
+      "pinyin": [
+        "tào"
+      ]
+    },
+    "餐": {
+      "all": [
+        "can"
+      ],
+      "pinyin": [
+        "cān"
+      ]
+    },
+    "气": {
+      "all": [
+        "qi"
+      ],
+      "pinyin": [
+        "qì"
+      ]
+    },
+    "劝": {
+      "all": [
+        "quan"
+      ],
+      "pinyin": [
+        "quàn"
+      ]
+    },
+    "退": {
+      "all": [
+        "tui"
+      ],
+      "pinyin": [
+        "tuì"
+      ]
+    },
+    "烧": {
+      "all": [
+        "shao"
+      ],
+      "pinyin": [
+        "shāo"
+      ]
+    },
+    "完": {
+      "all": [
+        "wan"
+      ],
+      "pinyin": [
+        "wán"
+      ]
+    },
+    "围": {
+      "all": [
+        "wei"
+      ],
+      "pinyin": [
+        "wéi"
+      ]
+    },
+    "棋": {
+      "all": [
+        "qi"
+      ],
+      "pinyin": [
+        "qí"
+      ]
+    },
+    "夏": {
+      "all": [
+        "xia"
+      ],
+      "pinyin": [
+        "xià"
+      ]
+    },
+    "幸": {
+      "all": [
+        "xing"
+      ],
+      "pinyin": [
+        "xìng"
+      ]
+    },
+    "修": {
+      "all": [
+        "xiu"
+      ],
+      "pinyin": [
+        "xiū"
+      ]
+    },
+    "休": {
+      "all": [
+        "xiu"
+      ],
+      "pinyin": [
+        "xiū"
+      ]
+    },
+    "已": {
+      "all": [
+        "yi"
+      ],
+      "pinyin": [
+        "yǐ"
+      ]
+    },
+    "经": {
+      "all": [
+        "jing"
+      ],
+      "pinyin": [
+        "jīng"
+      ]
+    },
+    "赢": {
+      "all": [
+        "ying"
+      ],
+      "pinyin": [
+        "yíng"
+      ]
+    },
+    "运": {
+      "all": [
+        "yun"
+      ],
+      "pinyin": [
+        "yùn"
+      ]
+    },
+    "终": {
+      "all": [
+        "zhong"
+      ],
+      "pinyin": [
+        "zhōng"
+      ]
+    },
+    "于": {
+      "all": [
+        "yu"
+      ],
+      "pinyin": [
+        "yú"
+      ]
+    },
+    "转": {
+      "all": [
+        "zhuan"
+      ],
+      "pinyin": [
+        "zhuǎn"
+      ]
+    },
+    "哎": {
+      "all": [
+        "ai"
+      ],
+      "pinyin": [
+        "āi"
+      ]
+    },
+    "呀": {
+      "all": [
+        "ya"
+      ],
+      "pinyin": [
+        "yā"
+      ]
+    },
+    "鼻": {
+      "all": [
+        "bi"
+      ],
+      "pinyin": [
+        "bí"
+      ]
+    },
+    "较": {
+      "all": [
+        "jiao"
+      ],
+      "pinyin": [
+        "jiào"
+      ]
+    },
+    "遍": {
+      "all": [
+        "bian"
+      ],
+      "pinyin": [
+        "biàn"
+      ]
+    },
+    "别": {
+      "all": [
+        "bie"
+      ],
+      "pinyin": [
+        "bié"
+      ]
+    },
+    "病": {
+      "all": [
+        "bing"
+      ],
+      "pinyin": [
+        "bìng"
+      ]
+    },
+    "超": {
+      "all": [
+        "chao"
+      ],
+      "pinyin": [
+        "chāo"
+      ]
+    },
+    "市": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shì"
+      ]
+    },
+    "应": {
+      "all": [
+        "ying"
+      ],
+      "pinyin": [
+        "yìng"
+      ]
+    },
+    "象": {
+      "all": [
+        "xiang"
+      ],
+      "pinyin": [
+        "xiàng"
+      ]
+    },
+    "带": {
+      "all": [
+        "dai"
+      ],
+      "pinyin": [
+        "dài"
+      ]
+    },
+    "担": {
+      "all": [
+        "dan"
+      ],
+      "pinyin": [
+        "dān"
+      ]
+    },
+    "份": {
+      "all": [
+        "fen"
+      ],
+      "pinyin": [
+        "fèn"
+      ]
+    },
+    "丰": {
+      "all": [
+        "feng"
+      ],
+      "pinyin": [
+        "fēng"
+      ]
+    },
+    "富": {
+      "all": [
+        "fu"
+      ],
+      "pinyin": [
+        "fù"
+      ]
+    },
+    "迹": {
+      "all": [
+        "ji"
+      ],
+      "pinyin": [
+        "jì"
+      ]
+    },
+    "合": {
+      "all": [
+        "he"
+      ],
+      "pinyin": [
+        "hé"
+      ]
+    },
+    "寄": {
+      "all": [
+        "ji"
+      ],
+      "pinyin": [
+        "jì"
+      ]
+    },
+    "价": {
+      "all": [
+        "jia"
+      ],
+      "pinyin": [
+        "jià"
+      ]
+    },
+    "格": {
+      "all": [
+        "ge"
+      ],
+      "pinyin": [
+        "gé"
+      ]
+    },
+    "坚": {
+      "all": [
+        "jian"
+      ],
+      "pinyin": [
+        "jiān"
+      ]
+    },
+    "持": {
+      "all": [
+        "chi"
+      ],
+      "pinyin": [
+        "chí"
+      ]
+    },
+    "检": {
+      "all": [
+        "jian"
+      ],
+      "pinyin": [
+        "jiǎn"
+      ]
+    },
+    "查": {
+      "all": [
+        "cha"
+      ],
+      "pinyin": [
+        "chá"
+      ]
+    },
+    "结": {
+      "all": [
+        "jie"
+      ],
+      "pinyin": [
+        "jié"
+      ]
+    },
+    "验": {
+      "all": [
+        "yan"
+      ],
+      "pinyin": [
+        "yàn"
+      ]
+    },
+    "快": {
+      "all": [
+        "kuai"
+      ],
+      "pinyin": [
+        "kuài"
+      ]
+    },
+    "递": {
+      "all": [
+        "di"
+      ],
+      "pinyin": [
+        "dì"
+      ]
+    },
+    "款": {
+      "all": [
+        "kuan"
+      ],
+      "pinyin": [
+        "kuǎn"
+      ]
+    },
+    "式": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shì"
+      ]
+    },
+    "浪": {
+      "all": [
+        "lang"
+      ],
+      "pinyin": [
+        "làng"
+      ]
+    },
+    "费": {
+      "all": [
+        "fei"
+      ],
+      "pinyin": [
+        "fèi"
+      ]
+    },
+    "冷": {
+      "all": [
+        "leng"
+      ],
+      "pinyin": [
+        "lěng"
+      ]
+    },
+    "冻": {
+      "all": [
+        "dong"
+      ],
+      "pinyin": [
+        "dòng"
+      ]
+    },
+    "脸": {
+      "all": [
+        "lian"
+      ],
+      "pinyin": [
+        "liǎn"
+      ]
+    },
+    "色": {
+      "all": [
+        "se"
+      ],
+      "pinyin": [
+        "sè"
+      ]
+    },
+    "烦": {
+      "all": [
+        "fan"
+      ],
+      "pinyin": []
+    },
+    "胜": {
+      "all": [
+        "sheng"
+      ],
+      "pinyin": [
+        "shèng"
+      ]
+    },
+    "跑": {
+      "all": [
+        "pao"
+      ],
+      "pinyin": [
+        "pǎo"
+      ]
+    },
+    "陪": {
+      "all": [
+        "pei"
+      ],
+      "pinyin": [
+        "péi"
+      ]
+    },
+    "牵": {
+      "all": [
+        "qian"
+      ],
+      "pinyin": [
+        "qiān"
+      ]
+    },
+    "秦": {
+      "all": [
+        "qin"
+      ],
+      "pinyin": [
+        "qín"
+      ]
+    },
+    "裙": {
+      "all": [
+        "qun"
+      ],
+      "pinyin": [
+        "qún"
+      ]
+    },
+    "石": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shí"
+      ]
+    },
+    "锅": {
+      "all": [
+        "guo"
+      ],
+      "pinyin": [
+        "guō"
+      ]
+    },
+    "拌": {
+      "all": [
+        "ban"
+      ],
+      "pinyin": [
+        "bàn"
+      ]
+    },
+    "趟": {
+      "all": [
+        "tang"
+      ],
+      "pinyin": [
+        "tàng"
+      ]
+    },
+    "疼": {
+      "all": [
+        "teng"
+      ],
+      "pinyin": [
+        "téng"
+      ]
+    },
+    "添": {
+      "all": [
+        "tian"
+      ],
+      "pinyin": [
+        "tiān"
+      ]
+    },
+    "推": {
+      "all": [
+        "tui"
+      ],
+      "pinyin": [
+        "tuī"
+      ]
+    },
+    "荐": {
+      "all": [
+        "jian"
+      ],
+      "pinyin": [
+        "jiàn"
+      ]
+    },
+    "卖": {
+      "all": [
+        "mai"
+      ],
+      "pinyin": [
+        "mài"
+      ]
+    },
+    "碗": {
+      "all": [
+        "wan"
+      ],
+      "pinyin": [
+        "wǎn"
+      ]
+    },
+    "章": {
+      "all": [
+        "zhang"
+      ],
+      "pinyin": [
+        "zhāng"
+      ]
+    },
+    "谢": {
+      "all": [
+        "xie"
+      ],
+      "pinyin": [
+        "xiè"
+      ]
+    },
+    "坡": {
+      "all": [
+        "po"
+      ],
+      "pinyin": [
+        "pō"
+      ]
+    },
+    "颖": {
+      "all": [
+        "ying"
+      ],
+      "pinyin": [
+        "yǐng"
+      ]
+    },
+    "寸": {
+      "all": [
+        "cun"
+      ],
+      "pinyin": [
+        "cùn"
+      ]
+    },
+    "光": {
+      "all": [
+        "guang"
+      ],
+      "pinyin": [
+        "guāng"
+      ]
+    },
+    "阴": {
+      "all": [
+        "yin"
+      ],
+      "pinyin": [
+        "yīn"
+      ]
+    },
+    "金": {
+      "all": [
+        "jin"
+      ],
+      "pinyin": [
+        "jīn"
+      ]
+    },
+    "糟": {
+      "all": [
+        "zao"
+      ],
+      "pinyin": [
+        "zāo"
+      ]
+    },
+    "粥": {
+      "all": [
+        "zhou"
+      ],
+      "pinyin": [
+        "zhōu"
+      ]
+    },
+    "走": {
+      "all": [
+        "zou"
+      ],
+      "pinyin": [
+        "zǒu"
+      ]
+    },
+    "廊": {
+      "all": [
+        "lang"
+      ],
+      "pinyin": [
+        "láng"
+      ]
+    },
+    "静": {
+      "all": [
+        "jing"
+      ],
+      "pinyin": [
+        "jìng"
+      ]
+    },
+    "用": {
+      "all": [
+        "yong"
+      ],
+      "pinyin": [
+        "yòng"
+      ]
+    },
+    "厅": {
+      "all": [
+        "ting"
+      ],
+      "pinyin": [
+        "tīng"
+      ]
+    },
+    "操": {
+      "all": [
+        "cao"
+      ],
+      "pinyin": [
+        "cāo"
+      ]
+    },
+    "窗": {
+      "all": [
+        "chuang"
+      ],
+      "pinyin": [
+        "chuāng"
+      ]
+    },
+    "口": {
+      "all": [
+        "kou"
+      ],
+      "pinyin": [
+        "kǒu"
+      ]
+    },
+    "俯": {
+      "all": [
+        "fu"
+      ],
+      "pinyin": [
+        "fǔ"
+      ]
+    },
+    "卧": {
+      "all": [
+        "wo"
+      ],
+      "pinyin": [
+        "wò"
+      ]
+    },
+    "撑": {
+      "all": [
+        "cheng"
+      ],
+      "pinyin": [
+        "chēng"
+      ]
+    },
+    "付": {
+      "all": [
+        "fu"
+      ],
+      "pinyin": [
+        "fù"
+      ]
+    },
+    "股": {
+      "all": [
+        "gu"
+      ],
+      "pinyin": [
+        "gǔ"
+      ]
+    },
+    "规": {
+      "all": [
+        "gui"
+      ],
+      "pinyin": [
+        "guī"
+      ]
+    },
+    "矩": {
+      "all": [
+        "ju"
+      ],
+      "pinyin": []
+    },
+    "季": {
+      "all": [
+        "ji"
+      ],
+      "pinyin": [
+        "jì"
+      ]
+    },
+    "减": {
+      "all": [
+        "jian"
+      ],
+      "pinyin": [
+        "jiǎn"
+      ]
+    },
+    "肥": {
+      "all": [
+        "fei"
+      ],
+      "pinyin": [
+        "féi"
+      ]
+    },
+    "交": {
+      "all": [
+        "jiao"
+      ],
+      "pinyin": [
+        "jiāo"
+      ]
+    },
+    "为": {
+      "all": [
+        "wei"
+      ],
+      "pinyin": [
+        "wéi"
+      ]
+    },
+    "情": {
+      "all": [
+        "qing"
+      ],
+      "pinyin": [
+        "qíng"
+      ]
+    },
+    "内": {
+      "all": [
+        "nei"
+      ],
+      "pinyin": [
+        "nèi"
+      ]
+    },
+    "胖": {
+      "all": [
+        "pang"
+      ],
+      "pinyin": [
+        "pàng"
+      ]
+    },
+    "闹": {
+      "all": [
+        "nao"
+      ],
+      "pinyin": []
+    },
+    "入": {
+      "all": [
+        "ru"
+      ],
+      "pinyin": [
+        "rù"
+      ]
+    },
+    "乡": {
+      "all": [
+        "xiang"
+      ],
+      "pinyin": [
+        "xiāng"
+      ]
+    },
+    "随": {
+      "all": [
+        "sui"
+      ],
+      "pinyin": [
+        "suí"
+      ]
+    },
+    "俗": {
+      "all": [
+        "su"
+      ],
+      "pinyin": [
+        "sú"
+      ]
+    },
+    "身": {
+      "all": [
+        "shen"
+      ],
+      "pinyin": [
+        "shēn"
+      ]
+    },
+    "体": {
+      "all": [
+        "ti"
+      ],
+      "pinyin": [
+        "tǐ"
+      ]
+    },
+    "剩": {
+      "all": [
+        "sheng"
+      ],
+      "pinyin": [
+        "shèng"
+      ]
+    },
+    "守": {
+      "all": [
+        "shou"
+      ],
+      "pinyin": [
+        "shǒu"
+      ]
+    },
+    "舒": {
+      "all": [
+        "shu"
+      ],
+      "pinyin": [
+        "shū"
+      ]
+    },
+    "输": {
+      "all": [
+        "shu"
+      ],
+      "pinyin": [
+        "shū"
+      ]
+    },
+    "刷": {
+      "all": [
+        "shua"
+      ],
+      "pinyin": [
+        "shuā"
+      ]
+    },
+    "微": {
+      "all": [
+        "wei"
+      ],
+      "pinyin": [
+        "wēi"
+      ]
+    },
+    "些": {
+      "all": [
+        "xie"
+      ],
+      "pinyin": [
+        "xiē"
+      ]
+    },
+    "又": {
+      "all": [
+        "you"
+      ],
+      "pinyin": [
+        "yòu"
+      ]
+    },
+    "音": {
+      "all": [
+        "yin"
+      ],
+      "pinyin": [
+        "yīn"
+      ]
+    },
+    "预": {
+      "all": [
+        "yu"
+      ],
+      "pinyin": [
+        "yù"
+      ]
+    },
+    "约": {
+      "all": [
+        "yue"
+      ],
+      "pinyin": [
+        "yuē"
+      ]
+    },
+    "晕": {
+      "all": [
+        "yun"
+      ],
+      "pinyin": [
+        "yūn"
+      ]
+    },
+    "涨": {
+      "all": [
+        "zhang"
+      ],
+      "pinyin": [
+        "zhǎng"
+      ]
+    },
+    "诊": {
+      "all": [
+        "zhen"
+      ],
+      "pinyin": [
+        "zhěn"
+      ]
+    },
+    "室": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shì"
+      ]
+    },
+    "支": {
+      "all": [
+        "zhi"
+      ],
+      "pinyin": [
+        "zhī"
+      ]
+    },
+    "助": {
+      "all": [
+        "zhu"
+      ],
+      "pinyin": [
+        "zhù"
+      ]
+    },
+    "总": {
+      "all": [
+        "zong"
+      ],
+      "pinyin": [
+        "zǒng"
+      ]
+    },
+    "醉": {
+      "all": [
+        "zui"
+      ],
+      "pinyin": [
+        "zuì"
+      ]
+    },
+    "叶": {
+      "all": [
+        "ye"
+      ],
+      "pinyin": [
+        "yè"
+      ]
+    },
+    "扮": {
+      "all": [
+        "ban"
+      ],
+      "pinyin": [
+        "bàn"
+      ]
+    },
+    "算": {
+      "all": [
+        "suan"
+      ],
+      "pinyin": []
+    },
+    "話": {
+      "all": [
+        "hua"
+      ],
+      "pinyin": [
+        "huà"
+      ]
+    },
+    "掉": {
+      "all": [
+        "diao"
+      ],
+      "pinyin": [
+        "diào"
+      ]
+    },
+    "端": {
+      "all": [
+        "duan"
+      ],
+      "pinyin": [
+        "duān"
+      ]
+    },
+    "反": {
+      "all": [
+        "fan"
+      ],
+      "pinyin": [
+        "fǎn"
+      ]
+    },
+    "兴": {
+      "all": [
+        "xing"
+      ],
+      "pinyin": [
+        "xìng"
+      ]
+    },
+    "共": {
+      "all": [
+        "gong"
+      ],
+      "pinyin": [
+        "gòng"
+      ]
+    },
+    "吉": {
+      "all": [
+        "ji"
+      ],
+      "pinyin": [
+        "jí"
+      ]
+    },
+    "祥": {
+      "all": [
+        "xiang"
+      ],
+      "pinyin": [
+        "xiáng"
+      ]
+    },
+    "寺": {
+      "all": [
+        "si"
+      ],
+      "pinyin": [
+        "sì"
+      ]
+    },
+    "汇": {
+      "all": [
+        "hui"
+      ],
+      "pinyin": [
+        "huì"
+      ]
+    },
+    "警": {
+      "all": [
+        "jing"
+      ],
+      "pinyin": [
+        "jǐng"
+      ]
+    },
+    "察": {
+      "all": [
+        "cha"
+      ],
+      "pinyin": [
+        "chá"
+      ]
+    },
+    "就": {
+      "all": [
+        "jiu"
+      ],
+      "pinyin": [
+        "jiù"
+      ]
+    },
+    "决": {
+      "all": [
+        "jue"
+      ],
+      "pinyin": [
+        "jué"
+      ]
+    },
+    "定": {
+      "all": [
+        "ding"
+      ],
+      "pinyin": [
+        "dìng"
+      ]
+    },
+    "空": {
+      "all": [
+        "kong"
+      ],
+      "pinyin": [
+        "kòng"
+      ]
+    },
+    "往": {
+      "all": [
+        "wang"
+      ],
+      "pinyin": [
+        "wǎng"
+      ]
+    },
+    "列": {
+      "all": [
+        "lie"
+      ],
+      "pinyin": [
+        "liè"
+      ]
+    },
+    "满": {
+      "all": [
+        "man"
+      ],
+      "pinyin": [
+        "mǎn"
+      ]
+    },
+    "纪": {
+      "all": [
+        "ji"
+      ],
+      "pinyin": [
+        "jì"
+      ]
+    },
+    "钦": {
+      "all": [
+        "qin"
+      ],
+      "pinyin": [
+        "qīn"
+      ]
+    },
+    "佩": {
+      "all": [
+        "pei"
+      ],
+      "pinyin": [
+        "pèi"
+      ]
+    },
+    "取": {
+      "all": [
+        "qu"
+      ],
+      "pinyin": [
+        "qǔ"
+      ]
+    },
+    "让": {
+      "all": [
+        "rang"
+      ],
+      "pinyin": [
+        "ràng"
+      ]
+    },
+    "如": {
+      "all": [
+        "ru"
+      ],
+      "pinyin": [
+        "rú"
+      ]
+    },
+    "使": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": [
+        "shǐ"
+      ]
+    },
+    "躺": {
+      "all": [
+        "tang"
+      ],
+      "pinyin": [
+        "tǎng"
+      ]
+    },
+    "提": {
+      "all": [
+        "ti"
+      ],
+      "pinyin": [
+        "tí"
+      ]
+    },
+    "跳": {
+      "all": [
+        "tiao"
+      ],
+      "pinyin": [
+        "tiào"
+      ]
+    },
+    "停": {
+      "all": [
+        "ting"
+      ],
+      "pinyin": [
+        "tíng"
+      ]
+    },
+    "忘": {
+      "all": [
+        "wang"
+      ],
+      "pinyin": [
+        "wàng"
+      ]
+    },
+    "钥": {
+      "all": [
+        "yao"
+      ],
+      "pinyin": [
+        "yào"
+      ]
+    },
+    "匙": {
+      "all": [
+        "shi"
+      ],
+      "pinyin": []
+    },
+    "勇": {
+      "all": [
+        "yong"
+      ],
+      "pinyin": [
+        "yǒng"
+      ]
+    },
+    "底": {
+      "all": [
+        "di"
+      ],
+      "pinyin": [
+        "dǐ"
+      ]
+    },
+    "炸": {
+      "all": [
+        "zha"
+      ],
+      "pinyin": [
+        "zhá"
+      ]
+    },
+    "酱": {
+      "all": [
+        "jiang"
+      ],
+      "pinyin": [
+        "jiàng"
+      ]
+    },
+    "浙": {
+      "all": [
+        "zhe"
+      ],
+      "pinyin": [
+        "zhè"
+      ]
+    },
+    "江": {
+      "all": [
+        "jiang"
+      ],
+      "pinyin": [
+        "jiāng"
+      ]
+    },
+    "命": {
+      "all": [
+        "ming"
+      ],
+      "pinyin": [
+        "mìng"
+      ]
+    },
+    "注": {
+      "all": [
+        "zhu"
+      ],
+      "pinyin": [
+        "zhù"
+      ]
+    },
+    "韦": {
+      "all": [
+        "wei"
+      ],
+      "pinyin": [
+        "wéi"
+      ]
+    },
+    "绝": {
+      "all": [
+        "jue"
+      ],
+      "pinyin": [
+        "jué"
+      ]
+    },
+    "络": {
+      "all": [
+        "luo"
+      ],
+      "pinyin": [
+        "luò"
+      ]
+    }
+  },
+  "syllables": {
+    "a": {
+      "1": [],
+      "2": [
+        "啊"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "啊"
+      ]
+    },
+    "ai": {
+      "1": [
+        "哎"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "爱"
+      ],
+      "all": [
+        "爱",
+        "哎"
+      ]
+    },
+    "an": {
+      "1": [
+        "安"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "安"
+      ]
+    },
+    "ba": {
+      "1": [
+        "八"
+      ],
+      "2": [],
+      "3": [
+        "把"
+      ],
+      "4": [
+        "爸"
+      ],
+      "all": [
+        "八",
+        "爸",
+        "吧",
+        "把"
+      ]
+    },
+    "bai": {
+      "1": [],
+      "2": [
+        "白"
+      ],
+      "3": [
+        "百"
+      ],
+      "4": [
+        "拜"
+      ],
+      "all": [
+        "白",
+        "拜",
+        "百"
+      ]
+    },
+    "ban": {
+      "1": [
+        "班",
+        "般"
+      ],
+      "2": [],
+      "3": [
+        "阪",
+        "板"
+      ],
+      "4": [
+        "半",
+        "办",
+        "拌",
+        "扮"
+      ],
+      "all": [
+        "阪",
+        "半",
+        "板",
+        "班",
+        "办",
+        "般",
+        "拌",
+        "扮"
+      ]
+    },
+    "bang": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "棒"
+      ],
+      "all": [
+        "棒"
+      ]
+    },
+    "bao": {
+      "1": [
+        "包"
+      ],
+      "2": [],
+      "3": [
+        "饱"
+      ],
+      "4": [
+        "抱"
+      ],
+      "all": [
+        "包",
+        "抱",
+        "饱"
+      ]
+    },
+    "bei": {
+      "1": [
+        "杯"
+      ],
+      "2": [],
+      "3": [
+        "北"
+      ],
+      "4": [
+        "背",
+        "被"
+      ],
+      "all": [
+        "北",
+        "杯",
+        "背",
+        "被"
+      ]
+    },
+    "ben": {
+      "1": [],
+      "2": [],
+      "3": [
+        "本"
+      ],
+      "4": [],
+      "all": [
+        "本"
+      ]
+    },
+    "bi": {
+      "1": [],
+      "2": [
+        "鼻"
+      ],
+      "3": [
+        "比",
+        "笔"
+      ],
+      "4": [
+        "毕"
+      ],
+      "all": [
+        "比",
+        "笔",
+        "毕",
+        "鼻"
+      ]
+    },
+    "bian": {
+      "1": [
+        "编",
+        "边"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "便",
+        "遍"
+      ],
+      "all": [
+        "便",
+        "边",
+        "编",
+        "遍"
+      ]
+    },
+    "biao": {
+      "1": [],
+      "2": [],
+      "3": [
+        "表"
+      ],
+      "4": [],
+      "all": [
+        "表"
+      ]
+    },
+    "bie": {
+      "1": [],
+      "2": [
+        "别"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "别"
+      ]
+    },
+    "bing": {
+      "1": [
+        "兵",
+        "冰"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "病"
+      ],
+      "all": [
+        "饼",
+        "兵",
+        "冰",
+        "病"
+      ]
+    },
+    "bo": {
+      "1": [
+        "播"
+      ],
+      "2": [
+        "伯",
+        "博"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "伯",
+        "博",
+        "播"
+      ]
+    },
+    "bu": {
+      "1": [],
+      "2": [
+        "不"
+      ],
+      "3": [],
+      "4": [
+        "不",
+        "部",
+        "步"
+      ],
+      "all": [
+        "不",
+        "部",
+        "步"
+      ]
+    },
+    "cai": {
+      "1": [],
+      "2": [
+        "才"
+      ],
+      "3": [
+        "彩"
+      ],
+      "4": [
+        "菜"
+      ],
+      "all": [
+        "菜",
+        "才",
+        "彩"
+      ]
+    },
+    "can": {
+      "1": [
+        "参",
+        "餐"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "参",
+        "餐"
+      ]
+    },
+    "cang": {
+      "1": [
+        "仓"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "仓"
+      ]
+    },
+    "cao": {
+      "1": [
+        "操"
+      ],
+      "2": [],
+      "3": [
+        "草"
+      ],
+      "4": [],
+      "all": [
+        "草",
+        "操"
+      ]
+    },
+    "ce": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "册"
+      ],
+      "all": [
+        "册"
+      ]
+    },
+    "cha": {
+      "1": [],
+      "2": [
+        "茶",
+        "查",
+        "察"
+      ],
+      "3": [],
+      "4": [
+        "差"
+      ],
+      "all": [
+        "茶",
+        "差",
+        "查",
+        "察"
+      ]
+    },
+    "chai": {
+      "1": [],
+      "2": [
+        "柴"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "柴"
+      ]
+    },
+    "chang": {
+      "1": [],
+      "2": [
+        "常",
+        "长"
+      ],
+      "3": [
+        "场"
+      ],
+      "4": [
+        "唱"
+      ],
+      "all": [
+        "场",
+        "唱",
+        "常",
+        "长"
+      ]
+    },
+    "chao": {
+      "1": [
+        "超"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "超"
+      ]
+    },
+    "che": {
+      "1": [
+        "车"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "车"
+      ]
+    },
+    "chen": {
+      "1": [],
+      "2": [
+        "陈"
+      ],
+      "3": [],
+      "4": [
+        "衬"
+      ],
+      "all": [
+        "陈",
+        "衬"
+      ]
+    },
+    "cheng": {
+      "1": [
+        "撑"
+      ],
+      "2": [
+        "成",
+        "程"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "成",
+        "程",
+        "撑"
+      ]
+    },
+    "chi": {
+      "1": [
+        "吃"
+      ],
+      "2": [
+        "持"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "吃",
+        "持"
+      ]
+    },
+    "chu": {
+      "1": [
+        "初",
+        "出"
+      ],
+      "2": [
+        "厨"
+      ],
+      "3": [
+        "储"
+      ],
+      "4": [],
+      "all": [
+        "初",
+        "出",
+        "厨",
+        "储",
+        "楚"
+      ]
+    },
+    "chuan": {
+      "1": [
+        "川"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "川"
+      ]
+    },
+    "chuang": {
+      "1": [
+        "窗"
+      ],
+      "2": [
+        "床"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "床",
+        "窗"
+      ]
+    },
+    "ci": {
+      "1": [],
+      "2": [
+        "词"
+      ],
+      "3": [],
+      "4": [
+        "次"
+      ],
+      "all": [
+        "次",
+        "词"
+      ]
+    },
+    "cun": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "寸"
+      ],
+      "all": [
+        "寸"
+      ]
+    },
+    "cuo": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "错"
+      ],
+      "all": [
+        "错"
+      ]
+    },
+    "da": {
+      "1": [
+        "答"
+      ],
+      "2": [
+        "答"
+      ],
+      "3": [
+        "打"
+      ],
+      "4": [
+        "大"
+      ],
+      "all": [
+        "打",
+        "大",
+        "答"
+      ]
+    },
+    "dai": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "戴",
+        "带"
+      ],
+      "all": [
+        "戴",
+        "带"
+      ]
+    },
+    "dan": {
+      "1": [
+        "单",
+        "担"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "蛋",
+        "但"
+      ],
+      "all": [
+        "单",
+        "蛋",
+        "但",
+        "担"
+      ]
+    },
+    "dao": {
+      "1": [
+        "刀"
+      ],
+      "2": [],
+      "3": [
+        "倒",
+        "导"
+      ],
+      "4": [
+        "到",
+        "道"
+      ],
+      "all": [
+        "刀",
+        "道",
+        "倒",
+        "到",
+        "导"
+      ]
+    },
+    "de": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "的",
+        "得"
+      ]
+    },
+    "dei": {
+      "1": [],
+      "2": [],
+      "3": [
+        "得"
+      ],
+      "4": [],
+      "all": [
+        "得"
+      ]
+    },
+    "deng": {
+      "1": [],
+      "2": [],
+      "3": [
+        "等"
+      ],
+      "4": [],
+      "all": [
+        "等"
+      ]
+    },
+    "di": {
+      "1": [],
+      "2": [
+        "迪"
+      ],
+      "3": [
+        "底"
+      ],
+      "4": [
+        "弟",
+        "第",
+        "地",
+        "递"
+      ],
+      "all": [
+        "弟",
+        "第",
+        "地",
+        "迪",
+        "递",
+        "底"
+      ]
+    },
+    "dian": {
+      "1": [],
+      "2": [],
+      "3": [
+        "点",
+        "典"
+      ],
+      "4": [
+        "电",
+        "店"
+      ],
+      "all": [
+        "电",
+        "店",
+        "点",
+        "典"
+      ]
+    },
+    "diao": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "掉"
+      ],
+      "all": [
+        "掉"
+      ]
+    },
+    "ding": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "订",
+        "定"
+      ],
+      "all": [
+        "订",
+        "定"
+      ]
+    },
+    "dong": {
+      "1": [
+        "东"
+      ],
+      "2": [],
+      "3": [
+        "懂"
+      ],
+      "4": [
+        "动",
+        "冻"
+      ],
+      "all": [
+        "东",
+        "动",
+        "懂",
+        "冻"
+      ]
+    },
+    "dou": {
+      "1": [
+        "都",
+        "兜"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "逗"
+      ],
+      "all": [
+        "逗",
+        "都",
+        "兜"
+      ]
+    },
+    "du": {
+      "1": [
+        "都"
+      ],
+      "2": [
+        "独",
+        "读"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "独",
+        "都",
+        "读"
+      ]
+    },
+    "duan": {
+      "1": [
+        "端"
+      ],
+      "2": [],
+      "3": [
+        "短"
+      ],
+      "4": [],
+      "all": [
+        "短",
+        "端"
+      ]
+    },
+    "dui": {
+      "1": [
+        "堆"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "对"
+      ],
+      "all": [
+        "对",
+        "堆"
+      ]
+    },
+    "dun": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "顿"
+      ],
+      "all": [
+        "顿"
+      ]
+    },
+    "duo": {
+      "1": [
+        "多"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "多"
+      ]
+    },
+    "ei": {
+      "1": [],
+      "2": [
+        "欸"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "欸"
+      ]
+    },
+    "er": {
+      "1": [],
+      "2": [
+        "儿"
+      ],
+      "3": [
+        "耳",
+        "洱"
+      ],
+      "4": [
+        "二"
+      ],
+      "all": [
+        "儿",
+        "二",
+        "耳",
+        "洱"
+      ]
+    },
+    "fa": {
+      "1": [
+        "发"
+      ],
+      "2": [],
+      "3": [
+        "法"
+      ],
+      "4": [],
+      "all": [
+        "发",
+        "法"
+      ]
+    },
+    "fan": {
+      "1": [
+        "翻"
+      ],
+      "2": [],
+      "3": [
+        "反"
+      ],
+      "4": [
+        "饭"
+      ],
+      "all": [
+        "饭",
+        "翻",
+        "烦",
+        "反"
+      ]
+    },
+    "fang": {
+      "1": [
+        "方"
+      ],
+      "2": [
+        "房"
+      ],
+      "3": [
+        "访"
+      ],
+      "4": [
+        "放"
+      ],
+      "all": [
+        "方",
+        "访",
+        "房",
+        "放"
+      ]
+    },
+    "fei": {
+      "1": [
+        "非",
+        "飞",
+        "啡"
+      ],
+      "2": [
+        "肥"
+      ],
+      "3": [],
+      "4": [
+        "费"
+      ],
+      "all": [
+        "非",
+        "飞",
+        "啡",
+        "费",
+        "肥"
+      ]
+    },
+    "fen": {
+      "1": [
+        "分"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "份"
+      ],
+      "all": [
+        "分",
+        "份"
+      ]
+    },
+    "feng": {
+      "1": [
+        "风",
+        "丰"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "风",
+        "丰"
+      ]
+    },
+    "fu": {
+      "1": [],
+      "2": [
+        "福",
+        "服"
+      ],
+      "3": [
+        "俯"
+      ],
+      "4": [
+        "复",
+        "父",
+        "富",
+        "付"
+      ],
+      "all": [
+        "福",
+        "服",
+        "夫",
+        "复",
+        "父",
+        "富",
+        "俯",
+        "付"
+      ]
+    },
+    "gan": {
+      "1": [
+        "观",
+        "干"
+      ],
+      "2": [],
+      "3": [
+        "感"
+      ],
+      "4": [
+        "干"
+      ],
+      "all": [
+        "感",
+        "观",
+        "干"
+      ]
+    },
+    "gang": {
+      "1": [
+        "刚"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "刚"
+      ]
+    },
+    "gao": {
+      "1": [
+        "糕",
+        "高"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "糕",
+        "高"
+      ]
+    },
+    "ge": {
+      "1": [
+        "哥"
+      ],
+      "2": [
+        "格"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "哥",
+        "个",
+        "格"
+      ]
+    },
+    "gei": {
+      "1": [],
+      "2": [],
+      "3": [
+        "给"
+      ],
+      "4": [],
+      "all": [
+        "给"
+      ]
+    },
+    "gen": {
+      "1": [
+        "根"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "根"
+      ]
+    },
+    "gong": {
+      "1": [
+        "公",
+        "宫",
+        "功",
+        "工"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "共"
+      ],
+      "all": [
+        "公",
+        "宫",
+        "功",
+        "工",
+        "共"
+      ]
+    },
+    "gou": {
+      "1": [],
+      "2": [],
+      "3": [
+        "狗"
+      ],
+      "4": [
+        "够"
+      ],
+      "all": [
+        "狗",
+        "够"
+      ]
+    },
+    "gu": {
+      "1": [
+        "姑"
+      ],
+      "2": [],
+      "3": [
+        "古",
+        "谷",
+        "股"
+      ],
+      "4": [
+        "顾",
+        "故"
+      ],
+      "all": [
+        "姑",
+        "顾",
+        "古",
+        "故",
+        "谷",
+        "股"
+      ]
+    },
+    "gua": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "挂"
+      ],
+      "all": [
+        "挂"
+      ]
+    },
+    "guan": {
+      "1": [
+        "关",
+        "观"
+      ],
+      "2": [],
+      "3": [
+        "馆"
+      ],
+      "4": [
+        "惯"
+      ],
+      "all": [
+        "馆",
+        "关",
+        "惯",
+        "观"
+      ]
+    },
+    "guang": {
+      "1": [
+        "光"
+      ],
+      "2": [],
+      "3": [
+        "广"
+      ],
+      "4": [],
+      "all": [
+        "广",
+        "光"
+      ]
+    },
+    "gui": {
+      "1": [
+        "规"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "柜",
+        "贵"
+      ],
+      "all": [
+        "柜",
+        "贵",
+        "规"
+      ]
+    },
+    "guo": {
+      "1": [
+        "锅"
+      ],
+      "2": [
+        "国"
+      ],
+      "3": [
+        "果"
+      ],
+      "4": [
+        "过"
+      ],
+      "all": [
+        "国",
+        "过",
+        "果",
+        "锅"
+      ]
+    },
+    "hai": {
+      "1": [],
+      "2": [
+        "孩",
+        "还"
+      ],
+      "3": [
+        "海"
+      ],
+      "4": [],
+      "all": [
+        "海",
+        "孩",
+        "害",
+        "还"
+      ]
+    },
+    "han": {
+      "1": [],
+      "2": [
+        "韩"
+      ],
+      "3": [],
+      "4": [
+        "汉"
+      ],
+      "all": [
+        "韩",
+        "汉"
+      ]
+    },
+    "hao": {
+      "1": [],
+      "2": [],
+      "3": [
+        "好"
+      ],
+      "4": [
+        "号"
+      ],
+      "all": [
+        "好",
+        "号"
+      ]
+    },
+    "he": {
+      "1": [
+        "喝"
+      ],
+      "2": [
+        "和",
+        "河",
+        "合"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "喝",
+        "和",
+        "河",
+        "合"
+      ]
+    },
+    "hei": {
+      "1": [
+        "黑"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "黑"
+      ]
+    },
+    "hen": {
+      "1": [],
+      "2": [],
+      "3": [
+        "很"
+      ],
+      "4": [],
+      "all": [
+        "很"
+      ]
+    },
+    "hong": {
+      "1": [],
+      "2": [
+        "红"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "红"
+      ]
+    },
+    "hou": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "后"
+      ],
+      "all": [
+        "后",
+        "候"
+      ]
+    },
+    "hu": {
+      "1": [],
+      "2": [
+        "胡",
+        "壶"
+      ],
+      "3": [
+        "浒"
+      ],
+      "4": [],
+      "all": [
+        "浒",
+        "胡",
+        "壶"
+      ]
+    },
+    "hua": {
+      "1": [
+        "花"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "画",
+        "话",
+        "話"
+      ],
+      "all": [
+        "画",
+        "话",
+        "花",
+        "話"
+      ]
+    },
+    "huai": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "坏"
+      ],
+      "all": [
+        "坏"
+      ]
+    },
+    "huan": {
+      "1": [
+        "欢"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "幻"
+      ],
+      "all": [
+        "欢",
+        "幻"
+      ]
+    },
+    "huang": {
+      "1": [],
+      "2": [
+        "黄"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "黄"
+      ]
+    },
+    "hui": {
+      "1": [],
+      "2": [
+        "回"
+      ],
+      "3": [],
+      "4": [
+        "会",
+        "汇"
+      ],
+      "all": [
+        "会",
+        "回",
+        "汇"
+      ]
+    },
+    "huo": {
+      "1": [],
+      "2": [
+        "活"
+      ],
+      "3": [
+        "火"
+      ],
+      "4": [
+        "或"
+      ],
+      "all": [
+        "活",
+        "火",
+        "或"
+      ]
+    },
+    "ji": {
+      "1": [
+        "机",
+        "积",
+        "鸡"
+      ],
+      "2": [
+        "级",
+        "极",
+        "吉"
+      ],
+      "3": [
+        "几"
+      ],
+      "4": [
+        "记",
+        "迹",
+        "寄",
+        "季",
+        "纪"
+      ],
+      "all": [
+        "级",
+        "极",
+        "机",
+        "积",
+        "几",
+        "记",
+        "鸡",
+        "迹",
+        "寄",
+        "季",
+        "吉",
+        "纪"
+      ]
+    },
+    "jia": {
+      "1": [
+        "加",
+        "家"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "假",
+        "架",
+        "驾",
+        "价"
+      ],
+      "all": [
+        "加",
+        "家",
+        "假",
+        "架",
+        "驾",
+        "价"
+      ]
+    },
+    "jian": {
+      "1": [
+        "间",
+        "坚"
+      ],
+      "2": [],
+      "3": [
+        "简",
+        "检",
+        "减"
+      ],
+      "4": [
+        "建",
+        "见",
+        "件",
+        "荐"
+      ],
+      "all": [
+        "建",
+        "见",
+        "间",
+        "件",
+        "简",
+        "坚",
+        "检",
+        "荐",
+        "减"
+      ]
+    },
+    "jiang": {
+      "1": [
+        "江"
+      ],
+      "2": [],
+      "3": [
+        "讲"
+      ],
+      "4": [
+        "酱"
+      ],
+      "all": [
+        "讲",
+        "酱",
+        "江"
+      ]
+    },
+    "jiao": {
+      "1": [
+        "教",
+        "交"
+      ],
+      "2": [],
+      "3": [
+        "角",
+        "饺"
+      ],
+      "4": [
+        "叫",
+        "教",
+        "觉",
+        "较"
+      ],
+      "all": [
+        "教",
+        "叫",
+        "觉",
+        "角",
+        "饺",
+        "较",
+        "交"
+      ]
+    },
+    "jie": {
+      "1": [],
+      "2": [
+        "节",
+        "结"
+      ],
+      "3": [
+        "姐"
+      ],
+      "4": [],
+      "all": [
+        "姐",
+        "节",
+        "结"
+      ]
+    },
+    "jin": {
+      "1": [
+        "今",
+        "巾",
+        "金"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "进"
+      ],
+      "all": [
+        "今",
+        "巾",
+        "进",
+        "金"
+      ]
+    },
+    "jing": {
+      "1": [
+        "京",
+        "精",
+        "经"
+      ],
+      "2": [],
+      "3": [
+        "井",
+        "警"
+      ],
+      "4": [
+        "镜",
+        "净",
+        "静"
+      ],
+      "all": [
+        "京",
+        "镜",
+        "睛",
+        "井",
+        "净",
+        "精",
+        "经",
+        "静",
+        "警"
+      ]
+    },
+    "jiu": {
+      "1": [],
+      "2": [],
+      "3": [
+        "九",
+        "韭",
+        "酒"
+      ],
+      "4": [
+        "舅",
+        "就"
+      ],
+      "all": [
+        "九",
+        "韭",
+        "舅",
+        "酒",
+        "就"
+      ]
+    },
+    "ju": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "句"
+      ],
+      "all": [
+        "句",
+        "矩"
+      ]
+    },
+    "jue": {
+      "1": [],
+      "2": [
+        "觉",
+        "决",
+        "绝"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "觉",
+        "决",
+        "绝"
+      ]
+    },
+    "ka": {
+      "1": [
+        "咖"
+      ],
+      "2": [],
+      "3": [
+        "卡"
+      ],
+      "4": [],
+      "all": [
+        "卡",
+        "咖"
+      ]
+    },
+    "kai": {
+      "1": [
+        "开"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "开"
+      ]
+    },
+    "kan": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "看"
+      ],
+      "all": [
+        "看"
+      ]
+    },
+    "kao": {
+      "1": [],
+      "2": [],
+      "3": [
+        "烤",
+        "考"
+      ],
+      "4": [
+        "靠"
+      ],
+      "all": [
+        "烤",
+        "考",
+        "靠"
+      ]
+    },
+    "ke": {
+      "1": [
+        "科"
+      ],
+      "2": [],
+      "3": [
+        "可"
+      ],
+      "4": [
+        "客",
+        "课",
+        "刻"
+      ],
+      "all": [
+        "客",
+        "课",
+        "科",
+        "刻",
+        "可"
+      ]
+    },
+    "kong": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "空"
+      ],
+      "all": [
+        "空"
+      ]
+    },
+    "kou": {
+      "1": [],
+      "2": [],
+      "3": [
+        "口"
+      ],
+      "4": [],
+      "all": [
+        "口"
+      ]
+    },
+    "ku": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "裤"
+      ],
+      "all": [
+        "裤"
+      ]
+    },
+    "kuai": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "块",
+        "快"
+      ],
+      "all": [
+        "块",
+        "快"
+      ]
+    },
+    "kuan": {
+      "1": [
+        "宽"
+      ],
+      "2": [],
+      "3": [
+        "款"
+      ],
+      "4": [],
+      "all": [
+        "宽",
+        "款"
+      ]
+    },
+    "la": {
+      "1": [
+        "拉"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "拉"
+      ]
+    },
+    "lai": {
+      "1": [],
+      "2": [
+        "来"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "来"
+      ]
+    },
+    "lan": {
+      "1": [],
+      "2": [],
+      "3": [
+        "懒"
+      ],
+      "4": [],
+      "all": [
+        "懒"
+      ]
+    },
+    "lang": {
+      "1": [],
+      "2": [
+        "廊"
+      ],
+      "3": [],
+      "4": [
+        "浪"
+      ],
+      "all": [
+        "浪",
+        "廊"
+      ]
+    },
+    "lao": {
+      "1": [],
+      "2": [],
+      "3": [
+        "姥",
+        "老"
+      ],
+      "4": [],
+      "all": [
+        "姥",
+        "老"
+      ]
+    },
+    "le": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "乐"
+      ],
+      "all": [
+        "乐",
+        "了"
+      ]
+    },
+    "lei": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "累"
+      ],
+      "all": [
+        "累"
+      ]
+    },
+    "leng": {
+      "1": [],
+      "2": [],
+      "3": [
+        "冷"
+      ],
+      "4": [],
+      "all": [
+        "冷"
+      ]
+    },
+    "li": {
+      "1": [],
+      "2": [
+        "厘"
+      ],
+      "3": [
+        "李",
+        "理",
+        "里",
+        "礼"
+      ],
+      "4": [
+        "利",
+        "厉",
+        "历"
+      ],
+      "all": [
+        "李",
+        "理",
+        "利",
+        "厘",
+        "里",
+        "厉",
+        "历",
+        "礼"
+      ]
+    },
+    "lia": {
+      "1": [],
+      "2": [],
+      "3": [
+        "俩"
+      ],
+      "4": [],
+      "all": [
+        "俩"
+      ]
+    },
+    "lian": {
+      "1": [],
+      "2": [
+        "镰"
+      ],
+      "3": [
+        "脸"
+      ],
+      "4": [],
+      "all": [
+        "镰",
+        "脸"
+      ]
+    },
+    "liang": {
+      "1": [],
+      "2": [
+        "良"
+      ],
+      "3": [
+        "两"
+      ],
+      "4": [
+        "辆"
+      ],
+      "all": [
+        "两",
+        "良",
+        "辆",
+        "量"
+      ]
+    },
+    "liao": {
+      "1": [],
+      "2": [
+        "聊"
+      ],
+      "3": [],
+      "4": [
+        "料"
+      ],
+      "all": [
+        "料",
+        "聊"
+      ]
+    },
+    "lie": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "列"
+      ],
+      "all": [
+        "列"
+      ]
+    },
+    "lin": {
+      "1": [],
+      "2": [
+        "林"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "林"
+      ]
+    },
+    "ling": {
+      "1": [],
+      "2": [
+        "零"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "零"
+      ]
+    },
+    "liu": {
+      "1": [],
+      "2": [
+        "留",
+        "流"
+      ],
+      "3": [],
+      "4": [
+        "六"
+      ],
+      "all": [
+        "留",
+        "六",
+        "流"
+      ]
+    },
+    "lou": {
+      "1": [],
+      "2": [
+        "楼"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "楼"
+      ]
+    },
+    "lu": {
+      "1": [],
+      "2": [],
+      "3": [
+        "鲁"
+      ],
+      "4": [
+        "路"
+      ],
+      "all": [
+        "鲁",
+        "路"
+      ]
+    },
+    "lü": {
+      "1": [],
+      "2": [],
+      "3": [
+        "旅"
+      ],
+      "4": [],
+      "all": [
+        "旅"
+      ]
+    },
+    "lun": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "论"
+      ],
+      "all": [
+        "论"
+      ]
+    },
+    "luo": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "洛",
+        "络"
+      ],
+      "all": [
+        "洛",
+        "络"
+      ]
+    },
+    "ma": {
+      "1": [
+        "妈"
+      ],
+      "2": [
+        "麻"
+      ],
+      "3": [
+        "马",
+        "码"
+      ],
+      "4": [],
+      "all": [
+        "妈",
+        "吗",
+        "麻",
+        "马",
+        "码"
+      ]
+    },
+    "mai": {
+      "1": [],
+      "2": [],
+      "3": [
+        "买"
+      ],
+      "4": [
+        "卖"
+      ],
+      "all": [
+        "买",
+        "卖"
+      ]
+    },
+    "man": {
+      "1": [],
+      "2": [],
+      "3": [
+        "满"
+      ],
+      "4": [
+        "漫"
+      ],
+      "all": [
+        "漫",
+        "满"
+      ]
+    },
+    "mao": {
+      "1": [
+        "猫"
+      ],
+      "2": [
+        "毛"
+      ],
+      "3": [],
+      "4": [
+        "冒"
+      ],
+      "all": [
+        "冒",
+        "猫",
+        "毛"
+      ]
+    },
+    "me": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "么"
+      ]
+    },
+    "mei": {
+      "1": [],
+      "2": [
+        "梅",
+        "没"
+      ],
+      "3": [
+        "美",
+        "每"
+      ],
+      "4": [
+        "妹"
+      ],
+      "all": [
+        "梅",
+        "美",
+        "每",
+        "妹",
+        "没"
+      ]
+    },
+    "men": {
+      "1": [],
+      "2": [
+        "门"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "们",
+        "门"
+      ]
+    },
+    "meng": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "梦"
+      ],
+      "all": [
+        "梦"
+      ]
+    },
+    "mi": {
+      "1": [],
+      "2": [],
+      "3": [
+        "米"
+      ],
+      "4": [
+        "秘"
+      ],
+      "all": [
+        "米",
+        "秘"
+      ]
+    },
+    "mian": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "面"
+      ],
+      "all": [
+        "面"
+      ]
+    },
+    "ming": {
+      "1": [],
+      "2": [
+        "明",
+        "名"
+      ],
+      "3": [],
+      "4": [
+        "命"
+      ],
+      "all": [
+        "明",
+        "名",
+        "命"
+      ]
+    },
+    "mo": {
+      "1": [],
+      "2": [
+        "模"
+      ],
+      "3": [],
+      "4": [
+        "末"
+      ],
+      "all": [
+        "模",
+        "末"
+      ]
+    },
+    "mu": {
+      "1": [],
+      "2": [],
+      "3": [
+        "母"
+      ],
+      "4": [
+        "木",
+        "目"
+      ],
+      "all": [
+        "木",
+        "目",
+        "母"
+      ]
+    },
+    "na": {
+      "1": [],
+      "2": [
+        "拿"
+      ],
+      "3": [
+        "哪"
+      ],
+      "4": [
+        "那"
+      ],
+      "all": [
+        "哪",
+        "那",
+        "拿"
+      ]
+    },
+    "nai": {
+      "1": [],
+      "2": [],
+      "3": [
+        "奶"
+      ],
+      "4": [
+        "奈"
+      ],
+      "all": [
+        "奶",
+        "奈"
+      ]
+    },
+    "nan": {
+      "1": [],
+      "2": [
+        "南",
+        "难"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "南",
+        "难"
+      ]
+    },
+    "nao": {
+      "1": [],
+      "2": [],
+      "3": [
+        "脑"
+      ],
+      "4": [],
+      "all": [
+        "脑",
+        "闹"
+      ]
+    },
+    "ne": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "呢"
+      ]
+    },
+    "nei": {
+      "1": [],
+      "2": [],
+      "3": [
+        "哪"
+      ],
+      "4": [
+        "那",
+        "内"
+      ],
+      "all": [
+        "哪",
+        "那",
+        "内"
+      ]
+    },
+    "neng": {
+      "1": [],
+      "2": [
+        "能"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "能"
+      ]
+    },
+    "ni": {
+      "1": [],
+      "2": [
+        "尼"
+      ],
+      "3": [
+        "你"
+      ],
+      "4": [
+        "腻"
+      ],
+      "all": [
+        "你",
+        "尼",
+        "腻"
+      ]
+    },
+    "nian": {
+      "1": [],
+      "2": [
+        "年"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "年"
+      ]
+    },
+    "niao": {
+      "1": [],
+      "2": [],
+      "3": [
+        "鸟"
+      ],
+      "4": [],
+      "all": [
+        "鸟"
+      ]
+    },
+    "nin": {
+      "1": [],
+      "2": [
+        "您"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "您"
+      ]
+    },
+    "niu": {
+      "1": [],
+      "2": [
+        "牛"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "牛"
+      ]
+    },
+    "nü": {
+      "1": [],
+      "2": [],
+      "3": [
+        "女"
+      ],
+      "4": [],
+      "all": [
+        "女"
+      ]
+    },
+    "o": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "哦"
+      ],
+      "all": [
+        "哦"
+      ]
+    },
+    "pa": {
+      "1": [],
+      "2": [
+        "爬"
+      ],
+      "3": [],
+      "4": [
+        "帕"
+      ],
+      "all": [
+        "帕",
+        "爬"
+      ]
+    },
+    "pai": {
+      "1": [],
+      "2": [
+        "排"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "排"
+      ]
+    },
+    "pang": {
+      "1": [],
+      "2": [
+        "旁"
+      ],
+      "3": [],
+      "4": [
+        "胖"
+      ],
+      "all": [
+        "旁",
+        "胖"
+      ]
+    },
+    "pao": {
+      "1": [],
+      "2": [],
+      "3": [
+        "跑"
+      ],
+      "4": [],
+      "all": [
+        "跑"
+      ]
+    },
+    "pei": {
+      "1": [],
+      "2": [
+        "陪"
+      ],
+      "3": [],
+      "4": [
+        "佩"
+      ],
+      "all": [
+        "陪",
+        "佩"
+      ]
+    },
+    "peng": {
+      "1": [],
+      "2": [
+        "朋"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "朋"
+      ]
+    },
+    "pi": {
+      "1": [
+        "批"
+      ],
+      "2": [
+        "啤",
+        "皮"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "啤",
+        "批",
+        "皮"
+      ]
+    },
+    "pian": {
+      "1": [
+        "篇"
+      ],
+      "2": [
+        "便"
+      ],
+      "3": [],
+      "4": [
+        "片"
+      ],
+      "all": [
+        "篇",
+        "便",
+        "片"
+      ]
+    },
+    "piao": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "票"
+      ],
+      "all": [
+        "票"
+      ]
+    },
+    "pin": {
+      "1": [],
+      "2": [],
+      "3": [
+        "品"
+      ],
+      "4": [],
+      "all": [
+        "品"
+      ]
+    },
+    "ping": {
+      "1": [],
+      "2": [
+        "瓶",
+        "苹",
+        "平",
+        "评"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "瓶",
+        "苹",
+        "平",
+        "评"
+      ]
+    },
+    "po": {
+      "1": [
+        "坡"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "坡"
+      ]
+    },
+    "pu": {
+      "1": [],
+      "2": [],
+      "3": [
+        "普"
+      ],
+      "4": [],
+      "all": [
+        "普"
+      ]
+    },
+    "qi": {
+      "1": [
+        "七",
+        "妻",
+        "期"
+      ],
+      "2": [
+        "其",
+        "骑",
+        "棋"
+      ],
+      "3": [
+        "起"
+      ],
+      "4": [
+        "汽",
+        "气"
+      ],
+      "all": [
+        "七",
+        "妻",
+        "期",
+        "起",
+        "其",
+        "汽",
+        "骑",
+        "气",
+        "棋"
+      ]
+    },
+    "qian": {
+      "1": [
+        "铅",
+        "千",
+        "牵"
+      ],
+      "2": [
+        "前",
+        "钱"
+      ],
+      "3": [],
+      "4": [
+        "歉"
+      ],
+      "all": [
+        "前",
+        "铅",
+        "歉",
+        "钱",
+        "千",
+        "牵"
+      ]
+    },
+    "qiang": {
+      "1": [],
+      "2": [
+        "强"
+      ],
+      "3": [
+        "强"
+      ],
+      "4": [],
+      "all": [
+        "强"
+      ]
+    },
+    "qin": {
+      "1": [
+        "钦"
+      ],
+      "2": [
+        "秦"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "秦",
+        "钦"
+      ]
+    },
+    "qing": {
+      "1": [
+        "清"
+      ],
+      "2": [
+        "情"
+      ],
+      "3": [
+        "请"
+      ],
+      "4": [],
+      "all": [
+        "请",
+        "清",
+        "情"
+      ]
+    },
+    "qiu": {
+      "1": [
+        "秋"
+      ],
+      "2": [
+        "球"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "球",
+        "秋"
+      ]
+    },
+    "qu": {
+      "1": [
+        "区"
+      ],
+      "2": [],
+      "3": [
+        "取"
+      ],
+      "4": [
+        "去"
+      ],
+      "all": [
+        "去",
+        "区",
+        "取"
+      ]
+    },
+    "quan": {
+      "1": [],
+      "2": [
+        "拳"
+      ],
+      "3": [],
+      "4": [
+        "劝"
+      ],
+      "all": [
+        "拳",
+        "劝"
+      ]
+    },
+    "qun": {
+      "1": [],
+      "2": [
+        "裙"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "裙"
+      ]
+    },
+    "ran": {
+      "1": [],
+      "2": [
+        "然"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "然"
+      ]
+    },
+    "rang": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "让"
+      ],
+      "all": [
+        "让"
+      ]
+    },
+    "re": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "热"
+      ],
+      "all": [
+        "热"
+      ]
+    },
+    "ren": {
+      "1": [],
+      "2": [
+        "人"
+      ],
+      "3": [],
+      "4": [
+        "认"
+      ],
+      "all": [
+        "人",
+        "认"
+      ]
+    },
+    "ri": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "日"
+      ],
+      "all": [
+        "日"
+      ]
+    },
+    "rou": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "肉"
+      ],
+      "all": [
+        "肉"
+      ]
+    },
+    "ru": {
+      "1": [],
+      "2": [
+        "如"
+      ],
+      "3": [],
+      "4": [
+        "入"
+      ],
+      "all": [
+        "入",
+        "如"
+      ]
+    },
+    "sai": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "赛"
+      ],
+      "all": [
+        "赛"
+      ]
+    },
+    "san": {
+      "1": [
+        "三"
+      ],
+      "2": [],
+      "3": [
+        "伞"
+      ],
+      "4": [
+        "散"
+      ],
+      "all": [
+        "三",
+        "伞",
+        "散"
+      ]
+    },
+    "se": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "涩",
+        "色"
+      ],
+      "all": [
+        "涩",
+        "色"
+      ]
+    },
+    "shan": {
+      "1": [
+        "衫",
+        "山"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "扇"
+      ],
+      "all": [
+        "衫",
+        "山",
+        "扇"
+      ]
+    },
+    "shang": {
+      "1": [
+        "商"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "上"
+      ],
+      "all": [
+        "上",
+        "商"
+      ]
+    },
+    "shao": {
+      "1": [
+        "烧"
+      ],
+      "2": [],
+      "3": [
+        "少"
+      ],
+      "4": [],
+      "all": [
+        "少",
+        "烧"
+      ]
+    },
+    "she": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "社"
+      ],
+      "all": [
+        "社"
+      ]
+    },
+    "shei": {
+      "1": [],
+      "2": [
+        "谁"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "谁"
+      ]
+    },
+    "shen": {
+      "1": [
+        "申",
+        "深",
+        "身"
+      ],
+      "2": [
+        "什",
+        "神"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "什",
+        "申",
+        "神",
+        "深",
+        "身"
+      ]
+    },
+    "sheng": {
+      "1": [
+        "生"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "胜",
+        "剩"
+      ],
+      "all": [
+        "生",
+        "胜",
+        "剩"
+      ]
+    },
+    "shi": {
+      "1": [
+        "师"
+      ],
+      "2": [
+        "十",
+        "时",
+        "食",
+        "石"
+      ],
+      "3": [
+        "始",
+        "史",
+        "使"
+      ],
+      "4": [
+        "是",
+        "事",
+        "士",
+        "氏",
+        "市",
+        "式",
+        "室"
+      ],
+      "all": [
+        "十",
+        "是",
+        "始",
+        "时",
+        "事",
+        "师",
+        "士",
+        "氏",
+        "史",
+        "识",
+        "食",
+        "市",
+        "式",
+        "石",
+        "室",
+        "使",
+        "匙"
+      ]
+    },
+    "shou": {
+      "1": [
+        "收"
+      ],
+      "2": [],
+      "3": [
+        "手",
+        "守"
+      ],
+      "4": [
+        "授"
+      ],
+      "all": [
+        "手",
+        "授",
+        "收",
+        "守"
+      ]
+    },
+    "shu": {
+      "1": [
+        "书",
+        "叔",
+        "舒",
+        "输"
+      ],
+      "2": [
+        "熟"
+      ],
+      "3": [
+        "属",
+        "暑"
+      ],
+      "4": [
+        "数"
+      ],
+      "all": [
+        "书",
+        "叔",
+        "属",
+        "数",
+        "暑",
+        "熟",
+        "舒",
+        "输"
+      ]
+    },
+    "shua": {
+      "1": [
+        "刷"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "刷"
+      ]
+    },
+    "shuang": {
+      "1": [
+        "双"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "双"
+      ]
+    },
+    "shui": {
+      "1": [],
+      "2": [],
+      "3": [
+        "水"
+      ],
+      "4": [
+        "睡"
+      ],
+      "all": [
+        "水",
+        "睡"
+      ]
+    },
+    "shuo": {
+      "1": [
+        "说"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "说"
+      ]
+    },
+    "si": {
+      "1": [
+        "司",
+        "思"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "四",
+        "寺"
+      ],
+      "all": [
+        "司",
+        "思",
+        "四",
+        "寺"
+      ]
+    },
+    "song": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "送"
+      ],
+      "all": [
+        "送"
+      ]
+    },
+    "su": {
+      "1": [],
+      "2": [
+        "俗"
+      ],
+      "3": [],
+      "4": [
+        "速"
+      ],
+      "all": [
+        "速",
+        "俗"
+      ]
+    },
+    "suan": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "算"
+      ]
+    },
+    "sui": {
+      "1": [],
+      "2": [
+        "随"
+      ],
+      "3": [],
+      "4": [
+        "岁"
+      ],
+      "all": [
+        "岁",
+        "随"
+      ]
+    },
+    "sun": {
+      "1": [
+        "孙"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "孙"
+      ]
+    },
+    "suo": {
+      "1": [],
+      "2": [],
+      "3": [
+        "所"
+      ],
+      "4": [],
+      "all": [
+        "所"
+      ]
+    },
+    "ta": {
+      "1": [
+        "他",
+        "她",
+        "它"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "他",
+        "她",
+        "它"
+      ]
+    },
+    "tai": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "太"
+      ],
+      "all": [
+        "太"
+      ]
+    },
+    "tang": {
+      "1": [
+        "汤"
+      ],
+      "2": [
+        "糖",
+        "堂"
+      ],
+      "3": [
+        "躺"
+      ],
+      "4": [
+        "趟"
+      ],
+      "all": [
+        "糖",
+        "汤",
+        "堂",
+        "趟",
+        "躺"
+      ]
+    },
+    "tao": {
+      "1": [],
+      "2": [],
+      "3": [
+        "讨"
+      ],
+      "4": [
+        "套"
+      ],
+      "all": [
+        "讨",
+        "套"
+      ]
+    },
+    "teng": {
+      "1": [],
+      "2": [
+        "疼"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "疼"
+      ]
+    },
+    "ti": {
+      "1": [
+        "梯"
+      ],
+      "2": [
+        "题",
+        "提"
+      ],
+      "3": [
+        "体"
+      ],
+      "4": [],
+      "all": [
+        "梯",
+        "题",
+        "体",
+        "提"
+      ]
+    },
+    "tian": {
+      "1": [
+        "天",
+        "添"
+      ],
+      "2": [
+        "田"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "田",
+        "天",
+        "添"
+      ]
+    },
+    "tiao": {
+      "1": [],
+      "2": [
+        "条"
+      ],
+      "3": [],
+      "4": [
+        "跳"
+      ],
+      "all": [
+        "条",
+        "跳"
+      ]
+    },
+    "tie": {
+      "1": [],
+      "2": [],
+      "3": [
+        "铁"
+      ],
+      "4": [],
+      "all": [
+        "铁"
+      ]
+    },
+    "ting": {
+      "1": [
+        "听",
+        "厅"
+      ],
+      "2": [
+        "停"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "听",
+        "厅",
+        "停"
+      ]
+    },
+    "tong": {
+      "1": [
+        "通"
+      ],
+      "2": [
+        "同"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "同",
+        "通"
+      ]
+    },
+    "tou": {
+      "1": [],
+      "2": [
+        "头"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "头"
+      ]
+    },
+    "tu": {
+      "1": [],
+      "2": [
+        "图"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "图"
+      ]
+    },
+    "tuan": {
+      "1": [],
+      "2": [
+        "团"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "团"
+      ]
+    },
+    "tui": {
+      "1": [
+        "推"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "退"
+      ],
+      "all": [
+        "退",
+        "推"
+      ]
+    },
+    "wa": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "哇",
+        "袜"
+      ],
+      "all": [
+        "哇",
+        "袜"
+      ]
+    },
+    "wai": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "外"
+      ],
+      "all": [
+        "外"
+      ]
+    },
+    "wan": {
+      "1": [],
+      "2": [
+        "玩",
+        "完"
+      ],
+      "3": [
+        "晚",
+        "碗"
+      ],
+      "4": [
+        "万"
+      ],
+      "all": [
+        "晚",
+        "玩",
+        "万",
+        "完",
+        "碗"
+      ]
+    },
+    "wang": {
+      "1": [],
+      "2": [
+        "王"
+      ],
+      "3": [
+        "网",
+        "往"
+      ],
+      "4": [
+        "忘"
+      ],
+      "all": [
+        "王",
+        "网",
+        "往",
+        "忘"
+      ]
+    },
+    "wei": {
+      "1": [
+        "微"
+      ],
+      "2": [
+        "喂",
+        "围",
+        "为",
+        "韦"
+      ],
+      "3": [],
+      "4": [
+        "位",
+        "味"
+      ],
+      "all": [
+        "位",
+        "喂",
+        "味",
+        "围",
+        "为",
+        "微",
+        "韦"
+      ]
+    },
+    "wen": {
+      "1": [],
+      "2": [
+        "文"
+      ],
+      "3": [],
+      "4": [
+        "问"
+      ],
+      "all": [
+        "文",
+        "问"
+      ]
+    },
+    "wo": {
+      "1": [],
+      "2": [],
+      "3": [
+        "我"
+      ],
+      "4": [
+        "卧"
+      ],
+      "all": [
+        "我",
+        "卧"
+      ]
+    },
+    "wu": {
+      "1": [],
+      "2": [],
+      "3": [
+        "五",
+        "午"
+      ],
+      "4": [
+        "物",
+        "务"
+      ],
+      "all": [
+        "物",
+        "务",
+        "五",
+        "午"
+      ]
+    },
+    "xi": {
+      "1": [
+        "西"
+      ],
+      "2": [
+        "习"
+      ],
+      "3": [
+        "喜",
+        "洗"
+      ],
+      "4": [
+        "系"
+      ],
+      "all": [
+        "喜",
+        "系",
+        "习",
+        "西",
+        "洗",
+        "息"
+      ]
+    },
+    "xia": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "下",
+        "厦",
+        "夏"
+      ],
+      "all": [
+        "下",
+        "厦",
+        "夏"
+      ]
+    },
+    "xian": {
+      "1": [
+        "仙",
+        "先"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "现",
+        "线"
+      ],
+      "all": [
+        "仙",
+        "现",
+        "先",
+        "线"
+      ]
+    },
+    "xiang": {
+      "1": [
+        "香",
+        "箱",
+        "乡"
+      ],
+      "2": [
+        "祥"
+      ],
+      "3": [
+        "想"
+      ],
+      "4": [
+        "项",
+        "相",
+        "象"
+      ],
+      "all": [
+        "想",
+        "香",
+        "箱",
+        "项",
+        "相",
+        "象",
+        "乡",
+        "祥"
+      ]
+    },
+    "xiao": {
+      "1": [
+        "消"
+      ],
+      "2": [],
+      "3": [
+        "小"
+      ],
+      "4": [
+        "校"
+      ],
+      "all": [
+        "小",
+        "校",
+        "消"
+      ]
+    },
+    "xie": {
+      "1": [
+        "些"
+      ],
+      "2": [
+        "鞋"
+      ],
+      "3": [
+        "写"
+      ],
+      "4": [
+        "谢"
+      ],
+      "all": [
+        "鞋",
+        "写",
+        "谢",
+        "些"
+      ]
+    },
+    "xin": {
+      "1": [
+        "新",
+        "心"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "信"
+      ],
+      "all": [
+        "新",
+        "心",
+        "信"
+      ]
+    },
+    "xing": {
+      "1": [
+        "星"
+      ],
+      "2": [
+        "行",
+        "型"
+      ],
+      "3": [],
+      "4": [
+        "姓",
+        "幸",
+        "兴"
+      ],
+      "all": [
+        "姓",
+        "行",
+        "星",
+        "型",
+        "幸",
+        "兴"
+      ]
+    },
+    "xiong": {
+      "1": [
+        "兄"
+      ],
+      "2": [
+        "熊"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "兄",
+        "熊"
+      ]
+    },
+    "xiu": {
+      "1": [
+        "修",
+        "休"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "修",
+        "休"
+      ]
+    },
+    "xuan": {
+      "1": [],
+      "2": [],
+      "3": [
+        "选"
+      ],
+      "4": [],
+      "all": [
+        "选"
+      ]
+    },
+    "xue": {
+      "1": [],
+      "2": [
+        "学"
+      ],
+      "3": [
+        "雪"
+      ],
+      "4": [],
+      "all": [
+        "学",
+        "雪"
+      ]
+    },
+    "xun": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "迅"
+      ],
+      "all": [
+        "迅"
+      ]
+    },
+    "ya": {
+      "1": [
+        "呀"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "亚"
+      ],
+      "all": [
+        "亚",
+        "呀"
+      ]
+    },
+    "yan": {
+      "1": [
+        "烟"
+      ],
+      "2": [],
+      "3": [
+        "演",
+        "眼"
+      ],
+      "4": [
+        "验"
+      ],
+      "all": [
+        "演",
+        "眼",
+        "烟",
+        "验"
+      ]
+    },
+    "yang": {
+      "1": [],
+      "2": [
+        "阳",
+        "杨"
+      ],
+      "3": [],
+      "4": [
+        "样"
+      ],
+      "all": [
+        "阳",
+        "杨",
+        "样"
+      ]
+    },
+    "yao": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "要",
+        "药",
+        "钥"
+      ],
+      "all": [
+        "要",
+        "药",
+        "钥"
+      ]
+    },
+    "ye": {
+      "1": [],
+      "2": [
+        "爷"
+      ],
+      "3": [
+        "也"
+      ],
+      "4": [
+        "页",
+        "夜",
+        "业",
+        "叶"
+      ],
+      "all": [
+        "爷",
+        "也",
+        "页",
+        "夜",
+        "业",
+        "叶"
+      ]
+    },
+    "yi": {
+      "1": [
+        "一",
+        "医",
+        "衣"
+      ],
+      "2": [
+        "姨",
+        "一"
+      ],
+      "3": [
+        "以",
+        "椅",
+        "已"
+      ],
+      "4": [
+        "义",
+        "一",
+        "议",
+        "译",
+        "亿",
+        "意"
+      ],
+      "all": [
+        "一",
+        "姨",
+        "义",
+        "医",
+        "议",
+        "以",
+        "衣",
+        "宜",
+        "椅",
+        "意",
+        "译",
+        "亿",
+        "已"
+      ]
+    },
+    "yin": {
+      "1": [
+        "阴",
+        "音"
+      ],
+      "2": [],
+      "3": [
+        "饮"
+      ],
+      "4": [
+        "印"
+      ],
+      "all": [
+        "印",
+        "饮",
+        "阴",
+        "音"
+      ]
+    },
+    "ying": {
+      "1": [
+        "英"
+      ],
+      "2": [
+        "迎",
+        "赢"
+      ],
+      "3": [
+        "影",
+        "颖"
+      ],
+      "4": [
+        "应"
+      ],
+      "all": [
+        "英",
+        "迎",
+        "影",
+        "赢",
+        "应",
+        "颖"
+      ]
+    },
+    "yong": {
+      "1": [],
+      "2": [],
+      "3": [
+        "俑",
+        "勇"
+      ],
+      "4": [
+        "用"
+      ],
+      "all": [
+        "俑",
+        "用",
+        "勇"
+      ]
+    },
+    "you": {
+      "1": [],
+      "2": [
+        "游",
+        "邮"
+      ],
+      "3": [
+        "有"
+      ],
+      "4": [
+        "右",
+        "又"
+      ],
+      "all": [
+        "友",
+        "有",
+        "游",
+        "右",
+        "邮",
+        "又"
+      ]
+    },
+    "yu": {
+      "1": [],
+      "2": [
+        "鱼",
+        "于"
+      ],
+      "3": [
+        "语",
+        "雨"
+      ],
+      "4": [
+        "预"
+      ],
+      "all": [
+        "语",
+        "雨",
+        "鱼",
+        "于",
+        "预"
+      ]
+    },
+    "yuan": {
+      "1": [],
+      "2": [
+        "员",
+        "园",
+        "源",
+        "圆",
+        "元"
+      ],
+      "3": [],
+      "4": [
+        "院"
+      ],
+      "all": [
+        "员",
+        "院",
+        "园",
+        "源",
+        "圆",
+        "元"
+      ]
+    },
+    "yue": {
+      "1": [
+        "约"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "月",
+        "越"
+      ],
+      "all": [
+        "月",
+        "越",
+        "约"
+      ]
+    },
+    "yun": {
+      "1": [
+        "晕"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "运"
+      ],
+      "all": [
+        "运",
+        "晕"
+      ]
+    },
+    "za": {
+      "1": [],
+      "2": [
+        "杂"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "杂"
+      ]
+    },
+    "zai": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "在",
+        "再"
+      ],
+      "all": [
+        "在",
+        "再"
+      ]
+    },
+    "zan": {
+      "1": [],
+      "2": [
+        "咱"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "咱"
+      ]
+    },
+    "zao": {
+      "1": [
+        "糟"
+      ],
+      "2": [],
+      "3": [
+        "早"
+      ],
+      "4": [],
+      "all": [
+        "早",
+        "糟"
+      ]
+    },
+    "ze": {
+      "1": [],
+      "2": [
+        "择"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "择"
+      ]
+    },
+    "zen": {
+      "1": [],
+      "2": [],
+      "3": [
+        "怎"
+      ],
+      "4": [],
+      "all": [
+        "怎"
+      ]
+    },
+    "zha": {
+      "1": [],
+      "2": [
+        "炸"
+      ],
+      "3": [],
+      "4": [],
+      "all": [
+        "炸"
+      ]
+    },
+    "zhai": {
+      "1": [],
+      "2": [],
+      "3": [
+        "窄"
+      ],
+      "4": [],
+      "all": [
+        "窄"
+      ]
+    },
+    "zhan": {
+      "1": [],
+      "2": [],
+      "3": [
+        "展"
+      ],
+      "4": [
+        "站"
+      ],
+      "all": [
+        "站",
+        "展"
+      ]
+    },
+    "zhang": {
+      "1": [
+        "张",
+        "章"
+      ],
+      "2": [],
+      "3": [
+        "涨"
+      ],
+      "4": [
+        "丈"
+      ],
+      "all": [
+        "张",
+        "丈",
+        "章",
+        "涨"
+      ]
+    },
+    "zhao": {
+      "1": [],
+      "2": [],
+      "3": [
+        "找"
+      ],
+      "4": [
+        "照"
+      ],
+      "all": [
+        "照",
+        "找"
+      ]
+    },
+    "zhe": {
+      "1": [],
+      "2": [],
+      "3": [
+        "者"
+      ],
+      "4": [
+        "这",
+        "浙"
+      ],
+      "all": [
+        "者",
+        "这",
+        "浙"
+      ]
+    },
+    "zhei": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "这"
+      ],
+      "all": [
+        "这"
+      ]
+    },
+    "zhen": {
+      "1": [
+        "真"
+      ],
+      "2": [],
+      "3": [
+        "诊"
+      ],
+      "4": [],
+      "all": [
+        "真",
+        "诊"
+      ]
+    },
+    "zheng": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "正"
+      ],
+      "all": [
+        "正"
+      ]
+    },
+    "zhi": {
+      "1": [
+        "知",
+        "只",
+        "枝",
+        "之",
+        "支"
+      ],
+      "2": [
+        "直"
+      ],
+      "3": [
+        "指",
+        "纸",
+        "只"
+      ],
+      "4": [
+        "志"
+      ],
+      "all": [
+        "指",
+        "知",
+        "志",
+        "只",
+        "枝",
+        "纸",
+        "之",
+        "直",
+        "支"
+      ]
+    },
+    "zhong": {
+      "1": [
+        "中",
+        "钟",
+        "终"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "重",
+        "众"
+      ],
+      "all": [
+        "中",
+        "钟",
+        "重",
+        "众",
+        "终"
+      ]
+    },
+    "zhou": {
+      "1": [
+        "周",
+        "粥"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "周",
+        "粥"
+      ]
+    },
+    "zhu": {
+      "1": [
+        "猪",
+        "珠"
+      ],
+      "2": [],
+      "3": [
+        "主"
+      ],
+      "4": [
+        "著",
+        "筑",
+        "住",
+        "助",
+        "注"
+      ],
+      "all": [
+        "著",
+        "筑",
+        "猪",
+        "住",
+        "珠",
+        "主",
+        "助",
+        "注"
+      ]
+    },
+    "zhuan": {
+      "1": [],
+      "2": [],
+      "3": [
+        "转"
+      ],
+      "4": [
+        "传"
+      ],
+      "all": [
+        "传",
+        "转"
+      ]
+    },
+    "zhuang": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "壮"
+      ],
+      "all": [
+        "壮"
+      ]
+    },
+    "zhuo": {
+      "1": [
+        "桌"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "桌"
+      ]
+    },
+    "zi": {
+      "1": [],
+      "2": [],
+      "3": [
+        "子"
+      ],
+      "4": [
+        "自",
+        "字"
+      ],
+      "all": [
+        "子",
+        "自",
+        "字"
+      ]
+    },
+    "zong": {
+      "1": [
+        "宗"
+      ],
+      "2": [],
+      "3": [
+        "总"
+      ],
+      "4": [],
+      "all": [
+        "宗",
+        "总"
+      ]
+    },
+    "zou": {
+      "1": [],
+      "2": [],
+      "3": [
+        "走"
+      ],
+      "4": [
+        "奏"
+      ],
+      "all": [
+        "奏",
+        "走"
+      ]
+    },
+    "zu": {
+      "1": [
+        "租"
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "all": [
+        "租"
+      ]
+    },
+    "zui": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "最",
+        "醉"
+      ],
+      "all": [
+        "最",
+        "醉"
+      ]
+    },
+    "zuo": {
+      "1": [],
+      "2": [
+        "昨"
+      ],
+      "3": [
+        "左"
+      ],
+      "4": [
+        "作",
+        "坐",
+        "做",
+        "座"
+      ],
+      "all": [
+        "昨",
+        "左",
+        "作",
+        "坐",
+        "做",
+        "座"
+      ]
+    }
+  }
+}

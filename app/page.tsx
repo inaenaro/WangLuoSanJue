@@ -4,9 +4,9 @@ import WordTest from "@/components/WordTest";
 import GrammarTest from "@/components/GrammarTest";
 import AudioTest from "@/components/AudioTest";
 import SelectMode from "@/components/SelectMode";
+import { InputStatusContext } from "@/components/Providers";
 import { type Action, type Settings } from "./lib/settings";
 import useKeydown from "./hooks/useKeyDown";
-import { InputStatusContext } from "@/components/Providers";
 
 export default function Home() {
   const { inputStatus } = useContext(InputStatusContext);
@@ -29,7 +29,8 @@ export default function Home() {
           <ul className="list-disc pl-5">
             <li>このサイトは作成の際に正確を期していますが、必ずしもそれを保証するものではありません。</li>
             <li>内容の誤りや不具合、改善案等がある場合は何らかの方法でサイト作成者に報告してください。</li>
-            <li>音声読み上げにはブラウザの自動読み上げを使用しているため、ピンイン通りの発音ではないことがあります。</li>
+            <li>音声読み上げにはブラウザの読み上げを使用しているため、ピンイン通りの発音ではないことがあります。</li>
+            <li><a href="/table" className="text-[#310510] dark:text-[#e7c8c8] decoration-[#310510] dark:decoration-[#e7c8c8] underline hover:text-[#310510]/80 dark:hover:text-[#e7c8c8]/80 hover:decoration-[#310510]/80 dark:hover:decoration-[#e7c8c8]/80">ピンイン表はこちら</a></li>
           </ul>
         </div>
         <div className="text-xs text-gray">
@@ -47,8 +48,8 @@ export default function Home() {
             <li>読み上げとの不一致への対応</li>
             <li>重複語の処理</li>
             <li>検索に複数ページ対応</li>
-            <li>完全一致拼音検索</li>
             <li>同じ拼音を表示</li>
+            <li>複数タブ開くとバグる</li>
           </ul>
         </div>
       </div>

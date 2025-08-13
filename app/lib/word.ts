@@ -20,6 +20,8 @@ export type Part = typeof partList[number][0];
 export const partMap = new Map<Part, string>(partList);
 
 type Genre = string;
+
+//NOTE: string | ?
 type Example = string | {
   "word": string,
   "pinyin": string,
@@ -27,7 +29,7 @@ type Example = string | {
   "genre": Genre
 };
 
-export type Word = {
+export interface Word {
   "word": string,
   "pinyin": string,
   "meanings": {
