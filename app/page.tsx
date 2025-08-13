@@ -47,7 +47,6 @@ export default function Home() {
             <li>bad setState修正</li>
             <li>読み上げとの不一致への対応</li>
             <li>重複語の処理</li>
-            <li>検索に複数ページ対応</li>
             <li>同じ拼音を表示</li>
             <li>複数タブ開くとバグる</li>
           </ul>

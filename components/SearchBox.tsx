@@ -4,7 +4,7 @@ import { useContext, useEffect, useState } from "react";
 import words from "@/public/words.json";
 import WordCheckbox from "@/components/WordCheckBox";
 import { InputStatusContext } from "@/components/Providers";
-import { MdOutlineClose, MdOutlineSearch, MdOutlineVolumeUp } from "react-icons/md";
+import { MdOutlineClose, MdOutlineNavigateBefore, MdOutlineNavigateNext, MdOutlineSearch, MdOutlineVolumeUp } from "react-icons/md";
 import * as pinyinsData from "@/public/pinyins.json";
 import { getSyllableWithTone, isValidSyllable, type Syllable, type PinyinsData } from "@/app/lib/pinyin";
 
@@ -15,6 +15,7 @@ export default function SearchBox() {
   const [wordData, setWordData] = useState<Word[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState<Word[]>([]);
+  const [page, setPage] = useState(1);
 
   useEffect(() => {
     const wordData = (words as Word[]).map(word => ({
@@ -26,6 +27,7 @@ export default function SearchBox() {
 
   const handleSearch = async (input: string) => {
     setSearchQuery(input);
+    setPage(1);
     if (input.trim() === "") {
       setSearchResults([]);
       return;
@@ -103,27 +105,39 @@ export default function SearchBox() {
         : <MdOutlineSearch className="size-5" />}
       {searchResults.length > 0 && (
         <div className="absolute top-8 left-0 w-64 border border-gray rounded p-1 max-w-xs bg-background2">
-          <div className="flex justify-between items-center m-1">
-            <p className="text-xs text-text/70">検索結果(上位20件)</p>
-            <p className="text-xs text-right text-text/70">全{searchResults.length}件</p>
+          <div className="flex justify-between items-center m-1 mb-0">
+            <p className="w-30 text-xs text-text/70">検索結果({20 * (page - 1) + 1}~{Math.min(20 * page, searchResults.length)}件)</p>
+            <div className="flex gap-1">
+              <button
+                disabled={page <= 1}
+                onClick={() => setPage((prev) => Math.max(prev - 1, 1))}
+                className="text-xs text-text/70 disabled:text-text/30"
+              ><MdOutlineNavigateBefore className="size-6" /></button>
+              <button
+                disabled={page * 20 >= searchResults.length}
+                onClick={() => setPage((prev) => prev + 1)}
+                className="text-xs text-text/70 disabled:text-text/30"
+              ><MdOutlineNavigateNext className="size-6" /></button>
+            </div>
+            <p className="w-12 text-xs text-right text-text/70">全{searchResults.length}件</p>
           </div>
-          {matchedKanjis ? <div className="m-1 bg-background1 rounded">
-            {!matchedKanjis.tone ?
-              <>
-                <KanjiList kanjiList={matchedKanjis.kanjiLists.all} syllable={normalizedInput} />
-                <KanjiList kanjiList={matchedKanjis.kanjiLists["1"]} syllable={normalizedInput} tone={1} even />
-                <KanjiList kanjiList={matchedKanjis.kanjiLists["2"]} syllable={normalizedInput} tone={2} />
-                <KanjiList kanjiList={matchedKanjis.kanjiLists["3"]} syllable={normalizedInput} tone={3} even />
-                <KanjiList kanjiList={matchedKanjis.kanjiLists["4"]} syllable={normalizedInput} tone={4} />
-              </>
-              : <>
-                <KanjiList kanjiList={matchedKanjis.kanjiLists.all} syllable={normalizedInput} />
-                <KanjiList kanjiList={matchedKanjis.kanjiLists[matchedKanjis.tone]} syllable={normalizedInput} tone={matchedKanjis.tone} even />
-              </>
-            }
-          </div> : null}
-          <div className="overflow-y-auto h-96 mt-1">
-            {searchResults.slice(0, 20).map((word, index) => (
+          <div className="overflow-y-auto h-96">
+            {page === 1 && matchedKanjis ? <div className="m-1 bg-background1 rounded">
+              {!matchedKanjis.tone ?
+                <>
+                  <KanjiList kanjiList={matchedKanjis.kanjiLists.all} syllable={normalizedInput} />
+                  <KanjiList kanjiList={matchedKanjis.kanjiLists["1"]} syllable={normalizedInput} tone={1} even />
+                  <KanjiList kanjiList={matchedKanjis.kanjiLists["2"]} syllable={normalizedInput} tone={2} />
+                  <KanjiList kanjiList={matchedKanjis.kanjiLists["3"]} syllable={normalizedInput} tone={3} even />
+                  <KanjiList kanjiList={matchedKanjis.kanjiLists["4"]} syllable={normalizedInput} tone={4} />
+                </>
+                : <>
+                  <KanjiList kanjiList={matchedKanjis.kanjiLists.all} syllable={normalizedInput} />
+                  <KanjiList kanjiList={matchedKanjis.kanjiLists[matchedKanjis.tone]} syllable={normalizedInput} tone={matchedKanjis.tone} even />
+                </>
+              }
+            </div> : null}
+            {searchResults.slice(20 * (page - 1), 20 * page).map((word, index) => (
               // NOTE: 単語の重複?
               <div key={index} className="p-1 m-1 rounded bg-background1">
                 <section className="items-center">
@@ -163,14 +177,14 @@ export function normalizePinyin(pinyin: string, ignoreTone: boolean = false): st
 
 function KanjiList({ kanjiList, syllable, tone, even }: { kanjiList: string[], syllable: string, tone?: 1 | 2 | 3 | 4, even?: boolean }) {
   return (
-    <p className={`text-nowrap overflow-x-scroll p-0.5 [scrollbar-width:none] ${even ? 'bg-black/15 dark:bg-white/15' : 'bg-black/5 dark:bg-white/5'}`}>
+    <p className={`text-nowrap overflow-x-scroll p-0.5 px-1 [scrollbar-width:none] ${even ? 'bg-black/15 dark:bg-white/15' : 'bg-black/5 dark:bg-white/5'}`}>
       {tone && <span className="text-text/80">{getSyllableWithTone(syllable, tone)}: </span>}
-      {kanjiList.map((s, i) => (
+      {kanjiList.length ? kanjiList.map((s, i) => (
         <span key={i} className="inline-block">
           <span className={`font-ch ${(pinyins.kanjis[s].all.length > 1) ? "decolation-text underline" : ""}`}>{s}</span>
           {i < kanjiList.length - 1 && <Slash />}
         </span>
-      ))}
+      )) : <span className="text-text/50">-</span>}
     </p>
   );
 }
