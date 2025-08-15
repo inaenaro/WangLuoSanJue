@@ -104,7 +104,7 @@ export default function SearchBox() {
         </button>
         : <MdOutlineSearch className="size-5" />}
       {searchResults.length > 0 && (
-        <div className="absolute top-8 left-0 w-64 border border-gray rounded p-1 max-w-xs bg-background2">
+        <div className="z-10 absolute top-8 left-0 w-64 border border-gray rounded p-1 max-w-xs bg-background2">
           <div className="flex justify-between items-center m-1 mb-0">
             <p className="w-30 text-xs text-text/70">検索結果({20 * (page - 1) + 1}~{Math.min(20 * page, searchResults.length)}件)</p>
             <div className="flex gap-1">
