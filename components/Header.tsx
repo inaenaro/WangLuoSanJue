@@ -47,8 +47,8 @@ export default function Header({ title }: { title: string }) {
               <Enclosed>P</Enclosed> 再生<br />
               <Enclosed>K</Enclosed> キーボードを表示<br />
               <Enclosed>A</Enclosed> 答えを表示<br />
-              <Enclosed>Z</Enclosed> 正解<br />
-              <Enclosed>X</Enclosed> 不正解<br />
+              <Enclosed>Z</Enclosed> 次へ<br />
+              <Enclosed>X</Enclosed> 後でやり直す<br />
               <p>仮想キーボード</p>
               <Enclosed>V</Enclosed> ü<br />
               <Enclosed>1</Enclosed> 第一声<br />

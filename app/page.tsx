@@ -41,13 +41,11 @@ export default function Home() {
             <li>キーボードのカーソル表示</li>
             <li>複数解対応</li>
             <li>問題の表示刷新</li>
-            <li>正解/不正解ボタン実装</li>
-            <li>正誤判定問題の正解/不正解削除</li>
             <li>ID機能で星印を端末間共有</li>
             <li>bad setState修正</li>
             <li>読み上げとの不一致への対応</li>
+            <li>- 例: 照片, 軽声</li>
             <li>重複語の処理</li>
-            <li>同じ拼音を表示</li>
             <li>複数タブ開くとバグる</li>
           </ul>
         </div>

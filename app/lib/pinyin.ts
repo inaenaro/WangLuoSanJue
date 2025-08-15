@@ -79,7 +79,7 @@ export const validPinyins: Record<Vowel, (Consonant | '')[]> = {
 }
 
 export function getVowelWithoutConsonant(vowel: Vowel) {
-  if (/^(a|o|e)/.test(vowel)) {
+  if (/^(?:a|o|e)/.test(vowel)) {
     return vowel;
   } else if (/^i(?:a|o|e)/.test(vowel)) {
     return vowel.replace(/^i/, 'y');
