@@ -11,13 +11,16 @@ export default function PinyinTable() {
       <p className="text-sm text-text/80"><span className="decoration-text/80 underline">下線</span>付きの漢字は複数のピンインが登場している漢字です。</p>
       <p className="text-sm text-text/50">表全体と漢字列はスクロールできるよ</p>
       <div className="text-sm border-text border-2 overflow-x-scroll [scrollbar-width:none]">
-        <div className="grid grid-cols-[2rem_repeat(35,minmax(6rem,1fr))] grid-rows-[2rem_1fr] divide-x divide-y divide-text">
+        <div className="grid grid-cols-[2rem_repeat(36,minmax(6rem,1fr))] grid-rows-[2rem_1fr] divide-x divide-y divide-text">
           <div className="" />
           {vowels.map((vowel, i) => (
             <div key={i} className="flex flex-col justify-center text-center">
               <h3>{vowel}</h3>
             </div>
           ))}
+          <div className="flex flex-col justify-center text-center">
+            <h3>他</h3>
+          </div>
           {(["", ...consonants] as (Consonant | '')[]).map((consonant, i) => (
             <React.Fragment key={i}>
               <div className="flex flex-col justify-center text-center">
@@ -46,6 +49,25 @@ export default function PinyinTable() {
                   </div>
                 );
               })}
+              {i <= 1 ? ((pinyin) => {
+                const syllables = pinyins.syllables[pinyin];
+                return <div>
+                  <div className="border-b border-gray p-1">
+                    <h3>{pinyin}</h3>
+                  </div>
+                  <ul className="">
+                    {syllables && (
+                      <>
+                        <KanjiList kanjiList={syllables.all} />
+                        <KanjiList kanjiList={syllables["1"]} tone="1" even />
+                        <KanjiList kanjiList={syllables["2"]} tone="2" />
+                        <KanjiList kanjiList={syllables["3"]} tone="3" even />
+                        <KanjiList kanjiList={syllables["4"]} tone="4" />
+                      </>
+                    )}
+                  </ul>
+                </div>
+              })(["er", "ng"][i]) : <div />}
             </React.Fragment>
           ))}
         </div>
@@ -60,7 +82,7 @@ function KanjiList({ kanjiList, tone, even }: { kanjiList: string[], tone?: stri
       {tone && <span className="text-text/80">{tone}: </span>}
       {kanjiList.map((s, i) => (
         <span key={i} className="inline-block">
-          <span className={`font-ch ${(pinyins.kanjis[s].pinyin.length > 1) ? "decolation-text underline": ""}`}>{s}</span>
+          <span className={`font-ch ${(pinyins.kanjis[s].pinyin.length > 1) ? "decolation-text underline" : ""}`}>{s}</span>
           {i < kanjiList.length - 1 && <Slash />}
         </span>
       ))}
