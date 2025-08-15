@@ -60,7 +60,7 @@ function KanjiList({ kanjiList, tone, even }: { kanjiList: string[], tone?: stri
       {tone && <span className="text-text/80">{tone}: </span>}
       {kanjiList.map((s, i) => (
         <span key={i} className="inline-block">
-          <span className={`font-ch ${(pinyins.kanjis[s].all.length > 1) ? "decolation-text underline": ""}`}>{s}</span>
+          <span className={`font-ch ${(pinyins.kanjis[s].pinyin.length > 1) ? "decolation-text underline": ""}`}>{s}</span>
           {i < kanjiList.length - 1 && <Slash />}
         </span>
       ))}
