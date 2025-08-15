@@ -78,8 +78,8 @@ export const validPinyins: Record<Vowel, (Consonant | '')[]> = {
   "u\u0308n": ['', 'j', 'q', 'x'],
 }
 
-export function getVowelWithoutConsonant(vowel: typeof vowels[number]) {
-  if (/^a|o|e/.test(vowel)) {
+export function getVowelWithoutConsonant(vowel: Vowel) {
+  if (/^(a|o|e)/.test(vowel)) {
     return vowel;
   } else if (/^i(?:a|o|e)/.test(vowel)) {
     return vowel.replace(/^i/, 'y');
