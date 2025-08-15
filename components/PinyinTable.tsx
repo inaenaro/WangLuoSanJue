@@ -11,7 +11,7 @@ export default function PinyinTable() {
       <p className="text-sm text-text/80"><span className="decoration-text/80 underline">下線</span>付きの漢字は複数のピンインが登場している漢字です。</p>
       <p className="text-sm text-text/50">表全体と漢字列はスクロールできるよ</p>
       <div className="text-sm border-text border-2 overflow-x-scroll [scrollbar-width:none]">
-        <div className="grid grid-cols-[2rem_repeat(35,minmax(6.25rem,1fr))] grid-rows-[2rem_1fr] divide-x divide-y divide-text">
+        <div className="grid grid-cols-[2rem_repeat(35,minmax(6rem,1fr))] grid-rows-[2rem_1fr] divide-x divide-y divide-text">
           <div className="" />
           {vowels.map((vowel, i) => (
             <div key={i} className="flex flex-col justify-center text-center">
