@@ -8,7 +8,7 @@ export default function PinyinTable() {
   return (
     <div className="p-2">
       <p>ピンイン一覧 (総漢字数: {Object.keys(pinyins.kanjis).length}字)</p>
-      <p className="text-sm text-text/80"><span className="decoration-text/80 underline">下線</span>付きの漢字は複数のピンインが登場している漢字です。</p>
+      <p className="text-sm text-text/80"><span className="border border-text/80">囲い</span>付きの漢字は複数のピンインが登場している漢字です。</p>
       <p className="text-sm text-text/50">表全体と漢字列はスクロールできるよ</p>
       <div className="text-sm border-text border-2 overflow-x-scroll [scrollbar-width:none]">
         <div className="grid grid-cols-[2rem_repeat(36,minmax(6rem,1fr))] grid-rows-[2rem_1fr] divide-x divide-y divide-text">
@@ -82,7 +82,7 @@ function KanjiList({ kanjiList, tone, even }: { kanjiList: string[], tone?: stri
       {tone && <span className="text-text/80">{tone}: </span>}
       {kanjiList.map((s, i) => (
         <span key={i} className="inline-block">
-          <span className={`font-ch ${(pinyins.kanjis[s].pinyin.length > 1) ? "decolation-text underline" : ""}`}>{s}</span>
+          <span className={`font-ch ${(pinyins.kanjis[s].pinyin.length > 1) ? "border border-text/80" : ""}`}>{s}</span>
           {i < kanjiList.length - 1 && <Slash />}
         </span>
       ))}

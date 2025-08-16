@@ -34,23 +34,20 @@ export default function SearchBox() {
     }
     // 単語, ピンイン, ピンイン(声調無視), 意味
     const results: [Word[], Word[], Word[], Word[]] = [[], [], [], []]
-    const regex = new RegExp(input, "i");
-    const regexNormalized = new RegExp(normalizePinyin(input), "i");
-    const regexNormalizedIgnoreTone = new RegExp(normalizePinyin(input, true), "i");
+    const regex = new RegExp(input.replace(/\\/g, "\\\\"), "i");
+    const regexNormalized = new RegExp(normalizePinyin(input.replace(/\\/g, "\\\\").replace(/\/\//g, "")), "i");
+    const regexNormalizedIgnoreTone = new RegExp(normalizePinyin(input.replace(/\\/g, "\\\\").replace(/\/\//g, ""), true), "i");
     wordData.forEach(word => {
       if (word.word.match(regex)) {
         results[0].push(word);
-      } else if (normalizePinyin(word.pinyin).match(regexNormalized)) {
+      } else if (normalizePinyin(word.pinyin.replace(/\/\//g, "")).match(regexNormalized)) {
         results[1].push(word);
-      } else if (normalizePinyin(word.pinyin, true).match(regexNormalizedIgnoreTone)) {
+      } else if (normalizePinyin(word.pinyin.replace(/\/\//g, ""), true).match(regexNormalizedIgnoreTone)) {
         results[2].push(word);
       } else if (word.meanings.some(m => m.meaning.match(regex))) {
         results[3].push(word);
       }
-      if (word.word === "每天") {
-        console.log(normalizePinyin(word.pinyin), normalizePinyin(input));
-      }
-    }); console.log(`Search results for "${input}":`, results);
+    });
     setSearchResults(results.flat());
   };
 
@@ -184,7 +181,7 @@ function KanjiList({ kanjiList, syllable, tone, even }: { kanjiList: string[], s
       {tone && <span className="text-text/80">{getSyllableWithTone(syllable, tone)}: </span>}
       {kanjiList.length ? kanjiList.map((s, i) => (
         <span key={i} className="inline-block">
-          <span className={`font-ch ${(pinyins.kanjis[s].all.length > 1) ? "decolation-text underline" : ""}`}>{s}</span>
+          <span className={`font-ch ${(pinyins.kanjis[s].pinyin.length > 1) ? "border border-text/80" : ""}`}>{s}</span>
           {i < kanjiList.length - 1 && <Slash />}
         </span>
       )) : <span className="text-text/50">-</span>}
