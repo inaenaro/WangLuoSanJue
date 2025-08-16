@@ -91,7 +91,7 @@ export default function Test<T>({ setStarted, hasAudio, hasInput, subjects }: Te
       {question && (<>
         <div className="flex flex-col gap-2">
           <p>残りの問題数: {remainingSubjects.length + failedWords.length + 1}</p>
-          {question.questionElement}
+          <Embed title="問題">{question.questionElement}</Embed>
           {hasAudio && type === "word" && <AudioSection _key={`audio-${question.key}`} text={(question.subject as Word).word} />}
           {hasInput && <InputSection _key={`input-${question.key}`} answer={question.answer} showAnswer={showAnswer} setShowAnswer={setShowAnswer} />}
           {!showAnswer &&
@@ -104,12 +104,7 @@ export default function Test<T>({ setStarted, hasAudio, hasInput, subjects }: Te
             </button>}
           {showAnswer && (
             <>
-              <div className="">
-                <p>答え: </p>
-                <div className="ml-2">
-                  {question.answerElement}
-                </div>
-              </div>
+              <Embed title="想定解">{question.answerElement}</Embed>
               {type === "word" &&
                 <div className="flex items-center gap-2">
                   <WordCheckbox wordId={(question.subject as Word).pinyin} />
@@ -197,4 +192,15 @@ function InputSection({ answer, showAnswer, setShowAnswer, _key }: { answer: str
     </button>
     {!showAnswer && isIncorrect && <p className="font-ch">你错了！</p>}
   </>);
+}
+
+function Embed({ title, children }: { title?: string, children: React.ReactNode }) {
+  return (
+    <div className="p-2 rounded-[4px] border-l-4 border-l-[#ffff00]">
+      {title && <h3 className="text-lg font-bold mb-1">{title}</h3>}
+      <div className="ml-1">
+        {children}
+      </div>
+    </div>
+  );
 }

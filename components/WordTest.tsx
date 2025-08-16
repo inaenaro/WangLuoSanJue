@@ -30,7 +30,7 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
     subjectList: filteredWords,
     getQuestion: settings.questionType === "jp-to-pinyin" ? (subject: Word) => ({
       subject,
-      questionElement: <p>問題: {subject.meanings[0]?.meaning || "意味不明"}</p>,
+      questionElement: <p>{subject.meanings[0]?.meaning || "意味不明"}</p>,
       answer: subject.pinyin.normalize("NFD").replace(/[^a-zA-Z\u2019\u0304\u0301\u030C\u0300\u0308]/g, ""),
       answerElement: (<>
         <p className="text-lg">{subject.pinyin.normalize("NFD")}</p>
@@ -38,7 +38,7 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
       </>)
     }) : settings.questionType === "cn-to-jp" ? (subject: Word) => ({
       subject,
-      questionElement: <p>問題: <span className="font-ch">{subject.word}</span></p>,
+      questionElement: <p><span className="font-ch">{subject.word}</span></p>,
       answer: subject.meanings[0]?.meaning || "意味不明",
       answerElement: (<>
         <p>{subject.meanings[0]?.meaning || "意味不明"}</p>
@@ -46,7 +46,7 @@ export default function WordTest({ setStarted, settings }: { setStarted: (p: boo
       </>)
     }) : (subject: Word) => ({
       subject,
-      questionElement: <p>問題: {subject.pinyin.normalize("NFD")}</p>,
+      questionElement: <p>{subject.pinyin.normalize("NFD")}</p>,
       answer: subject.meanings[0]?.meaning || "意味不明",
       answerElement: (<>
         <p>{subject.meanings[0]?.meaning || "意味不明"}</p>
