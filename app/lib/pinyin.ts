@@ -118,6 +118,7 @@ export function splitSyllable(syllable: string): { consonant: Consonant | '', vo
 
 //TODO: 声調
 export function isValidSyllable(syllable: string) {
+  if (syllable === "er" || syllable === "ng") return true;
   const splittedSyllable = splitSyllable(syllable);
   if (!splittedSyllable) return false;
   const { consonant, vowel } = splittedSyllable;

@@ -123,7 +123,7 @@ export default function SearchBox() {
           </div>
           <div className="overflow-y-auto h-96">
             {page === 1 && matchedKanjis ? <div className="m-1 bg-background1 rounded">
-              {!matchedKanjis.tone ?
+              {normalizedInput !== "ng" ? !matchedKanjis.tone ?
                 <>
                   <KanjiList kanjiList={matchedKanjis.kanjiLists.all} syllable={normalizedInput} />
                   <KanjiList kanjiList={matchedKanjis.kanjiLists["1"]} syllable={normalizedInput} tone={1} even />
@@ -134,6 +134,9 @@ export default function SearchBox() {
                 : <>
                   <KanjiList kanjiList={matchedKanjis.kanjiLists.all} syllable={normalizedInput} />
                   <KanjiList kanjiList={matchedKanjis.kanjiLists[matchedKanjis.tone]} syllable={normalizedInput} tone={matchedKanjis.tone} even />
+                </>
+                : <>
+                  <KanjiList kanjiList={matchedKanjis.kanjiLists.all} syllable={normalizedInput} />
                 </>
               }
             </div> : null}
