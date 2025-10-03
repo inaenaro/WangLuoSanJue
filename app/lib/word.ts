@@ -1,3 +1,5 @@
+import wordRawData from "@/public/words.json";
+
 const partList = [
   ["n.", "名詞"],
   ["v.", "動詞"],
@@ -30,6 +32,7 @@ type Example = string | {
 };
 
 export interface Word {
+  "id": string,
   "word": string,
   "pinyin": string,
   "meanings": {
@@ -42,3 +45,20 @@ export interface Word {
   "notes"?: string,
   "hidden"?: boolean
 };
+
+const char = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_-";
+
+export const wordMap = new Map<string, Word>(Object.entries(wordRawData as Record<string, Word>)
+  .map(([id, word]) => [id, {
+    ...word,
+    pinyin: word.pinyin.normalize("NFD")
+  }] as [string, Word])
+  .sort(([, a], [, b]) => {
+    for (let i = 0; i < 4; i++) {
+      if (a.id[i] !== b.id[i]) {
+        return char.indexOf(a.id[i]) - char.indexOf(b.id[i]);
+      }
+    }
+    return 0;
+  })
+);

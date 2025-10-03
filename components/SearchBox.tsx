@@ -1,29 +1,19 @@
 'use client';
-import { partMap, type Word } from "@/app/lib/word";
-import { useContext, useEffect, useState } from "react";
-import words from "@/public/words.json";
+import { useContext, useState } from "react";
 import WordCheckbox from "@/components/WordCheckBox";
 import { InputStatusContext } from "@/components/Providers";
 import { MdOutlineClose, MdOutlineNavigateBefore, MdOutlineNavigateNext, MdOutlineSearch, MdOutlineVolumeUp } from "react-icons/md";
 import * as pinyinsData from "@/public/pinyins.json";
+import { partMap, wordMap, type Word } from "@/app/lib/word";
 import { getSyllableWithTone, isValidSyllable, type Syllable, type PinyinsData } from "@/app/lib/pinyin";
 
 const pinyins: PinyinsData = pinyinsData;
 
 export default function SearchBox() {
   const { setInputStatus } = useContext(InputStatusContext);
-  const [wordData, setWordData] = useState<Word[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState<Word[]>([]);
   const [page, setPage] = useState(1);
-
-  useEffect(() => {
-    const wordData = (words as Word[]).map(word => ({
-      ...word,
-      pinyin: word.pinyin.normalize("NFD")
-    }));
-    setWordData(wordData);
-  }, []);
 
   const handleSearch = async (input: string) => {
     setSearchQuery(input);
@@ -32,20 +22,25 @@ export default function SearchBox() {
       setSearchResults([]);
       return;
     }
-    // 単語, ピンイン, ピンイン(声調無視), 意味
-    const results: [Word[], Word[], Word[], Word[]] = [[], [], [], []]
+    // ?単語|ピンイン, ?ピンイン(声調無視), 単語, ピンイン, ピンイン(声調無視), 意味
+    const results: [Word[], Word[], Word[], Word[], Word[], Word[]] = [[], [], [], [], [], []]
     const regex = new RegExp(input.replace(/\\/g, "\\\\"), "i");
-    const regexNormalized = new RegExp(normalizePinyin(input.replace(/\\/g, "\\\\").replace(/\/\//g, "")), "i");
-    const regexNormalizedIgnoreTone = new RegExp(normalizePinyin(input.replace(/\\/g, "\\\\").replace(/\/\//g, ""), true), "i");
-    wordData.forEach(word => {
-      if (word.word.match(regex)) {
+    const normalizeInput = (ignoreTone: boolean = false) => normalizePinyin(input.replace(/\\/g, "\\\\").replace(/\/\//g, ""), ignoreTone);
+    const regexNormalized = new RegExp(normalizeInput(), "i");
+    const regexNormalizedIgnoreTone = new RegExp(normalizeInput(true), "i");
+    wordMap.forEach(word => {
+      if (word.word.startsWith(input) || word.pinyin.replace(/\/\//g, "").startsWith(normalizeInput())) {
         results[0].push(word);
-      } else if (normalizePinyin(word.pinyin.replace(/\/\//g, "")).match(regexNormalized)) {
+      } else if (word.pinyin.replace(/\/\//g, "").startsWith(normalizeInput(true))) {
         results[1].push(word);
-      } else if (normalizePinyin(word.pinyin.replace(/\/\//g, ""), true).match(regexNormalizedIgnoreTone)) {
+      } else if (word.word.match(regex)) {
         results[2].push(word);
-      } else if (word.meanings.some(m => m.meaning.match(regex))) {
+      } else if (normalizePinyin(word.pinyin.replace(/\/\//g, "")).match(regexNormalized)) {
         results[3].push(word);
+      } else if (normalizePinyin(word.pinyin.replace(/\/\//g, ""), true).match(regexNormalizedIgnoreTone)) {
+        results[4].push(word);
+      } else if (word.meanings.some(m => m.meaning.match(regex))) {
+        results[5].push(word);
       }
     });
     setSearchResults(results.flat());
@@ -59,16 +54,22 @@ export default function SearchBox() {
     speechSynthesis.speak(utterance);
   };
 
-  let matchedKanjis: {
+  let headerInfo: {
+    type: "syllable";
     tone: 0 | 1 | 2 | 3 | 4;
     kanjiLists: Syllable[string];
+  } | {
+    type: "kanji";
+    kanji: string;
+    pinyins: string[];
   } | null = null;
 
   const normalizedInput = normalizePinyin(searchQuery, true);
 
   if (searchQuery && isValidSyllable(normalizedInput)) {
     const tone = ([1, 2, 3, 4] as const).find(i => getSyllableWithTone(normalizedInput, i) === searchQuery);
-    matchedKanjis = {
+    headerInfo = {
+      type: "syllable",
       tone: tone ?? 0,
       kanjiLists: pinyins.syllables[normalizedInput] || {
         all: [],
@@ -78,6 +79,12 @@ export default function SearchBox() {
         "4": []
       }
     }
+  } else if (searchQuery && pinyins.kanjis[searchQuery]) {
+    headerInfo = {
+      type: "kanji",
+      kanji: searchQuery,
+      pinyins: pinyins.kanjis[searchQuery].pinyin
+    };
   }
 
   return (
@@ -119,23 +126,34 @@ export default function SearchBox() {
             <p className="w-12 text-xs text-right text-text/70">全{searchResults.length}件</p>
           </div>
           <div className="overflow-y-auto h-96">
-            {page === 1 && matchedKanjis ? <div className="m-1 bg-background1 rounded">
-              {normalizedInput !== "ng" ? !matchedKanjis.tone ?
+            {page === 1 && headerInfo?.type === "syllable" ? <div className="m-1 bg-background1 rounded">
+              {normalizedInput !== "ng" ? !headerInfo.tone ?
                 <>
-                  <KanjiList kanjiList={matchedKanjis.kanjiLists.all} syllable={normalizedInput} />
-                  <KanjiList kanjiList={matchedKanjis.kanjiLists["1"]} syllable={normalizedInput} tone={1} even />
-                  <KanjiList kanjiList={matchedKanjis.kanjiLists["2"]} syllable={normalizedInput} tone={2} />
-                  <KanjiList kanjiList={matchedKanjis.kanjiLists["3"]} syllable={normalizedInput} tone={3} even />
-                  <KanjiList kanjiList={matchedKanjis.kanjiLists["4"]} syllable={normalizedInput} tone={4} />
+                  <KanjiList kanjiList={headerInfo.kanjiLists.all} syllable={normalizedInput} />
+                  <KanjiList kanjiList={headerInfo.kanjiLists["1"]} syllable={normalizedInput} tone={1} even />
+                  <KanjiList kanjiList={headerInfo.kanjiLists["2"]} syllable={normalizedInput} tone={2} />
+                  <KanjiList kanjiList={headerInfo.kanjiLists["3"]} syllable={normalizedInput} tone={3} even />
+                  <KanjiList kanjiList={headerInfo.kanjiLists["4"]} syllable={normalizedInput} tone={4} />
                 </>
                 : <>
-                  <KanjiList kanjiList={matchedKanjis.kanjiLists.all} syllable={normalizedInput} />
-                  <KanjiList kanjiList={matchedKanjis.kanjiLists[matchedKanjis.tone]} syllable={normalizedInput} tone={matchedKanjis.tone} even />
+                  <KanjiList kanjiList={headerInfo.kanjiLists.all} syllable={normalizedInput} />
+                  <KanjiList kanjiList={headerInfo.kanjiLists[headerInfo.tone]} syllable={normalizedInput} tone={headerInfo.tone} even />
                 </>
                 : <>
-                  <KanjiList kanjiList={matchedKanjis.kanjiLists.all} syllable={normalizedInput} />
+                  <KanjiList kanjiList={headerInfo.kanjiLists.all} syllable={normalizedInput} />
                 </>
               }
+            </div> : null}
+            {page === 1 && headerInfo?.type === "kanji" ? <div className="m-1 bg-background1 rounded">
+              <p className={`text-nowrap overflow-x-scroll p-0.5 px-1 [scrollbar-width:none] ${0 ? 'bg-black/15 dark:bg-white/15' : 'bg-black/5 dark:bg-white/5'}`}>
+                <span className={`text-text/80 ${headerInfo.kanji.length > 1 ? "border border-text/80" : ""}`}>{headerInfo.kanji}: </span>
+                {headerInfo.pinyins.map((pinyin, i) => (
+                  <span key={i} className="inline-block">
+                    <span>{pinyin}</span>
+                    {i < headerInfo.pinyins.length - 1 && <Slash />}
+                  </span>
+                ))}
+              </p>
             </div> : null}
             {searchResults.slice(20 * (page - 1), 20 * page).map((word, index) => (
               // NOTE: 単語の重複?
@@ -148,7 +166,7 @@ export default function SearchBox() {
                         <MdOutlineVolumeUp />
                       </button>
                     </div>
-                    <WordCheckbox wordId={word.pinyin} />
+                    <WordCheckbox wordId={word.id} />
                   </div>
                   <div className="flex gap-1 items-center">
                     <p className="text-sm">{word.pinyin}</p>
@@ -165,8 +183,9 @@ export default function SearchBox() {
             ))}
           </div>
         </div>
-      )}
-    </div>
+      )
+      }
+    </div >
   );
 }
 

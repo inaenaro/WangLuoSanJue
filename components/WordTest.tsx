@@ -1,19 +1,13 @@
 import { useContext } from "react";
-import { type Word } from "@/app/lib/word";
+import { wordMap, type Word } from "@/app/lib/word";
 import { type WordSettings } from "@/app/lib/settings";
 import { CheckedWordsContext } from "@/components/Providers";
 import Test from "@/components/Test";
-import words from "@/public/words.json";
-
-const wordData = (words as Word[]).map(word => ({
-  ...word,
-  pinyin: word.pinyin.normalize("NFD")
-}));
 
 export default function WordTest({ setStarted, settings }: { setStarted: (p: boolean) => void, settings: WordSettings }) {
   const { checkedWords } = useContext(CheckedWordsContext);
 
-  let filteredWords = wordData.filter((word: { lesson: number[] }) => word.lesson.some(l => settings.from <= l && l <= settings.to));
+  let filteredWords = Array.from(wordMap.values()).filter((word: { lesson: number[] }) => word.lesson.some(l => settings.from <= l && l <= settings.to));
 
   if (settings.onlyUnmarked) {
     filteredWords = filteredWords.filter((word) => !checkedWords.has(word.pinyin));

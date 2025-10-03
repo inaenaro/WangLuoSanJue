@@ -107,7 +107,7 @@ export default function Test<T>({ setStarted, hasAudio, hasInput, subjects }: Te
               <Embed title="想定解">{question.answerElement}</Embed>
               {type === "word" &&
                 <div className="flex items-center gap-2">
-                  <WordCheckbox wordId={(question.subject as Word).pinyin} />
+                  <WordCheckbox wordId={(question.subject as Word).id} />
                   <p>単語に星印を付ける</p>
                 </div>
               }
@@ -137,7 +137,7 @@ function AudioSection({ text, _key }: { text: string, _key: string }) {
 
   const speakText = (text: string) => {
     speechSynthesis.cancel();
-    const reg = new RegExp(/\(.*?\)$|\[.*?\]$/);
+    const reg = new RegExp(/\(.*?\)$|\[.*?\]$|\<.*?\>$|〜|～/g);
     const utterance = new SpeechSynthesisUtterance(text.replace(reg, ""));
     utterance.lang = "zh-CN";
     speechSynthesis.speak(utterance);

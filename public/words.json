@@ -1,5 +1,5 @@
-[
-  {
+{
+  "Zw00": {
     "word": "爱人",
     "pinyin": "àiren",
     "meanings": [
@@ -12,9 +12,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "Zw00"
   },
-  {
+  "f000": {
     "word": "八",
     "pinyin": "bā",
     "meanings": [
@@ -27,9 +28,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "f000"
   },
-  {
+  "ff00": {
     "word": "爸爸",
     "pinyin": "bàba",
     "meanings": [
@@ -42,9 +44,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ff00"
   },
-  {
+  "ff01": {
     "word": "伯伯",
     "pinyin": "bóbo",
     "meanings": [
@@ -57,9 +60,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ff01"
   },
-  {
+  "fd00": {
     "word": "博物馆",
     "pinyin": "bówùguǎn",
     "meanings": [
@@ -72,9 +76,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "fd00"
   },
-  {
+  "fM00": {
     "word": "不",
     "pinyin": "bù",
     "meanings": [
@@ -87,9 +92,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "fM00"
   },
-  {
+  "yq00": {
     "word": "参加",
     "pinyin": "cānjiā",
     "meanings": [
@@ -102,9 +108,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "yq00"
   },
-  {
+  "ut00": {
     "word": "车站",
     "pinyin": "chēzhàn",
     "meanings": [
@@ -117,9 +124,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ut00"
   },
-  {
+  "u800": {
     "word": "陈(姓)",
     "pinyin": "Chén",
     "meanings": [
@@ -132,9 +140,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "u800"
   },
-  {
+  "uv00": {
     "word": "衬衫",
     "pinyin": "chènshān",
     "meanings": [
@@ -147,9 +156,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "uv00"
   },
-  {
+  "j000": {
     "word": "打<〜太极拳>",
     "pinyin": "dǎ",
     "meanings": [
@@ -162,9 +172,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "j000"
   },
-  {
+  "jf00": {
     "word": "大阪",
     "pinyin": "Dàbǎn",
     "meanings": [
@@ -177,9 +188,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "jf00"
   },
-  {
+  "j200": {
     "word": "的[助]",
     "pinyin": "de",
     "meanings": [
@@ -192,9 +204,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "j200"
   },
-  {
+  "jj00": {
     "word": "弟弟",
     "pinyin": "dìdi",
     "meanings": [
@@ -207,9 +220,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "jj00"
   },
-  {
+  "jl00": {
     "word": "电脑",
     "pinyin": "diànnǎo",
     "meanings": [
@@ -222,9 +236,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "jl00"
   },
-  {
+  "jv00": {
     "word": "独生",
     "pinyin": "dúshēng",
     "meanings": [
@@ -237,9 +252,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "jv00"
   },
-  {
+  "jQ00": {
     "word": "对[形]",
     "pinyin": "duì",
     "meanings": [
@@ -252,9 +268,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "jQ00"
   },
-  {
+  "jd00": {
     "word": "对外",
     "pinyin": "duìwài",
     "meanings": [
@@ -267,9 +284,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "jd00"
   },
-  {
+  "jO00": {
     "word": "多[副]",
     "pinyin": "duō",
     "meanings": [
@@ -282,9 +300,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "jO00"
   },
-  {
+  "_x00": {
     "word": "儿子",
     "pinyin": "érzi",
     "meanings": [
@@ -297,9 +316,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "_x00"
   },
-  {
+  "__00": {
     "word": "二",
     "pinyin": "èr",
     "meanings": [
@@ -312,9 +332,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "__00"
   },
-  {
+  "i900": {
     "word": "方(姓)",
     "pinyin": "Fāng",
     "meanings": [
@@ -327,9 +348,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "i900"
   },
-  {
+  "iq00": {
     "word": "福建人",
     "pinyin": "Fújiànrén",
     "meanings": [
@@ -342,9 +364,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "iq00"
   },
-  {
+  "id00": {
     "word": "服务员",
     "pinyin": "fúwùyuán",
     "meanings": [
@@ -357,9 +380,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "id00"
   },
-  {
+  "nn00": {
     "word": "哥哥",
     "pinyin": "gēge",
     "meanings": [
@@ -372,9 +396,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "nn00"
   },
-  {
+  "nz00": {
     "word": "公司",
     "pinyin": "gōngsī",
     "meanings": [
@@ -387,9 +412,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "nz00"
   },
-  {
+  "nn01": {
     "word": "姑姑",
     "pinyin": "gūgu",
     "meanings": [
@@ -402,9 +428,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "nn01"
   },
-  {
+  "no00": {
     "word": "顾客",
     "pinyin": "gùkè",
     "meanings": [
@@ -417,9 +444,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "no00"
   },
-  {
+  "nj00": {
     "word": "广东人",
     "pinyin": "Guǎngdōngrén",
     "meanings": [
@@ -432,9 +460,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "nj00"
   },
-  {
+  "pn00": {
     "word": "韩国",
     "pinyin": "Hánguó",
     "meanings": [
@@ -447,9 +476,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "pn00"
   },
-  {
+  "pe00": {
     "word": "汉语",
     "pinyin": "Hànyǔ",
     "meanings": [
@@ -462,9 +492,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "pe00"
   },
-  {
+  "pT00": {
     "word": "黄(姓)",
     "pinyin": "Huáng",
     "meanings": [
@@ -477,9 +508,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "pT00"
   },
-  {
+  "qF00": {
     "word": "教",
     "pinyin": "jiāo",
     "meanings": [
@@ -492,9 +524,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "qF00"
   },
-  {
+  "qF01": {
     "word": "叫",
     "pinyin": "jiào",
     "meanings": [
@@ -507,9 +540,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "qF01"
   },
-  {
+  "qq00": {
     "word": "姐姐",
     "pinyin": "jiějie",
     "meanings": [
@@ -522,9 +556,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "qq00"
   },
-  {
+  "qp00": {
     "word": "今后",
     "pinyin": "jīnhòu",
     "meanings": [
@@ -537,9 +572,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "qp00"
   },
-  {
+  "qG00": {
     "word": "九",
     "pinyin": "jiǔ",
     "meanings": [
@@ -552,9 +588,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "qG00"
   },
-  {
+  "qy00": {
     "word": "韭菜",
     "pinyin": "jiǔcài",
     "meanings": [
@@ -567,9 +604,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "qy00"
   },
-  {
+  "qq01": {
     "word": "舅舅",
     "pinyin": "jiùjiu",
     "meanings": [
@@ -582,9 +620,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "qq01"
   },
-  {
+  "o700": {
     "word": "看",
     "pinyin": "kàn",
     "meanings": [
@@ -597,9 +636,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "o700"
   },
-  {
+  "of00": {
     "word": "课本",
     "pinyin": "kèběn",
     "meanings": [
@@ -612,9 +652,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "of00"
   },
-  {
+  "mm00": {
     "word": "姥姥",
     "pinyin": "lǎolao",
     "meanings": [
@@ -627,9 +668,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "mm00"
   },
-  {
+  "mc00": {
     "word": "姥爷",
     "pinyin": "lǎoye",
     "meanings": [
@@ -642,9 +684,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "mc00"
   },
-  {
+  "mC00": {
     "word": "李(姓)",
     "pinyin": "Lǐ",
     "meanings": [
@@ -657,9 +700,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "mC00"
   },
-  {
+  "ms00": {
     "word": "留学生",
     "pinyin": "liúxuéshēng",
     "meanings": [
@@ -672,9 +716,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ms00"
   },
-  {
+  "mG00": {
     "word": "六",
     "pinyin": "liù",
     "meanings": [
@@ -687,9 +732,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "mG00"
   },
-  {
+  "ms01": {
     "word": "鲁迅",
     "pinyin": "Lǔ Xùn",
     "meanings": [
@@ -702,9 +748,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ms01"
   },
-  {
+  "hh00": {
     "word": "妈妈",
     "pinyin": "māma",
     "meanings": [
@@ -717,9 +764,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "hh00"
   },
-  {
+  "h000": {
     "word": "吗",
     "pinyin": "ma",
     "meanings": [
@@ -732,9 +780,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "h000"
   },
-  {
+  "h300": {
     "word": "买",
     "pinyin": "mǎi",
     "meanings": [
@@ -747,9 +796,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "h300"
   },
-  {
+  "hk00": {
     "word": "梅田",
     "pinyin": "Méitián",
     "meanings": [
@@ -762,9 +812,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "hk00"
   },
-  {
+  "hn00": {
     "word": "美国人",
     "pinyin": "Měiguórén",
     "meanings": [
@@ -777,9 +828,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "hn00"
   },
-  {
+  "hk01": {
     "word": "每天",
     "pinyin": "měitiān",
     "meanings": [
@@ -792,9 +844,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "hk01"
   },
-  {
+  "hh01": {
     "word": "妹妹",
     "pinyin": "mèimei",
     "meanings": [
@@ -807,9 +860,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "hh01"
   },
-  {
+  "hk02": {
     "word": "明天",
     "pinyin": "míngtiān",
     "meanings": [
@@ -822,9 +876,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "hk02"
   },
-  {
+  "hk03": {
     "word": "木头",
     "pinyin": "mùtou",
     "meanings": [
@@ -837,9 +892,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "hk03"
   },
-  {
+  "l000": {
     "word": "哪",
     "pinyin": "nǎ",
     "meanings": [
@@ -852,9 +908,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "l000"
   },
-  {
+  "l001": {
     "word": "那[指示]",
     "pinyin": "nà",
     "meanings": [
@@ -867,9 +924,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "l001"
   },
-  {
+  "l002": {
     "word": "哪[文末助詞]",
     "pinyin": "na",
     "meanings": [
@@ -882,9 +940,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "l002"
   },
-  {
+  "ll00": {
     "word": "奶奶",
     "pinyin": "nǎinai",
     "meanings": [
@@ -897,9 +956,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ll00"
   },
-  {
+  "ln00": {
     "word": "哪个",
     "pinyin": "něige",
     "meanings": [
@@ -912,9 +972,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ln00"
   },
-  {
+  "ln01": {
     "word": "那个",
     "pinyin": "nèige",
     "meanings": [
@@ -927,9 +988,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ln01"
   },
-  {
+  "lC00": {
     "word": "你",
     "pinyin": "nǐ",
     "meanings": [
@@ -942,9 +1004,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "lC00"
   },
-  {
+  "lp00": {
     "word": "你好",
     "pinyin": "nǐ hǎo",
     "meanings": [
@@ -957,9 +1020,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "lp00"
   },
-  {
+  "lh00": {
     "word": "你们",
     "pinyin": "nǐmen",
     "meanings": [
@@ -972,9 +1036,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "lh00"
   },
-  {
+  "lq00": {
     "word": "年级",
     "pinyin": "niánjí",
     "meanings": [
@@ -987,9 +1052,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "lq00"
   },
-  {
+  "lI00": {
     "word": "您",
     "pinyin": "nín",
     "meanings": [
@@ -1002,9 +1068,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "lI00"
   },
-  {
+  "l_00": {
     "word": "女儿",
     "pinyin": "nǚ’ér",
     "meanings": [
@@ -1017,9 +1084,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "l_00"
   },
-  {
+  "gc00": {
     "word": "朋友",
     "pinyin": "péngyou",
     "meanings": [
@@ -1032,9 +1100,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "gc00"
   },
-  {
+  "rC00": {
     "word": "七",
     "pinyin": "qī",
     "meanings": [
@@ -1047,9 +1116,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "rC00"
   },
-  {
+  "rx00": {
     "word": "妻子",
     "pinyin": "qīzi",
     "meanings": [
@@ -1062,9 +1132,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "rx00"
   },
-  {
+  "rK00": {
     "word": "请",
     "pinyin": "qǐng",
     "meanings": [
@@ -1077,9 +1148,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "rK00"
   },
-  {
+  "wf00": {
     "word": "日本",
     "pinyin": "Rìběn",
     "meanings": [
@@ -1092,9 +1164,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "wf00"
   },
-  {
+  "wf01": {
     "word": "日本人",
     "pinyin": "Rìběnrén",
     "meanings": [
@@ -1107,9 +1180,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "wf01"
   },
-  {
+  "z700": {
     "word": "三",
     "pinyin": "sān",
     "meanings": [
@@ -1122,9 +1196,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "z700"
   },
-  {
+  "vC00": {
     "word": "十",
     "pinyin": "shí",
     "meanings": [
@@ -1137,9 +1212,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "vC00"
   },
-  {
+  "vC01": {
     "word": "是",
     "pinyin": "shì",
     "meanings": [
@@ -1152,9 +1228,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "vC01"
   },
-  {
+  "vf00": {
     "word": "手表",
     "pinyin": "shǒubiǎo",
     "meanings": [
@@ -1167,9 +1244,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "vf00"
   },
-  {
+  "vM00": {
     "word": "书",
     "pinyin": "shū",
     "meanings": [
@@ -1182,9 +1260,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "vM00"
   },
-  {
+  "vv00": {
     "word": "叔叔",
     "pinyin": "shūshu",
     "meanings": [
@@ -1197,9 +1276,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "vv00"
   },
-  {
+  "vs00": {
     "word": "水仙",
     "pinyin": "shuǐxiān",
     "meanings": [
@@ -1212,9 +1292,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "vs00"
   },
-  {
+  "zs00": {
     "word": "思想家",
     "pinyin": "sīxiǎngjiā",
     "meanings": [
@@ -1227,9 +1308,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "zs00"
   },
-  {
+  "zC00": {
     "word": "四",
     "pinyin": "sì",
     "meanings": [
@@ -1242,9 +1324,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "zC00"
   },
-  {
+  "zu00": {
     "word": "速成",
     "pinyin": "sùchéng",
     "meanings": [
@@ -1257,9 +1340,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "zu00"
   },
-  {
+  "k000": {
     "word": "他",
     "pinyin": "tā",
     "meanings": [
@@ -1272,9 +1356,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "k000"
   },
-  {
+  "k001": {
     "word": "她",
     "pinyin": "tā",
     "meanings": [
@@ -1287,9 +1372,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "k001"
   },
-  {
+  "k002": {
     "word": "它",
     "pinyin": "tā",
     "meanings": [
@@ -1302,9 +1388,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "k002"
   },
-  {
+  "kh00": {
     "word": "他们",
     "pinyin": "tāmen",
     "meanings": [
@@ -1317,9 +1404,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "kh00"
   },
-  {
+  "kh01": {
     "word": "她们",
     "pinyin": "tāmen",
     "meanings": [
@@ -1332,9 +1420,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "kh01"
   },
-  {
+  "kh02": {
     "word": "它们",
     "pinyin": "tāmen",
     "meanings": [
@@ -1347,9 +1436,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "kh02"
   },
-  {
+  "kq00": {
     "word": "太极拳",
     "pinyin": "tàijíquán",
     "meanings": [
@@ -1362,9 +1452,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "kq00"
   },
-  {
+  "ks00": {
     "word": "同学",
     "pinyin": "tóngxué",
     "meanings": [
@@ -1377,9 +1468,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ks00"
   },
-  {
+  "kv00": {
     "word": "图书馆",
     "pinyin": "túshūguǎn",
     "meanings": [
@@ -1392,9 +1484,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "kv00"
   },
-  {
+  "dp00": {
     "word": "晚会",
     "pinyin": "wǎnhuì",
     "meanings": [
@@ -1407,9 +1500,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "dp00"
   },
-  {
+  "dT00": {
     "word": "王(姓)",
     "pinyin": "Wáng",
     "meanings": [
@@ -1422,9 +1516,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "dT00"
   },
-  {
+  "ds00": {
     "word": "文学家",
     "pinyin": "wénxuéjiā",
     "meanings": [
@@ -1437,9 +1532,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ds00"
   },
-  {
+  "dO00": {
     "word": "我",
     "pinyin": "wǒ",
     "meanings": [
@@ -1452,9 +1548,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "dO00"
   },
-  {
+  "dh00": {
     "word": "我们",
     "pinyin": "wǒmen",
     "meanings": [
@@ -1467,9 +1564,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "dh00"
   },
-  {
+  "dM00": {
     "word": "五",
     "pinyin": "wǔ",
     "meanings": [
@@ -1482,9 +1580,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "dM00"
   },
-  {
+  "dm00": {
     "word": "物理",
     "pinyin": "wùlǐ",
     "meanings": [
@@ -1497,9 +1596,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "dm00"
   },
-  {
+  "sp00": {
     "word": "喜欢",
     "pinyin": "xǐhuan",
     "meanings": [
@@ -1512,9 +1612,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "sp00"
   },
-  {
+  "sC00": {
     "word": "系",
     "pinyin": "xì",
     "meanings": [
@@ -1527,9 +1628,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "sC00"
   },
-  {
+  "sy00": {
     "word": "香草茶",
     "pinyin": "xiāngcǎochá",
     "meanings": [
@@ -1542,9 +1644,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "sy00"
   },
-  {
+  "sx00": {
     "word": "箱子",
     "pinyin": "xiāngzi",
     "meanings": [
@@ -1557,9 +1660,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "sx00"
   },
-  {
+  "sF00": {
     "word": "小[接頭辞]",
     "pinyin": "xiǎo",
     "meanings": [
@@ -1572,9 +1676,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "sF00"
   },
-  {
+  "sK00": {
     "word": "姓[動]",
     "pinyin": "xìng",
     "meanings": [
@@ -1587,9 +1692,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "sK00"
   },
-  {
+  "sv00": {
     "word": "学生",
     "pinyin": "xuésheng",
     "meanings": [
@@ -1602,9 +1708,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "sv00"
   },
-  {
+  "ss00": {
     "word": "学习",
     "pinyin": "xuéxí",
     "meanings": [
@@ -1617,9 +1724,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ss00"
   },
-  {
+  "ss01": {
     "word": "学校",
     "pinyin": "xuéxiào",
     "meanings": [
@@ -1632,9 +1740,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ss01"
   },
-  {
+  "se00": {
     "word": "学院",
     "pinyin": "xuéyuàn",
     "meanings": [
@@ -1647,9 +1756,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "se00"
   },
-  {
+  "st00": {
     "word": "学者",
     "pinyin": "xuézhě",
     "meanings": [
@@ -1662,9 +1772,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "st00"
   },
-  {
+  "ch00": {
     "word": "亚麻",
     "pinyin": "yàmá",
     "meanings": [
@@ -1677,9 +1788,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ch00"
   },
-  {
+  "cc00": {
     "word": "爷爷",
     "pinyin": "yéye",
     "meanings": [
@@ -1692,9 +1804,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "cc00"
   },
-  {
+  "cE00": {
     "word": "也",
     "pinyin": "yě",
     "meanings": [
@@ -1707,9 +1820,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "cE00"
   },
-  {
+  "cC00": {
     "word": "一",
     "pinyin": "yī",
     "meanings": [
@@ -1722,9 +1836,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "cC00"
   },
-  {
+  "cC01": {
     "word": "姨",
     "pinyin": "yí",
     "meanings": [
@@ -1737,9 +1852,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "cC01"
   },
-  {
+  "ch01": {
     "word": "姨妈",
     "pinyin": "yímā",
     "meanings": [
@@ -1752,9 +1868,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ch01"
   },
-  {
+  "ce00": {
     "word": "英语",
     "pinyin": "Yīngyǔ",
     "meanings": [
@@ -1767,9 +1884,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ce00"
   },
-  {
+  "cs00": {
     "word": "迎新",
     "pinyin": "yíngxīn",
     "meanings": [
@@ -1782,9 +1900,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "cs00"
   },
-  {
+  "ef00": {
     "word": "月饼",
     "pinyin": "yuèbing",
     "meanings": [
@@ -1797,9 +1916,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ef00"
   },
-  {
+  "el00": {
     "word": "越南",
     "pinyin": "Yuènán",
     "meanings": [
@@ -1812,9 +1932,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "el00"
   },
-  {
+  "x300": {
     "word": "在[動]",
     "pinyin": "zài",
     "meanings": [
@@ -1827,9 +1948,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "x300"
   },
-  {
+  "xh00": {
     "word": "咱们",
     "pinyin": "zánmen",
     "meanings": [
@@ -1842,9 +1964,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "xh00"
   },
-  {
+  "tg00": {
     "word": "展品",
     "pinyin": "zhǎnpǐn",
     "meanings": [
@@ -1857,9 +1980,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "tg00"
   },
-  {
+  "t900": {
     "word": "张(姓)",
     "pinyin": "Zhāng",
     "meanings": [
@@ -1872,9 +1996,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "t900"
   },
-  {
+  "ti00": {
     "word": "丈夫",
     "pinyin": "zhàngfu",
     "meanings": [
@@ -1887,9 +2012,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "ti00"
   },
-  {
+  "t200": {
     "word": "这",
     "pinyin": "zhè",
     "meanings": [
@@ -1902,9 +2028,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "t200"
   },
-  {
+  "tn00": {
     "word": "这个",
     "pinyin": "zhèige",
     "meanings": [
@@ -1917,9 +2044,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "tn00"
   },
-  {
+  "tq00": {
     "word": "指教",
     "pinyin": "zhǐjiào",
     "meanings": [
@@ -1933,9 +2061,10 @@
     "lesson": [
       1
     ],
-    "notes": "请多指教で「よろしくお願いします」"
+    "notes": "请多指教で「よろしくお願いします」",
+    "id": "tq00"
   },
-  {
+  "tn01": {
     "word": "中国",
     "pinyin": "Zhōngguó",
     "meanings": [
@@ -1948,9 +2077,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "tn01"
   },
-  {
+  "xl00": {
     "word": "子女",
     "pinyin": "zǐnǚ",
     "meanings": [
@@ -1963,9 +2093,10 @@
     ],
     "lesson": [
       1
-    ]
+    ],
+    "id": "xl00"
   },
-  {
+  "Z000": {
     "word": "啊[感嘆詞]",
     "pinyin": "á",
     "meanings": [
@@ -1978,9 +2109,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "Z000"
   },
-  {
+  "Z001": {
     "word": "啊[文末助詞]",
     "pinyin": "a",
     "meanings": [
@@ -1993,9 +2125,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "Z001"
   },
-  {
+  "Zg00": {
     "word": "安排",
     "pinyin": "ānpái",
     "meanings": [
@@ -2008,9 +2141,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "Zg00"
   },
-  {
+  "f700": {
     "word": "半",
     "pinyin": "bàn",
     "meanings": [
@@ -2023,9 +2157,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "f700"
   },
-  {
+  "f400": {
     "word": "北",
     "pinyin": "běi",
     "meanings": [
@@ -2038,9 +2173,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "f400"
   },
-  {
+  "fz00": {
     "word": "比赛",
     "pinyin": "bǐsài",
     "meanings": [
@@ -2053,9 +2189,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "fz00"
   },
-  {
+  "fm00": {
     "word": "便利店",
     "pinyin": "biànlìdiàn",
     "meanings": [
@@ -2068,9 +2205,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "fm00"
   },
-  {
+  "f-00": {
     "word": "边(儿)[接尾辞]",
     "pinyin": "bian(r)",
     "meanings": [
@@ -2083,9 +2221,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "f-00"
   },
-  {
+  "u000": {
     "word": "差(～分‐点)",
     "pinyin": "chà",
     "meanings": [
@@ -2098,9 +2237,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "u000"
   },
-  {
+  "uC00": {
     "word": "吃",
     "pinyin": "chī",
     "meanings": [
@@ -2113,9 +2253,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "uC00"
   },
-  {
+  "uy00": {
     "word": "初次",
     "pinyin": "chūcì",
     "meanings": [
@@ -2128,9 +2269,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "uy00"
   },
-  {
+  "ui00": {
     "word": "出发",
     "pinyin": "chūfā",
     "meanings": [
@@ -2143,9 +2285,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "ui00"
   },
-  {
+  "j001": {
     "word": "大[接頭辞]",
     "pinyin": "dà",
     "meanings": [
@@ -2158,9 +2301,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "j001"
   },
-  {
+  "jm00": {
     "word": "大楼",
     "pinyin": "dàlóu",
     "meanings": [
@@ -2173,9 +2317,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "jm00"
   },
-  {
+  "js00": {
     "word": "大学",
     "pinyin": "dàxué",
     "meanings": [
@@ -2188,9 +2333,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "js00"
   },
-  {
+  "jC00": {
     "word": "第",
     "pinyin": "dì",
     "meanings": [
@@ -2203,9 +2349,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "jC00"
   },
-  {
+  "jf01": {
     "word": "地板",
     "pinyin": "dìbǎn",
     "meanings": [
@@ -2218,9 +2365,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "jf01"
   },
-  {
+  "jH00": {
     "word": "点[量]",
     "pinyin": "diǎn",
     "meanings": [
@@ -2233,9 +2381,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "jH00"
   },
-  {
+  "jB00": {
     "word": "东",
     "pinyin": "dōng",
     "meanings": [
@@ -2248,9 +2397,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "jB00"
   },
-  {
+  "jp00": {
     "word": "逗号",
     "pinyin": "dòuhào",
     "meanings": [
@@ -2263,9 +2413,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "jp00"
   },
-  {
+  "jh00": {
     "word": "对面",
     "pinyin": "duìmiàn",
     "meanings": [
@@ -2278,9 +2429,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "jh00"
   },
-  {
+  "jp01": {
     "word": "顿号",
     "pinyin": "dùnhào",
     "meanings": [
@@ -2293,9 +2445,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "jp01"
   },
-  {
+  "i800": {
     "word": "分[量]",
     "pinyin": "fēn",
     "meanings": [
@@ -2308,9 +2461,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "i800"
   },
-  {
+  "ic00": {
     "word": "复印机",
     "pinyin": "fùyìnjī",
     "meanings": [
@@ -2323,9 +2477,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "ic00"
   },
-  {
+  "ne00": {
     "word": "公园",
     "pinyin": "gōngyuán",
     "meanings": [
@@ -2338,9 +2493,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "ne00"
   },
-  {
+  "nj01": {
     "word": "古都",
     "pinyin": "gǔdū",
     "meanings": [
@@ -2353,9 +2509,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "nj01"
   },
-  {
+  "nt00": {
     "word": "关照",
     "pinyin": "guānzhào",
     "meanings": [
@@ -2369,9 +2526,10 @@
     "lesson": [
       2
     ],
-    "notes": "请多关照で「よろしくお願いします」"
+    "notes": "请多关照で「よろしくお願いします」",
+    "id": "nt00"
   },
-  {
+  "nu00": {
     "word": "广场",
     "pinyin": "guǎngchǎng",
     "meanings": [
@@ -2384,9 +2542,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "nu00"
   },
-  {
+  "p300": {
     "word": "海",
     "pinyin": "hǎi",
     "meanings": [
@@ -2399,9 +2558,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "p300"
   },
-  {
+  "p500": {
     "word": "号[量]",
     "pinyin": "hào",
     "meanings": [
@@ -2414,9 +2574,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "p500"
   },
-  {
+  "p200": {
     "word": "喝",
     "pinyin": "hē",
     "meanings": [
@@ -2429,9 +2590,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "p200"
   },
-  {
+  "p201": {
     "word": "和[接続]",
     "pinyin": "hé",
     "meanings": [
@@ -2444,9 +2606,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "p201"
   },
-  {
+  "pm00": {
     "word": "红楼梦",
     "pinyin": "Hónglóumèng",
     "meanings": [
@@ -2459,9 +2622,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "pm00"
   },
-  {
+  "p600": {
     "word": "后",
     "pinyin": "hòu",
     "meanings": [
@@ -2474,9 +2638,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "p600"
   },
-  {
+  "qs00": {
     "word": "积雪",
     "pinyin": "jīxuě",
     "meanings": [
@@ -2489,9 +2654,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "qs00"
   },
-  {
+  "qC00": {
     "word": "几",
     "pinyin": "jǐ",
     "meanings": [
@@ -2504,9 +2670,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "qC00"
   },
-  {
+  "qD00": {
     "word": "家[名]",
     "pinyin": "jiā",
     "meanings": [
@@ -2519,9 +2686,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "qD00"
   },
-  {
+  "pj00": {
     "word": "活动",
     "pinyin": "huódòng",
     "meanings": [
@@ -2534,9 +2702,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "pj00"
   },
-  {
+  "qh00": {
     "word": "见面",
     "pinyin": "jiàn//miàn",
     "meanings": [
@@ -2550,9 +2719,10 @@
     "lesson": [
       2
     ],
-    "notes": "初次见面で初めまして"
+    "notes": "初次见面で初めまして",
+    "id": "qh00"
   },
-  {
+  "qh01": {
     "word": "姐妹",
     "pinyin": "jiěmèi",
     "meanings": [
@@ -2565,9 +2735,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "qh01"
   },
-  {
+  "qk00": {
     "word": "今天",
     "pinyin": "jīntiān",
     "meanings": [
@@ -2580,9 +2751,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "qk00"
   },
-  {
+  "qj00": {
     "word": "京都",
     "pinyin": "Jīngdū",
     "meanings": [
@@ -2595,9 +2767,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "qj00"
   },
-  {
+  "ov00": {
     "word": "开始",
     "pinyin": "kāishǐ",
     "meanings": [
@@ -2610,9 +2783,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "ov00"
   },
-  {
+  "op00": {
     "word": "科幻",
     "pinyin": "kēhuàn",
     "meanings": [
@@ -2625,9 +2799,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "op00"
   },
-  {
+  "o200": {
     "word": "刻[量]",
     "pinyin": "kè",
     "meanings": [
@@ -2640,9 +2815,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "o200"
   },
-  {
+  "mh00": {
     "word": "厘米",
     "pinyin": "límǐ",
     "meanings": [
@@ -2655,9 +2831,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "mh00"
   },
-  {
+  "mC01": {
     "word": "里",
     "pinyin": "lǐ",
     "meanings": [
@@ -2670,25 +2847,27 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "mC01"
   },
-  {
+  "mC02": {
     "word": "里",
     "pinyin": "li",
     "meanings": [
       {
         "part": "",
-        "meaning": "(単位)",
-        "meaning_short": "(単位)",
+        "meaning": "～の中",
+        "meaning_short": "の中",
         "example": ""
       }
     ],
     "lesson": [
       2
     ],
-    "notes": "一里=500m"
+    "notes": "",
+    "id": "mC02"
   },
-  {
+  "mD00": {
     "word": "俩",
     "pinyin": "liǎ",
     "meanings": [
@@ -2701,9 +2880,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "mD00"
   },
-  {
+  "my00": {
     "word": "镰仓",
     "pinyin": "Liáncāng",
     "meanings": [
@@ -2716,9 +2896,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "my00"
   },
-  {
+  "mJ00": {
     "word": "两",
     "pinyin": "liǎng",
     "meanings": [
@@ -2731,9 +2912,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "mJ00"
   },
-  {
+  "mK00": {
     "word": "零",
     "pinyin": "líng",
     "meanings": [
@@ -2746,9 +2928,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "mK00"
   },
-  {
+  "m600": {
     "word": "楼[量]",
     "pinyin": "lóu",
     "meanings": [
@@ -2761,9 +2944,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "m600"
   },
-  {
+  "mg00": {
     "word": "路旁",
     "pinyin": "lùpáng",
     "meanings": [
@@ -2776,9 +2960,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "mg00"
   },
-  {
+  "ms02": {
     "word": "旅行",
     "pinyin": "lǚxíng",
     "meanings": [
@@ -2791,9 +2976,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "ms02"
   },
-  {
+  "mc01": {
     "word": "洛阳",
     "pinyin": "Luòyáng",
     "meanings": [
@@ -2806,9 +2992,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "mc01"
   },
-  {
+  "hp00": {
     "word": "漫画",
     "pinyin": "mànhuà",
     "meanings": [
@@ -2821,9 +3008,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "hp00"
   },
-  {
+  "hc00": {
     "word": "没有",
     "pinyin": "méiyou",
     "meanings": [
@@ -2836,9 +3024,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "hc00"
   },
-  {
+  "hg00": {
     "word": "门旁",
     "pinyin": "ménpáng",
     "meanings": [
@@ -2851,9 +3040,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "hg00"
   },
-  {
+  "hH00": {
     "word": "面[接尾辞]",
     "pinyin": "miàn",
     "meanings": [
@@ -2866,9 +3056,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "hH00"
   },
-  {
+  "ht00": {
     "word": "名著",
     "pinyin": "míngzhù",
     "meanings": [
@@ -2881,9 +3072,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "ht00"
   },
-  {
+  "hr00": {
     "word": "目前",
     "pinyin": "mùqián",
     "meanings": [
@@ -2896,9 +3088,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "hr00"
   },
-  {
+  "l003": {
     "word": "那[接続]",
     "pinyin": "nà",
     "meanings": [
@@ -2911,9 +3104,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "l003"
   },
-  {
+  "lm00": {
     "word": "奈良",
     "pinyin": "Nàiliáng",
     "meanings": [
@@ -2926,9 +3120,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "lm00"
   },
-  {
+  "l700": {
     "word": "南",
     "pinyin": "nán",
     "meanings": [
@@ -2941,9 +3136,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "l700"
   },
-  {
+  "g900": {
     "word": "旁",
     "pinyin": "páng",
     "meanings": [
@@ -2956,9 +3152,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "g900"
   },
-  {
+  "gq00": {
     "word": "啤酒",
     "pinyin": "píjiǔ",
     "meanings": [
@@ -2971,9 +3168,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "gq00"
   },
-  {
+  "gK00": {
     "word": "瓶",
     "pinyin": "píng",
     "meanings": [
@@ -2986,9 +3184,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "gK00"
   },
-  {
+  "rH00": {
     "word": "前[方位]",
     "pinyin": "qián",
     "meanings": [
@@ -3001,9 +3200,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "rH00"
   },
-  {
+  "rq00": {
     "word": "请假",
     "pinyin": "qǐng//jià",
     "meanings": [
@@ -3016,9 +3216,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "rq00"
   },
-  {
+  "rV00": {
     "word": "去",
     "pinyin": "qù",
     "meanings": [
@@ -3031,9 +3232,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "rV00"
   },
-  {
+  "wC00": {
     "word": "日",
     "pinyin": "rì",
     "meanings": [
@@ -3046,9 +3248,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "wC00"
   },
-  {
+  "zn00": {
     "word": "三国演义",
     "pinyin": "Sānguóyǎnyì",
     "meanings": [
@@ -3061,9 +3264,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "zn00"
   },
-  {
+  "v700": {
     "word": "山",
     "pinyin": "shān",
     "meanings": [
@@ -3076,9 +3280,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "v700"
   },
-  {
+  "v900": {
     "word": "上[方位]",
     "pinyin": "shàng",
     "meanings": [
@@ -3091,9 +3296,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "v900"
   },
-  {
+  "vf01": {
     "word": "上班",
     "pinyin": "shàng//bān",
     "meanings": [
@@ -3106,9 +3312,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "vf01"
   },
-  {
+  "vk00": {
     "word": "社团",
     "pinyin": "shètuán",
     "meanings": [
@@ -3121,9 +3328,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "vk00"
   },
-  {
+  "v400": {
     "word": "谁",
     "pinyin": "shéi",
     "meanings": [
@@ -3136,9 +3344,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "v400"
   },
-  {
+  "vh00": {
     "word": "什么",
     "pinyin": "shénme",
     "meanings": [
@@ -3151,9 +3360,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "vh00"
   },
-  {
+  "vp00": {
     "word": "时候",
     "pinyin": "shíhou",
     "meanings": [
@@ -3166,9 +3376,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "vp00"
   },
-  {
+  "vq00": {
     "word": "时间",
     "pinyin": "shíjiān",
     "meanings": [
@@ -3181,9 +3392,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "vq00"
   },
-  {
+  "vC02": {
     "word": "事",
     "pinyin": "shì",
     "meanings": [
@@ -3196,9 +3408,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "vC02"
   },
-  {
+  "vQ00": {
     "word": "水",
     "pinyin": "shuǐ",
     "meanings": [
@@ -3211,9 +3424,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "vQ00"
   },
-  {
+  "vp01": {
     "word": "水浒传",
     "pinyin": "Shuǐhǔzhuàn",
     "meanings": [
@@ -3226,9 +3440,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "vp01"
   },
-  {
+  "zQ00": {
     "word": "岁",
     "pinyin": "suì",
     "meanings": [
@@ -3241,9 +3456,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "zQ00"
   },
-  {
+  "kK00": {
     "word": "听",
     "pinyin": "tīng",
     "meanings": [
@@ -3256,9 +3472,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "kK00"
   },
-  {
+  "kt00": {
     "word": "通知",
     "pinyin": "tōngzhī",
     "meanings": [
@@ -3271,9 +3488,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "kt00"
   },
-  {
+  "k600": {
     "word": "头[接尾辞]",
     "pinyin": "tóu",
     "meanings": [
@@ -3286,9 +3504,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "k600"
   },
-  {
+  "dP00": {
     "word": "外",
     "pinyin": "wài",
     "meanings": [
@@ -3301,9 +3520,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "dP00"
   },
-  {
+  "dv00": {
     "word": "晚上",
     "pinyin": "wǎnshang",
     "meanings": [
@@ -3316,9 +3536,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "dv00"
   },
-  {
+  "dT01": {
     "word": "网",
     "pinyin": "wǎng",
     "meanings": [
@@ -3331,9 +3552,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "dT01"
   },
-  {
+  "dQ00": {
     "word": "位",
     "pinyin": "wèi",
     "meanings": [
@@ -3346,9 +3568,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "dQ00"
   },
-  {
+  "ds01": {
     "word": "文学",
     "pinyin": "wénxué",
     "meanings": [
@@ -3361,9 +3584,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "ds01"
   },
-  {
+  "sC01": {
     "word": "西",
     "pinyin": "xī",
     "meanings": [
@@ -3376,9 +3600,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sC01"
   },
-  {
+  "sZ00": {
     "word": "西安",
     "pinyin": "Xī’ān",
     "meanings": [
@@ -3391,9 +3616,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sZ00"
   },
-  {
+  "sc00": {
     "word": "西游记",
     "pinyin": "Xīyóujì",
     "meanings": [
@@ -3406,9 +3632,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sc00"
   },
-  {
+  "sv01": {
     "word": "洗手间",
     "pinyin": "xǐshǒujiān",
     "meanings": [
@@ -3421,9 +3648,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sv01"
   },
-  {
+  "sD00": {
     "word": "下[方位]",
     "pinyin": "xià",
     "meanings": [
@@ -3436,9 +3664,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sD00"
   },
-  {
+  "sx01": {
     "word": "现在",
     "pinyin": "xiànzài",
     "meanings": [
@@ -3451,9 +3680,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sx01"
   },
-  {
+  "sJ00": {
     "word": "想[助動]",
     "pinyin": "xiǎng",
     "meanings": [
@@ -3466,9 +3696,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sJ00"
   },
-  {
+  "sg00": {
     "word": "小朋友",
     "pinyin": "xiǎopéngyou",
     "meanings": [
@@ -3481,9 +3712,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sg00"
   },
-  {
+  "ss02": {
     "word": "小心",
     "pinyin": "xiǎoxīn",
     "meanings": [
@@ -3496,9 +3728,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "ss02"
   },
-  {
+  "sr00": {
     "word": "校区",
     "pinyin": "xiàoqū",
     "meanings": [
@@ -3511,9 +3744,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sr00"
   },
-  {
+  "sI00": {
     "word": "信",
     "pinyin": "xìn",
     "meanings": [
@@ -3526,9 +3760,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sI00"
   },
-  {
+  "ss03": {
     "word": "信箱",
     "pinyin": "xìnxiāng",
     "meanings": [
@@ -3541,9 +3776,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "ss03"
   },
-  {
+  "sr01": {
     "word": "星期",
     "pinyin": "xīngqī",
     "meanings": [
@@ -3556,9 +3792,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sr01"
   },
-  {
+  "sr02": {
     "word": "星期二",
     "pinyin": "xīngqī èr",
     "meanings": [
@@ -3571,9 +3808,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sr02"
   },
-  {
+  "sr03": {
     "word": "星期六",
     "pinyin": "xīngqī liù",
     "meanings": [
@@ -3586,9 +3824,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sr03"
   },
-  {
+  "sr04": {
     "word": "星期三",
     "pinyin": "xīngqī sān",
     "meanings": [
@@ -3601,9 +3840,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sr04"
   },
-  {
+  "sr05": {
     "word": "星期四",
     "pinyin": "xīngqī sì",
     "meanings": [
@@ -3616,9 +3856,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sr05"
   },
-  {
+  "sr06": {
     "word": "星期天",
     "pinyin": "xīngqī tiān",
     "meanings": [
@@ -3631,9 +3872,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sr06"
   },
-  {
+  "sr07": {
     "word": "星期五",
     "pinyin": "xīngqī wǔ",
     "meanings": [
@@ -3646,9 +3888,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sr07"
   },
-  {
+  "sr08": {
     "word": "星期一",
     "pinyin": "xīngqī yī",
     "meanings": [
@@ -3661,9 +3904,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sr08"
   },
-  {
+  "sj00": {
     "word": "兄弟",
     "pinyin": "xiōngdì",
     "meanings": [
@@ -3676,9 +3920,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "sj00"
   },
-  {
+  "cq00": {
     "word": "演讲",
     "pinyin": "yǎnjiǎng",
     "meanings": [
@@ -3691,9 +3936,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "cq00"
   },
-  {
+  "cx00": {
     "word": "演奏会",
     "pinyin": "yǎnzòuhuì",
     "meanings": [
@@ -3706,9 +3952,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "cx00"
   },
-  {
+  "cJ00": {
     "word": "杨(姓)",
     "pinyin": "Yáng",
     "meanings": [
@@ -3721,9 +3968,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "cJ00"
   },
-  {
+  "cF00": {
     "word": "要[動]",
     "pinyin": "yào",
     "meanings": [
@@ -3736,9 +3984,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "cF00"
   },
-  {
+  "cE01": {
     "word": "页",
     "pinyin": "yè",
     "meanings": [
@@ -3751,9 +4000,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "cE01"
   },
-  {
+  "cs01": {
     "word": "医学院",
     "pinyin": "yīxuéyuàn",
     "meanings": [
@@ -3766,9 +4016,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "cs01"
   },
-  {
+  "cr00": {
     "word": "一起",
     "pinyin": "yìqǐ",
     "meanings": [
@@ -3781,9 +4032,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "cr00"
   },
-  {
+  "cm00": {
     "word": "饮料",
     "pinyin": "yǐnliào",
     "meanings": [
@@ -3796,9 +4048,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "cm00"
   },
-  {
+  "cG00": {
     "word": "有",
     "pinyin": "yǒu",
     "meanings": [
@@ -3811,9 +4064,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "cG00"
   },
-  {
+  "cG01": {
     "word": "右",
     "pinyin": "yòu",
     "meanings": [
@@ -3826,9 +4080,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "cG01"
   },
-  {
+  "ez00": {
     "word": "雨伞",
     "pinyin": "yǔsǎn",
     "meanings": [
@@ -3841,9 +4096,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "ez00"
   },
-  {
+  "eW00": {
     "word": "月",
     "pinyin": "yuè",
     "meanings": [
@@ -3856,9 +4112,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "eW00"
   },
-  {
+  "x500": {
     "word": "早",
     "pinyin": "zǎo",
     "meanings": [
@@ -3871,9 +4128,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "x500"
   },
-  {
+  "xv00": {
     "word": "早上",
     "pinyin": "zǎoshang",
     "meanings": [
@@ -3886,9 +4144,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "xv00"
   },
-  {
+  "t500": {
     "word": "找",
     "pinyin": "zhǎo",
     "meanings": [
@@ -3901,9 +4160,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "t500"
   },
-  {
+  "tp00": {
     "word": "正好",
     "pinyin": "zhènghǎo",
     "meanings": [
@@ -3916,9 +4176,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "tp00"
   },
-  {
+  "tB00": {
     "word": "钟",
     "pinyin": "zhōng",
     "meanings": [
@@ -3931,9 +4192,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "tB00"
   },
-  {
+  "t600": {
     "word": "周",
     "pinyin": "zhōu",
     "meanings": [
@@ -3946,9 +4208,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "t600"
   },
-  {
+  "xk00": {
     "word": "昨天",
     "pinyin": "zuótiān",
     "meanings": [
@@ -3961,9 +4224,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "xk00"
   },
-  {
+  "xO00": {
     "word": "左",
     "pinyin": "zuǒ",
     "meanings": [
@@ -3976,9 +4240,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "xO00"
   },
-  {
+  "xq00": {
     "word": "作家",
     "pinyin": "zuòjiā",
     "meanings": [
@@ -3991,9 +4256,10 @@
     ],
     "lesson": [
       2
-    ]
+    ],
+    "id": "xq00"
   },
-  {
+  "f001": {
     "word": "吧",
     "pinyin": "ba",
     "meanings": [
@@ -4006,9 +4272,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "f001"
   },
-  {
+  "fk00": {
     "word": "白天",
     "pinyin": "báitiān",
     "meanings": [
@@ -4021,9 +4288,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "fk00"
   },
-  {
+  "fi00": {
     "word": "拜访",
     "pinyin": "bàifǎng",
     "meanings": [
@@ -4036,9 +4304,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "fi00"
   },
-  {
+  "fr00": {
     "word": "棒球",
     "pinyin": "bàngqiú",
     "meanings": [
@@ -4051,9 +4320,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "fr00"
   },
-  {
+  "fq00": {
     "word": "笔记本",
     "pinyin": "bǐjìběn",
     "meanings": [
@@ -4066,9 +4336,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "fq00"
   },
-  {
+  "fh00": {
     "word": "表妹",
     "pinyin": "biǎomèi",
     "meanings": [
@@ -4081,9 +4352,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "fh00"
   },
-  {
+  "fn00": {
     "word": "不过",
     "pinyin": "búguò",
     "meanings": [
@@ -4096,9 +4368,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "fn00"
   },
-  {
+  "u900": {
     "word": "唱",
     "pinyin": "chàng",
     "meanings": [
@@ -4111,9 +4384,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "u900"
   },
-  {
+  "ui01": {
     "word": "厨房",
     "pinyin": "chúfáng",
     "meanings": [
@@ -4126,9 +4400,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "ui01"
   },
-  {
+  "ud00": {
     "word": "储物柜",
     "pinyin": "chǔwùguì",
     "meanings": [
@@ -4141,9 +4416,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "ud00"
   },
-  {
+  "jp02": {
     "word": "大后年",
     "pinyin": "dàhòunián",
     "meanings": [
@@ -4156,9 +4432,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "jp02"
   },
-  {
+  "jp03": {
     "word": "大后天",
     "pinyin": "dàhòutiān",
     "meanings": [
@@ -4171,9 +4448,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "jp03"
   },
-  {
+  "jr00": {
     "word": "大前年",
     "pinyin": "dàqiánnián",
     "meanings": [
@@ -4186,9 +4464,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "jr00"
   },
-  {
+  "jr01": {
     "word": "大前天",
     "pinyin": "dàqiántiān",
     "meanings": [
@@ -4201,9 +4480,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "jr01"
   },
-  {
+  "j300": {
     "word": "戴",
     "pinyin": "dài",
     "meanings": [
@@ -4217,9 +4497,10 @@
     "lesson": [
       3
     ],
-    "notes": "眼镜などに使う"
+    "notes": "眼镜などに使う",
+    "id": "j300"
   },
-  {
+  "jA00": {
     "word": "等[動]",
     "pinyin": "děng",
     "meanings": [
@@ -4232,9 +4513,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "jA00"
   },
-  {
+  "jk00": {
     "word": "地铁",
     "pinyin": "dìtiě",
     "meanings": [
@@ -4247,9 +4529,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "jk00"
   },
-  {
+  "jk01": {
     "word": "电梯",
     "pinyin": "diàntī",
     "meanings": [
@@ -4262,9 +4545,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "jk01"
   },
-  {
+  "b400": {
     "word": "欸",
     "pinyin": "éi",
     "meanings": [
@@ -4277,9 +4561,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "b400"
   },
-  {
+  "_q00": {
     "word": "耳机",
     "pinyin": "ěrjī",
     "meanings": [
@@ -4292,9 +4577,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "_q00"
   },
-  {
+  "i000": {
     "word": "发",
     "pinyin": "fā",
     "meanings": [
@@ -4307,9 +4593,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "i000"
   },
-  {
+  "nh00": {
     "word": "感冒药",
     "pinyin": "gǎnmàoyào",
     "meanings": [
@@ -4322,9 +4609,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "nh00"
   },
-  {
+  "n200": {
     "word": "个",
     "pinyin": "ge",
     "meanings": [
@@ -4337,9 +4625,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "n200"
   },
-  {
+  "nf00": {
     "word": "广播",
     "pinyin": "guǎngbō",
     "meanings": [
@@ -4352,9 +4641,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "nf00"
   },
-  {
+  "p501": {
     "word": "好(応答)",
     "pinyin": "hǎo",
     "meanings": [
@@ -4367,9 +4657,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "p501"
   },
-  {
+  "pl00": {
     "word": "后年",
     "pinyin": "hòunián",
     "meanings": [
@@ -4382,9 +4673,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "pl00"
   },
-  {
+  "pk00": {
     "word": "后天",
     "pinyin": "hòutiān",
     "meanings": [
@@ -4397,9 +4689,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "pk00"
   },
-  {
+  "pM00": {
     "word": "胡(姓)",
     "pinyin": "Hú",
     "meanings": [
@@ -4412,9 +4705,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "pM00"
   },
-  {
+  "pc00": {
     "word": "会议",
     "pinyin": "huìyì",
     "meanings": [
@@ -4427,9 +4721,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "pc00"
   },
-  {
+  "qt00": {
     "word": "建筑",
     "pinyin": "jiànzhù",
     "meanings": [
@@ -4442,9 +4737,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "qt00"
   },
-  {
+  "qv00": {
     "word": "教授",
     "pinyin": "jiàoshòu",
     "meanings": [
@@ -4457,9 +4753,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "qv00"
   },
-  {
+  "qh02": {
     "word": "节目",
     "pinyin": "jiémù",
     "meanings": [
@@ -4472,9 +4769,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "qh02"
   },
-  {
+  "ql00": {
     "word": "今年",
     "pinyin": "jīnnián",
     "meanings": [
@@ -4487,9 +4785,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "ql00"
   },
-  {
+  "om00": {
     "word": "卡拉OK",
     "pinyin": "kǎlā OK",
     "meanings": [
@@ -4502,9 +4801,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "om00"
   },
-  {
+  "o500": {
     "word": "烤",
     "pinyin": "kǎo",
     "meanings": [
@@ -4517,9 +4817,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "o500"
   },
-  {
+  "mq00": {
     "word": "老家",
     "pinyin": "lǎojiā",
     "meanings": [
@@ -4532,9 +4833,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "mq00"
   },
-  {
+  "mv00": {
     "word": "老师",
     "pinyin": "lǎoshī",
     "meanings": [
@@ -4547,9 +4849,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "mv00"
   },
-  {
+  "mc02": {
     "word": "旅游",
     "pinyin": "lǚyóu",
     "meanings": [
@@ -4562,9 +4865,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "mc02"
   },
-  {
+  "hl00": {
     "word": "明年",
     "pinyin": "míngnián",
     "meanings": [
@@ -4577,9 +4881,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "hl00"
   },
-  {
+  "hs00": {
     "word": "模型",
     "pinyin": "móxíng",
     "meanings": [
@@ -4592,9 +4897,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "hs00"
   },
-  {
+  "lm01": {
     "word": "哪里",
     "pinyin": "nǎli",
     "meanings": [
@@ -4607,9 +4913,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "lm01"
   },
-  {
+  "lm02": {
     "word": "那里",
     "pinyin": "nàli",
     "meanings": [
@@ -4622,9 +4929,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "lm02"
   },
-  {
+  "l-00": {
     "word": "哪儿",
     "pinyin": "nǎr",
     "meanings": [
@@ -4637,9 +4945,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "l-00"
   },
-  {
+  "l-01": {
     "word": "那儿",
     "pinyin": "nàr",
     "meanings": [
@@ -4652,9 +4961,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "l-01"
   },
-  {
+  "l200": {
     "word": "呢",
     "pinyin": "ne",
     "meanings": [
@@ -4667,9 +4977,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "l200"
   },
-  {
+  "lp01": {
     "word": "女孩子",
     "pinyin": "nǚháizi",
     "meanings": [
@@ -4682,9 +4993,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "lp01"
   },
-  {
+  "rk00": {
     "word": "其他",
     "pinyin": "qítā",
     "meanings": [
@@ -4697,9 +5009,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "rk00"
   },
-  {
+  "rl00": {
     "word": "前年",
     "pinyin": "qiánnián",
     "meanings": [
@@ -4712,9 +5025,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "rl00"
   },
-  {
+  "rk01": {
     "word": "前天",
     "pinyin": "qiántiān",
     "meanings": [
@@ -4727,9 +5041,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "rk01"
   },
-  {
+  "rj00": {
     "word": "秋刀鱼",
     "pinyin": "qiūdāoyú",
     "meanings": [
@@ -4742,9 +5057,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "rj00"
   },
-  {
+  "rl01": {
     "word": "去年",
     "pinyin": "qùnián",
     "meanings": [
@@ -4757,9 +5073,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "rl01"
   },
-  {
+  "w800": {
     "word": "人",
     "pinyin": "rén",
     "meanings": [
@@ -4772,9 +5089,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "w800"
   },
-  {
+  "v901": {
     "word": "上(个)星期",
     "pinyin": "shàng (ge) xīngqī",
     "meanings": [
@@ -4787,9 +5105,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "v901"
   },
-  {
+  "v902": {
     "word": "上(个)月",
     "pinyin": "shàng (ge) yuè",
     "meanings": [
@@ -4802,9 +5121,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "v902"
   },
-  {
+  "vv01": {
     "word": "上上(个)星期",
     "pinyin": "shàngshàng (ge) xīngqī",
     "meanings": [
@@ -4817,9 +5137,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "vv01"
   },
-  {
+  "vv02": {
     "word": "上上(个)月",
     "pinyin": "shàngshàng (ge) yuè",
     "meanings": [
@@ -4832,9 +5153,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "vv02"
   },
-  {
+  "vd00": {
     "word": "上午",
     "pinyin": "shàngwǔ",
     "meanings": [
@@ -4848,9 +5170,10 @@
     "lesson": [
       3
     ],
-    "notes": "出勤～正午くらい"
+    "notes": "出勤～正午くらい",
+    "id": "vd00"
   },
-  {
+  "vM01": {
     "word": "属",
     "pinyin": "shǔ",
     "meanings": [
@@ -4863,9 +5186,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "vM01"
   },
-  {
+  "zS00": {
     "word": "孙(姓)",
     "pinyin": "Sūn",
     "meanings": [
@@ -4878,9 +5202,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "zS00"
   },
-  {
+  "dQ01": {
     "word": "喂[感嘆詞]",
     "pinyin": "wéi",
     "meanings": [
@@ -4893,9 +5218,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "dQ01"
   },
-  {
+  "dj00": {
     "word": "味道",
     "pinyin": "wèidao",
     "meanings": [
@@ -4908,9 +5234,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "dj00"
   },
-  {
+  "sD01": {
     "word": "下(个)星期",
     "pinyin": "xià (ge) xīngqī",
     "meanings": [
@@ -4923,9 +5250,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "sD01"
   },
-  {
+  "sD02": {
     "word": "下(个)月",
     "pinyin": "xià (ge) yuè",
     "meanings": [
@@ -4938,9 +5266,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "sD02"
   },
-  {
+  "sd00": {
     "word": "下午",
     "pinyin": "xiàwǔ",
     "meanings": [
@@ -4954,9 +5283,10 @@
     "lesson": [
       3
     ],
-    "notes": "13:00～日の入りくらい"
+    "notes": "13:00～日の入りくらい",
+    "id": "sd00"
   },
-  {
+  "ss04": {
     "word": "下下(个)星期",
     "pinyin": "xiàxià (ge) xīngqī",
     "meanings": [
@@ -4969,9 +5299,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "ss04"
   },
-  {
+  "ss05": {
     "word": "下下(个)月",
     "pinyin": "xiàxià (ge) yuè",
     "meanings": [
@@ -4984,9 +5315,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "ss05"
   },
-  {
+  "sv02": {
     "word": "香山",
     "pinyin": "Xiāngshān",
     "meanings": [
@@ -4999,9 +5331,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "sv02"
   },
-  {
+  "cq01": {
     "word": "眼镜",
     "pinyin": "yǎnjìng",
     "meanings": [
@@ -5014,9 +5347,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "cq01"
   },
-  {
+  "cx01": {
     "word": "演奏",
     "pinyin": "yǎnzòu",
     "meanings": [
@@ -5029,9 +5363,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "cx01"
   },
-  {
+  "cm01": {
     "word": "夜里",
     "pinyin": "yèli",
     "meanings": [
@@ -5045,9 +5380,10 @@
     "lesson": [
       3
     ],
-    "notes": "就寝～起床くらい"
+    "notes": "就寝～起床くらい",
+    "id": "cm01"
   },
-  {
+  "cr01": {
     "word": "以前",
     "pinyin": "yǐqián",
     "meanings": [
@@ -5060,9 +5396,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "cr01"
   },
-  {
+  "cq02": {
     "word": "邮件",
     "pinyin": "yóujiàn",
     "meanings": [
@@ -5075,9 +5412,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "cq02"
   },
-  {
+  "xh01": {
     "word": "怎么样",
     "pinyin": "zěnmeyàng",
     "meanings": [
@@ -5090,9 +5428,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "xh01"
   },
-  {
+  "t201": {
     "word": "这(个)星期",
     "pinyin": "zhè (ge) xīngqī",
     "meanings": [
@@ -5105,9 +5444,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "t201"
   },
-  {
+  "t202": {
     "word": "这(个)月",
     "pinyin": "zhè (ge) yuè",
     "meanings": [
@@ -5120,9 +5460,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "t202"
   },
-  {
+  "tm00": {
     "word": "这里",
     "pinyin": "zhèli",
     "meanings": [
@@ -5135,9 +5476,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "tm00"
   },
-  {
+  "t-00": {
     "word": "这儿",
     "pinyin": "zhèr",
     "meanings": [
@@ -5150,9 +5492,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "t-00"
   },
-  {
+  "tj00": {
     "word": "知道",
     "pinyin": "zhīdao",
     "meanings": [
@@ -5165,9 +5508,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "tj00"
   },
-  {
+  "td00": {
     "word": "中午",
     "pinyin": "zhōngwǔ",
     "meanings": [
@@ -5181,9 +5525,10 @@
     "lesson": [
       3
     ],
-    "notes": "正午～13:00くらい"
+    "notes": "正午～13:00くらい",
+    "id": "td00"
   },
-  {
+  "t601": {
     "word": "周(姓)",
     "pinyin": "Zhōu",
     "meanings": [
@@ -5196,9 +5541,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "t601"
   },
-  {
+  "th00": {
     "word": "周末",
     "pinyin": "zhōumò",
     "meanings": [
@@ -5211,9 +5557,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "th00"
   },
-  {
+  "tM00": {
     "word": "猪",
     "pinyin": "zhū",
     "meanings": [
@@ -5227,9 +5574,10 @@
     "lesson": [
       3
     ],
-    "notes": "イノシシは野猪"
+    "notes": "イノシシは野猪",
+    "id": "tM00"
   },
-  {
+  "tM01": {
     "word": "住",
     "pinyin": "zhù",
     "meanings": [
@@ -5242,9 +5590,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "tM01"
   },
-  {
+  "xO01": {
     "word": "坐",
     "pinyin": "zuò",
     "meanings": [
@@ -5257,9 +5606,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "xO01"
   },
-  {
+  "xO02": {
     "word": "做",
     "pinyin": "zuò",
     "meanings": [
@@ -5272,9 +5622,10 @@
     ],
     "lesson": [
       3
-    ]
+    ],
+    "id": "xO02"
   },
-  {
+  "f002": {
     "word": "把[量]",
     "pinyin": "bǎ",
     "meanings": [
@@ -5288,9 +5639,10 @@
     "lesson": [
       4
     ],
-    "notes": "持ち手のあるものを数える"
+    "notes": "持ち手のあるものを数える",
+    "id": "f002"
   },
-  {
+  "fx00": {
     "word": "杯子",
     "pinyin": "bēizi",
     "meanings": [
@@ -5304,9 +5656,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は把"
+    "notes": "量詞は把",
+    "id": "fx00"
   },
-  {
+  "f401": {
     "word": "背",
     "pinyin": "bèi",
     "meanings": [
@@ -5319,9 +5672,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "f401"
   },
-  {
+  "fx01": {
     "word": "被子",
     "pinyin": "bèizi",
     "meanings": [
@@ -5335,9 +5689,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は条"
+    "notes": "量詞は条",
+    "id": "fx01"
   },
-  {
+  "f800": {
     "word": "本[量]",
     "pinyin": "běn",
     "meanings": [
@@ -5350,9 +5705,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "f800"
   },
-  {
+  "fF00": {
     "word": "表",
     "pinyin": "biǎo",
     "meanings": [
@@ -5366,9 +5722,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は只"
+    "notes": "量詞は只",
+    "id": "fF00"
   },
-  {
+  "fh01": {
     "word": "兵马俑",
     "pinyin": "Bīngmǎyǒng",
     "meanings": [
@@ -5381,9 +5738,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "fh01"
   },
-  {
+  "fM01": {
     "word": "部[量]",
     "pinyin": "bù",
     "meanings": [
@@ -5396,9 +5754,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "fM01"
   },
-  {
+  "up00": {
     "word": "茶壶",
     "pinyin": "cháhú",
     "meanings": [
@@ -5412,9 +5771,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は把"
+    "notes": "量詞は把",
+    "id": "up00"
   },
-  {
+  "uu00": {
     "word": "常常",
     "pinyin": "chángcháng",
     "meanings": [
@@ -5427,9 +5787,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "uu00"
   },
-  {
+  "uj00": {
     "word": "成都",
     "pinyin": "Chéngdū",
     "meanings": [
@@ -5442,9 +5803,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "uj00"
   },
-  {
+  "uT00": {
     "word": "床",
     "pinyin": "chuáng",
     "meanings": [
@@ -5458,9 +5820,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は张"
+    "notes": "量詞は张",
+    "id": "uT00"
   },
-  {
+  "yj00": {
     "word": "词典",
     "pinyin": "cídiǎn",
     "meanings": [
@@ -5474,9 +5837,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は本"
+    "notes": "量詞は本",
+    "id": "yj00"
   },
-  {
+  "js01": {
     "word": "大熊猫",
     "pinyin": "dàxióngmāo",
     "meanings": [
@@ -5489,9 +5853,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "js01"
   },
-  {
+  "jc00": {
     "word": "大衣",
     "pinyin": "dàyī",
     "meanings": [
@@ -5505,9 +5870,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は件"
+    "notes": "量詞は件",
+    "id": "jc00"
   },
-  {
+  "jy00": {
     "word": "单词",
     "pinyin": "dāncí",
     "meanings": [
@@ -5520,9 +5886,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "jy00"
   },
-  {
+  "jn00": {
     "word": "蛋糕",
     "pinyin": "dàngāo",
     "meanings": [
@@ -5536,9 +5903,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は块"
+    "notes": "量詞は块",
+    "id": "jn00"
   },
-  {
+  "j500": {
     "word": "刀",
     "pinyin": "dāo",
     "meanings": [
@@ -5552,9 +5920,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は把"
+    "notes": "量詞は把",
+    "id": "j500"
   },
-  {
+  "jv01": {
     "word": "迪士尼乐园",
     "pinyin": "Díshìní Lèyuán",
     "meanings": [
@@ -5567,9 +5936,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "jv01"
   },
-  {
+  "jc01": {
     "word": "电影",
     "pinyin": "diànyǐng",
     "meanings": [
@@ -5583,9 +5953,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は部"
+    "notes": "量詞は部",
+    "id": "jc01"
   },
-  {
+  "j600": {
     "word": "都",
     "pinyin": "dōu",
     "meanings": [
@@ -5598,9 +5969,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "j600"
   },
-  {
+  "jr02": {
     "word": "短期",
     "pinyin": "duǎnqī",
     "meanings": [
@@ -5613,9 +5985,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "jr02"
   },
-  {
+  "jm01": {
     "word": "对了",
     "pinyin": "duì le",
     "meanings": [
@@ -5628,9 +6001,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "jm01"
   },
-  {
+  "jO01": {
     "word": "多[形]",
     "pinyin": "duō",
     "meanings": [
@@ -5643,9 +6017,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "jO01"
   },
-  {
+  "if00": {
     "word": "发表",
     "pinyin": "fābiǎo",
     "meanings": [
@@ -5658,9 +6033,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "if00"
   },
-  {
+  "i700": {
     "word": "饭",
     "pinyin": "fàn",
     "meanings": [
@@ -5673,9 +6049,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "i700"
   },
-  {
+  "iq01": {
     "word": "放假",
     "pinyin": "fàng//jià",
     "meanings": [
@@ -5688,9 +6065,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "iq01"
   },
-  {
+  "iu00": {
     "word": "非常",
     "pinyin": "fēicháng",
     "meanings": [
@@ -5703,9 +6081,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "iu00"
   },
-  {
+  "iq02": {
     "word": "飞机",
     "pinyin": "fēijī",
     "meanings": [
@@ -5719,9 +6098,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は架"
+    "notes": "量詞は架",
+    "id": "iq02"
   },
-  {
+  "iv00": {
     "word": "分数",
     "pinyin": "fēnshù",
     "meanings": [
@@ -5734,9 +6114,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "iv00"
   },
-  {
+  "n500": {
     "word": "高",
     "pinyin": "gāo",
     "meanings": [
@@ -5749,9 +6130,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "n500"
   },
-  {
+  "no01": {
     "word": "高考",
     "pinyin": "gāokǎo",
     "meanings": [
@@ -5764,9 +6146,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "no01"
   },
-  {
+  "n800": {
     "word": "根",
     "pinyin": "gēn",
     "meanings": [
@@ -5780,9 +6163,10 @@
     "lesson": [
       4
     ],
-    "notes": "細長いもの"
+    "notes": "細長いもの",
+    "id": "n800"
   },
-  {
+  "n600": {
     "word": "狗",
     "pinyin": "gǒu",
     "meanings": [
@@ -5796,9 +6180,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は条"
+    "notes": "量詞は条",
+    "id": "n600"
   },
-  {
+  "np00": {
     "word": "挂号信",
     "pinyin": "guàhàoxìn",
     "meanings": [
@@ -5811,9 +6196,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "np00"
   },
-  {
+  "nj02": {
     "word": "广东菜",
     "pinyin": "Guǎngdōngcài",
     "meanings": [
@@ -5826,9 +6212,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "nj02"
   },
-  {
+  "nQ00": {
     "word": "贵",
     "pinyin": "guì",
     "meanings": [
@@ -5841,9 +6228,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "nQ00"
   },
-  {
+  "p502": {
     "word": "好[形]",
     "pinyin": "hǎo",
     "meanings": [
@@ -5856,9 +6244,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "p502"
   },
-  {
+  "p202": {
     "word": "河",
     "pinyin": "hé",
     "meanings": [
@@ -5872,9 +6261,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は条"
+    "notes": "量詞は条",
+    "id": "p202"
   },
-  {
+  "p800": {
     "word": "很",
     "pinyin": "hěn",
     "meanings": [
@@ -5887,9 +6277,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "p800"
   },
-  {
+  "qC01": {
     "word": "鸡",
     "pinyin": "jī",
     "meanings": [
@@ -5903,9 +6294,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は只"
+    "notes": "量詞は只",
+    "id": "qC01"
   },
-  {
+  "qD01": {
     "word": "架[量]",
     "pinyin": "jià",
     "meanings": [
@@ -5918,9 +6310,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "qD01"
   },
-  {
+  "pP00": {
     "word": "坏",
     "pinyin": "huài",
     "meanings": [
@@ -5933,9 +6326,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "pP00"
   },
-  {
+  "pu00": {
     "word": "火柴",
     "pinyin": "huǒchái",
     "meanings": [
@@ -5949,9 +6343,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は根"
+    "notes": "量詞は根",
+    "id": "pu00"
   },
-  {
+  "qH00": {
     "word": "件[量]",
     "pinyin": "jiàn",
     "meanings": [
@@ -5964,9 +6359,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "qH00"
   },
-  {
+  "ou00": {
     "word": "卡车",
     "pinyin": "kǎchē",
     "meanings": [
@@ -5980,9 +6376,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は辆"
+    "notes": "量詞は辆",
+    "id": "ou00"
   },
-  {
+  "oZ00": {
     "word": "可爱",
     "pinyin": "kě’ài",
     "meanings": [
@@ -5995,9 +6392,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "oZ00"
   },
-  {
+  "ox00": {
     "word": "裤子",
     "pinyin": "kùzi",
     "meanings": [
@@ -6011,9 +6409,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は条"
+    "notes": "量詞は条",
+    "id": "ox00"
   },
-  {
+  "oP00": {
     "word": "块[量]",
     "pinyin": "kuài",
     "meanings": [
@@ -6026,9 +6425,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "oP00"
   },
-  {
+  "oR00": {
     "word": "宽",
     "pinyin": "kuān",
     "meanings": [
@@ -6041,9 +6441,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "oR00"
   },
-  {
+  "mq01": {
     "word": "懒觉",
     "pinyin": "lǎnjiào",
     "meanings": [
@@ -6056,9 +6457,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "mq01"
   },
-  {
+  "m200": {
     "word": "了[動詞接尾辞]",
     "pinyin": "le",
     "meanings": [
@@ -6071,9 +6473,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "m200"
   },
-  {
+  "mp00": {
     "word": "厉害",
     "pinyin": "lìhai",
     "meanings": [
@@ -6086,9 +6489,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "mp00"
   },
-  {
+  "mJ01": {
     "word": "辆[量]",
     "pinyin": "liàng",
     "meanings": [
@@ -6101,24 +6505,26 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "mJ01"
   },
-  {
+  "ms03": {
     "word": "流行",
     "pinyin": "liúxíng",
     "meanings": [
       {
         "part": "",
-        "meaning": "人気",
-        "meaning_short": "人気",
+        "meaning": "流行する",
+        "meaning_short": "流行する",
         "example": ""
       }
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "ms03"
   },
-  {
+  "mv01": {
     "word": "路上",
     "pinyin": "lùshang",
     "meanings": [
@@ -6131,9 +6537,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "mv01"
   },
-  {
+  "md00": {
     "word": "论文",
     "pinyin": "lùnwén",
     "meanings": [
@@ -6147,9 +6554,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は篇"
+    "notes": "量詞は篇",
+    "id": "md00"
   },
-  {
+  "h500": {
     "word": "猫",
     "pinyin": "māo",
     "meanings": [
@@ -6163,9 +6571,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は只"
+    "notes": "量詞は只",
+    "id": "h500"
   },
-  {
+  "hq00": {
     "word": "毛巾",
     "pinyin": "máojīn",
     "meanings": [
@@ -6179,9 +6588,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は条"
+    "notes": "量詞は条",
+    "id": "hq00"
   },
-  {
+  "h400": {
     "word": "没",
     "pinyin": "méi",
     "meanings": [
@@ -6195,9 +6605,10 @@
     "lesson": [
       4
     ],
-    "notes": "了 の否定"
+    "notes": "了 の否定",
+    "id": "h400"
   },
-  {
+  "hf00": {
     "word": "面包",
     "pinyin": "miànbāo",
     "meanings": [
@@ -6211,9 +6622,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は片"
+    "notes": "量詞は片",
+    "id": "hf00"
   },
-  {
+  "lH00": {
     "word": "年",
     "pinyin": "nián",
     "meanings": [
@@ -6226,9 +6638,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "lH00"
   },
-  {
+  "lF00": {
     "word": "鸟",
     "pinyin": "niǎo",
     "meanings": [
@@ -6242,9 +6655,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は只"
+    "notes": "量詞は只",
+    "id": "lF00"
   },
-  {
+  "lG00": {
     "word": "牛",
     "pinyin": "niú",
     "meanings": [
@@ -6258,9 +6672,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は头"
+    "notes": "量詞は头",
+    "id": "lG00"
   },
-  {
+  "gH00": {
     "word": "篇[量]",
     "pinyin": "piān",
     "meanings": [
@@ -6273,9 +6688,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "gH00"
   },
-  {
+  "gc01": {
     "word": "便宜",
     "pinyin": "piányi",
     "meanings": [
@@ -6288,9 +6704,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "gc01"
   },
-  {
+  "gH01": {
     "word": "片[量]",
     "pinyin": "piàn",
     "meanings": [
@@ -6303,9 +6720,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "gH01"
   },
-  {
+  "gF00": {
     "word": "票",
     "pinyin": "piào",
     "meanings": [
@@ -6319,9 +6737,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は票"
+    "notes": "量詞は票",
+    "id": "gF00"
   },
-  {
+  "gn00": {
     "word": "苹果",
     "pinyin": "píngguǒ",
     "meanings": [
@@ -6335,9 +6754,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は个"
+    "notes": "量詞は个",
+    "id": "gn00"
   },
-  {
+  "gs00": {
     "word": "平信",
     "pinyin": "píngxìn",
     "meanings": [
@@ -6350,9 +6770,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "gs00"
   },
-  {
+  "ru00": {
     "word": "汽车",
     "pinyin": "qìchē",
     "meanings": [
@@ -6366,9 +6787,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は辆"
+    "notes": "量詞は辆",
+    "id": "ru00"
   },
-  {
+  "rf00": {
     "word": "铅笔",
     "pinyin": "qiānbǐ",
     "meanings": [
@@ -6382,9 +6804,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は枝"
+    "notes": "量詞は枝",
+    "id": "rf00"
   },
-  {
+  "rs00": {
     "word": "强项",
     "pinyin": "qiángxiàng",
     "meanings": [
@@ -6397,9 +6820,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "rs00"
   },
-  {
+  "w200": {
     "word": "热",
     "pinyin": "rè",
     "meanings": [
@@ -6412,9 +6836,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "w200"
   },
-  {
+  "w600": {
     "word": "肉",
     "pinyin": "ròu",
     "meanings": [
@@ -6428,9 +6853,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は块"
+    "notes": "量詞は块",
+    "id": "w600"
   },
-  {
+  "zs01": {
     "word": "三星堆",
     "pinyin": "Sānxīngduī",
     "meanings": [
@@ -6443,9 +6869,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "zs01"
   },
-  {
+  "zf00": {
     "word": "散步",
     "pinyin": "sàn//bù",
     "meanings": [
@@ -6458,9 +6885,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "zf00"
   },
-  {
+  "vx00": {
     "word": "扇子",
     "pinyin": "shànzi",
     "meanings": [
@@ -6474,9 +6902,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は把"
+    "notes": "量詞は把",
+    "id": "vx00"
   },
-  {
+  "v903": {
     "word": "上[動]",
     "pinyin": "shàng",
     "meanings": [
@@ -6489,9 +6918,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "v903"
   },
-  {
+  "vp02": {
     "word": "上海",
     "pinyin": "Shànghǎi",
     "meanings": [
@@ -6504,9 +6934,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "vp02"
   },
-  {
+  "vp03": {
     "word": "上海菜",
     "pinyin": "Shànghǎicài",
     "meanings": [
@@ -6519,9 +6950,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "vp03"
   },
-  {
+  "vs01": {
     "word": "上学",
     "pinyin": "shàng//xué",
     "meanings": [
@@ -6534,9 +6966,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "vs01"
   },
-  {
+  "vr00": {
     "word": "申请",
     "pinyin": "shēnqǐng",
     "meanings": [
@@ -6549,9 +6982,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "vr00"
   },
-  {
+  "vh01": {
     "word": "神秘",
     "pinyin": "shénmì",
     "meanings": [
@@ -6564,9 +6998,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "vh01"
   },
-  {
+  "vy00": {
     "word": "手册",
     "pinyin": "shǒucè",
     "meanings": [
@@ -6580,9 +7015,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は本"
+    "notes": "量詞は本",
+    "id": "vy00"
   },
-  {
+  "vg00": {
     "word": "手帕",
     "pinyin": "shǒupà",
     "meanings": [
@@ -6596,9 +7032,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は块"
+    "notes": "量詞は块",
+    "id": "vg00"
   },
-  {
+  "vt00": {
     "word": "书桌",
     "pinyin": "shūzhuō",
     "meanings": [
@@ -6611,9 +7048,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "vt00"
   },
-  {
+  "vq01": {
     "word": "暑假",
     "pinyin": "shǔjià",
     "meanings": [
@@ -6626,9 +7064,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "vq01"
   },
-  {
+  "vT00": {
     "word": "双[量]",
     "pinyin": "shuāng",
     "meanings": [
@@ -6641,9 +7080,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "vT00"
   },
-  {
+  "vQ01": {
     "word": "睡",
     "pinyin": "shuì",
     "meanings": [
@@ -6656,9 +7096,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "vQ01"
   },
-  {
+  "zu01": {
     "word": "四川菜",
     "pinyin": "Sìchuāncài",
     "meanings": [
@@ -6671,9 +7112,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "zu01"
   },
-  {
+  "zO00": {
     "word": "所[量]",
     "pinyin": "suǒ",
     "meanings": [
@@ -6686,9 +7128,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "zO00"
   },
-  {
+  "k900": {
     "word": "糖",
     "pinyin": "táng",
     "meanings": [
@@ -6702,9 +7145,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は块"
+    "notes": "量詞は块",
+    "id": "k900"
   },
-  {
+  "km00": {
     "word": "讨论",
     "pinyin": "tǎolùn",
     "meanings": [
@@ -6717,9 +7161,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "km00"
   },
-  {
+  "kH00": {
     "word": "天[量]",
     "pinyin": "tiān",
     "meanings": [
@@ -6732,9 +7177,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "kH00"
   },
-  {
+  "kF00": {
     "word": "条[量]",
     "pinyin": "tiáo",
     "meanings": [
@@ -6747,9 +7193,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "kF00"
   },
-  {
+  "k601": {
     "word": "头[量]",
     "pinyin": "tóu",
     "meanings": [
@@ -6762,9 +7209,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "k601"
   },
-  {
+  "ki00": {
     "word": "头发",
     "pinyin": "tóufa",
     "meanings": [
@@ -6778,9 +7226,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は根"
+    "notes": "量詞は根",
+    "id": "ki00"
   },
-  {
+  "dN00": {
     "word": "哇[感嘆詞]",
     "pinyin": "wà",
     "meanings": [
@@ -6793,9 +7242,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "dN00"
   },
-  {
+  "dx00": {
     "word": "袜子",
     "pinyin": "wàzi",
     "meanings": [
@@ -6809,9 +7259,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は双"
+    "notes": "量詞は双",
+    "id": "dx00"
   },
-  {
+  "dR00": {
     "word": "玩(儿)",
     "pinyin": "wán(r)",
     "meanings": [
@@ -6824,24 +7275,26 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "dR00"
   },
-  {
+  "dS00": {
     "word": "问",
     "pinyin": "wèn",
     "meanings": [
       {
         "part": "",
-        "meaning": "聞く",
-        "meaning_short": "聞く",
+        "meaning": "聞く, 尋ねる",
+        "meaning_short": "聞く, 尋ねる",
         "example": ""
       }
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "dS00"
   },
-  {
+  "dk00": {
     "word": "问题",
     "pinyin": "wèntí",
     "meanings": [
@@ -6854,9 +7307,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "dk00"
   },
-  {
+  "sn00": {
     "word": "习惯",
     "pinyin": "xíguàn",
     "meanings": [
@@ -6869,9 +7323,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "sn00"
   },
-  {
+  "sH00": {
     "word": "先",
     "pinyin": "xiān",
     "meanings": [
@@ -6884,9 +7339,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "sH00"
   },
-  {
+  "sH01": {
     "word": "线",
     "pinyin": "xiàn",
     "meanings": [
@@ -6900,9 +7356,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は根"
+    "notes": "量詞は根",
+    "id": "sH01"
   },
-  {
+  "sh00": {
     "word": "项目",
     "pinyin": "xiàngmù",
     "meanings": [
@@ -6915,9 +7372,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "sh00"
   },
-  {
+  "ss06": {
     "word": "消息",
     "pinyin": "xiāoxi",
     "meanings": [
@@ -6930,9 +7388,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "ss06"
   },
-  {
+  "sE00": {
     "word": "鞋",
     "pinyin": "xié",
     "meanings": [
@@ -6946,9 +7405,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は双(両方)や只(片方)"
+    "notes": "量詞は双(両方)や只(片方)",
+    "id": "sE00"
   },
-  {
+  "sl00": {
     "word": "新能源车",
     "pinyin": "xīnnéngyuánchē",
     "meanings": [
@@ -6961,9 +7421,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "sl00"
   },
-  {
+  "sm00": {
     "word": "行李",
     "pinyin": "xíngli",
     "meanings": [
@@ -6977,9 +7438,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は件"
+    "notes": "量詞は件",
+    "id": "sm00"
   },
-  {
+  "sx02": {
     "word": "选择",
     "pinyin": "xuǎnzé",
     "meanings": [
@@ -6992,9 +7454,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "sx02"
   },
-  {
+  "sW00": {
     "word": "学",
     "pinyin": "xué",
     "meanings": [
@@ -7007,9 +7470,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "sW00"
   },
-  {
+  "cH00": {
     "word": "烟[名]",
     "pinyin": "yān",
     "meanings": [
@@ -7023,9 +7487,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は枝"
+    "notes": "量詞は枝",
+    "id": "cH00"
   },
-  {
+  "cq03": {
     "word": "眼睛",
     "pinyin": "yǎnjing",
     "meanings": [
@@ -7039,9 +7504,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は双"
+    "notes": "量詞は双",
+    "id": "cq03"
   },
-  {
+  "ci00": {
     "word": "衣服",
     "pinyin": "yīfu",
     "meanings": [
@@ -7055,9 +7521,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は件"
+    "notes": "量詞は件",
+    "id": "ci00"
   },
-  {
+  "cx02": {
     "word": "椅子",
     "pinyin": "yǐzi",
     "meanings": [
@@ -7071,9 +7538,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は把"
+    "notes": "量詞は把",
+    "id": "cx02"
   },
-  {
+  "ch02": {
     "word": "有名",
     "pinyin": "yǒumíng",
     "meanings": [
@@ -7086,9 +7554,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "ch02"
   },
-  {
+  "eV00": {
     "word": "鱼",
     "pinyin": "yú",
     "meanings": [
@@ -7102,9 +7571,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は条"
+    "notes": "量詞は条",
+    "id": "eV00"
   },
-  {
+  "et00": {
     "word": "圆珠笔",
     "pinyin": "yuánzhūbǐ",
     "meanings": [
@@ -7118,9 +7588,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は枝"
+    "notes": "量詞は枝",
+    "id": "et00"
   },
-  {
+  "xt00": {
     "word": "杂志",
     "pinyin": "zázhì",
     "meanings": [
@@ -7134,9 +7605,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は本"
+    "notes": "量詞は本",
+    "id": "xt00"
   },
-  {
+  "x301": {
     "word": "在[前置]",
     "pinyin": "zài",
     "meanings": [
@@ -7149,9 +7621,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "x301"
   },
-  {
+  "t300": {
     "word": "窄",
     "pinyin": "zhǎi",
     "meanings": [
@@ -7164,9 +7637,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "t300"
   },
-  {
+  "t901": {
     "word": "张[量]",
     "pinyin": "zhāng",
     "meanings": [
@@ -7179,9 +7653,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "t901"
   },
-  {
+  "tg01": {
     "word": "照片",
     "pinyin": "zhàopiàn",
     "meanings": [
@@ -7195,9 +7670,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は张"
+    "notes": "量詞は张",
+    "id": "tg01"
   },
-  {
+  "ts00": {
     "word": "照相机",
     "pinyin": "zhàoxiàngjī",
     "meanings": [
@@ -7211,9 +7687,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は架"
+    "notes": "量詞は架",
+    "id": "ts00"
   },
-  {
+  "t800": {
     "word": "真",
     "pinyin": "zhēn",
     "meanings": [
@@ -7226,9 +7703,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "t800"
   },
-  {
+  "tC00": {
     "word": "只[量]",
     "pinyin": "zhī",
     "meanings": [
@@ -7241,9 +7719,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "tC00"
   },
-  {
+  "tC01": {
     "word": "枝[量]",
     "pinyin": "zhī",
     "meanings": [
@@ -7256,9 +7735,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "tC01"
   },
-  {
+  "tC02": {
     "word": "纸",
     "pinyin": "zhǐ",
     "meanings": [
@@ -7272,9 +7752,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は张"
+    "notes": "量詞は张",
+    "id": "tC02"
   },
-  {
+  "tc00": {
     "word": "重要",
     "pinyin": "zhòngyào",
     "meanings": [
@@ -7287,9 +7768,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "tc00"
   },
-  {
+  "tc01": {
     "word": "主意",
     "pinyin": "zhǔyi",
     "meanings": [
@@ -7303,9 +7785,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は个"
+    "notes": "量詞は个",
+    "id": "tc01"
   },
-  {
+  "tn02": {
     "word": "壮观",
     "pinyin": "zhuàngguān",
     "meanings": [
@@ -7318,9 +7801,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "tn02"
   },
-  {
+  "tx00": {
     "word": "桌子",
     "pinyin": "zhuōzi",
     "meanings": [
@@ -7334,9 +7818,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は张"
+    "notes": "量詞は张",
+    "id": "tx00"
   },
-  {
+  "xs00": {
     "word": "自行车",
     "pinyin": "zìxíngchē",
     "meanings": [
@@ -7350,9 +7835,10 @@
     "lesson": [
       4
     ],
-    "notes": "量詞は辆"
+    "notes": "量詞は辆",
+    "id": "xs00"
   },
-  {
+  "xQ00": {
     "word": "最",
     "pinyin": "zuì",
     "meanings": [
@@ -7365,9 +7851,10 @@
     ],
     "lesson": [
       4
-    ]
+    ],
+    "id": "xQ00"
   },
-  {
+  "f300": {
     "word": "百",
     "pinyin": "bǎi",
     "meanings": [
@@ -7380,9 +7867,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "f300"
   },
-  {
+  "f701": {
     "word": "办",
     "pinyin": "bàn",
     "meanings": [
@@ -7396,9 +7884,10 @@
     "lesson": [
       5
     ],
-    "note": "処理する・運営するみたいなニュアンス"
+    "notes": "処理する・運営するみたいなニュアンス",
+    "id": "f701"
   },
-  {
+  "fr01": {
     "word": "抱歉",
     "pinyin": "bàoqiàn",
     "meanings": [
@@ -7412,9 +7901,10 @@
     "lesson": [
       5
     ],
-    "note": "「抱」の漢字が違うので注意"
+    "notes": "「抱」の漢字が違うので注意",
+    "id": "fr01"
   },
-  {
+  "f402": {
     "word": "杯[量]",
     "pinyin": "bēi",
     "meanings": [
@@ -7427,9 +7917,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "f402"
   },
-  {
+  "fq01": {
     "word": "北京",
     "pinyin": "Běijīng",
     "meanings": [
@@ -7442,9 +7933,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "fq01"
   },
-  {
+  "fK00": {
     "word": "冰",
     "pinyin": "bīng",
     "meanings": [
@@ -7458,9 +7950,10 @@
     "lesson": [
       5
     ],
-    "note": "さんずいではなくにすいなので注意"
+    "notes": "さんずいではなくにすいなので注意",
+    "id": "fK00"
   },
-  {
+  "fy00": {
     "word": "不错",
     "pinyin": "búcuò",
     "meanings": [
@@ -7473,9 +7966,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "fy00"
   },
-  {
+  "y300": {
     "word": "菜",
     "pinyin": "cài",
     "meanings": [
@@ -7488,9 +7982,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "y300"
   },
-  {
+  "yn00": {
     "word": "参观",
     "pinyin": "cānguān",
     "meanings": [
@@ -7503,9 +7998,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "yn00"
   },
-  {
+  "u901": {
     "word": "长",
     "pinyin": "cháng",
     "meanings": [
@@ -7518,9 +8014,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "u901"
   },
-  {
+  "uv01": {
     "word": "出生",
     "pinyin": "chūshēng",
     "meanings": [
@@ -7533,9 +8030,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "uv01"
   },
-  {
+  "ux00": {
     "word": "出租车",
     "pinyin": "chūzūchē",
     "meanings": [
@@ -7548,9 +8046,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "ux00"
   },
-  {
+  "j002": {
     "word": "打<～电话>",
     "pinyin": "dǎ",
     "meanings": [
@@ -7563,9 +8062,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "j002"
   },
-  {
+  "jv02": {
     "word": "但是",
     "pinyin": "dànshì",
     "meanings": [
@@ -7578,9 +8078,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "jv02"
   },
-  {
+  "j501": {
     "word": "倒",
     "pinyin": "dǎo",
     "meanings": [
@@ -7594,9 +8095,10 @@
     "lesson": [
       5
     ],
-    "note": "「倒れる」の意味もある"
+    "notes": "「倒れる」の意味もある",
+    "id": "j501"
   },
-  {
+  "j502": {
     "word": "到[動]",
     "pinyin": "dào",
     "meanings": [
@@ -7610,9 +8112,10 @@
     "lesson": [
       5
     ],
-    "note": "周到である(形容詞)、〜に(前置詞)の用法もあり"
+    "notes": "周到である(形容詞)、〜に(前置詞)の用法もあり",
+    "id": "j502"
   },
-  {
+  "jH01": {
     "word": "点[動]",
     "pinyin": "diǎn",
     "meanings": [
@@ -7625,9 +8128,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "jH01"
   },
-  {
+  "jp04": {
     "word": "电话",
     "pinyin": "diànhuà",
     "meanings": [
@@ -7640,9 +8144,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "jp04"
   },
-  {
+  "jK00": {
     "word": "订",
     "pinyin": "dìng",
     "meanings": [
@@ -7656,9 +8161,10 @@
     "lesson": [
       5
     ],
-    "note": "「(条約・契約を)取り決める」の意味もある"
+    "notes": "「(条約・契約を)取り決める」の意味もある",
+    "id": "jK00"
   },
-  {
+  "js02": {
     "word": "东西",
     "pinyin": "dōngxi",
     "meanings": [
@@ -7672,9 +8178,10 @@
     "lesson": [
       5
     ],
-    "note": "東西を表す場合は「dōngxī」"
+    "notes": "東西を表す場合は「dōngxī」",
+    "id": "js02"
   },
-  {
+  "jv03": {
     "word": "多少",
     "pinyin": "duōshao",
     "meanings": [
@@ -7688,9 +8195,10 @@
     "lesson": [
       5
     ],
-    "note": "疑問詞としての詳細な用法は教科書5-3参照"
+    "notes": "疑問詞としての詳細な用法は教科書5-3参照",
+    "id": "jv03"
   },
-  {
+  "_p00": {
     "word": "二胡",
     "pinyin": "èrhú",
     "meanings": [
@@ -7704,9 +8212,10 @@
     "lesson": [
       5
     ],
-    "note": "二胡は楽器の一種"
+    "notes": "二胡は楽器の一種",
+    "id": "_p00"
   },
-  {
+  "ie00": {
     "word": "法语",
     "pinyin": "Fǎyǔ",
     "meanings": [
@@ -7719,9 +8228,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "ie00"
   },
-  {
+  "ic01": {
     "word": "翻译",
     "pinyin": "fānyì",
     "meanings": [
@@ -7734,9 +8244,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "ic01"
   },
-  {
+  "i801": {
     "word": "分(通貨単位)",
     "pinyin": "fēn",
     "meanings": [
@@ -7750,9 +8261,10 @@
     "lesson": [
       5
     ],
-    "note": "お金の単位, 百分=十角=一元"
+    "notes": "お金の単位, 百分=十角=一元",
+    "id": "i801"
   },
-  {
+  "it00": {
     "word": "分钟",
     "pinyin": "fēn zhōng",
     "meanings": [
@@ -7765,9 +8277,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "it00"
   },
-  {
+  "nt01": {
     "word": "高中",
     "pinyin": "gāozhōng",
     "meanings": [
@@ -7780,9 +8293,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "nt01"
   },
-  {
+  "n601": {
     "word": "够",
     "pinyin": "gòu",
     "meanings": [
@@ -7795,9 +8309,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "n601"
   },
-  {
+  "nn02": {
     "word": "故宫",
     "pinyin": "Gùgōng",
     "meanings": [
@@ -7810,9 +8325,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "nn02"
   },
-  {
+  "ns00": {
     "word": "关系",
     "pinyin": "guānxi",
     "meanings": [
@@ -7826,9 +8342,10 @@
     "lesson": [
       5
     ],
-    "note": "没关系で「かまいませんよ」"
+    "notes": "没关系で「かまいませんよ」",
+    "id": "ns00"
   },
-  {
+  "nO00": {
     "word": "过[動詞接尾辞]",
     "pinyin": "guo",
     "meanings": [
@@ -7842,9 +8359,10 @@
     "lesson": [
       5
     ],
-    "note": "動詞接尾辞"
+    "notes": "動詞接尾辞",
+    "id": "nO00"
   },
-  {
+  "ph00": {
     "word": "号码",
     "pinyin": "hàomǎ",
     "meanings": [
@@ -7857,9 +8375,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "ph00"
   },
-  {
+  "pt00": {
     "word": "或者",
     "pinyin": "huòzhě",
     "meanings": [
@@ -7872,9 +8391,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "pt00"
   },
-  {
+  "pc01": {
     "word": "欢迎",
     "pinyin": "huānyíng",
     "meanings": [
@@ -7887,9 +8407,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "pc01"
   },
-  {
+  "pQ00": {
     "word": "会",
     "pinyin": "huì",
     "meanings": [
@@ -7903,9 +8424,10 @@
     "lesson": [
       5
     ],
-    "note": "「能」と区別が必要"
+    "notes": "「能」と区別が必要",
+    "id": "pQ00"
   },
-  {
+  "pQ01": {
     "word": "会[動]",
     "pinyin": "huì",
     "meanings": [
@@ -7918,9 +8440,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "pQ01"
   },
-  {
+  "qj01": {
     "word": "简单",
     "pinyin": "jiǎndān",
     "meanings": [
@@ -7933,9 +8456,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "qj01"
   },
-  {
+  "qx00": {
     "word": "讲座",
     "pinyin": "jiǎngzuò",
     "meanings": [
@@ -7948,9 +8472,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "qx00"
   },
-  {
+  "qF02": {
     "word": "角",
     "pinyin": "jiǎo",
     "meanings": [
@@ -7964,9 +8489,10 @@
     "lesson": [
       5
     ],
-    "note": "お金の単位, 毛の書き言葉, 十角=一元"
+    "notes": "お金の単位, 毛の書き言葉, 十角=一元",
+    "id": "qF02"
   },
-  {
+  "qx01": {
     "word": "饺子",
     "pinyin": "jiǎozi",
     "meanings": [
@@ -7979,9 +8505,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "qx01"
   },
-  {
+  "qp01": {
     "word": "叫花鸡",
     "pinyin": "jiàohuājī",
     "meanings": [
@@ -7995,9 +8522,10 @@
     "lesson": [
       5
     ],
-    "note": "料理の一種"
+    "notes": "料理の一種",
+    "id": "qp01"
   },
-  {
+  "qt01": {
     "word": "井之头线",
     "pinyin": "Jǐngzhītóu Xiàn",
     "meanings": [
@@ -8010,9 +8538,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "qt01"
   },
-  {
+  "oP01": {
     "word": "块",
     "pinyin": "kuài",
     "meanings": [
@@ -8026,9 +8555,10 @@
     "lesson": [
       5
     ],
-    "note": "量詞としての用法もあり(第4課参照)、「元」として使うのは話し言葉の時"
+    "notes": "量詞としての用法もあり(第4課参照)、「元」として使うのは話し言葉の時",
+    "id": "oP01"
   },
-  {
+  "m000": {
     "word": "拉",
     "pinyin": "lā",
     "meanings": [
@@ -8042,9 +8572,10 @@
     "lesson": [
       5
     ],
-    "note": "主に弦楽器"
+    "notes": "主に弦楽器",
+    "id": "m000"
   },
-  {
+  "m300": {
     "word": "来",
     "pinyin": "lái",
     "meanings": [
@@ -8057,9 +8588,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "m300"
   },
-  {
+  "mp01": {
     "word": "零花钱",
     "pinyin": "línghuāqián",
     "meanings": [
@@ -8072,9 +8604,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "mp01"
   },
-  {
+  "h501": {
     "word": "毛",
     "pinyin": "máo",
     "meanings": [
@@ -8088,9 +8621,10 @@
     "lesson": [
       5
     ],
-    "note": "お金の単位, 角の話し言葉, 十毛=一元"
+    "notes": "お金の単位, 角の話し言葉, 十毛=一元",
+    "id": "h501"
   },
-  {
+  "hx00": {
     "word": "名字",
     "pinyin": "míngzi",
     "meanings": [
@@ -8103,9 +8637,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "hx00"
   },
-  {
+  "lk00": {
     "word": "拿铁",
     "pinyin": "nátiě",
     "meanings": [
@@ -8118,9 +8653,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "lk00"
   },
-  {
+  "a100": {
     "word": "哦",
     "pinyin": "ò",
     "meanings": [
@@ -8133,9 +8669,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "a100"
   },
-  {
+  "gg00": {
     "word": "批评",
     "pinyin": "pīpíng",
     "meanings": [
@@ -8148,9 +8685,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "gg00"
   },
-  {
+  "g-00": {
     "word": "皮儿",
     "pinyin": "pír",
     "meanings": [
@@ -8163,9 +8701,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "g-00"
   },
-  {
+  "rC01": {
     "word": "骑",
     "pinyin": "qí",
     "meanings": [
@@ -8179,9 +8718,10 @@
     "lesson": [
       5
     ],
-    "note": "またいで乗る"
+    "notes": "またいで乗る",
+    "id": "rC01"
   },
-  {
+  "rH01": {
     "word": "千",
     "pinyin": "qiān",
     "meanings": [
@@ -8195,9 +8735,10 @@
     "lesson": [
       5
     ],
-    "note": "二千は两千"
+    "notes": "二千は两千",
+    "id": "rH01"
   },
-  {
+  "rH02": {
     "word": "钱",
     "pinyin": "qián",
     "meanings": [
@@ -8211,9 +8752,10 @@
     "lesson": [
       5
     ],
-    "note": "「前」とピン音同じ"
+    "notes": "「前」とピン音同じ",
+    "id": "rH02"
   },
-  {
+  "rd00": {
     "word": "请问",
     "pinyin": "qǐngwèn",
     "meanings": [
@@ -8226,9 +8768,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "rd00"
   },
-  {
+  "wp00": {
     "word": "然后",
     "pinyin": "ránhòu",
     "meanings": [
@@ -8241,9 +8784,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "wp00"
   },
-  {
+  "w201": {
     "word": "热",
     "pinyin": "rè",
     "meanings": [
@@ -8256,9 +8800,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "w201"
   },
-  {
+  "zn01": {
     "word": "涩谷",
     "pinyin": "Sègǔ",
     "meanings": [
@@ -8271,9 +8816,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "zn01"
   },
-  {
+  "vv03": {
     "word": "山手线",
     "pinyin": "Shānshǒu Xiàn",
     "meanings": [
@@ -8286,9 +8832,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "vv03"
   },
-  {
+  "vq02": {
     "word": "手机",
     "pinyin": "shǒujī",
     "meanings": [
@@ -8301,9 +8848,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "vq02"
   },
-  {
+  "vO00": {
     "word": "说",
     "pinyin": "shuō",
     "meanings": [
@@ -8317,9 +8865,10 @@
     "lesson": [
       5
     ],
-    "note": "shuìと読む場合は「説得する」"
+    "notes": "shuìと読む場合は「説得する」",
+    "id": "vO00"
   },
-  {
+  "vp04": {
     "word": "说话",
     "pinyin": "shuō//huà",
     "meanings": [
@@ -8332,9 +8881,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "vp04"
   },
-  {
+  "kn00": {
     "word": "太古里",
     "pinyin": "Tàigǔlǐ",
     "meanings": [
@@ -8348,9 +8898,10 @@
     "lesson": [
       5
     ],
-    "note": "商業施設の１つ"
+    "notes": "商業施設の１つ",
+    "id": "kn00"
   },
-  {
+  "k901": {
     "word": "汤",
     "pinyin": "tāng",
     "meanings": [
@@ -8363,9 +8914,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "k901"
   },
-  {
+  "dR01": {
     "word": "万",
     "pinyin": "wàn",
     "meanings": [
@@ -8379,9 +8931,10 @@
     "lesson": [
       5
     ],
-    "note": "二万は两万"
+    "notes": "二万は两万",
+    "id": "dR01"
   },
-  {
+  "sh01": {
     "word": "厦门",
     "pinyin": "Xiàmén",
     "meanings": [
@@ -8395,9 +8948,10 @@
     "lesson": [
       5
     ],
-    "note": "読み方は「アモイ」"
+    "notes": "読み方は「アモイ」",
+    "id": "sh01"
   },
-  {
+  "sH02": {
     "word": "线",
     "pinyin": "xiàn",
     "meanings": [
@@ -8410,9 +8964,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "sH02"
   },
-  {
+  "sE01": {
     "word": "写",
     "pinyin": "xiě",
     "meanings": [
@@ -8425,9 +8980,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "sE01"
   },
-  {
+  "cC02": {
     "word": "亿",
     "pinyin": "yì",
     "meanings": [
@@ -8441,9 +8997,10 @@
     "lesson": [
       5
     ],
-    "note": "二億は两亿"
+    "notes": "二億は两亿",
+    "id": "cC02"
   },
-  {
+  "cf00": {
     "word": "一般",
     "pinyin": "yìbān",
     "meanings": [
@@ -8457,9 +9014,10 @@
     "lesson": [
       5
     ],
-    "note": "ピンインyībān？"
+    "notes": "ピンインyībān？",
+    "id": "cf00"
   },
-  {
+  "ct00": {
     "word": "一直",
     "pinyin": "yìzhí",
     "meanings": [
@@ -8472,9 +9030,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "ct00"
   },
-  {
+  "eX00": {
     "word": "元",
     "pinyin": "yuán",
     "meanings": [
@@ -8488,9 +9047,10 @@
     "lesson": [
       5
     ],
-    "note": "書き言葉のとき"
+    "notes": "書き言葉のとき",
+    "id": "eX00"
   },
-  {
+  "ev00": {
     "word": "源氏物语",
     "pinyin": "Yuánshì Wùyǔ",
     "meanings": [
@@ -8503,9 +9063,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "ev00"
   },
-  {
+  "x302": {
     "word": "再",
     "pinyin": "zài",
     "meanings": [
@@ -8518,9 +9079,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "x302"
   },
-  {
+  "xh02": {
     "word": "怎么",
     "pinyin": "zěnme",
     "meanings": [
@@ -8534,9 +9096,10 @@
     "lesson": [
       5
     ],
-    "note": "怎么样は「どうですか」"
+    "notes": "怎么样は「どうですか」",
+    "id": "xh02"
   },
-  {
+  "t700": {
     "word": "站[名]",
     "pinyin": "zhàn",
     "meanings": [
@@ -8549,9 +9112,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "t700"
   },
-  {
+  "tA00": {
     "word": "正",
     "pinyin": "zhèng",
     "meanings": [
@@ -8565,9 +9129,10 @@
     "lesson": [
       5
     ],
-    "note": "「～しているところ」だという意味もある"
+    "notes": "「～しているところ」だという意味もある",
+    "id": "tA00"
   },
-  {
+  "tx01": {
     "word": "正宗",
     "pinyin": "zhèngzōng",
     "meanings": [
@@ -8580,9 +9145,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "tx01"
   },
-  {
+  "tC03": {
     "word": "只",
     "pinyin": "zhǐ",
     "meanings": [
@@ -8595,9 +9161,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "tC03"
   },
-  {
+  "xu00": {
     "word": "坐车",
     "pinyin": "zuò//chē",
     "meanings": [
@@ -8611,9 +9178,10 @@
     "lesson": [
       5
     ],
-    "note": "车は陸上の乗り物だったらどれでもOK"
+    "notes": "车は陸上の乗り物だったらどれでもOK",
+    "id": "xu00"
   },
-  {
+  "x-00": {
     "word": "座儿",
     "pinyin": "zuòr",
     "meanings": [
@@ -8626,9 +9194,10 @@
     ],
     "lesson": [
       5
-    ]
+    ],
+    "id": "x-00"
   },
-  {
+  "f500": {
     "word": "饱",
     "pinyin": "bǎo",
     "meanings": [
@@ -8641,9 +9210,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "f500"
   },
-  {
+  "fc00": {
     "word": "毕业",
     "pinyin": "bìyè",
     "meanings": [
@@ -8656,9 +9226,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "fc00"
   },
-  {
+  "fu00": {
     "word": "编程",
     "pinyin": "biānchéng",
     "meanings": [
@@ -8671,9 +9242,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "fu00"
   },
-  {
+  "fs00": {
     "word": "冰箱",
     "pinyin": "bīngxiāng",
     "meanings": [
@@ -8686,9 +9258,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "fs00"
   },
-  {
+  "u902": {
     "word": "场",
     "pinyin": "chǎng",
     "meanings": [
@@ -8701,9 +9274,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "u902"
   },
-  {
+  "u200": {
     "word": "车",
     "pinyin": "chē",
     "meanings": [
@@ -8716,9 +9290,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "u200"
   },
-  {
+  "uA00": {
     "word": "成[動]",
     "pinyin": "chéng",
     "meanings": [
@@ -8731,9 +9306,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "uA00"
   },
-  {
+  "un00": {
     "word": "成功",
     "pinyin": "chénggōng",
     "meanings": [
@@ -8746,9 +9322,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "un00"
   },
-  {
+  "uM00": {
     "word": "出[方向動詞]",
     "pinyin": "chū",
     "meanings": [
@@ -8762,9 +9339,10 @@
     "lesson": [
       6
     ],
-    "note": "出->出[方向動詞]に変更"
+    "notes": "出->出[方向動詞]に変更",
+    "id": "uM00"
   },
-  {
+  "ut01": {
     "word": "初中",
     "pinyin": "chūzhōng",
     "meanings": [
@@ -8777,9 +9355,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "ut01"
   },
-  {
+  "yC00": {
     "word": "词",
     "pinyin": "cí",
     "meanings": [
@@ -8792,9 +9371,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "yC00"
   },
-  {
+  "yO00": {
     "word": "错",
     "pinyin": "cuò",
     "meanings": [
@@ -8807,9 +9387,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "yO00"
   },
-  {
+  "j003": {
     "word": "答",
     "pinyin": "dá",
     "meanings": [
@@ -8822,9 +9403,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "j003"
   },
-  {
+  "jn01": {
     "word": "打工",
     "pinyin": "dǎgōng",
     "meanings": [
@@ -8837,9 +9419,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "jn01"
   },
-  {
+  "jo00": {
     "word": "打开",
     "pinyin": "dǎkāi",
     "meanings": [
@@ -8852,9 +9435,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "jo00"
   },
-  {
+  "jc02": {
     "word": "导演",
     "pinyin": "dǎoyǎn",
     "meanings": [
@@ -8867,9 +9451,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "jc02"
   },
-  {
+  "j503": {
     "word": "道[量]",
     "pinyin": "dào",
     "meanings": [
@@ -8883,9 +9468,10 @@
     "lesson": [
       6
     ],
-    "note": "道->道[量]に"
+    "notes": "道->道[量]に",
+    "id": "j503"
   },
-  {
+  "jB01": {
     "word": "懂",
     "pinyin": "dǒng",
     "meanings": [
@@ -8898,9 +9484,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "jB01"
   },
-  {
+  "ji00": {
     "word": "兜风",
     "pinyin": "dōufēng",
     "meanings": [
@@ -8913,9 +9500,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "ji00"
   },
-  {
+  "jt00": {
     "word": "读者",
     "pinyin": "dúzhě",
     "meanings": [
@@ -8928,9 +9516,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "jt00"
   },
-  {
+  "i901": {
     "word": "放",
     "pinyin": "fàng",
     "meanings": [
@@ -8943,9 +9532,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "i901"
   },
-  {
+  "ih00": {
     "word": "父母",
     "pinyin": "fùmǔ",
     "meanings": [
@@ -8958,9 +9548,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "ih00"
   },
-  {
+  "nq00": {
     "word": "干净",
     "pinyin": "gānjìng",
     "meanings": [
@@ -8973,9 +9564,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "nq00"
   },
-  {
+  "ny00": {
     "word": "刚才",
     "pinyin": "gāngcái",
     "meanings": [
@@ -8988,9 +9580,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "ny00"
   },
-  {
+  "n400": {
     "word": "给[動]",
     "pinyin": "gěi",
     "meanings": [
@@ -9003,9 +9596,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "n400"
   },
-  {
+  "nt02": {
     "word": "观众",
     "pinyin": "guānzhòng",
     "meanings": [
@@ -9018,9 +9612,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "nt02"
   },
-  {
+  "nO01": {
     "word": "过[方向動詞]",
     "pinyin": "guò",
     "meanings": [
@@ -9033,9 +9628,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "nO01"
   },
-  {
+  "p301": {
     "word": "还",
     "pinyin": "hái",
     "meanings": [
@@ -9048,9 +9644,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "p301"
   },
-  {
+  "pf00": {
     "word": "海边儿",
     "pinyin": "hǎibiānr",
     "meanings": [
@@ -9063,9 +9660,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "pf00"
   },
-  {
+  "p203": {
     "word": "和[前置]",
     "pinyin": "hé",
     "meanings": [
@@ -9078,9 +9676,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "p203"
   },
-  {
+  "pm01": {
     "word": "黑历史",
     "pinyin": "hēilìshǐ",
     "meanings": [
@@ -9093,9 +9692,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "pm01"
   },
-  {
+  "qD02": {
     "word": "加",
     "pinyin": "jiā",
     "meanings": [
@@ -9108,9 +9708,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "qD02"
   },
-  {
+  "qt02": {
     "word": "驾照",
     "pinyin": "jiàzhào",
     "meanings": [
@@ -9123,9 +9724,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "qt02"
   },
-  {
+  "pm02": {
     "word": "后来",
     "pinyin": "hòulái",
     "meanings": [
@@ -9138,9 +9740,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "pm02"
   },
-  {
+  "pN00": {
     "word": "话[名]",
     "pinyin": "huà",
     "meanings": [
@@ -9153,9 +9756,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "pN00"
   },
-  {
+  "pQ02": {
     "word": "回[方向動詞]",
     "pinyin": "huí",
     "meanings": [
@@ -9168,9 +9772,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "pQ02"
   },
-  {
+  "qH01": {
     "word": "见",
     "pinyin": "jiàn",
     "meanings": [
@@ -9183,9 +9788,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "qH01"
   },
-  {
+  "qI00": {
     "word": "进[方向動詞]",
     "pinyin": "jìn",
     "meanings": [
@@ -9199,9 +9805,10 @@
     "lesson": [
       6
     ],
-    "note": "进->进[方向動詞]に変更"
+    "notes": "进->进[方向動詞]に変更",
+    "id": "qI00"
   },
-  {
+  "qy01": {
     "word": "精彩",
     "pinyin": "jīngcǎi",
     "meanings": [
@@ -9214,9 +9821,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "qy01"
   },
-  {
+  "qV00": {
     "word": "句[量]",
     "pinyin": "jù",
     "meanings": [
@@ -9229,9 +9837,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "qV00"
   },
-  {
+  "qj02": {
     "word": "觉得",
     "pinyin": "juéde",
     "meanings": [
@@ -9244,9 +9853,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "qj02"
   },
-  {
+  "oi00": {
     "word": "咖啡",
     "pinyin": "kāfēi",
     "meanings": [
@@ -9259,9 +9869,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "oi00"
   },
-  {
+  "o300": {
     "word": "开",
     "pinyin": "kāi",
     "meanings": [
@@ -9274,9 +9885,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "o300"
   },
-  {
+  "o701": {
     "word": "看",
     "pinyin": "kàn",
     "meanings": [
@@ -9289,9 +9901,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "o701"
   },
-  {
+  "o501": {
     "word": "考",
     "pinyin": "kǎo",
     "meanings": [
@@ -9304,9 +9917,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "o501"
   },
-  {
+  "ov01": {
     "word": "考生",
     "pinyin": "kǎoshēng",
     "meanings": [
@@ -9319,9 +9933,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "ov01"
   },
-  {
+  "oo00": {
     "word": "可靠",
     "pinyin": "kěkào",
     "meanings": [
@@ -9334,9 +9949,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "oo00"
   },
-  {
+  "om01": {
     "word": "可乐",
     "pinyin": "kělè",
     "meanings": [
@@ -9349,9 +9965,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "om01"
   },
-  {
+  "m500": {
     "word": "老[形]",
     "pinyin": "lǎo",
     "meanings": [
@@ -9364,9 +9981,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "m500"
   },
-  {
+  "m201": {
     "word": "了[文末助詞]",
     "pinyin": "le",
     "meanings": [
@@ -9379,9 +9997,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "m201"
   },
-  {
+  "m400": {
     "word": "累",
     "pinyin": "lèi",
     "meanings": [
@@ -9394,9 +10013,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "m400"
   },
-  {
+  "mo00": {
     "word": "理科",
     "pinyin": "lǐkē",
     "meanings": [
@@ -9409,9 +10029,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "mo00"
   },
-  {
+  "md01": {
     "word": "礼物",
     "pinyin": "lǐwù",
     "meanings": [
@@ -9424,9 +10045,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "md01"
   },
-  {
+  "mF00": {
     "word": "聊",
     "pinyin": "liáo",
     "meanings": [
@@ -9439,9 +10061,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "mF00"
   },
-  {
+  "mk00": {
     "word": "聊天儿",
     "pinyin": "liáo tiānr",
     "meanings": [
@@ -9454,9 +10077,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "mk00"
   },
-  {
+  "hs01": {
     "word": "没想到",
     "pinyin": "méi xiǎngdào",
     "meanings": [
@@ -9469,9 +10093,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "hs01"
   },
-  {
+  "hf01": {
     "word": "明白",
     "pinyin": "míngbai",
     "meanings": [
@@ -9484,9 +10109,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "hf01"
   },
-  {
+  "l004": {
     "word": "拿",
     "pinyin": "ná",
     "meanings": [
@@ -9499,9 +10125,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "l004"
   },
-  {
+  "lq01": {
     "word": "奶精",
     "pinyin": "nǎijīng",
     "meanings": [
@@ -9514,9 +10141,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "lq01"
   },
-  {
+  "l701": {
     "word": "难",
     "pinyin": "nán",
     "meanings": [
@@ -9529,9 +10157,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "l701"
   },
-  {
+  "lC01": {
     "word": "腻",
     "pinyin": "nì",
     "meanings": [
@@ -9544,9 +10173,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "lC01"
   },
-  {
+  "g000": {
     "word": "爬",
     "pinyin": "pá",
     "meanings": [
@@ -9559,9 +10189,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "g000"
   },
-  {
+  "gv00": {
     "word": "平时",
     "pinyin": "píngshí",
     "meanings": [
@@ -9574,9 +10205,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "gv00"
   },
-  {
+  "g_00": {
     "word": "普洱茶",
     "pinyin": "Pǔ’ěrchá",
     "meanings": [
@@ -9589,9 +10221,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "g_00"
   },
-  {
+  "rC02": {
     "word": "起[方向動詞]",
     "pinyin": "qǐ",
     "meanings": [
@@ -9604,9 +10237,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "rC02"
   },
-  {
+  "ru01": {
     "word": "清楚",
     "pinyin": "qīngchu",
     "meanings": [
@@ -9619,9 +10253,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "ru01"
   },
-  {
+  "wv00": {
     "word": "认识",
     "pinyin": "rènshi",
     "meanings": [
@@ -9634,9 +10269,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "wv00"
   },
-  {
+  "wd00": {
     "word": "日文",
     "pinyin": "Rìwén",
     "meanings": [
@@ -9649,9 +10285,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "wd00"
   },
-  {
+  "vm00": {
     "word": "商量",
     "pinyin": "shāngliang",
     "meanings": [
@@ -9664,9 +10301,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "vm00"
   },
-  {
+  "v904": {
     "word": "上[方向動詞]",
     "pinyin": "shàng",
     "meanings": [
@@ -9679,9 +10317,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "v904"
   },
-  {
+  "vv04": {
     "word": "深山老林",
     "pinyin": "shēnshān lǎolín",
     "meanings": [
@@ -9694,9 +10333,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "vv04"
   },
-  {
+  "vw00": {
     "word": "生日",
     "pinyin": "shēngri",
     "meanings": [
@@ -9709,9 +10349,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "vw00"
   },
-  {
+  "vk01": {
     "word": "食堂",
     "pinyin": "shítáng",
     "meanings": [
@@ -9724,9 +10365,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "vk01"
   },
-  {
+  "vp05": {
     "word": "收回",
     "pinyin": "shōuhuí",
     "meanings": [
@@ -9739,9 +10381,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "vp05"
   },
-  {
+  "vM02": {
     "word": "熟",
     "pinyin": "shú",
     "meanings": [
@@ -9754,9 +10397,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "vM02"
   },
-  {
+  "zB00": {
     "word": "送",
     "pinyin": "sòng",
     "meanings": [
@@ -9769,9 +10413,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "zB00"
   },
-  {
+  "k300": {
     "word": "太",
     "pinyin": "tài",
     "meanings": [
@@ -9784,9 +10429,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "k300"
   },
-  {
+  "k902": {
     "word": "糖",
     "pinyin": "táng",
     "meanings": [
@@ -9799,9 +10445,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "k902"
   },
-  {
+  "ky00": {
     "word": "套餐",
     "pinyin": "tàocān",
     "meanings": [
@@ -9814,9 +10461,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "ky00"
   },
-  {
+  "kC00": {
     "word": "题",
     "pinyin": "tí",
     "meanings": [
@@ -9829,9 +10477,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "kC00"
   },
-  {
+  "kr00": {
     "word": "天气",
     "pinyin": "tiānqì",
     "meanings": [
@@ -9844,9 +10493,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "kr00"
   },
-  {
+  "kr01": {
     "word": "听劝",
     "pinyin": "tīngquàn",
     "meanings": [
@@ -9859,9 +10509,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "kr01"
   },
-  {
+  "kv01": {
     "word": "退烧药",
     "pinyin": "tuìshāoyào",
     "meanings": [
@@ -9874,9 +10525,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "kv01"
   },
-  {
+  "dR02": {
     "word": "完",
     "pinyin": "wán",
     "meanings": [
@@ -9889,9 +10541,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "dR02"
   },
-  {
+  "dR03": {
     "word": "晚[形]",
     "pinyin": "wǎn",
     "meanings": [
@@ -9904,9 +10557,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "dR03"
   },
-  {
+  "dr00": {
     "word": "围棋",
     "pinyin": "wéiqí",
     "meanings": [
@@ -9919,9 +10573,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "dr00"
   },
-  {
+  "do00": {
     "word": "文科",
     "pinyin": "wénkē",
     "meanings": [
@@ -9934,9 +10589,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "do00"
   },
-  {
+  "sC02": {
     "word": "洗",
     "pinyin": "xǐ",
     "meanings": [
@@ -9949,9 +10605,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "sC02"
   },
-  {
+  "sD03": {
     "word": "下[方向動詞]",
     "pinyin": "xià",
     "meanings": [
@@ -9964,9 +10621,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "sD03"
   },
-  {
+  "sD04": {
     "word": "下<〜围棋>",
     "pinyin": "xià",
     "meanings": [
@@ -9979,9 +10637,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "sD04"
   },
-  {
+  "sk00": {
     "word": "夏天",
     "pinyin": "xiàtiān",
     "meanings": [
@@ -9994,9 +10653,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "sk00"
   },
-  {
+  "sF01": {
     "word": "小[形]",
     "pinyin": "xiǎo",
     "meanings": [
@@ -10009,9 +10669,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "sF01"
   },
-  {
+  "sv03": {
     "word": "小时",
     "pinyin": "xiǎoshí",
     "meanings": [
@@ -10024,9 +10685,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "sv03"
   },
-  {
+  "sc01": {
     "word": "心眼儿",
     "pinyin": "xīnyǎnr",
     "meanings": [
@@ -10039,9 +10701,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "sc01"
   },
-  {
+  "sx03": {
     "word": "新作",
     "pinyin": "xīnzuò",
     "meanings": [
@@ -10054,9 +10717,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "sx03"
   },
-  {
+  "sp01": {
     "word": "幸好",
     "pinyin": "xìnghǎo",
     "meanings": [
@@ -10069,9 +10733,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "sp01"
   },
-  {
+  "sG00": {
     "word": "修",
     "pinyin": "xiū",
     "meanings": [
@@ -10084,9 +10749,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "sG00"
   },
-  {
+  "ss07": {
     "word": "休息",
     "pinyin": "xiūxi",
     "meanings": [
@@ -10099,9 +10765,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "ss07"
   },
-  {
+  "sv04": {
     "word": "雪山",
     "pinyin": "xuěshān",
     "meanings": [
@@ -10114,9 +10781,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "sv04"
   },
-  {
+  "cF01": {
     "word": "要[助動]",
     "pinyin": "yào",
     "meanings": [
@@ -10129,9 +10797,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "cF01"
   },
-  {
+  "cp00": {
     "word": "一会儿",
     "pinyin": "yíhuìr",
     "meanings": [
@@ -10144,9 +10813,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "cp00"
   },
-  {
+  "cq04": {
     "word": "已经",
     "pinyin": "yǐjīng",
     "meanings": [
@@ -10159,9 +10829,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "cq04"
   },
-  {
+  "cK00": {
     "word": "赢",
     "pinyin": "yíng",
     "meanings": [
@@ -10174,9 +10845,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "cK00"
   },
-  {
+  "cc01": {
     "word": "有意思",
     "pinyin": "yǒu yìsi",
     "meanings": [
@@ -10189,9 +10861,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "cc01"
   },
-  {
+  "er00": {
     "word": "运气",
     "pinyin": "yùnqi",
     "meanings": [
@@ -10204,9 +10877,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "er00"
   },
-  {
+  "tk00": {
     "word": "钟头",
     "pinyin": "zhōngtóu",
     "meanings": [
@@ -10219,9 +10893,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "tk00"
   },
-  {
+  "ts01": {
     "word": "中学",
     "pinyin": "zhōngxué",
     "meanings": [
@@ -10234,9 +10909,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "ts01"
   },
-  {
+  "te00": {
     "word": "终于",
     "pinyin": "zhōngyú",
     "meanings": [
@@ -10249,9 +10925,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "te00"
   },
-  {
+  "ts02": {
     "word": "转学",
     "pinyin": "zhuǎnxué",
     "meanings": [
@@ -10264,9 +10941,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "ts02"
   },
-  {
+  "xO03": {
     "word": "坐",
     "pinyin": "zuò",
     "meanings": [
@@ -10279,9 +10957,10 @@
     ],
     "lesson": [
       6
-    ]
+    ],
+    "id": "xO03"
   },
-  {
+  "Zc00": {
     "word": "哎呀",
     "pinyin": "āiyā",
     "meanings": [
@@ -10294,9 +10973,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "Zc00"
   },
-  {
+  "Zc01": {
     "word": "哎呀呀",
     "pinyin": "āiyāyā",
     "meanings": [
@@ -10309,9 +10989,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "Zc01"
   },
-  {
+  "f003": {
     "word": "吧",
     "pinyin": "ba",
     "meanings": [
@@ -10324,9 +11005,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "f003"
   },
-  {
+  "f702": {
     "word": "班",
     "pinyin": "bān",
     "meanings": [
@@ -10339,9 +11021,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "f702"
   },
-  {
+  "fp00": {
     "word": "北海道",
     "pinyin": "Běihǎidào",
     "meanings": [
@@ -10354,9 +11037,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "fp00"
   },
-  {
+  "fx02": {
     "word": "鼻子",
     "pinyin": "bízi",
     "meanings": [
@@ -10369,9 +11053,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "fx02"
   },
-  {
+  "fq02": {
     "word": "比较[副]",
     "pinyin": "bǐjiào",
     "meanings": [
@@ -10384,9 +11069,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "fq02"
   },
-  {
+  "fH00": {
     "word": "遍",
     "pinyin": "biàn",
     "meanings": [
@@ -10400,9 +11086,10 @@
     "lesson": [
       7
     ],
-    "note": "時間の幅が決まっているものの回数を数える"
+    "notes": "時間の幅が決まっているものの回数を数える",
+    "id": "fH00"
   },
-  {
+  "fi01": {
     "word": "便饭",
     "pinyin": "biànfàn",
     "meanings": [
@@ -10415,9 +11102,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "fi01"
   },
-  {
+  "fE00": {
     "word": "别[助動]",
     "pinyin": "bié",
     "meanings": [
@@ -10430,9 +11118,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "fE00"
   },
-  {
+  "fK01": {
     "word": "病",
     "pinyin": "bìng",
     "meanings": [
@@ -10445,9 +11134,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "fK01"
   },
-  {
+  "fc01": {
     "word": "不要",
     "pinyin": "búyào",
     "meanings": [
@@ -10460,9 +11150,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "fc01"
   },
-  {
+  "yn01": {
     "word": "餐馆",
     "pinyin": "cānguǎn",
     "meanings": [
@@ -10475,9 +11166,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "yn01"
   },
-  {
+  "uv02": {
     "word": "超市",
     "pinyin": "chāoshì",
     "meanings": [
@@ -10490,9 +11182,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "uv02"
   },
-  {
+  "yC01": {
     "word": "次",
     "pinyin": "cì",
     "meanings": [
@@ -10505,9 +11198,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "yC01"
   },
-  {
+  "jc03": {
     "word": "答应",
     "pinyin": "dāyìng",
     "meanings": [
@@ -10520,9 +11214,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "jc03"
   },
-  {
+  "js03": {
     "word": "大象",
     "pinyin": "dàxiàng",
     "meanings": [
@@ -10536,9 +11231,10 @@
     "lesson": [
       7
     ],
-    "note": "大きな象ではなく単に象"
+    "notes": "大きな象ではなく単に象",
+    "id": "js03"
   },
-  {
+  "j301": {
     "word": "带",
     "pinyin": "dài",
     "meanings": [
@@ -10551,9 +11247,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "j301"
   },
-  {
+  "js04": {
     "word": "担心",
     "pinyin": "dān//xīn",
     "meanings": [
@@ -10566,9 +11263,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "js04"
   },
-  {
+  "jS00": {
     "word": "顿",
     "pinyin": "dùn",
     "meanings": [
@@ -10582,9 +11280,10 @@
     "lesson": [
       7
     ],
-    "note": "食事の回数を数える"
+    "notes": "食事の回数を数える",
+    "id": "jS00"
   },
-  {
+  "iv01": {
     "word": "发烧",
     "pinyin": "fā//shāo",
     "meanings": [
@@ -10597,9 +11296,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "iv01"
   },
-  {
+  "ij00": {
     "word": "饭点儿",
     "pinyin": "fàndiǎnr",
     "meanings": [
@@ -10612,9 +11312,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "ij00"
   },
-  {
+  "i-00": {
     "word": "份儿",
     "pinyin": "fènr",
     "meanings": [
@@ -10627,9 +11328,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "i-00"
   },
-  {
+  "ii00": {
     "word": "丰富",
     "pinyin": "fēngfù",
     "meanings": [
@@ -10642,9 +11344,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "ii00"
   },
-  {
+  "n401": {
     "word": "给[前置]",
     "pinyin": "gěi",
     "meanings": [
@@ -10657,9 +11360,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "n401"
   },
-  {
+  "nx00": {
     "word": "工作",
     "pinyin": "gōngzuò",
     "meanings": [
@@ -10672,9 +11376,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "nx00"
   },
-  {
+  "nq01": {
     "word": "古迹",
     "pinyin": "gǔjì",
     "meanings": [
@@ -10687,9 +11392,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "nq01"
   },
-  {
+  "nj03": {
     "word": "观点",
     "pinyin": "guāndiǎn",
     "meanings": [
@@ -10702,9 +11408,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "nj03"
   },
-  {
+  "nr00": {
     "word": "过去",
     "pinyin": "guòqù",
     "meanings": [
@@ -10717,9 +11424,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "nr00"
   },
-  {
+  "pc02": {
     "word": "好意思",
     "pinyin": "hǎoyìsi",
     "meanings": [
@@ -10732,9 +11440,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "pc02"
   },
-  {
+  "pm03": {
     "word": "合理",
     "pinyin": "hélǐ",
     "meanings": [
@@ -10747,9 +11456,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "pm03"
   },
-  {
+  "qC02": {
     "word": "寄",
     "pinyin": "jì",
     "meanings": [
@@ -10762,9 +11472,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "qC02"
   },
-  {
+  "qD03": {
     "word": "家[量]",
     "pinyin": "jiā",
     "meanings": [
@@ -10777,9 +11488,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "qD03"
   },
-  {
+  "qn00": {
     "word": "价格",
     "pinyin": "jiàgé",
     "meanings": [
@@ -10792,9 +11504,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "qn00"
   },
-  {
+  "qu00": {
     "word": "坚持",
     "pinyin": "jiānchí",
     "meanings": [
@@ -10807,9 +11520,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "qu00"
   },
-  {
+  "qu01": {
     "word": "检查",
     "pinyin": "jiǎnchá",
     "meanings": [
@@ -10822,9 +11536,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "qu01"
   },
-  {
+  "qJ00": {
     "word": "讲",
     "pinyin": "jiǎng",
     "meanings": [
@@ -10837,9 +11552,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "qJ00"
   },
-  {
+  "qF03": {
     "word": "叫",
     "pinyin": "jiào",
     "meanings": [
@@ -10852,9 +11568,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "qF03"
   },
-  {
+  "qE00": {
     "word": "节[量]",
     "pinyin": "jié",
     "meanings": [
@@ -10867,9 +11584,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "qE00"
   },
-  {
+  "qm00": {
     "word": "结论",
     "pinyin": "jiélùn",
     "meanings": [
@@ -10882,9 +11600,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "qm00"
   },
-  {
+  "qu02": {
     "word": "经常",
     "pinyin": "jīngcháng",
     "meanings": [
@@ -10897,9 +11616,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "qu02"
   },
-  {
+  "qc00": {
     "word": "经验",
     "pinyin": "jīngyàn",
     "meanings": [
@@ -10912,9 +11632,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "qc00"
   },
-  {
+  "op01": {
     "word": "开会",
     "pinyin": "kāi//huì",
     "meanings": [
@@ -10927,9 +11648,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "op01"
   },
-  {
+  "o201": {
     "word": "课[名]",
     "pinyin": "kè",
     "meanings": [
@@ -10942,9 +11664,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "o201"
   },
-  {
+  "or00": {
     "word": "客气",
     "pinyin": "kèqi",
     "meanings": [
@@ -10958,9 +11681,10 @@
     "lesson": [
       7
     ],
-    "note": "别客气で「どういたしまして」"
+    "notes": "别客气で「どういたしまして」",
+    "id": "or00"
   },
-  {
+  "oj00": {
     "word": "快递",
     "pinyin": "kuàidì",
     "meanings": [
@@ -10973,9 +11697,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "oj00"
   },
-  {
+  "ov02": {
     "word": "款式",
     "pinyin": "kuǎnshì",
     "meanings": [
@@ -10988,9 +11713,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "ov02"
   },
-  {
+  "mi00": {
     "word": "浪费",
     "pinyin": "làngfèi",
     "meanings": [
@@ -11003,9 +11729,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "mi00"
   },
-  {
+  "mj00": {
     "word": "冷冻",
     "pinyin": "lěngdòng",
     "meanings": [
@@ -11018,9 +11745,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "mj00"
   },
-  {
+  "mz00": {
     "word": "脸色",
     "pinyin": "liǎnsè",
     "meanings": [
@@ -11033,9 +11761,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "mz00"
   },
-  {
+  "mG01": {
     "word": "留",
     "pinyin": "liú",
     "meanings": [
@@ -11049,9 +11778,10 @@
     "lesson": [
       7
     ],
-    "note": "留作业で「宿題を出す」"
+    "notes": "留作业で「宿題を出す」",
+    "id": "mG01"
   },
-  {
+  "ms04": {
     "word": "留学",
     "pinyin": "liú//xué",
     "meanings": [
@@ -11064,9 +11794,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "ms04"
   },
-  {
+  "hi00": {
     "word": "麻烦",
     "pinyin": "máfan",
     "meanings": [
@@ -11080,9 +11811,10 @@
     "lesson": [
       7
     ],
-    "note": "添麻烦で「面倒をかける」"
+    "notes": "添麻烦で「面倒をかける」",
+    "id": "hi00"
   },
-  {
+  "hv00": {
     "word": "没事儿",
     "pinyin": "méi shìr",
     "meanings": [
@@ -11095,9 +11827,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "hv00"
   },
-  {
+  "hv01": {
     "word": "名胜",
     "pinyin": "míngshèng",
     "meanings": [
@@ -11110,9 +11843,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "hv01"
   },
-  {
+  "g500": {
     "word": "跑",
     "pinyin": "pǎo",
     "meanings": [
@@ -11125,9 +11859,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "g500"
   },
-  {
+  "g400": {
     "word": "陪",
     "pinyin": "péi",
     "meanings": [
@@ -11140,9 +11875,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "g400"
   },
-  {
+  "rr00": {
     "word": "牵强",
     "pinyin": "qiānqiǎng",
     "meanings": [
@@ -11156,9 +11892,10 @@
     "lesson": [
       7
     ],
-    "note": "教科書に拼音の誤植あり"
+    "notes": "教科書に拼音の誤植あり",
+    "id": "rr00"
   },
-  {
+  "rI00": {
     "word": "秦(姓)",
     "pinyin": "Qín",
     "meanings": [
@@ -11171,9 +11908,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "rI00"
   },
-  {
+  "rx01": {
     "word": "裙子",
     "pinyin": "qúnzi",
     "meanings": [
@@ -11187,9 +11925,10 @@
     "lesson": [
       7
     ],
-    "note": "量詞は条"
+    "notes": "量詞は条",
+    "id": "rx01"
   },
-  {
+  "vn00": {
     "word": "石锅拌饭",
     "pinyin": "shíguōbànfàn",
     "meanings": [
@@ -11202,9 +11941,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "vn00"
   },
-  {
+  "k903": {
     "word": "趟",
     "pinyin": "tàng",
     "meanings": [
@@ -11218,9 +11958,10 @@
     "lesson": [
       7
     ],
-    "note": "往復の回数などを数える"
+    "notes": "往復の回数などを数える",
+    "id": "k903"
   },
-  {
+  "kA00": {
     "word": "疼",
     "pinyin": "téng",
     "meanings": [
@@ -11233,9 +11974,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "kA00"
   },
-  {
+  "kH01": {
     "word": "添",
     "pinyin": "tiān",
     "meanings": [
@@ -11248,9 +11990,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "kH01"
   },
-  {
+  "k602": {
     "word": "头[名]",
     "pinyin": "tóu",
     "meanings": [
@@ -11263,9 +12006,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "k602"
   },
-  {
+  "kq01": {
     "word": "推荐信",
     "pinyin": "tuījiànxìn",
     "meanings": [
@@ -11278,9 +12022,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "kq01"
   },
-  {
+  "dN01": {
     "word": "哇[文末助詞]",
     "pinyin": "wa",
     "meanings": [
@@ -11294,9 +12039,10 @@
     "lesson": [
       7
     ],
-    "note": "u, ao, ouに続く啊の変化形"
+    "notes": "u, ao, ouに続く啊の変化形",
+    "id": "dN01"
   },
-  {
+  "dh01": {
     "word": "外卖",
     "pinyin": "wàimài",
     "meanings": [
@@ -11309,9 +12055,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "dh01"
   },
-  {
+  "dR04": {
     "word": "碗",
     "pinyin": "wǎn",
     "meanings": [
@@ -11324,9 +12071,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "dR04"
   },
-  {
+  "dt00": {
     "word": "文章",
     "pinyin": "wénzhāng",
     "meanings": [
@@ -11340,9 +12088,10 @@
     "lesson": [
       7
     ],
-    "note": "量詞は篇pian"
+    "notes": "量詞は篇pian",
+    "id": "dt00"
   },
-  {
+  "dq00": {
     "word": "物价",
     "pinyin": "wùjià",
     "meanings": [
@@ -11355,9 +12104,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "dq00"
   },
-  {
+  "sD05": {
     "word": "下[動]",
     "pinyin": "xià",
     "meanings": [
@@ -11370,9 +12120,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "sD05"
   },
-  {
+  "sf00": {
     "word": "下班",
     "pinyin": "xià//bān",
     "meanings": [
@@ -11385,9 +12136,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "sf00"
   },
-  {
+  "ss08": {
     "word": "谢谢",
     "pinyin": "xièxiè",
     "meanings": [
@@ -11400,9 +12152,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "ss08"
   },
-  {
+  "sq00": {
     "word": "新加坡",
     "pinyin": "Xīnjiāpō",
     "meanings": [
@@ -11415,9 +12168,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "sq00"
   },
-  {
+  "sc02": {
     "word": "新颖",
     "pinyin": "xīnyǐng",
     "meanings": [
@@ -11430,9 +12184,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "sc02"
   },
-  {
+  "cF02": {
     "word": "药",
     "pinyin": "yào",
     "meanings": [
@@ -11446,9 +12201,10 @@
     "lesson": [
       7
     ],
-    "note": "「薬を飲む」は吃药"
+    "notes": "「薬を飲む」は吃药",
+    "id": "cF02"
   },
-  {
+  "ce01": {
     "word": "医院",
     "pinyin": "yīyuàn",
     "meanings": [
@@ -11461,9 +12217,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "ce01"
   },
-  {
+  "cy00": {
     "word": "一寸光阴一寸金",
     "pinyin": "yí cùn guāngyīn yí cùn jīn",
     "meanings": [
@@ -11476,9 +12233,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "cy00"
   },
-  {
+  "cs02": {
     "word": "一下",
     "pinyin": "yíxià",
     "meanings": [
@@ -11491,9 +12249,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "cs02"
   },
-  {
+  "cj00": {
     "word": "有点儿",
     "pinyin": "yǒudiǎnr",
     "meanings": [
@@ -11507,9 +12266,10 @@
     "lesson": [
       7
     ],
-    "note": "動詞の前で用いる"
+    "notes": "動詞の前で用いる",
+    "id": "cj00"
   },
-  {
+  "xn00": {
     "word": "糟糕",
     "pinyin": "zāogāo",
     "meanings": [
@@ -11522,9 +12282,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "xn00"
   },
-  {
+  "t602": {
     "word": "粥",
     "pinyin": "zhōu",
     "meanings": [
@@ -11538,9 +12299,10 @@
     "lesson": [
       7
     ],
-    "note": "「お粥を食べる」は喝粥"
+    "notes": "「お粥を食べる」は喝粥",
+    "id": "t602"
   },
-  {
+  "xm00": {
     "word": "走廊",
     "pinyin": "zǒuláng",
     "meanings": [
@@ -11553,9 +12315,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "xm00"
   },
-  {
+  "xm01": {
     "word": "走路",
     "pinyin": "zǒu//lù",
     "meanings": [
@@ -11568,9 +12331,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "xm01"
   },
-  {
+  "xc00": {
     "word": "作业",
     "pinyin": "zuòyè",
     "meanings": [
@@ -11583,9 +12347,10 @@
     ],
     "lesson": [
       7
-    ]
+    ],
+    "id": "xc00"
   },
-  {
+  "Zq00": {
     "word": "安静",
     "pinyin": "ānjìng",
     "meanings": [
@@ -11598,9 +12363,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "Zq00"
   },
-  {
+  "fC00": {
     "word": "比",
     "pinyin": "bǐ",
     "meanings": [
@@ -11613,9 +12379,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "fC00"
   },
-  {
+  "fw00": {
     "word": "别人",
     "pinyin": "biéren",
     "meanings": [
@@ -11628,9 +12395,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "fw00"
   },
-  {
+  "fc02": {
     "word": "不用",
     "pinyin": "búyòng",
     "meanings": [
@@ -11643,9 +12411,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "fc02"
   },
-  {
+  "yk00": {
     "word": "餐厅",
     "pinyin": "cāntīng",
     "meanings": [
@@ -11658,9 +12427,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "yk00"
   },
-  {
+  "yx00": {
     "word": "操作",
     "pinyin": "cāozuò",
     "meanings": [
@@ -11673,9 +12443,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "yx00"
   },
-  {
+  "uh00": {
     "word": "出门",
     "pinyin": "chū//mén",
     "meanings": [
@@ -11688,9 +12459,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "uh00"
   },
-  {
+  "uo00": {
     "word": "窗口",
     "pinyin": "chuāngkǒu",
     "meanings": [
@@ -11703,9 +12475,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "uo00"
   },
-  {
+  "ju00": {
     "word": "打车",
     "pinyin": "dǎ//chē",
     "meanings": [
@@ -11718,9 +12491,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "ju00"
   },
-  {
+  "jx00": {
     "word": "打字",
     "pinyin": "dǎ//zì",
     "meanings": [
@@ -11733,9 +12507,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "jx00"
   },
-  {
+  "j004": {
     "word": "大",
     "pinyin": "dà",
     "meanings": [
@@ -11748,9 +12523,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "j004"
   },
-  {
+  "jk02": {
     "word": "大厅",
     "pinyin": "dàtīng",
     "meanings": [
@@ -11763,9 +12539,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "jk02"
   },
-  {
+  "j400": {
     "word": "得",
     "pinyin": "děi",
     "meanings": [
@@ -11778,9 +12555,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "j400"
   },
-  {
+  "ji01": {
     "word": "地方",
     "pinyin": "dìfang",
     "meanings": [
@@ -11793,9 +12571,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "ji01"
   },
-  {
+  "j-00": {
     "word": "点儿",
     "pinyin": "diǎnr",
     "meanings": [
@@ -11808,9 +12587,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "j-00"
   },
-  {
+  "jx01": {
     "word": "电子",
     "pinyin": "diànzǐ",
     "meanings": [
@@ -11823,9 +12603,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "jx01"
   },
-  {
+  "if01": {
     "word": "方便",
     "pinyin": "fāngbiàn",
     "meanings": [
@@ -11838,9 +12619,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "if01"
   },
-  {
+  "id01": {
     "word": "俯卧撑",
     "pinyin": "fǔwòchēng",
     "meanings": [
@@ -11853,9 +12635,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "id01"
   },
-  {
+  "iM00": {
     "word": "付",
     "pinyin": "fù",
     "meanings": [
@@ -11868,9 +12651,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "iM00"
   },
-  {
+  "n700": {
     "word": "干",
     "pinyin": "gàn",
     "meanings": [
@@ -11883,9 +12667,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "n700"
   },
-  {
+  "ng00": {
     "word": "股票",
     "pinyin": "gǔpiào",
     "meanings": [
@@ -11898,9 +12683,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "ng00"
   },
-  {
+  "np01": {
     "word": "挂号",
     "pinyin": "guà//hào",
     "meanings": [
@@ -11913,9 +12699,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "np01"
   },
-  {
+  "nq02": {
     "word": "规矩",
     "pinyin": "guīju",
     "meanings": [
@@ -11928,9 +12715,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "nq02"
   },
-  {
+  "nO02": {
     "word": "过[動]",
     "pinyin": "guò",
     "meanings": [
@@ -11943,9 +12731,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "nO02"
   },
-  {
+  "pv00": {
     "word": "还是[接続]",
     "pinyin": "háishi",
     "meanings": [
@@ -11958,9 +12747,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "pv00"
   },
-  {
+  "qq02": {
     "word": "季节",
     "pinyin": "jìjié",
     "meanings": [
@@ -11973,9 +12763,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "qq02"
   },
-  {
+  "qi00": {
     "word": "减肥",
     "pinyin": "jiǎn//féi",
     "meanings": [
@@ -11988,9 +12779,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "qi00"
   },
-  {
+  "p-00": {
     "word": "活儿",
     "pinyin": "huór",
     "meanings": [
@@ -12003,9 +12795,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "p-00"
   },
-  {
+  "qi01": {
     "word": "交费",
     "pinyin": "jiāo//fèi",
     "meanings": [
@@ -12018,9 +12811,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "qi01"
   },
-  {
+  "qG01": {
     "word": "酒",
     "pinyin": "jiǔ",
     "meanings": [
@@ -12033,9 +12827,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "qG01"
   },
-  {
+  "oP02": {
     "word": "快[形]",
     "pinyin": "kuài",
     "meanings": [
@@ -12048,9 +12843,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "oP02"
   },
-  {
+  "mA00": {
     "word": "冷",
     "pinyin": "lěng",
     "meanings": [
@@ -12063,9 +12859,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "mA00"
   },
-  {
+  "mM00": {
     "word": "路",
     "pinyin": "lù",
     "meanings": [
@@ -12078,9 +12875,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "mM00"
   },
-  {
+  "hn01": {
     "word": "没关系",
     "pinyin": "méi guānxi",
     "meanings": [
@@ -12093,9 +12891,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "hn01"
   },
-  {
+  "he00": {
     "word": "梅雨",
     "pinyin": "méiyǔ",
     "meanings": [
@@ -12108,9 +12907,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "he00"
   },
-  {
+  "h800": {
     "word": "门",
     "pinyin": "mén",
     "meanings": [
@@ -12123,9 +12923,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "h800"
   },
-  {
+  "hi01": {
     "word": "米饭",
     "pinyin": "mǐfàn",
     "meanings": [
@@ -12138,9 +12939,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "hi01"
   },
-  {
+  "lh01": {
     "word": "那么",
     "pinyin": "nàme",
     "meanings": [
@@ -12153,9 +12955,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "lh01"
   },
-  {
+  "ld00": {
     "word": "难为情",
     "pinyin": "nánwéiqíng",
     "meanings": [
@@ -12168,9 +12971,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "ld00"
   },
-  {
+  "lo00": {
     "word": "内科",
     "pinyin": "nèikē",
     "meanings": [
@@ -12183,9 +12987,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "lo00"
   },
-  {
+  "lA00": {
     "word": "能",
     "pinyin": "néng",
     "meanings": [
@@ -12198,9 +13003,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "lA00"
   },
-  {
+  "g901": {
     "word": "胖",
     "pinyin": "pàng",
     "meanings": [
@@ -12213,9 +13019,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "g901"
   },
-  {
+  "wl00": {
     "word": "热闹",
     "pinyin": "rènao",
     "meanings": [
@@ -12228,9 +13035,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "wl00"
   },
-  {
+  "ws00": {
     "word": "入乡随俗",
     "pinyin": "rù xiāng suí sú",
     "meanings": [
@@ -12243,9 +13051,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "ws00"
   },
-  {
+  "v500": {
     "word": "少",
     "pinyin": "shǎo",
     "meanings": [
@@ -12258,9 +13067,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "v500"
   },
-  {
+  "vk02": {
     "word": "身体",
     "pinyin": "shēntǐ",
     "meanings": [
@@ -12273,9 +13083,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "vk02"
   },
-  {
+  "vs02": {
     "word": "剩下",
     "pinyin": "shèngxià",
     "meanings": [
@@ -12288,9 +13099,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "vs02"
   },
-  {
+  "vt01": {
     "word": "市中心",
     "pinyin": "shìzhōngxīn",
     "meanings": [
@@ -12303,9 +13115,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "vt01"
   },
-  {
+  "v600": {
     "word": "守",
     "pinyin": "shǒu",
     "meanings": [
@@ -12318,9 +13131,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "v600"
   },
-  {
+  "vi00": {
     "word": "舒服",
     "pinyin": "shūfu",
     "meanings": [
@@ -12333,9 +13147,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "vi00"
   },
-  {
+  "vw01": {
     "word": "输入",
     "pinyin": "shūrù",
     "meanings": [
@@ -12348,9 +13163,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "vw01"
   },
-  {
+  "vo00": {
     "word": "刷卡",
     "pinyin": "shuā//kǎ",
     "meanings": [
@@ -12363,9 +13179,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "vo00"
   },
-  {
+  "dp01": {
     "word": "网红",
     "pinyin": "wǎnghóng",
     "meanings": [
@@ -12378,9 +13195,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "dp01"
   },
-  {
+  "ds02": {
     "word": "微信",
     "pinyin": "Wēixìn",
     "meanings": [
@@ -12393,9 +13211,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "ds02"
   },
-  {
+  "sq01": {
     "word": "现金",
     "pinyin": "xiànjīn",
     "meanings": [
@@ -12408,9 +13227,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "sq01"
   },
-  {
+  "co00": {
     "word": "一口气",
     "pinyin": "yì kǒu qì",
     "meanings": [
@@ -12423,9 +13243,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "co00"
   },
-  {
+  "cs03": {
     "word": "一些",
     "pinyin": "yìxiē",
     "meanings": [
@@ -12438,9 +13259,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "cs03"
   },
-  {
+  "cL00": {
     "word": "用[前置]",
     "pinyin": "yòng",
     "meanings": [
@@ -12453,9 +13275,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "cL00"
   },
-  {
+  "cG02": {
     "word": "又",
     "pinyin": "yòu",
     "meanings": [
@@ -12468,9 +13291,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "cG02"
   },
-  {
+  "ec00": {
     "word": "语音",
     "pinyin": "yǔyīn",
     "meanings": [
@@ -12483,9 +13307,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "ec00"
   },
-  {
+  "ee00": {
     "word": "预约",
     "pinyin": "yùyuē",
     "meanings": [
@@ -12498,9 +13323,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "ee00"
   },
-  {
+  "eY00": {
     "word": "晕",
     "pinyin": "yūn",
     "meanings": [
@@ -12513,9 +13339,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "eY00"
   },
-  {
+  "xi00": {
     "word": "早饭",
     "pinyin": "zǎofàn",
     "meanings": [
@@ -12528,9 +13355,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "xi00"
   },
-  {
+  "t902": {
     "word": "涨",
     "pinyin": "zhǎng",
     "meanings": [
@@ -12543,9 +13371,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "t902"
   },
-  {
+  "tn03": {
     "word": "照顾",
     "pinyin": "zhàogù",
     "meanings": [
@@ -12558,9 +13387,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "tn03"
   },
-  {
+  "th01": {
     "word": "这么",
     "pinyin": "zhème",
     "meanings": [
@@ -12573,9 +13403,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "th01"
   },
-  {
+  "tv00": {
     "word": "诊室",
     "pinyin": "zhěnshì",
     "meanings": [
@@ -12588,9 +13419,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "tv00"
   },
-  {
+  "ti01": {
     "word": "支付",
     "pinyin": "zhīfù",
     "meanings": [
@@ -12603,9 +13435,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "ti01"
   },
-  {
+  "xC00": {
     "word": "字",
     "pinyin": "zì",
     "meanings": [
@@ -12618,9 +13451,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "xC00"
   },
-  {
+  "xt01": {
     "word": "自助机",
     "pinyin": "zìzhùjī",
     "meanings": [
@@ -12633,9 +13467,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "xt01"
   },
-  {
+  "xv01": {
     "word": "总是",
     "pinyin": "zǒngshì",
     "meanings": [
@@ -12648,9 +13483,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "xv01"
   },
-  {
+  "xQ01": {
     "word": "醉",
     "pinyin": "zuì",
     "meanings": [
@@ -12663,9 +13499,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "xQ01"
   },
-  {
+  "jm02": {
     "word": "〜多了",
     "pinyin": "~duōle",
     "meanings": [
@@ -12678,9 +13515,10 @@
     ],
     "lesson": [
       8
-    ]
+    ],
+    "id": "jm02"
   },
-  {
+  "u001": {
     "word": "茶",
     "pinyin": "chá",
     "meanings": [
@@ -12693,9 +13531,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "u001"
   },
-  {
+  "uc00": {
     "word": "茶叶",
     "pinyin": "cháyè",
     "meanings": [
@@ -12708,9 +13547,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "uc00"
   },
-  {
+  "um00": {
     "word": "车辆",
     "pinyin": "chēliàng",
     "meanings": [
@@ -12723,9 +13563,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "um00"
   },
-  {
+  "ug00": {
     "word": "车票",
     "pinyin": "chēpiào",
     "meanings": [
@@ -12738,9 +13579,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "ug00"
   },
-  {
+  "ui02": {
     "word": "吃饭",
     "pinyin": "chī//fàn",
     "meanings": [
@@ -12753,9 +13595,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "ui02"
   },
-  {
+  "jf02": {
     "word": "打扮",
     "pinyin": "dǎbàn",
     "meanings": [
@@ -12768,9 +13611,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "jf02"
   },
-  {
+  "jz00": {
     "word": "打算",
     "pinyin": "dǎsuan",
     "meanings": [
@@ -12783,9 +13627,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "jz00"
   },
-  {
+  "pN01": {
     "word": "〜的话",
     "pinyin": "~de huà",
     "meanings": [
@@ -12798,9 +13643,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "pN01"
   },
-  {
+  "jF00": {
     "word": "掉[動]",
     "pinyin": "diào",
     "meanings": [
@@ -12813,9 +13659,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "jF00"
   },
-  {
+  "jd01": {
     "word": "端午节",
     "pinyin": "Duānwǔ Jié",
     "meanings": [
@@ -12828,9 +13675,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "jd01"
   },
-  {
+  "jO02": {
     "word": "多[副]",
     "pinyin": "duō",
     "meanings": [
@@ -12843,9 +13691,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "jO02"
   },
-  {
+  "jh01": {
     "word": "多么",
     "pinyin": "duōme",
     "meanings": [
@@ -12858,9 +13707,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "jh01"
   },
-  {
+  "ij01": {
     "word": "反对",
     "pinyin": "fǎnduì",
     "meanings": [
@@ -12873,9 +13723,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "ij01"
   },
-  {
+  "ns01": {
     "word": "高兴",
     "pinyin": "gāoxìng",
     "meanings": [
@@ -12888,9 +13739,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "ns01"
   },
-  {
+  "nn03": {
     "word": "公共汽车",
     "pinyin": "gōnggòng qìchē",
     "meanings": [
@@ -12903,9 +13755,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "nn03"
   },
-  {
+  "nO03": {
     "word": "过[動]",
     "pinyin": "guò",
     "meanings": [
@@ -12918,9 +13771,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "nO03"
   },
-  {
+  "qs01": {
     "word": "吉祥寺",
     "pinyin": "Jíxiángsì",
     "meanings": [
@@ -12933,9 +13787,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "qs01"
   },
-  {
+  "qm01": {
     "word": "家里人",
     "pinyin": "jiālirén",
     "meanings": [
@@ -12948,9 +13803,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "qm01"
   },
-  {
+  "pn01": {
     "word": "回国",
     "pinyin": "huí//guó",
     "meanings": [
@@ -12963,9 +13819,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "pn01"
   },
-  {
+  "pk01": {
     "word": "回头[副]",
     "pinyin": "huí tóu",
     "meanings": [
@@ -12978,9 +13835,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "pk01"
   },
-  {
+  "pQ03": {
     "word": "汇",
     "pinyin": "huì",
     "meanings": [
@@ -12993,9 +13851,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "pQ03"
   },
-  {
+  "qF04": {
     "word": "叫",
     "pinyin": "jiào",
     "meanings": [
@@ -13008,9 +13867,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "qF04"
   },
-  {
+  "qv01": {
     "word": "精神[形]",
     "pinyin": "jīngshen",
     "meanings": [
@@ -13023,9 +13883,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "qv01"
   },
-  {
+  "qu03": {
     "word": "警察",
     "pinyin": "jǐngchá",
     "meanings": [
@@ -13038,9 +13899,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "qu03"
   },
-  {
+  "qG02": {
     "word": "就",
     "pinyin": "jiù",
     "meanings": [
@@ -13053,9 +13915,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "qG02"
   },
-  {
+  "qj03": {
     "word": "决定",
     "pinyin": "juédìng",
     "meanings": [
@@ -13068,9 +13931,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "qj03"
   },
-  {
+  "o-00": {
     "word": "空儿",
     "pinyin": "kòngr",
     "meanings": [
@@ -13083,9 +13947,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "o-00"
   },
-  {
+  "oj01": {
     "word": "快递员",
     "pinyin": "kuàidìyuán",
     "meanings": [
@@ -13098,9 +13963,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "oj01"
   },
-  {
+  "md02": {
     "word": "来往",
     "pinyin": "láiwǎng",
     "meanings": [
@@ -13113,9 +13979,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "md02"
   },
-  {
+  "mu00": {
     "word": "列车员",
     "pinyin": "lièchēyuán",
     "meanings": [
@@ -13128,9 +13995,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "mu00"
   },
-  {
+  "hm00": {
     "word": "马路",
     "pinyin": "mǎlù",
     "meanings": [
@@ -13143,9 +14011,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "hm00"
   },
-  {
+  "hi02": {
     "word": "满分",
     "pinyin": "mǎnfēn",
     "meanings": [
@@ -13158,9 +14027,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "hi02"
   },
-  {
+  "lq02": {
     "word": "年纪",
     "pinyin": "niánjì",
     "meanings": [
@@ -13173,9 +14043,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "lq02"
   },
-  {
+  "rg00": {
     "word": "钦佩",
     "pinyin": "qīnpèi",
     "meanings": [
@@ -13188,9 +14059,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "rg00"
   },
-  {
+  "rV01": {
     "word": "取",
     "pinyin": "qǔ",
     "meanings": [
@@ -13203,9 +14075,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "rV01"
   },
-  {
+  "w900": {
     "word": "让",
     "pinyin": "ràng",
     "meanings": [
@@ -13218,9 +14091,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "w900"
   },
-  {
+  "wn00": {
     "word": "如果",
     "pinyin": "rúguǒ",
     "meanings": [
@@ -13233,9 +14107,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "wn00"
   },
-  {
+  "v-00": {
     "word": "身儿[量]",
     "pinyin": "shēnr",
     "meanings": [
@@ -13248,9 +14123,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "v-00"
   },
-  {
+  "vC03": {
     "word": "使",
     "pinyin": "shǐ",
     "meanings": [
@@ -13263,9 +14139,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "vC03"
   },
-  {
+  "zq00": {
     "word": "司机",
     "pinyin": "sījī",
     "meanings": [
@@ -13278,9 +14155,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "zq00"
   },
-  {
+  "zs02": {
     "word": "送行",
     "pinyin": "sòng//xíng",
     "meanings": [
@@ -13293,9 +14171,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "zs02"
   },
-  {
+  "zf01": {
     "word": "随便",
     "pinyin": "suíbiàn",
     "meanings": [
@@ -13308,9 +14187,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "zf01"
   },
-  {
+  "k904": {
     "word": "躺",
     "pinyin": "tǎng",
     "meanings": [
@@ -13323,9 +14203,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "k904"
   },
-  {
+  "kr02": {
     "word": "提前",
     "pinyin": "tíqián",
     "meanings": [
@@ -13338,9 +14219,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "kr02"
   },
-  {
+  "kF01": {
     "word": "跳",
     "pinyin": "tiào",
     "meanings": [
@@ -13353,9 +14235,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "kF01"
   },
-  {
+  "kK01": {
     "word": "停",
     "pinyin": "tíng",
     "meanings": [
@@ -13368,9 +14251,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "kK01"
   },
-  {
+  "kv02": {
     "word": "同事",
     "pinyin": "tóngshì",
     "meanings": [
@@ -13383,9 +14267,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "kv02"
   },
-  {
+  "dT02": {
     "word": "忘",
     "pinyin": "wàng",
     "meanings": [
@@ -13398,9 +14283,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "dT02"
   },
-  {
+  "sn01": {
     "word": "小狗",
     "pinyin": "xiǎogǒu",
     "meanings": [
@@ -13413,9 +14299,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "sn01"
   },
-  {
+  "cF03": {
     "word": "要[助動]",
     "pinyin": "yào",
     "meanings": [
@@ -13428,9 +14315,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "cF03"
   },
-  {
+  "cv00": {
     "word": "要是",
     "pinyin": "yàoshi",
     "meanings": [
@@ -13443,9 +14331,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "cv00"
   },
-  {
+  "cv01": {
     "word": "钥匙",
     "pinyin": "yàoshi",
     "meanings": [
@@ -13458,9 +14347,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "cv01"
   },
-  {
+  "cj01": {
     "word": "一定",
     "pinyin": "yídìng",
     "meanings": [
@@ -13473,9 +14363,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "cj01"
   },
-  {
+  "co01": {
     "word": "一块儿",
     "pinyin": "yíkuàir",
     "meanings": [
@@ -13488,9 +14379,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "co01"
   },
-  {
+  "cp01": {
     "word": "以后",
     "pinyin": "yǐhòu",
     "meanings": [
@@ -13503,9 +14395,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "cp01"
   },
-  {
+  "cr02": {
     "word": "勇气",
     "pinyin": "yǒngqì",
     "meanings": [
@@ -13518,9 +14411,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "cr02"
   },
-  {
+  "cG03": {
     "word": "又〜又…",
     "pinyin": "yòu~yòu…",
     "meanings": [
@@ -13533,9 +14427,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "cG03"
   },
-  {
+  "ex00": {
     "word": "院子",
     "pinyin": "yuànzi",
     "meanings": [
@@ -13548,9 +14443,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "ex00"
   },
-  {
+  "ej00": {
     "word": "月底",
     "pinyin": "yuèdǐ",
     "meanings": [
@@ -13563,9 +14459,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "ej00"
   },
-  {
+  "tq01": {
     "word": "炸酱面",
     "pinyin": "zhájiàngmiàn",
     "meanings": [
@@ -13578,9 +14475,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "tq01"
   },
-  {
+  "t701": {
     "word": "站[動]",
     "pinyin": "zhàn",
     "meanings": [
@@ -13593,9 +14491,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "t701"
   },
-  {
+  "tq02": {
     "word": "浙江人",
     "pinyin": "Zhèjiāngrén",
     "meanings": [
@@ -13608,9 +14507,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "tq02"
   },
-  {
+  "tk01": {
     "word": "知天命",
     "pinyin": "zhītiānmìng",
     "meanings": [
@@ -13624,9 +14524,10 @@
     "lesson": [
       9
     ],
-    "note": "『論語』に拠る"
+    "notes": "『論語』に拠る",
+    "id": "tk01"
   },
-  {
+  "tc02": {
     "word": "注意",
     "pinyin": "zhùyì",
     "meanings": [
@@ -13639,9 +14540,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "tc02"
   },
-  {
+  "xo00": {
     "word": "做客",
     "pinyin": "zuò//kè",
     "meanings": [
@@ -13654,9 +14556,10 @@
     ],
     "lesson": [
       9
-    ]
+    ],
+    "id": "xo00"
   },
-  {
+  "df00": {
     "word": "韦编三绝",
     "pinyin": "wéibiānsānjué",
     "meanings": [
@@ -13667,10 +14570,10 @@
         "example": ""
       }
     ],
-    "lesson": [
-    ]
+    "lesson": [],
+    "id": "df00"
   },
-  {
+  "dm01": {
     "word": "网络三绝",
     "pinyin": "wǎngluòsānjué",
     "meanings": [
@@ -13680,9 +14583,9 @@
         "meaning_short": "",
         "example": ""
       }
-    ], 
-    "lesson": [
     ],
-    "notes": "“韦编三绝”より\n本サイト製作者による造語"
+    "lesson": [],
+    "notes": "“韦编三绝”より\n本サイト製作者による造語",
+    "id": "dm01"
   }
-]
+}

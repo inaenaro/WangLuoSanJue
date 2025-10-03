@@ -2,6 +2,7 @@
 
 import { ThemeProvider, type ThemeProviderProps } from "next-themes";
 import { createContext, FC, useEffect, useState } from "react";
+import { wordMap } from "@/app/lib/word";
 
 export type InputStatus = "none" | "searching" | "answering" | "keyboarding"
 
@@ -16,7 +17,24 @@ export const Providers: FC<ThemeProviderProps> = (props) => {
     try {
       const storedChecked = localStorage.getItem("checked");
       if (storedChecked) {
-        setCheckedWords(new Set(storedChecked.split(",").filter(Boolean)));
+        const checkedWords = storedChecked.split(",");
+        const newCheckedWords = new Set<string>();
+        const isValid = checkedWords.reduce((isValid, s) => {
+          if (wordMap.has(s)) {
+            newCheckedWords.add(s);
+            return isValid;
+          } else {
+            const word = wordMap.values().find(w => w.pinyin === s.normalize("NFD"));
+            if (word) {
+              newCheckedWords.add(word.id);
+            }
+            return false;
+          }
+        }, true);
+        if (!isValid) {
+          localStorage.setItem("checked", Array.from(newCheckedWords).join(","));
+        }
+        setCheckedWords(newCheckedWords);
       }
     } catch (error) {
       console.error(error);
