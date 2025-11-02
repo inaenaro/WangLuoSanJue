@@ -4,19 +4,20 @@ import { button } from "@/components/Button";
 import AnswerInput from "@/components/AnswerInput";
 import WordCheckbox from "@/components/WordCheckBox";
 import { Word } from "@/app/lib/word";
+import { type Sentence } from "@/app/lib/sentence";
 
 // subject: 出題対象(単語, 文章)
 interface Question<T> {
   subject: T;
-  answer: string;
+  answers: string[] | RegExp;
   questionElement: JSX.Element;
   answerElement: JSX.Element;
   // AudioSection, InputSectionの更新用
   key: number;
 };
 
-interface Subjects<T> {
-  type: T extends Word ? "word" : "other";
+export interface Subjects<T> {
+  type: T extends Word ? "word" : T extends Sentence ? "grammar" : "other";
   subjectList: T[];
   getQuestion: (subject: T) => Omit<Question<T>, "key">;
 }
@@ -25,10 +26,11 @@ type TestProps<T> = {
   setStarted: (p: boolean) => void;
   hasAudio?: boolean;
   hasInput?: boolean;
+  answerType: "ja" | "cn" | "pinyin";
   subjects: Subjects<T>;
 }
 
-export default function Test<T>({ setStarted, hasAudio, hasInput, subjects }: TestProps<T>) {
+export default function Test<T>({ setStarted, hasAudio, answerType, subjects }: TestProps<T>) {
   const { subjectList, getQuestion, type } = subjects;
   const [question, setQuestion] = useState<Question<T> | null>(null);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -93,7 +95,7 @@ export default function Test<T>({ setStarted, hasAudio, hasInput, subjects }: Te
           <p>残りの問題数: {remainingSubjects.length + failedWords.length + 1}</p>
           <Embed title="問題">{question.questionElement}</Embed>
           {hasAudio && type === "word" && <AudioSection _key={`audio-${question.key}`} text={(question.subject as Word).word} />}
-          {hasInput && <InputSection _key={`input-${question.key}`} answer={question.answer} showAnswer={showAnswer} setShowAnswer={setShowAnswer} />}
+          {answerType !== "ja" && <InputSection _key={`input-${question.key}`} inputType={answerType} answers={question.answers} showAnswer={showAnswer} setShowAnswer={setShowAnswer} />}
           {!showAnswer &&
             <button
               id="show-answer"
@@ -158,7 +160,7 @@ function AudioSection({ text, _key }: { text: string, _key: string }) {
   );
 }
 
-function InputSection({ answer, showAnswer, setShowAnswer, _key }: { answer: string, showAnswer: boolean, setShowAnswer: (show: boolean) => void, _key: string }) {
+function InputSection({ inputType, answers, showAnswer, setShowAnswer, _key }: { inputType: "cn" | "pinyin", answers: string[] | RegExp, showAnswer: boolean, setShowAnswer: (show: boolean) => void, _key: string }) {
   const [userInput, setUserInput] = useState("");
   const [isIncorrect, setIsIncorrect] = useState(false);
   const [showKeyboard, setShowKeyboard] = useState(false);
@@ -166,6 +168,11 @@ function InputSection({ answer, showAnswer, setShowAnswer, _key }: { answer: str
   useEffect(() => {
     setUserInput("");
     setIsIncorrect(false);
+    // focus input element
+    if (!showKeyboard) {
+      const input: HTMLInputElement | null = document.querySelector("#answer");
+      input?.focus();
+    }
   }, [_key]);
 
   useEffect(() => {
@@ -173,15 +180,20 @@ function InputSection({ answer, showAnswer, setShowAnswer, _key }: { answer: str
   }, [userInput]);
 
   const handleCheckAnswer = () => {
-    if (userInput.trim().normalize("NFD") === answer) {
+    if (answers instanceof RegExp) {
+      if (answers.test(userInput.trim().normalize("NFD"))) {
+        setShowAnswer(true);
+        return;
+      }
+    } else if (answers.includes(userInput.trim().normalize("NFD"))) {
       setShowAnswer(true);
-    } else {
-      setIsIncorrect(true);
+      return;
     }
+    setIsIncorrect(true);
   };
 
   return (<>
-    <AnswerInput showKeyboard={showKeyboard} setShowKeyboard={setShowKeyboard} userInput={userInput} setUserInput={setUserInput} onEnter={handleCheckAnswer} placeholder="ピンインを入力してください" disabled={showAnswer} />
+    <AnswerInput showKeyboard={showKeyboard} setShowKeyboard={setShowKeyboard} inputType={inputType} userInput={userInput} setUserInput={setUserInput} onEnter={handleCheckAnswer} disabled={showAnswer} />
     <button
       id="submit-answer"
       onClick={handleCheckAnswer}

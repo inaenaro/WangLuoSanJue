@@ -26,20 +26,19 @@ export default function SearchBox() {
     const results: [Word[], Word[], Word[], Word[], Word[], Word[]] = [[], [], [], [], [], []]
     const regex = new RegExp(input.replace(/\\/g, "\\\\"), "i");
     const normalizeInput = (ignoreTone: boolean = false) => normalizePinyin(input.replace(/\\/g, "\\\\").replace(/\/\//g, ""), ignoreTone);
-    const regexNormalized = new RegExp(normalizeInput(), "i");
-    const regexNormalizedIgnoreTone = new RegExp(normalizeInput(true), "i");
     wordMap.forEach(word => {
-      if (word.word.startsWith(input) || word.pinyin.replace(/\/\//g, "").startsWith(normalizeInput())) {
+      const pinyin = word.pinyin.replace(/\/\//g, "");
+      if (word.word.startsWith(input) || new RegExp(`^${normalizeInput()}`, "i").test(pinyin)) {
         results[0].push(word);
-      } else if (word.pinyin.replace(/\/\//g, "").startsWith(normalizeInput(true))) {
+      } else if (new RegExp(`^${normalizeInput(true)}`, "i").test(normalizePinyin(pinyin, true))) {
         results[1].push(word);
       } else if (word.word.match(regex)) {
         results[2].push(word);
-      } else if (normalizePinyin(word.pinyin.replace(/\/\//g, "")).match(regexNormalized)) {
+      } else if (new RegExp(normalizeInput(), "i").test(normalizePinyin(pinyin))) {
         results[3].push(word);
-      } else if (normalizePinyin(word.pinyin.replace(/\/\//g, ""), true).match(regexNormalizedIgnoreTone)) {
+      } else if (new RegExp(normalizeInput(true), "i").test(normalizePinyin(pinyin, true))) {
         results[4].push(word);
-      } else if (word.meanings.some(m => m.meaning.match(regex))) {
+      } else if (word.meanings.some(m => regex.test(m.meaning))) {
         results[5].push(word);
       }
     });
@@ -146,7 +145,7 @@ export default function SearchBox() {
             </div> : null}
             {page === 1 && headerInfo?.type === "kanji" ? <div className="m-1 bg-background1 rounded">
               <p className={`text-nowrap overflow-x-scroll p-0.5 px-1 [scrollbar-width:none] ${0 ? 'bg-black/15 dark:bg-white/15' : 'bg-black/5 dark:bg-white/5'}`}>
-                <span className={`text-text/80 ${headerInfo.kanji.length > 1 ? "border border-text/80" : ""}`}>{headerInfo.kanji}: </span>
+                <span className={`font-ch text-text/80 ${headerInfo.kanji.length > 1 ? "border border-text/80" : ""}`}>{headerInfo.kanji}: </span>
                 {headerInfo.pinyins.map((pinyin, i) => (
                   <span key={i} className="inline-block">
                     <span>{pinyin}</span>

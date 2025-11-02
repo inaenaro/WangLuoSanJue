@@ -7,12 +7,13 @@ import { MdOutlineKeyboard } from "react-icons/md";
 type AnswerInputProps = {
   showKeyboard: boolean;
   setShowKeyboard: Dispatch<SetStateAction<boolean>>;
+  inputType: "pinyin" | "cn";
   userInput: string;
   setUserInput: Dispatch<SetStateAction<string>>;
   onEnter: () => void;
 } & React.ComponentPropsWithoutRef<'input'>;
 
-export default function AnswerInput({ showKeyboard, setShowKeyboard, userInput, setUserInput, onEnter, ...props }: AnswerInputProps) {
+export default function AnswerInput({ showKeyboard, setShowKeyboard, inputType, userInput, setUserInput, onEnter, ...props }: AnswerInputProps) {
   const { inputStatus, setInputStatus } = useContext(InputStatusContext);
   const [keyboardVisible, setKeyboardVisible] = useState(showKeyboard);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -55,12 +56,12 @@ export default function AnswerInput({ showKeyboard, setShowKeyboard, userInput, 
           !keyboardVisible && setInputStatus("none")
         }}
         onChange={(e) => setUserInput(e.target.value)}
-        placeholder={props.placeholder || ""}
-        className={`h-9 border border-gray rounded p-1 w-60 max-w-60 bg-background2 disabled:text-text/80 disabled:cursor-not-allowed ${props.className || ''}`}
+        placeholder={inputType === "pinyin" ? "ピンインを入力してください" : "请输入中文"}
+        className={`h-9 border border-gray rounded p-1 w-60 max-w-60 bg-background2 disabled:text-text/80 disabled:cursor-not-allowed ${inputType === "cn" ? "font-ch" : ""} ${props.className || ''}`}
         disabled={props.disabled}
         readOnly={keyboardVisible}
       />
-      {!props.disabled && <div className="flex items-center gap-2">
+      {!props.disabled && inputType === "pinyin" && <div className="flex items-center gap-2">
         <button
           id="show-keyboard"
           onClick={() => {

@@ -1,69 +1,95 @@
-'use client';
-import { useState } from "react";
-import { button } from "./Button";
-import words from "../public/words.json";
-import sentences from "../public/sentences.json";
+import { wordMap } from "@/app/lib/word";
+import Test, { Subjects } from "@/components/Test";
+import { type GrammarSettings } from "@/app/lib/settings";
+import { getRegExp, type Sentence, sentenceMap } from "@/app/lib/sentence";
+import { type Grammar } from "@/app/lib/grammar";
 
-export default function GrammarTest() {
-  return <p>建設中</p>;
-  // const [question, setQuestion] = useState<{ sentence: string; meaning: string } | null>(null);
-  // const [userInput, setUserInput] = useState("");
-  // const [feedback, setFeedback] = useState("");
+export default function GrammarTest({ setStarted, settings }: { setStarted: (p: boolean) => void, settings: GrammarSettings }) {
+  // const { checkedWords } = useContext(CheckedWordsContext);
 
-  // const fetchGrammarQuestion = async () => {
-  //   const sentenceKeys = Object.keys(sentences);
-  //   const randomKey = "1-2-1"//sentenceKeys[Math.floor(Math.random() * sentenceKeys.length)];
-  //   const selectedSentence = sentences[randomKey];
+  let filteredSentences = Array.from(sentenceMap.values()).filter((sentence => settings.from <= sentence.lesson && sentence.lesson <= settings.to));
 
-  //   const meaningMap = {} as Record<string, string>;
-  //   // Replace placeholders in the sentence and meaning with appropriate words from words.json
-  //   const replacedSentence = selectedSentence.sentence.replace(/\{(\d)\/g:([^}]+)\}/g, (_: any, i: string, genre: string) => {
-  //     // 同じi
-  //     const matchingWords = words.filter((word: any) => word.meanings.some((m: any) => m.genre?.includes(genre)));
-  //     const randomWord = matchingWords[Math.floor(Math.random() * matchingWords.length)];
-  //     if (randomWord) {
-  //       meaningMap[i] = randomWord.meanings.find((m: any) => m.genre?.includes(genre))?.meaning || "意味なし";
-  //     }
-  //     return randomWord ? randomWord.word : "___";
-  //   });
-  //   const replacedMeaning = selectedSentence.meaning.replace(/\{(\d)\}/g, (_: any, i: string) => {
-  //     return meaningMap[i] || "意味なし";
-  //   });
+  // if (settings.onlyUnmarked) {
+  //   filteredSentences = filteredSentences.filter((word) => !checkedWords.has(word.pinyin));
+  // }
 
-  //   setQuestion({ sentence: replacedSentence, meaning: replacedMeaning });
-  //   setFeedback("");
-  //   setUserInput("");
-  // };
+  if (filteredSentences.length === 0) {
+    setStarted(false);
+    alert("選択した条件に一致する文法事項がありません。");
+    return;
+  }
 
-  // const handleCheckAnswer = () => {
-  //   if (userInput.trim() === question?.sentence.trim()) {
-  //     setFeedback("正解です！");
-  //   } else {
-  //     setFeedback(`不正解です。正しい答え: ${question?.sentence}`);
-  //   }
-  // };
+  const subjects: Subjects<Sentence> = {
+    type: "grammar" as const,
+    subjectList: filteredSentences,
+    getQuestion: settings.questionType === "jp-to-cn" ? (subject: Sentence) => {
+      return {
+        subject,
+        questionElement: <>
+          <p className="text-sm">次の日本語文を中国語に訳せ。(空白を入れずに解答)</p>
+          <p>{subject.japanese || "意味不明"}</p>
+          <p className="text-xs text-text/50">別解は無数にあると思いますが、空気を読んでください。</p>
+        </>,
+        answers: getRegExp(subject.chinese.replace(/\s+|[]/g, "").trim()),
+        answerElement: (<>
+          <p className="text-lg font-ch">{subject.chinese}</p>
+          <p className="text-text/80">ピンイン: {subject.pinyin}</p>
+        </>)
+      }
+    } : settings.questionType === "cn-to-jp" ? (subject: Sentence) => {
+      return {
+        subject,
+        questionElement: <>
+          <p className="text-sm">次の中国語文を日本語に訳せ。</p>
+          <p><span className="font-ch">{subject.chinese}</span></p>
+        </>,
+        answers: [subject.japanese || "意味不明"],
+        answerElement: (<>
+          <p>{subject.japanese || "意味不明"}</p>
+          {/* <p className="text-text/80">ピンイン: {subject.pinyin.normalize("NFD")}</p> */}
+        </>)
+      }
+    } : (subject: Sentence) => {
+      // NOTE: 語頭大文字
+      const splitted = subject.pinyin.split(/\s+/).map(s => s.replace(/[,.!?"]/g, ""));
+      const sorted = splitted.sort(() => Math.random() - 0.5);
+      return {
+        subject,
+        questionElement: <>
+          <p className="text-sm">次の拼音の簡体字を並べ替えて中国語文を作れ。(空白を入れずに解答)</p>
+          <p>{sorted.join(" / ")}</p>
+        </>,
+        answers: getRegExp(subject.chinese.replace(/\s+|[]/g, "").trim()),
+        answerElement: (<>
+          <p className="text-lg font-ch">{subject.chinese}</p>
+          <p className="text-text/80">ピンイン: {subject.pinyin}</p>
+        </>)
+      }
+    }
+  }
 
-  // return (
-  //   <div>
-  //     <button onClick={fetchGrammarQuestion} className={button({ style: "success" })}>
-  //       開始
-  //     </button>
-  //     {question && (
-  //       <div className="mt-4">
-  //         <p className="font-ch">問題: {question.meaning}</p>
-  //         <input
-  //           type="text"
-  //           value={userInput}
-  //           onChange={(e) => setUserInput(e.target.value)}
-  //           placeholder="答えを入力してください"
-  //           className="border rounded px-2 py-1 w-full"
-  //         />
-  //         <button onClick={handleCheckAnswer} className="px-4 py-2 bg-green-500 text-white rounded mt-2">
-  //           答えを確認
-  //         </button>
-  //         {feedback && <p className="mt-2">{feedback}</p>}
-  //       </div>
-  //     )}
-  //   </div>
-  // );
+  return (
+    <Test setStarted={setStarted} hasAudio={false} answerType={settings.questionType === "cn-to-jp" ? "ja" : "cn"} subjects={subjects} />
+  );
+}
+
+function getExampleSentence(sentence: Grammar) {
+  const meaningMap: Record<string, string> = {};
+  // Replace placeholders in the sentence and meaning with appropriate words from words.json
+  // NOTE: キャプチャグループ
+  const replacedSentence = sentence.sentence.replace(/\{(\d)\/g:([^}]+)\}/g, (_: any, i: string, genre: string) => {
+    // 同じi
+    // const matchingWords = wordMap.values().filter(word => word.meanings.some(m => m.genre?.includes(genre)));
+    const matchingWords = Array.from(wordMap.values());
+    const randomWord = matchingWords[Math.floor(Math.random() * matchingWords.length)];
+    if (randomWord) {
+      // meaningMap[i] = randomWord.meanings.find(m => m.genre?.includes(genre))?.meaning || "意味なし";
+      meaningMap[i] = randomWord.meanings[0].meaning_short || "意味なし";
+    }
+    return randomWord ? randomWord.word : "___";
+  });
+  const replacedMeaning = sentence.meaning.replace(/\{(\d)\}/g, (_: any, i: string) => {
+    return meaningMap[i] || "意味なし";
+  });
+  return { sentence: replacedSentence, meaning: replacedMeaning };
 }

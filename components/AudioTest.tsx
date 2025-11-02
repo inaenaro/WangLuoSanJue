@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { CheckedWordsContext } from "@/components/Providers";
-import Test from "@/components/Test";
+import Test, { Subjects } from "@/components/Test";
 import { wordMap, type Word } from "@/app/lib/word";
 import { type AudioSettings } from "@/app/lib/settings";
 
@@ -19,13 +19,16 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
     return;
   }
 
-  const subjects = {
+  const subjects: Subjects<Word> = {
     type: "word" as const,
     subjectList: filteredWords,
     getQuestion: (subject: Word) => ({
       subject,
-      questionElement: <p>読み上げられた単語は何？(ピンインで解答)</p>,
-      answer: subject.pinyin.normalize("NFD").replace(/[^a-zA-Z\u2019\u0304\u0301\u030C\u0300\u0308]/g, ""),
+      questionMessage: "読み上げられた単語は何？(ピンインで解答)",
+      questionElement: <>
+        <p>読み上げられた単語は何？(ピンインで解答)</p>
+      </>,
+      answers: [subject.pinyin.normalize("NFD").replace(/[^a-zA-Z\u2019\u0304\u0301\u030C\u0300\u0308]/g, "")],
       answerElement: (<>
         <p className="text-lg">{subject.pinyin}</p>
         <p className="text-text/80">中国語: <span className="font-ch">{subject.word}</span></p>
@@ -35,6 +38,6 @@ export default function AudioTest({ setStarted, settings }: { setStarted: (p: bo
   };
 
   return (
-    <Test setStarted={setStarted} hasAudio={true} hasInput={true} subjects={subjects} />
+    <Test setStarted={setStarted} hasAudio={true} answerType="pinyin" subjects={subjects} />
   );
 }

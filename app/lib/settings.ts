@@ -11,8 +11,13 @@ export type WordSettings = {
   onlyUnmarked: boolean;
 };
 
+// NOTE: listening: pinyin / cn / jp
+export const grammarQuestionTypes = ["jp-to-cn", "cn-to-jp", "sort"] as const;
+export type GrammarQuestionType = (typeof grammarQuestionTypes)[number];
+
 export type GrammarSettings = {
   mode: "grammar";
+  questionType: GrammarQuestionType;
   from: number;
   to: number;
 };
@@ -29,6 +34,7 @@ export type Settings = WordSettings | GrammarSettings | AudioSettings;
 export type Action =
   | { actionType: "setMode"; mode: Mode }
   | { actionType: "setWordQuestionType"; questionType: WordQuestionType }
+  | { actionType: "setGrammarQuestionType"; questionType: GrammarQuestionType }
   | { actionType: "setFrom"; from: number }
   | { actionType: "setTo"; to: number }
   | { actionType: "setOnlyUnmarked"; onlyUnmarked: boolean };

@@ -1,4 +1,4 @@
-import wordRawData from "@/public/words.json";
+import wordJSONData from "@/public/words.json";
 
 const partList = [
   ["n.", "名詞"],
@@ -24,7 +24,7 @@ export const partMap = new Map<Part, string>(partList);
 type Genre = string;
 
 //NOTE: string | ?
-type Example = string | {
+type Example = {
   "word": string,
   "pinyin": string,
   "meaning": string,
@@ -39,7 +39,7 @@ export interface Word {
     "part": Part,
     "meaning": string,
     "meaning_short": string,
-    "example": Example
+    "examples": Example[]
   }[],
   "lesson": number[],
   "notes"?: string,
@@ -48,8 +48,9 @@ export interface Word {
 
 const char = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_-";
 
-export const wordMap = new Map<string, Word>(Object.entries(wordRawData as Record<string, Word>)
+export const wordMap = new Map<string, Word>(Object.entries(wordJSONData as Record<string, Word>)
   .map(([id, word]) => [id, {
+    // TODO: ID整合性のため後付け
     ...word,
     pinyin: word.pinyin.normalize("NFD")
   }] as [string, Word])

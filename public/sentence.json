@@ -1,0 +1,268 @@
+{
+  "000": {
+    "chinese": "我是顾客，不是服务员。",
+    "pinyin": "Wǒ shì gùkè, bú shì fúwùyuán.",
+    "japanese": "私は客で、店員ではありません。",
+    "lesson": 1,
+    "point": 2
+  },
+  "001": {
+    "chinese": "他们不是美国人。",
+    "pinyin": "Tāmen bú shì Měiguórén.",
+    "japanese": "彼らはアメリカ人ではありません。",
+    "lesson": 1,
+    "point": 2
+  },
+  "002": {
+    "chinese": "他姓黄，不姓王。",
+    "pinyin": "Tā xìng Huáng, bú xìng Wáng.",
+    "japanese": "彼の姓は黄で、王ではありません。",
+    "lesson": 1,
+    "point": 2
+  },
+  "003": {
+    "chinese": "小张学习物理。",
+    "pinyin": "Xiǎo-Zhāng xuéxí wùlǐ.",
+    "japanese": "張さんは物理を勉強します。",
+    "lesson": 1,
+    "point": 2
+  },
+  "004": {
+    "chinese": "我们每天打太极拳。",
+    "pinyin": "Wǒmen měitiān dǎ tàijíquán.",
+    "japanese": "私たちは毎日太極拳をします。",
+    "lesson": 1,
+    "point": 2
+  },
+  "005": {
+    "chinese": "这是香草茶。",
+    "pinyin": "Zhè shì xiāngcǎochá.",
+    "japanese": "これはハーブティーです。",
+    "lesson": 1,
+    "point": 3
+  },
+  "006": {
+    "chinese": "这是水仙，不是韭菜。",
+    "pinyin": "Zhè shì shuǐxiān, bú shì jiǔcài.",
+    "japanese": "これは水仙で、ニラではありません。",
+    "lesson": 1,
+    "point": 3
+  },
+  "007": {
+    "chinese": "那不是大阪车站，是梅田车站。",
+    "pinyin": "Nà bú shì Dàbǎn Chēzhàn, shì Méitián Chēzhàn.",
+    "japanese": "あれは大阪駅ではなく、梅田駅です。",
+    "lesson": 1,
+    "point": 3
+  },
+  "008": {
+    "chinese": "这是月饼。",
+    "pinyin": "Zhè shì yuèbing.",
+    "japanese": "これは月餅です。",
+    "lesson": 1,
+    "point": 3
+  },
+  "009": {
+    "chinese": "月饼是这个。",
+    "pinyin": "Yuèbing shì zhèige.",
+    "japanese": "月餅はこれです。",
+    "lesson": 1,
+    "point": 3
+  },
+  "00A": {
+    "chinese": "那个在学校。",
+    "pinyin": "Nèige zài xuéxiào.",
+    "japanese": "あれは学校にあります。",
+    "lesson": 1,
+    "point": 3
+  },
+  "00B": {
+    "chinese": "我买这个。",
+    "pinyin": "Wǒ mǎi zhèige.",
+    "japanese": "私はこれを買います。",
+    "lesson": 1,
+    "point": 3
+  },
+  "00C": {
+    "chinese": "你的手表",
+    "pinyin": "nǐ de shǒubiǎo",
+    "japanese": "あなたの腕時計",
+    "lesson": 1,
+    "point": 4
+  },
+  "00D": {
+    "chinese": "他的电脑",
+    "pinyin": "tā de diànnǎo",
+    "japanese": "彼のコンピュータ",
+    "lesson": 1,
+    "point": 4
+  },
+  "00E": {
+    "chinese": "图书馆的书",
+    "pinyin": "túshūguǎn de shū",
+    "japanese": "図書館の本",
+    "lesson": 1,
+    "point": 4
+  },
+  "00F": {
+    "chinese": "博物馆的展品",
+    "pinyin": "bówùguǎn de zhǎnpǐn",
+    "japanese": "博物館の展示品",
+    "lesson": 1,
+    "point": 4
+  },
+  "00G": {
+    "chinese": "咱们学校",
+    "pinyin": "zánmen xuéxiào",
+    "japanese": "私たちの学校",
+    "lesson": 1,
+    "point": 4
+  },
+  "00H": {
+    "chinese": "他们公司",
+    "pinyin": "tāmen gōngsī",
+    "japanese": "彼らの会社",
+    "lesson": 1,
+    "point": 4
+  },
+  "00I": {
+    "chinese": "我妈妈",
+    "pinyin": "wǒ māma",
+    "japanese": "私のママ",
+    "lesson": 1,
+    "point": 4
+  },
+  "00J": {
+    "chinese": "你朋友",
+    "pinyin": "nǐ péngyou",
+    "japanese": "あなたの友達",
+    "lesson": 1,
+    "point": 4
+  },
+  "00K": {
+    "chinese": "木头箱子",
+    "pinyin": "mùtou xiāngzi",
+    "japanese": "木の箱",
+    "lesson": 1,
+    "point": 4
+  },
+  "00L": {
+    "chinese": "亚麻衬衫",
+    "pinyin": "yàmá chènshān",
+    "japanese": "リネンのシャツ",
+    "lesson": 1,
+    "point": 4
+  },
+  "00M": {
+    "chinese": "日本学者",
+    "pinyin": "Rìběn xuézhě",
+    "japanese": "日本人学者",
+    "lesson": 1,
+    "point": 4
+  },
+  "00N": {
+    "chinese": "越南同学",
+    "pinyin": "Yuènán tóngxué",
+    "japanese": "ベトナム人の同級生",
+    "lesson": 1,
+    "point": 4
+  },
+  "00O": {
+    "chinese": "你是广东人吗？——我不是广东人，我是福建人。",
+    "pinyin": "Nǐ shì Guǎngdōngrén ma?——Wǒ bú shì Guǎngdōngrén, wǒ shì Fújiànrén.",
+    "japanese": "あなたは広東人ですか？——私は広東人ではなく、福建人です。",
+    "lesson": 1,
+    "point": 5
+  },
+  "00P": {
+    "chinese": "你是中国留学生吗？——不是，我是韩国留学生。",
+    "pinyin": "Nǐ shì Zhōngguó liúxuéshēng ma?——Bú shì, wǒ shì Hánguó liúxuéshēng.",
+    "japanese": "あなたは中国からの留学生ですか？——いいえ、私は韓国からの留学生です。",
+    "lesson": 1,
+    "point": 5
+  },
+  "00Q": {
+    "chinese": "你参加明天的迎新晚会吗？——我不参加。",
+    "pinyin": "Nǐ cānjiā míngtiān de yíngxīn wǎnhuì ma?——Wǒ bù cānjiā.",
+    "japanese": "あなたは明日の歓迎会に参加しますか？——私は参加しません。",
+    "lesson": 1,
+    "point": 5
+  },
+  "00R": {
+    "chinese": "小陈是独生子女，小李也是独生子女。",
+    "pinyin": "Xiǎo-Chén shì dúshēng zǐnǚ, Xiǎo-Lǐ yě shì dúshēng zǐnǚ.",
+    "japanese": "陳さんも李さんも一人っ子です。",
+    "lesson": 1,
+    "point": 6
+  },
+  "00S": {
+    "chinese": "鲁迅是文学家，也是思想家。",
+    "pinyin": "Lǔ Xùn shì wénxuéjiā, yě shì sīxiǎngjiā.",
+    "japanese": "魯迅は文学者であり、思想家でもあります。",
+    "lesson": 1,
+    "point": 6
+  },
+  "00T": {
+    "chinese": "小张也教英语。",
+    "pinyin": "Xiǎo-Zhāng yě jiāo Yīngyǔ.",
+    "japanese": "張さんも英語を教えます。",
+    "lesson": 1,
+    "point": 6
+  },
+  "00U": {
+    "chinese": "我喜欢他，他也喜欢我。",
+    "pinyin": "Wǒ xǐhuan tā, tā yě xǐhuan wǒ.",
+    "japanese": "私は彼が好きで、彼も私を好きです。",
+    "lesson": 1,
+    "point": 6
+  },
+  "00V": {
+    "chinese": "二楼有复印机。",
+    "pinyin": "Èr lóu yǒu fùyìnjī.",
+    "japanese": "2階にはコピー機があります。",
+    "lesson": 2,
+    "point": 1
+  },
+  "00W": {
+    "chinese": "他们大学没有医学院。",
+    "pinyin": "Tāmen dàxué méiyou yīxuéyuàn.",
+    "japanese": "彼らの大学には医学部がありません。",
+    "lesson": 2,
+    "point": 1
+  },
+  "00X": {
+    "chinese": "明天有社团活动。",
+    "pinyin": "Míngtiān yǒu shètuán huódòng.",
+    "japanese": "明日はサークル活動があります。",
+    "lesson": 2,
+    "point": 1
+  },
+  "00Y": {
+    "chinese": "我没有兄弟姐妹。",
+    "pinyin": "Wǒ méiyou xiōngdì jiěmèi.",
+    "japanese": "私には兄弟姉妹がいません。",
+    "lesson": 2,
+    "point": 1
+  },
+  "00Z": {
+    "chinese": "西安和洛阳是中国的古都。",
+    "pinyin": "Xī'ān hé Luòyáng shì Zhōngguó de gǔdū.",
+    "japanese": "西安と洛陽は中国の古都です。",
+    "lesson": 2,
+    "point": 2
+  },
+  "00a": {
+    "chinese": "我喜欢旅行和看漫画。",
+    "pinyin": "Wǒ xǐhuan lǚxíng hé kàn mànhuà.",
+    "japanese": "私は旅行と漫画を読むことが好きです。",
+    "lesson": 2,
+    "point": 2
+  },
+  "00b": {
+    "chinese": "《西游记》、《水浒传》、《三国演义》和《红楼梦》是中国的文学名著。",
+    "pinyin": "«Xīyóujì», «Shuǐhǔzhuàn», «Sānguóyǎnyì» hé «Hónglóumèng» shì Zhōngguó de wénxué míngzhù.",
+    "japanese": "『西遊記』、『水滸伝』、『三国演義』、そして『紅楼夢』は中国の文学名著です。",
+    "lesson": 2,
+    "point": 2
+  }
+}
