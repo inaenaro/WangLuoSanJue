@@ -36,7 +36,7 @@ export interface Word {
   "word": string,
   "pinyin": string,
   "meanings": {
-    "part": Part,
+    "part": Part | "",
     "meaning": string,
     "meaning_short": string,
     "examples": Example[]
@@ -48,12 +48,12 @@ export interface Word {
 
 const char = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_-";
 
-export const wordMap = new Map<string, Word>(Object.entries(wordJSONData as Record<string, Word>)
-  .map(([id, word]) => [id, {
-    // TODO: ID整合性のため後付け
+export const wordMap = new Map<string, Word>(Object.entries(wordJSONData as Record<string, Omit<Word, "id">>)
+  .map<[string, Word]>(([id, word]) => [id, {
     ...word,
-    pinyin: word.pinyin.normalize("NFD")
-  }] as [string, Word])
+    pinyin: word.pinyin.normalize("NFD"),
+    id
+  }])
   .sort(([, a], [, b]) => {
     for (let i = 0; i < 4; i++) {
       if (a.id[i] !== b.id[i]) {

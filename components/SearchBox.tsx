@@ -174,7 +174,7 @@ export default function SearchBox() {
                 </section>
                 {word.meanings.map((detail, i) => (
                   <div key={i}>
-                    <p className="border-l-2 rounded-xs border-l-gray px-1">{(partMap.get(detail.part) ? `[${partMap.get(detail.part)![0]}]` : "") + detail.meaning}</p>
+                    <p className="border-l-2 rounded-xs border-l-gray px-1">{(detail.part && partMap.get(detail.part) ? `[${partMap.get(detail.part)![0]}]` : "") + detail.meaning}</p>
                   </div>
                 ))}
                 {word.notes && <div className="text-[0.6rem] text-black/70 dark:text-[#dbdee1]/70">{word.notes.split('\n').map((x, i) => <p key={i}>- {x}</p>)}</div>}

@@ -5,7 +5,7 @@ import { button } from "@/components/Button";
 import Select from "@/components/Select";
 import { type WordQuestionType, wordQuestionTypes, grammarQuestionTypes, GrammarQuestionType } from "@/app/lib/settings";
 import { MdOutlineArrowRightAlt, MdOutlineKeyboardDoubleArrowDown, MdOutlineKeyboardDoubleArrowUp, MdOutlineStar } from "react-icons/md";
-import { TestStatusContext } from "@/app/page";
+import { TestStatusContext } from "@/components/MainComponent";
 
 export default function SelectMode() {
   const { started, setStarted, settings, dispatch } = useContext(TestStatusContext);
@@ -163,7 +163,7 @@ function SelectQuestionType() {
   </>);
 }
 
-const lessons = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十"].map(x => `第${x}课`);
+const lessons = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二"].map(x => `第${x}课`);
 
 function SelectLesson({ disabled }: { disabled?: boolean }) {
   const { settings, dispatch } = useContext(TestStatusContext);
