@@ -7,7 +7,7 @@ import { type Grammar } from "@/app/lib/grammar";
 export default function GrammarTest({ setStarted, settings }: { setStarted: (p: boolean) => void, settings: GrammarSettings }) {
   // const { checkedWords } = useContext(CheckedWordsContext);
 
-  let filteredSentences = Array.from(sentenceMap.values()).filter((sentence => settings.from <= sentence.lesson && sentence.lesson <= settings.to));
+  const filteredSentences = Array.from(sentenceMap.values()).filter((sentence => settings.from <= sentence.lesson && sentence.lesson <= settings.to));
 
   // if (settings.onlyUnmarked) {
   //   filteredSentences = filteredSentences.filter((word) => !checkedWords.has(word.pinyin));
@@ -73,23 +73,23 @@ export default function GrammarTest({ setStarted, settings }: { setStarted: (p: 
   );
 }
 
-function getExampleSentence(sentence: Grammar) {
-  const meaningMap: Record<string, string> = {};
-  // Replace placeholders in the sentence and meaning with appropriate words from words.json
-  // NOTE: キャプチャグループ
-  const replacedSentence = sentence.sentence.replace(/\{(\d)\/g:([^}]+)\}/g, (_: any, i: string, genre: string) => {
-    // 同じi
-    // const matchingWords = wordMap.values().filter(word => word.meanings.some(m => m.genre?.includes(genre)));
-    const matchingWords = Array.from(wordMap.values());
-    const randomWord = matchingWords[Math.floor(Math.random() * matchingWords.length)];
-    if (randomWord) {
-      // meaningMap[i] = randomWord.meanings.find(m => m.genre?.includes(genre))?.meaning || "意味なし";
-      meaningMap[i] = randomWord.meanings[0].meaning_short || "意味なし";
-    }
-    return randomWord ? randomWord.word : "___";
-  });
-  const replacedMeaning = sentence.meaning.replace(/\{(\d)\}/g, (_: any, i: string) => {
-    return meaningMap[i] || "意味なし";
-  });
-  return { sentence: replacedSentence, meaning: replacedMeaning };
-}
+// function getExampleSentence(sentence: Grammar) {
+//   const meaningMap: Record<string, string> = {};
+//   // Replace placeholders in the sentence and meaning with appropriate words from words.json
+//   // NOTE: キャプチャグループ
+//   const replacedSentence = sentence.sentence.replace(/\{(\d)\/g:([^}]+)\}/g, (_: any, i: string, genre: string) => {
+//     // 同じi
+//     // const matchingWords = wordMap.values().filter(word => word.meanings.some(m => m.genre?.includes(genre)));
+//     const matchingWords = Array.from(wordMap.values());
+//     const randomWord = matchingWords[Math.floor(Math.random() * matchingWords.length)];
+//     if (randomWord) {
+//       // meaningMap[i] = randomWord.meanings.find(m => m.genre?.includes(genre))?.meaning || "意味なし";
+//       meaningMap[i] = randomWord.meanings[0].meaning_short || "意味なし";
+//     }
+//     return randomWord ? randomWord.word : "___";
+//   });
+//   const replacedMeaning = sentence.meaning.replace(/\{(\d)\}/g, (_: any, i: string) => {
+//     return meaningMap[i] || "意味なし";
+//   });
+//   return { sentence: replacedSentence, meaning: replacedMeaning };
+// }
